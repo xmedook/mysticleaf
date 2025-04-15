@@ -63,8 +63,10 @@
     .cookie-disclaimer.center .cookie-content {
       left: 50%;
       transform: translateX(-50%);
-      max-width: 80%;
-      width: 80%;
+      max-width: 90%;
+      width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
     }
     
     /* Button alignment */
@@ -72,7 +74,15 @@
       display: flex;
       justify-content: center;
       gap: 10px;
-      width: 100%;
+      width: auto;
+      margin-left: 15px;
+    }
+    
+    /* Text alignment for center style */
+    .cookie-disclaimer.center .cookie-content p {
+      width: auto;
+      margin-bottom: 0;
+      text-align: left;
     }
 
     @media screen and (max-width: 767px){
@@ -86,15 +96,40 @@
       .cookie-disclaimer .cookie-content > p {width: 100%;}
       .cookie-disclaimer.right .cookie-content { left: auto; right: 0; bottom: 0;}
       .cookie-disclaimer.left .cookie-content { left: 0; right: auto; bottom: 0;}
-      .cookie-disclaimer.center .cookie-content { left: 50%; transform: translateX(-50%); max-width: 80%; width: 80%; bottom: 0;}
+      .cookie-disclaimer.center .cookie-content { 
+        left: 50%; 
+        transform: translateX(-50%); 
+        max-width: 90%; 
+        width: 90%; 
+        bottom: 0;
+        flex-direction: row;
+        justify-content: space-between;
+      }
     }
     @media screen and (max-width: 400px){
     .cookie-disclaimer .cookie-content button{padding:10px;}
     .cookie-disclaimer .cookie-content{bottom:0;}  
     .cookie-disclaimer.right .cookie-content{left:0; right:0;} 
     .cookie-disclaimer.left .cookie-content{left:0; right:0;}
-    .cookie-disclaimer.center .cookie-content{left:0; right:0; transform: none; max-width: 100%; width: 100%;}
-    .cookie-button {flex-direction: column;}
+    .cookie-disclaimer.center .cookie-content{
+      left:0; 
+      right:0; 
+      transform: none; 
+      max-width: 100%; 
+      width: 100%;
+      flex-direction: column;
+      padding: 15px;
+    }
+    .cookie-disclaimer.center .cookie-content p {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .cookie-button {
+      flex-direction: row;
+      margin-left: 0;
+      width: 100%;
+    }
     }
     /* .cookie-content .button:hover {
     background: rgb(var(--color-base-outline-button-labels));
