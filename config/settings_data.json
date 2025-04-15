@@ -491,11 +491,11 @@
         "type": "cookie-banner",
         "settings": {
           "show_gdpr": true,
-          "style": "right",
+          "style": "center",
           "color_scheme": "background-1",
-          "text": "The cookie settings on this website are set to \"allow all cookies\" to give you the very best experience. Please click Accept Cookies to continue to use the site.",
-          "accept": "Privacy policy",
-          "decline": "Accept cookies",
+          "text": "Este sitio usa cookies para brindarte la mejor experiencia. Haz clic en 'Aceptar cookies' para continuar.",
+          "accept": "Política de privacidad",
+          "decline": "Aceptar cookies",
           "button_padding": "10px 20px 10px 20px"
         }
       },
