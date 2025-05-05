@@ -365,7 +365,7 @@
             "icon_class": false
           }
         },
-        "column_6f8rfj": {
+        "column_FNkmp9": {
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
@@ -376,7 +376,7 @@
             "icon_class": false
           }
         },
-        "column_FNkmp9": {
+        "column_eHQVNN": {
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
@@ -390,11 +390,11 @@
       },
       "block_order": [
         "column_cdLDRc",
-        "column_6f8rfj",
-        "column_FNkmp9"
+        "column_FNkmp9",
+        "column_eHQVNN"
       ],
       "custom_css": [
-        ".section-multicolumn {height: 1100px !important;}"
+        ".section-multicolumn {height: 1200px !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
