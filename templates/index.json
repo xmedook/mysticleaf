@@ -409,7 +409,7 @@
       "custom_css": [
         "h2 {color: #144d8c;}",
         ".blog__button {display: none;}",
-        ".card__information {padding: 20px; min-height: 200px; }",
+        ".card__information {padding: 20px; min-height: 200px;}",
         ".card {border-radius: 15px !important;}",
         ".card:hover p {color: white !important;}"
       ],
@@ -470,6 +470,12 @@
       "block_order": [
         "template--16490674978985__af686e46-ff27-4a26-ba17-388d869e0a5b-heading-1",
         "template--16490674978985__af686e46-ff27-4a26-ba17-388d869e0a5b-email_form-1"
+      ],
+      "custom_css": [
+        ".newsletter:before {display: none !important;}",
+        ".newsletter {background-color: white;}",
+        ".field__input{background-color: #EAF1F4;}",
+        "h2 {color: #144d8c;}"
       ],
       "settings": {
         "page_full_width": false,
