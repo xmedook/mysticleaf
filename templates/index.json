@@ -493,7 +493,7 @@
         ".banner__media {display: none !important;}",
         ".banner__box {background-color: #a8d2f4; border-radius: 10px;}",
         ".banner__buttons {background-color: #ffe600;}",
-        ".card-container{width:40%;}"
+        ".card-container {width: 40%;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -551,7 +551,8 @@
       "custom_css": [
         ".banner__media {display: none !important;}",
         ".banner__box {background-color: #a8d2f4; border-radius: 10px;}",
-        ".banner__buttons {background-color: #ffe600;}"
+        ".banner__buttons {background-color: #ffe600;}",
+        ".card-container {width: 40%;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -569,7 +570,7 @@
         "show_text_below": true,
         "margin_top": 0,
         "margin_bottom": 0,
-        "custom_class_name": ".card-container"
+        "custom_class_name": "card-container"
       }
     },
     "testimonials_AA4ymR": {
