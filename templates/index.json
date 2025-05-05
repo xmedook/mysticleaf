@@ -156,82 +156,6 @@
         "custom_class_name": ""
       }
     },
-    "3a591ef7-cce4-49e1-8029-011d9a8ffb28": {
-      "type": "product-tab",
-      "blocks": {
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-1": {
-          "type": "tab",
-          "settings": {
-            "collection": "frontpage",
-            "title": "Hair Care"
-          }
-        },
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-2": {
-          "type": "tab",
-          "settings": {
-            "collection": "skin-care-line",
-            "title": "Tincture"
-          }
-        },
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-3": {
-          "type": "tab",
-          "settings": {
-            "collection": "topical-medicines",
-            "title": "Skincare"
-          }
-        },
-        "0d3e29b9-5e73-4070-995a-eb131bac8585": {
-          "type": "tab",
-          "settings": {
-            "collection": "pain-management-line",
-            "title": "Featured"
-          }
-        }
-      },
-      "block_order": [
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-1",
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-2",
-        "template--18572285182250__3a591ef7-cce4-49e1-8029-011d9a8ffb28-tab-3",
-        "0d3e29b9-5e73-4070-995a-eb131bac8585"
-      ],
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "title": "CBD-Infused Products",
-        "heading_size": "h1",
-        "sub_heading": "DELIGHTFULLY REFRESHING",
-        "description": "Dolorum volumus molestie ea eam, ut has autem antiopam tractatos, luptatum mediocrem cum euc.",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "color_scheme": "accent-1",
-        "products_to_show": 8,
-        "products_per_row": 4,
-        "enable_slider": true,
-        "enable_dotts": false,
-        "enable_arrows": false,
-        "enable_tab_title": true,
-        "enable_tab_count": false,
-        "enable_collection_icon": false,
-        "show_view_all": true,
-        "tab_alignment": "center",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "layout": "none",
-        "image_block_heading": "Main Heading",
-        "image_block_sub_heading": "Sub Heading",
-        "image_block_description": "",
-        "image_block_button_text": "View More",
-        "image_block_button_link": "shopify://collections",
-        "image_block_horizontal_position": "left",
-        "image_block_vertical_position": "vertical_top",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "custom_class_name": ""
-      }
-    },
     "6c29e21f-a46b-4ba5-be13-add5ab2536be": {
       "type": "about-grid-list",
       "blocks": {
@@ -353,152 +277,6 @@
         "columns_mobile": "1"
       }
     },
-    "06eef844-b717-4684-879c-2966611b45ee": {
-      "type": "specification-block",
-      "blocks": {
-        "template--18572285182250__06eef844-b717-4684-879c-2966611b45ee-text-1": {
-          "type": "text",
-          "settings": {
-            "title": "Neuroprotective",
-            "desc": "Ornare quam viverra orci sagittis eu volutpat odio facilisis. A arcu cursus vitae congue.",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "d464938b-3d3e-449a-94c1-be6d4f96f4c2": {
-          "type": "text",
-          "settings": {
-            "title": "May Reduce Acne",
-            "desc": "Auctor eu augue ut lectus arcu. Nisl rhoncus mattis rhoncus urna neque viverra justo nec.",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "55d579e4-c660-4f2f-afeb-fa0d81096478": {
-          "type": "text",
-          "settings": {
-            "title": "Benefit Heart health",
-            "desc": "Mauris a diam maecenas sed. Ac ut consequat semper viverra nam libero justo.",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "a315b880-bc28-4c89-b5d2-fec72342b191": {
-          "type": "text",
-          "settings": {
-            "title": "Can Relieve Pain",
-            "desc": "Nunc consequat interdum varius sit amet mattis. In nisl nisi scelerisque eu ultrices vitae auctor.",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "23bef5b1-c690-4199-90fe-758991cf1cef": {
-          "type": "text",
-          "settings": {
-            "title": "Anxiety and Depression",
-            "desc": "Venenatis cras sed felis eget velit aliquet sagittis id. Sed enim ut sem viverra aliquet eget sit amet tellus.",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "9254439f-642e-4768-8f7e-d384e7f4f59d": {
-          "type": "text",
-          "settings": {
-            "title": "Cancer-Related Cure",
-            "desc": "Pharetra vel turpis nunc eget. Eget duis at tellus at. Et sollicitudin ac orci phasellus egestas tellus .",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18572285182250__06eef844-b717-4684-879c-2966611b45ee-text-1",
-        "d464938b-3d3e-449a-94c1-be6d4f96f4c2",
-        "55d579e4-c660-4f2f-afeb-fa0d81096478",
-        "a315b880-bc28-4c89-b5d2-fec72342b191",
-        "23bef5b1-c690-4199-90fe-758991cf1cef",
-        "9254439f-642e-4768-8f7e-d384e7f4f59d"
-      ],
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "color_scheme": "background-1",
-        "title": "CBD Oil Advantages",
-        "heading_size": "h1",
-        "sub_heading": "CBD PRODUCTS POTENTIAL BENEFITS",
-        "description": "Dolorum volumus molestie ea eam, ut has autem antiopam tractatos, luptatum mediocrem cum euc.",
-        "button_label": "",
-        "button_link": "shopify://collections",
-        "column_alignment": "center",
-        "button_style_secondary": false,
-        "enable_image": true,
-        "primary_title": "",
-        "primary_sub_title": "",
-        "primary_description": "",
-        "primary_button_text": "",
-        "primary_button_link": "shopify://collections",
-        "primary_text_align": "Left",
-        "vertical_position": "position-vertical-center",
-        "banner_style": "grid",
-        "specification_style": "style1",
-        "overlay_style_height": "500",
-        "primary_position": "center",
-        "content_reverse": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_class_name": ""
-      }
-    },
-    "d8756760-994b-450a-8ffb-ce519a0b4ce3": {
-      "type": "featured-collection",
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "enable-bg-img": false,
-        "title": "",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "swiper-title": "Explore Our Recommendations",
-        "banner-display": false,
-        "content-display": true,
-        "primary_title": "",
-        "primary_sub_title": "",
-        "primary_description": "",
-        "primary_button_text": "",
-        "primary_button_link": "",
-        "primary_text_align": "left",
-        "collection": "frontpage",
-        "products_to_show": 6,
-        "columns_desktop": 2,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_new_tag": true,
-        "show_rating": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "custom_class_name": "",
-        "swiper_enable": false,
-        "desktop_column": 2,
-        "tablet_column": 1,
-        "mobile_column": 1,
-        "centered_slide": false,
-        "swiper_pagination": true,
-        "swiper_navigation": true,
-        "auto_play": 0,
-        "swipe_on_mobile": true,
-        "arrow_on_mobile": true,
-        "columns_mobile": "1"
-      }
-    },
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e": {
       "type": "grid-banner",
       "blocks": {
@@ -602,7 +380,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "blog": "news",
+        "blog": "diferenciadores",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "accent-1",
@@ -832,11 +610,8 @@
   "order": [
     "22208e64-dcc3-4578-b425-207fdf5259a3",
     "a2c6b8ef-664c-4cb5-9429-59a162fcc4ae",
-    "3a591ef7-cce4-49e1-8029-011d9a8ffb28",
     "6c29e21f-a46b-4ba5-be13-add5ab2536be",
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a",
-    "06eef844-b717-4684-879c-2966611b45ee",
-    "d8756760-994b-450a-8ffb-ce519a0b4ce3",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
