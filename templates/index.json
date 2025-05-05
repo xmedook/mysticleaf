@@ -454,7 +454,7 @@
         "template--16490674978985__af686e46-ff27-4a26-ba17-388d869e0a5b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Latest News and Updates Here!",
+            "heading": "Recibe actualizaciones en tu correo",
             "heading_size": "h3"
           }
         },
@@ -511,6 +511,7 @@
         "template--18572285182250__c4fa10f5-5c80-4f68-b0d6-f89a85d1a049-column-3",
         "template--18572285182250__c4fa10f5-5c80-4f68-b0d6-f89a85d1a049-column-4"
       ],
+      "disabled": true,
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -613,6 +614,7 @@
         "9e2247cb-6aa5-42e7-b06f-f1aa740c3656",
         "ed73528d-e45c-480c-aca4-808f184fa998"
       ],
+      "disabled": true,
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
