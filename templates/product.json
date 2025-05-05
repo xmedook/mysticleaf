@@ -393,6 +393,9 @@
         "column_6f8rfj",
         "column_FNkmp9"
       ],
+      "custom_css": [
+        ".section-multicolumn {height: 1100px !important;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "page_full_width": false,
