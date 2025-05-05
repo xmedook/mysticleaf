@@ -220,6 +220,7 @@
         "8b24768c-c0ce-46e0-b545-19e383a92afe",
         "eabfc12d-6c31-4bb3-955b-777e2354d472"
       ],
+      "disabled": true,
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
