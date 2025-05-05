@@ -259,7 +259,7 @@
         "e6f108f9-bd0e-4f6e-8052-186dcf1e14cd"
       ],
       "custom_css": [
-        "h2{color: #144D8C;}"
+        "h2 {color: #144d8c;}"
       ],
       "settings": {
         "page_full_width": true,
@@ -453,6 +453,180 @@
         "auto_play": 0,
         "swipe_on_mobile": false,
         "arrow_on_mobile": false
+      }
+    },
+    "multicolumn_KghDBG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6rFCnL": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "De venta en:",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        },
+        "column_UX9a9d": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        }
+      },
+      "block_order": [
+        "column_6rFCnL",
+        "column_UX9a9d"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "enable_overlay": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": "",
+        "swiper_enable": false,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "centered_slide": false,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false,
+        "columns_mobile": "1"
+      }
+    },
+    "rich_text_jkwcTx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4t8T6J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_VXjBd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_xxUYQG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4t8T6J",
+        "text_VXjBd9",
+        "button_xxUYQG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials_AA4ymR": {
+      "type": "testimonials",
+      "blocks": {
+        "text_kjjY6X": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Column",
+            "job_title": "john",
+            "quote": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "star": "3",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_AGYPXR": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Column",
+            "job_title": "john",
+            "quote": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "star": "3",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_yQpNG6": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Column",
+            "job_title": "john",
+            "quote": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "star": "3",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_kjjY6X",
+        "text_AGYPXR",
+        "text_yQpNG6"
+      ],
+      "custom_css": [
+        "h2 {color: #144d8c !important;}"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Reseñas de clientes",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "testimonial_text_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": "",
+        "desktop_column": 3,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "centered_slide": false,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0
       }
     },
     "af686e46-ff27-4a26-ba17-388d869e0a5b": {
@@ -670,6 +844,9 @@
     "image_banner_iMdmee",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
+    "multicolumn_KghDBG",
+    "rich_text_jkwcTx",
+    "testimonials_AA4ymR",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
     "c4fa10f5-5c80-4f68-b0d6-f89a85d1a049",
     "df48bd6c-39ec-42b5-bd8e-10ee6c8f2650"
