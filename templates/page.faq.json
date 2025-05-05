@@ -221,9 +221,7 @@
         "eabfc12d-6c31-4bb3-955b-777e2354d472"
       ],
       "disabled": true,
-      "custom_css": [
-        ".accordion__title {color: #1e1e1e!important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
