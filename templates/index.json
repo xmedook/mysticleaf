@@ -492,7 +492,8 @@
       "custom_css": [
         ".banner__media {display: none !important;}",
         ".banner__box {background-color: #a8d2f4; border-radius: 10px;}",
-        ".banner__buttons {background-color: #ffe600;}"
+        ".banner__buttons {background-color: #ffe600;}",
+        ".card-container{width:40%;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {

@@ -358,8 +358,8 @@
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
-            "title": "column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Energía y Metabolismo Celular",
+            "text": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>",
             "link_label": "",
             "link": "",
             "icon_class": false
@@ -369,8 +369,8 @@
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
-            "title": "column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Claridad Mental y Estado de Ánimo",
+            "text": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>",
             "link_label": "",
             "link": "",
             "icon_class": false
@@ -380,8 +380,8 @@
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
-            "title": "column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Piel, Cabello y Articulaciones Saludables",
+            "text": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>",
             "link_label": "",
             "link": "",
             "icon_class": false
