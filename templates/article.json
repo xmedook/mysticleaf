@@ -66,6 +66,9 @@
     },
     "featured_blog_3EGPrH": {
       "type": "featured-blog",
+      "custom_css": [
+        "a.blog__button.button {display: none;}"
+      ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "page_full_width": false,
