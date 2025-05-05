@@ -1026,7 +1026,9 @@
   "platform_customizations": {
     "custom_css": [
       ".banner--desktop-transparent {margin: 0 var(--page-full-width-spacing);}",
-      ".banner__heading {text-transform: none;}"
+      ".banner__heading {text-transform: none;}",
+      ".accordion__title {color: #1e1e1e;}",
+      "h2.title.h2 {color: #144d8c;}"
     ]
   }
 }
