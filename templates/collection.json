@@ -1,32 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "e73cb67e-4708-4a24-ae19-2f5324b5edd5": {
+      "type": "breadcrumb",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "use_breadcrumb_title": false,
+        "breadcrumb_image": "shopify://shop_images/Myst-contact.jpg",
+        "breadcrumb_style": "center",
+        "image_overlay_opacity": 61,
+        "color_scheme": "accent-1",
+        "padding_top": 64,
+        "padding_bottom": 60
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
         "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "show_collection_image": true,
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1512dc24-4276-4322-bc6b-69dac3d8bde9": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore collection",
+            "heading_size": "h1"
+          }
+        },
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Felis eget velit aliquet sagittis id consectetur purus ut.",
+            "text_style": "body"
+          }
+        },
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-heading-1",
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-text-1",
+        "template--16490674913449__1512dc24-4276-4322-bc6b-69dac3d8bde9-buttons-1"
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/Rectangle_8_1.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "right",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 70,
+        "margin_bottom": 0,
+        "custom_class_name": ""
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
+        "products_per_page": 12,
         "columns_desktop": 4,
-        "image_ratio": "adapt",
+        "collections_custom_cols": false,
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_new_tag": true,
         "show_rating": false,
         "enable_filtering": true,
+        "filter_type": "vertical",
         "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "pagination": "infinit_scroll",
+        "columns_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "sidebar_settings": "sidebar-left",
+        "show_menu": false,
+        "menu_title": "Category",
+        "linklist": "main-menu",
+        "show_carousel": true,
+        "carousel_title": "Best Seller",
+        "carousel": "shop-2-column",
+        "carousel_limit": 3,
+        "show_image": true,
+        "sidebar_title": "Best Sellers",
+        "sidebar_button": "Shop Now",
+        "sidebar_link": "shopify://collections/3-layer-cherry-cakes",
+        "show_collection": false,
+        "collection_title": "heading",
+        "collection": "dummy-collection1",
+        "collection_limit": 5
       }
     }
   },
   "order": [
+    "e73cb67e-4708-4a24-ae19-2f5324b5edd5",
     "banner",
+    "1512dc24-4276-4322-bc6b-69dac3d8bde9",
     "product-grid"
   ]
 }

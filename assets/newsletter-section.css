@@ -1,14 +1,14 @@
 .newsletter__wrapper {
-  padding-right: calc(4rem / var(--font-body-scale));
-  padding-left: calc(4rem / var(--font-body-scale));
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;
     padding-left: 9rem;
   }
-}
+} */
 
 .newsletter__wrapper > * {
   margin-top: 0;
@@ -30,7 +30,7 @@
 }
 
 .newsletter__wrapper .newsletter-form__field-wrapper {
-  max-width: 36rem;
+  max-width: 75rem;
 }
 
 .newsletter-form__field-wrapper .newsletter-form__message {
@@ -47,4 +47,71 @@
     flex-shrink: 0;
     margin: 0 0 0 1rem;
   }
+}
+@media screen and (min-width: 1441px) {
+  .newsletter-form {
+    max-width: 70rem;
+    min-width: 55rem;
+}
+}
+.newsletter .newletter_wrapper-block .field__input {
+    background: rgb(var(--color-foreground));
+    color: var(--gradient-background);
+}
+@media screen and (min-width:1200px)
+{
+  .newletter_wrapper-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+}
+@media screen and (max-width:1199px)
+{
+   .newsletter__wrapper-right{margin-top:30px;}
+}
+
+.newsletter-form__field-wrapper .field {
+    width: min(61rem, 100%);
+}
+.newletter_wrapper-block .field__button {
+    font-family: var(--font-body-family);
+    height: 4rem;
+    max-height: 4rem;
+    position: absolute;
+    margin-block: auto;
+    border-radius: var(--buttons-radius);
+    padding: 0;
+    right: 5px;
+    text-transform: capitalize;
+    font-size: 22px;
+    background: var(--gradient-base-background-2);
+    color: var(--gradient-base-accent-3);
+}
+.newletter_wrapper-block .field__button:hover {
+    color: var(--gradient-base-accent-3);
+    background: var(--gradient-base-accent-1);
+}
+@media screen and (min-width: 577px) {
+.newsletter .newletter_wrapper-block .field__input {
+    padding-right: 18rem;
+}
+}
+@media screen and (max-width: 576px) {
+.newsletter-form__field-wrapper .field {display: block;}
+.newletter_wrapper-block .field__button {
+    position: relative;
+    margin-top: 2rem;
+    min-height: 5rem;
+}
+}
+
+.banner--content-align-center .newsletter-form__field-wrapper .field {
+  margin:0 auto;
+}
+.banner--content-align-left .newsletter-form__field-wrapper .field {
+  margin-right:auto;
+}
+.banner--content-align-right .newsletter-form__field-wrapper .field {
+  margin-left:auto;
 }

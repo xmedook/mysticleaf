@@ -11,7 +11,7 @@
 }
 
 .product__xr-button[data-shopify-xr-hidden] {
-  visibility: hidden;
+  visibility: hidden;display:none;
 }
 
 .shopify-design-mode .product__xr-button[data-shopify-xr-hidden] {

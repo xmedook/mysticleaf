@@ -1,13 +1,16 @@
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .articles-wrapper .article {
     width: 100%;
   }
-}
-
-.article {
+} */
+/* .card__content .circle-divider::before {
+    content: '|';
+    margin: 0 1.3rem 0 1.5rem;
+} */
+/* .article {
   display: flex;
   align-items: center;
-}
+} */
 
 .article.grid__item {
   padding: 0;
@@ -28,7 +31,7 @@
 
 .article-card__title a:after {
   bottom: 0;
-  content: '';
+  content: "";
   height: 100%;
   left: 0;
   position: absolute;
@@ -47,17 +50,30 @@
 }
 
 .article-card .card__heading {
-  margin-bottom: 0.6rem;
+ 
+    font-size: 3rem;
 }
-
+.article-card a.blog__button.button{ margin-bottom:0;}
+.blog .card .card__content{padding:20px 0 0;}
+.blog .blog-list-style .card.article-card .card__content{padding:20px;}
+/* .article-card  a.blog__button.button{margin:0;} */
 .blog-articles .article-card .card__information,
 .blog__posts .article-card .card__information {
-  padding-left: 2rem;
-  padding-right: 2rem;
+padding:2.5rem;
+  text-align:left;
 }
 
 .article-card__info {
-  padding-top: 0.4rem;
+  padding-top: 0rem;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  line-height: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: rgb(var(--color-foreground));
+  transition: all 0.3s linear;
+/*   white-space: nowrap; */
 }
 
 .article-card__footer {
@@ -75,7 +91,10 @@
 
 .article-card__excerpt {
   width: 100%;
-  margin-top: 1.2rem;
+  /* font-size: 1.8rem; */
+  letter-spacing: 0;
+  transition:all 0.3s linear;
+  opacity: 0.75;
 }
 
 .article-card__link:not(:only-child) {
@@ -127,7 +146,19 @@
     padding-bottom: 40.7rem;
   }
 }
+.article-card .card__inner  a{width:100%}
+.article-card .card__information h3.card__heading {font-size: 2.6rem;margin-bottom: 10px;}
+.article-card__footer span{display: flex;align-items: center;}
+.article-card__footer span svg{margin-right:5px;}
+.article__image{height:100%;}
+.comment-icon svg { width: 1.6rem; height: 1.6rem;}
+.article-author svg { width: 1.6rem; height: 1.6rem;}
 
+@media screen and (max-width: 749px) {
+  .article-card .card__information h3.card__heading { font-size: 1.8rem;}
+  .article-card__excerpt{font-size:1.6rem;}
+}
+.article-card .card__information> *:not(:last-child){margin-bottom:15px;}
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   .articles-wrapper.grid {
@@ -139,4 +170,64 @@
       margin-bottom: 7rem;
     }
   }
+}
+/*list*/
+.blog__post.article.grid__item.blog-list-style .card__content {padding:20px; align-items: center; justify-content: center; display: flex;}
+/*overlay*/
+.blog__posts.articles-wrapper .article.blog-overlay-style .card__information{
+      left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog__posts.articles-wrapper .article.blog-overlay-style  .blog__button.button{width:fit-content;}
+.blog__post.article.grid__item.blog-overlay-style .card__content{padding:0;}
+.article-card .article-card__image{transition:all 0.3s linear;}
+.article-card:hover .article-card__image {
+    transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+}
+/* ------------------ */
+.card.article-card .card__content {
+    background: var(--gradient-base-accent-3);
+    color: var(--gradient-base-background-3);
+    /* padding: 2.5rem; */
+    transition: 0.5s;
+}
+.blog-overlay-style .card.article-card .card__content {background: rgb(var(--color-base-accent-3),0.8);}
+
+.card.article-card:hover .card__content
+{
+    color: var(--gradient-base-accent-3);
+    background: var(--gradient-base-background-2);
+  opacity:1;
+}
+.card.article-card:hover .card__content > * > *
+{
+    color: var(--gradient-base-accent-3);
+}
+.card.article-card:hover .card__content a.blog__button.button
+{
+  background: var(--gradient-base-accent-3);
+    color: var(--gradient-base-background-3);
+}
+.card.article-card:hover .card__content a.blog__button.button:hover {
+    background: var(--gradient-base-accent-1);
+    color: var(--gradient-base-accent-3);
+}
+.article-card__info span svg {
+    color: currentColor;
+    fill: currentColor;
+}
+.card.article-card .card__inner {
+    padding-bottom: 5rem;
+}
+.article-card {
+  border-radius: var(--card-corner-radius);
+  border: var(--card-border-width) solid rgba(var(--color-foreground),var(--card-border-opacity));
 }

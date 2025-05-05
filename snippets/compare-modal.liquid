@@ -1,0 +1,16 @@
+<div class="alert-overlay" style="display:none" id="compareModal">  
+<div class="main-content">
+<p>{{ 'products.compare.limit' | t }}</p>
+<a href="/pages/compare" class="button">{{ 'products.compare.view_compare' | t }}</a>
+<span class="closebtn" id="compareModalClose"> {% render 'icon-close' %}</span> 
+</div>   
+</div>  
+
+<style>
+  #compareModal p {
+    text-align: center;
+}
+.closebtn{background:transparent; color:rgb(var(--color-base-solid-button-labels));}
+.closebtn:hover svg{animation: text-blink 0.8s ease;}
+.closebtn:hover{background:transparent; color:rgb(var(--color-base-solid-button-labels));}
+</style>

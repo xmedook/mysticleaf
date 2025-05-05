@@ -1,0 +1,386 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "6cd6487e-d9a0-4ded-85ba-5068911dc2fd": {
+      "type": "breadcrumb",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "use_breadcrumb_title": true,
+        "breadcrumb_style": "center",
+        "image_overlay_opacity": 40,
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7c3376f1-3f11-4849-b29f-d28c9ec28078": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f21a5fd2-27d6-4767-80fa-32bff025e7c5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Marijuana Medicine?",
+            "icon": "none",
+            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis.</p>",
+            "page": ""
+          }
+        },
+        "3a709acf-53d9-4e81-aa55-c7ebbaf39df8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products legal?",
+            "icon": "none",
+            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. </p>",
+            "page": ""
+          }
+        },
+        "6403b9c2-0c5b-437d-87d1-d9d16e0d53bd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose the right product for me?",
+            "icon": "none",
+            "row_content": "<p>At enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. </p>",
+            "page": ""
+          }
+        },
+        "8c61519e-ebf9-4300-838a-b6c72f4700a1": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How to redeem my gift card?",
+            "icon": "none",
+            "row_content": "<p>Blandit fusce id  blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "8fbf2aaa-1f66-4991-a375-4600c4cfd84e": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What details should I enter when placing an order?",
+            "icon": "none",
+            "row_content": "<p>Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. </p>",
+            "page": ""
+          }
+        },
+        "8f17f95c-dc56-4821-9cae-b8461a789f60": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I pay for my purchase?",
+            "icon": "none",
+            "row_content": "<p>Vestibulum eu maximus turpis. Fusce id blandit blandit finibus eros. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "23bb1090-1451-431b-a203-db606c095550": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What should I do if I received some poor quality products?",
+            "icon": "none",
+            "row_content": "<p>Saecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "f21a5fd2-27d6-4767-80fa-32bff025e7c5",
+        "3a709acf-53d9-4e81-aa55-c7ebbaf39df8",
+        "6403b9c2-0c5b-437d-87d1-d9d16e0d53bd",
+        "8c61519e-ebf9-4300-838a-b6c72f4700a1",
+        "8fbf2aaa-1f66-4991-a375-4600c4cfd84e",
+        "8f17f95c-dc56-4821-9cae-b8461a789f60",
+        "23bb1090-1451-431b-a203-db606c095550"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Every Query About Our Product!",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": true,
+        "enable_address_block": false,
+        "image": "shopify://shop_images/AdobeStock_578508543_1_9f9456a2-88e7-4707-9790-9cb34ebe8497.jpg",
+        "image_ratio": "small",
+        "address_heading": "",
+        "collapsible_address": "",
+        "collapsible_contact_no": "",
+        "collapsible_contact_id": "",
+        "desktop_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "50ae1343-3cc2-48dc-9adb-38b17d4fd9cb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "32f8f804-6c76-4ad9-8a6a-6189e528c9a2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Would I be able to withdraw or alter my request?",
+            "icon": "none",
+            "row_content": "<p>Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "438e360d-218e-4800-afe1-c5b3c7b41feb": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "none",
+            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. </p>",
+            "page": ""
+          }
+        },
+        "aa528904-93ee-48ea-b055-90bac3521d5c": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How can i get support?",
+            "icon": "none",
+            "row_content": "<p>At enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. </p>",
+            "page": ""
+          }
+        },
+        "49652f06-fc9f-415c-a3f8-6b25e614df4b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods are accepted?",
+            "icon": "none",
+            "row_content": "<p>Blandit fusce id  blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "1cae2112-2308-4893-8967-50e18c247bb1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I track my order?",
+            "icon": "none",
+            "row_content": "<p>Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. </p>",
+            "page": ""
+          }
+        },
+        "8b24768c-c0ce-46e0-b545-19e383a92afe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I cancel my order?",
+            "icon": "none",
+            "row_content": "<p>Vestibulum eu maximus turpis. Fusce id blandit blandit finibus eros. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "eabfc12d-6c31-4bb3-955b-777e2354d472": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have international shipping?",
+            "icon": "none",
+            "row_content": "<p>Saecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "32f8f804-6c76-4ad9-8a6a-6189e528c9a2",
+        "438e360d-218e-4800-afe1-c5b3c7b41feb",
+        "aa528904-93ee-48ea-b055-90bac3521d5c",
+        "49652f06-fc9f-415c-a3f8-6b25e614df4b",
+        "1cae2112-2308-4893-8967-50e18c247bb1",
+        "8b24768c-c0ce-46e0-b545-19e383a92afe",
+        "eabfc12d-6c31-4bb3-955b-777e2354d472"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Questions Answered On Payment & Order!",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": true,
+        "enable_address_block": false,
+        "image_ratio": "adapt",
+        "address_heading": "",
+        "collapsible_address": "",
+        "collapsible_contact_no": "",
+        "collapsible_contact_id": "",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class_name": ""
+      }
+    },
+    "dac594f5-6f42-441b-b718-a5640c6f4896": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-0": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Would I be able to withdraw or alter my request?",
+            "icon": "none",
+            "row_content": "<p>Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-1": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "none",
+            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. </p>",
+            "page": ""
+          }
+        },
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How can i get support?",
+            "icon": "none",
+            "row_content": "<p>At enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. </p>",
+            "page": ""
+          }
+        },
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How to redeem my gift card?",
+            "icon": "none",
+            "row_content": "<p>Blandit fusce id  blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "a28c49d0-90ca-483f-bf46-d4bee34fac3b": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What details should I enter when placing an order?",
+            "icon": "none",
+            "row_content": "<p>Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. </p>",
+            "page": ""
+          }
+        },
+        "efe13fc1-badc-4b55-90be-da1d5ba0500b": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I pay for my purchase?",
+            "icon": "none",
+            "row_content": "<p>Vestibulum eu maximus turpis. Fusce id blandit blandit finibus eros. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "page": ""
+          }
+        },
+        "e40cd1ac-e50d-4c7f-8231-a62898e17ab5": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What should I do if I received some poor quality products?",
+            "icon": "none",
+            "row_content": "<p>Saecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-0",
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-1",
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-2",
+        "template--16688272900316__dac594f5-6f42-441b-b718-a5640c6f4896-16672924418c53fb80-3",
+        "a28c49d0-90ca-483f-bf46-d4bee34fac3b",
+        "efe13fc1-badc-4b55-90be-da1d5ba0500b",
+        "e40cd1ac-e50d-4c7f-8231-a62898e17ab5"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": true,
+        "enable_address_block": true,
+        "image": "shopify://shop_images/Myst-contact.jpg",
+        "image_ratio": "adapt",
+        "address_heading": "Contact Us At",
+        "collapsible_address": "No: 58 A, East Madison Street, Baltimore, MD, USA 4508",
+        "collapsible_contact_no": "+000 123 456789",
+        "collapsible_contact_id": "example@gmail.com",
+        "desktop_layout": "image_first",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "25e9d006-146e-44f2-919b-da91295c2fba": {
+      "type": "contact-form",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Still have queries!",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "Feel free to write us",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "6cd6487e-d9a0-4ded-85ba-5068911dc2fd",
+    "main",
+    "7c3376f1-3f11-4849-b29f-d28c9ec28078",
+    "50ae1343-3cc2-48dc-9adb-38b17d4fd9cb",
+    "dac594f5-6f42-441b-b718-a5640c6f4896",
+    "25e9d006-146e-44f2-919b-da91295c2fba"
+  ]
+}

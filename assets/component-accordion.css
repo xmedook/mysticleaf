@@ -32,9 +32,11 @@
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+  /* font-size:2rem; */
+  font-weight:500;
 }
 
-.accordion .svg-wrapper {
+.accordion .icon-accordion {
   align-self: center;
   fill: rgb(var(--color-foreground));
   height: calc(var(--font-heading-scale) * 2rem);
@@ -43,16 +45,22 @@
 }
 
 .accordion details[open] > summary .icon-caret {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
-
+.accordion summary .icon-caret{transform: rotate(270deg);width:12px;height:15px;transition: all var(--duration-default) linear;top: calc(50% - 0.6rem);}
 .accordion__content {
   margin-bottom: 1.5rem;
   word-break: break-word;
   overflow-x: auto;
-  padding: 0 0.6rem;
+/*   padding: 0 0.6rem; */
 }
 
 .accordion__content img {
   max-width: 100%;
 }
+/* @media screen and (max-width:576px){
+  .accordion__title{font-size:2rem}
+}
+@media screen and (max-width:450px){
+  .accordion__title{font-size:1.8rem}
+} */
