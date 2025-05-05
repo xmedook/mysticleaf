@@ -186,6 +186,9 @@
       "block_order": [
         "6fe28161-723f-47a0-b38b-fb18eedf6836"
       ],
+      "custom_css": [
+        ".global-media-settings {background-color: transparent;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
