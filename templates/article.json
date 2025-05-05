@@ -64,6 +64,48 @@
         "linklist": "main-menu"
       }
     },
+    "featured_blog_3EGPrH": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Difernciadores",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "blog": "diferenciadores",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpts": false,
+        "enable_comments": false,
+        "show_view_all": false,
+        "block_banner_style": "grid-style",
+        "overlay_style_height": 400,
+        "overlay_opacity": "0.5",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": "",
+        "swiper_enable": false,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false
+      }
+    },
     "ccbd9f81-c067-4d58-beb1-ef6821fddc62": {
       "type": "breadcrumb",
       "disabled": true,
@@ -81,6 +123,7 @@
   },
   "order": [
     "main",
+    "featured_blog_3EGPrH",
     "ccbd9f81-c067-4d58-beb1-ef6821fddc62"
   ]
 }
