@@ -489,6 +489,9 @@
         "heading_F3LDgr",
         "buttons_BRTMXc"
       ],
+      "custom_css": [
+        ".banner:before {display: none !important;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": false,
