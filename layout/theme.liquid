@@ -337,6 +337,32 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <!-- WhatsApp Widget Button -->
+<script>
+(function() {
+    var options = {
+        widgetId: "67f762a9cfb9a6321c0260fa",
+        whatsapp: "13314603933",
+        call_to_action: "Conecta en WhatsApp",
+        button_color: "#25d366",
+        position: "right",
+        pre_filled_message: "Hola, necesito información acerca de los productos"
+    };
+    var proto = document.location.protocol,
+        host = "wabutton.nexodigital.ai",
+        url = proto + "//" + host;
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = url + "/widget.js";
+    s.onload = function() {
+        WhWidgetSendButton.init(options.widgetId, options);
+    };
+    var x = document.getElementsByTagName("script")[0];
+    x.parentNode.insertBefore(s, x);
+})();
+</script>
+<!-- /WhatsApp Widget Button -->
     
   </head>
 
