@@ -67,6 +67,7 @@
     "featured_blog_3EGPrH": {
       "type": "featured-blog",
       "custom_css": [
+        ".card__information {padding: 35px !important;}",
         "a.blog__button.button {display: none;}"
       ],
       "name": "t:sections.featured-blog.presets.name",
