@@ -70,7 +70,7 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Difernciadores",
+        "title": "{{ section.settings.blog.title }}",
         "heading_size": "h1",
         "sub_heading": "",
         "description": "",
@@ -92,7 +92,7 @@
         "overlay_style_height": 400,
         "overlay_opacity": "0.5",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 100,
         "custom_class_name": "",
         "swiper_enable": false,
         "desktop_column": 3,
