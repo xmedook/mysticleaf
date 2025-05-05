@@ -367,6 +367,7 @@
         "63e43590-4850-4383-a20e-a4661ffc57c1",
         "c26669d2-517e-4b65-bc54-4bb97a108fcb"
       ],
+      "disabled": true,
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": true,
@@ -405,10 +406,10 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Fresh Blog Updates",
+        "title": "Por que somos diferentes",
         "heading_size": "h1",
         "sub_heading": "",
-        "description": "Dolorum volumus molestie ea eam, ut has autem antiopam tractatos, luptatum mediocrem cum euc.",
+        "description": "En Palantum Health no seguimos tendencias. Creamos con evidencia.",
         "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
