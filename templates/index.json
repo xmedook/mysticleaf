@@ -193,6 +193,7 @@
         "page_full_width": false,
         "page_full_width_spacing": false,
         "enable_bg_img": true,
+        "bg_img": "shopify://shop_images/Group_25153.svg",
         "title": "",
         "heading_size": "h1",
         "subtitle": "",
