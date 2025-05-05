@@ -88,10 +88,10 @@
       "collection": "Collection",
       "all": "All"
     },
-    "mobile_toolbar":{
-      "home":"Home",
-      "shop":"Shop",
-      "wishlist":"Wishlist"
+    "mobile_toolbar": {
+      "home": "Home",
+      "shop": "Shop",
+      "wishlist": "Wishlist"
     }
   },
   "newsletter": {
@@ -566,14 +566,14 @@
     "form": {
       "heading": "Let us know abour your query!",
       "sub_heading": "Contact Us",
-      "name": "Name",
+      "name": "Nombre",
       "email": "Email",
-      "phone": "Phone",
+      "phone": "Teléfono",
       "by_email": "Mail",
-      "by_phone": "Phone",
-      "by_both": "Both",
+      "by_phone": "Teléfono",
+      "by_both": "Ambos",
       "message_heading": "Communication mode that you prepare",
-      "message": "Message"
+      "message": "Mensaje"
     }
   },
   "promo": {
