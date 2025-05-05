@@ -314,22 +314,22 @@
     },
     "contact": {
       "form": {
-        "title": "Contact form",
-        "name": "Name",
+        "title": "Formulario de Contacto",
+        "name": "Nombre",
         "email": "Email",
-        "phone": "Phone number",
-        "comment": "Comment",
-        "contact_text": "Save my name, email, and website in this browser.",
-        "send": "Send",
-        "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-        "error_heading": "Please adjust the following:"
+        "phone": "Teléfono",
+        "comment": "Mensaje",
+        "contact_text": "Guarda mi nombre, correo electrónico y sitio web en este navegador.",
+        "send": "Enviar Mensaje",
+        "post_success": "Gracias por contactarnos. Nos pondremos en contacto con usted lo antes posible.",
+        "error_heading": "Por favor ajuste lo siguiente:"
       }
     },
     "404": {
-      "title": "The Page you're looking for can't found",
+      "title": "No se encuentra la página que estás buscando",
       "subtext": "404",
-      "button_text": "Back To Home",
-      "description": "You didn't break the internet, but we can't find what you are looking for."
+      "button_text": "Regresar a Inicio",
+      "description": "No rompiste Internet, pero no podemos encontrar lo que estás buscando."
     }
   },
   "sections": {
