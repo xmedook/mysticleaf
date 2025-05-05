@@ -400,8 +400,9 @@
           "872fb711-49d8-4e35-bc16-d8e2e3131ec4": {
             "type": "text",
             "settings": {
-              "logo_width": 300,
-              "heading": "Contact Us Anytime !",
+              "logo": "shopify://shop_images/ph-logo-footer.png",
+              "logo_width": 80,
+              "heading": "",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
               "alignment": "left",
               "column_width": 21
@@ -1032,7 +1033,7 @@
       "p {color: #1e1e1e !important;}",
       "h1 {color: var(--gradient-base-background-2) !important;}",
       ".button,.shopify-challenge__button,.customer button {background-color: var(--gradient-base-background-2) !important;}",
-      ".left-img,.right-img,.image-group{display: none !important;}"
+      ".left-img,.right-img,.image-group {display: none !important;}"
     ]
   }
 }
