@@ -32,7 +32,7 @@
         ".card:hover p {color: white !important;}"
       ],
       "settings": {
-        "page_full_width": false,
+        "page_full_width": true,
         "page_full_width_spacing": false,
         "custom_class_name": "",
         "layout": "grid",
