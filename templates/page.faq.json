@@ -222,7 +222,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "h3.accordion__title.h4 {color: #1e1e1e!important;}"
+        ".accordion__title {color: #1e1e1e;}"
       ],
       "settings": {
         "page_full_width": false,
