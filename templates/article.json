@@ -35,6 +35,9 @@
         "featured_image",
         "content"
       ],
+      "custom_css": [
+        ".dt-sc-blog-navigation {display: none;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
