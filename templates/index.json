@@ -218,6 +218,7 @@
       "blocks": {
         "1a8314e4-5f25-4cee-8eb5-46235c9f56e5": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "block_color_scheme": "inverse",
             "title": "Carefully Picked Over",
@@ -229,6 +230,7 @@
         },
         "template--18572285182250__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "block_color_scheme": "inverse",
             "title": "Safe For All Skin",
@@ -240,6 +242,7 @@
         },
         "e6f108f9-bd0e-4f6e-8052-186dcf1e14cd": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "block_color_scheme": "inverse",
             "title": "Approved By Experts",
@@ -254,10 +257,6 @@
         "1a8314e4-5f25-4cee-8eb5-46235c9f56e5",
         "template--18572285182250__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a-column-1",
         "e6f108f9-bd0e-4f6e-8052-186dcf1e14cd"
-      ],
-      "custom_css": [
-        "h2 {color: #144d8c;}",
-        "p{color: #23292D;}"
       ],
       "settings": {
         "page_full_width": true,
@@ -287,6 +286,28 @@
         "swipe_on_mobile": false,
         "arrow_on_mobile": false,
         "columns_mobile": "1"
+      }
+    },
+    "image_banner_iMdmee": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/etiquetaph.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
       }
     },
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e": {
@@ -624,6 +645,7 @@
     "a2c6b8ef-664c-4cb5-9429-59a162fcc4ae",
     "6c29e21f-a46b-4ba5-be13-add5ab2536be",
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a",
+    "image_banner_iMdmee",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
