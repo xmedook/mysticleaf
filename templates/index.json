@@ -258,6 +258,9 @@
         "template--18572285182250__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a-column-1",
         "e6f108f9-bd0e-4f6e-8052-186dcf1e14cd"
       ],
+      "custom_css": [
+        "h2{color: #144D8C;}"
+      ],
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
@@ -474,7 +477,7 @@
       "custom_css": [
         ".newsletter:before {display: none !important;}",
         ".newsletter {background-color: white;}",
-        ".field__input{background-color: #EAF1F4;}",
+        ".field__input {background-color: #eaf1f4;}",
         "h2 {color: #144d8c;}"
       ],
       "settings": {
