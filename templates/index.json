@@ -455,104 +455,57 @@
         "arrow_on_mobile": false
       }
     },
-    "multicolumn_KghDBG": {
-      "type": "multicolumn",
+    "image_banner_P6ft9d": {
+      "type": "image-banner",
       "blocks": {
-        "column_6rFCnL": {
-          "type": "column",
+        "text_AGbciN": {
+          "type": "text",
           "settings": {
-            "block_color_scheme": "background-1",
-            "title": "De venta en:",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": "",
-            "icon_class": false
+            "text": "De venta en:",
+            "text_style": "body"
           }
         },
-        "column_UX9a9d": {
-          "type": "column",
-          "settings": {
-            "block_color_scheme": "background-1",
-            "title": "column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": "",
-            "icon_class": false
-          }
-        }
-      },
-      "block_order": [
-        "column_6rFCnL",
-        "column_UX9a9d"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "title": "",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "color_scheme": "background-1",
-        "enable_overlay": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_class_name": "",
-        "swiper_enable": false,
-        "desktop_column": 3,
-        "laptop_column": 3,
-        "tablet_column": 3,
-        "mobile_column": 1,
-        "centered_slide": false,
-        "swiper_pagination": false,
-        "swiper_navigation": false,
-        "auto_play": 0,
-        "swipe_on_mobile": false,
-        "arrow_on_mobile": false,
-        "columns_mobile": "1"
-      }
-    },
-    "rich_text_jkwcTx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4t8T6J": {
+        "heading_F3LDgr": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Mercado Libre",
             "heading_size": "h1"
           }
         },
-        "text_VXjBd9": {
-          "type": "text",
+        "buttons_BRTMXc": {
+          "type": "buttons",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_xxUYQG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label_1": "Comprar Ahora",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_4t8T6J",
-        "text_VXjBd9",
-        "button_xxUYQG"
+        "text_AGbciN",
+        "heading_F3LDgr",
+        "buttons_BRTMXc"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_full_width": true,
-        "page_full_width_spacing": true,
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
       }
     },
     "testimonials_AA4ymR": {
@@ -844,8 +797,7 @@
     "image_banner_iMdmee",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
-    "multicolumn_KghDBG",
-    "rich_text_jkwcTx",
+    "image_banner_P6ft9d",
     "testimonials_AA4ymR",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
     "c4fa10f5-5c80-4f68-b0d6-f89a85d1a049",
