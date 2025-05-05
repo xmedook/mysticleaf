@@ -1031,7 +1031,8 @@
       "h2.title.h2 {color: #144d8c;}",
       "p {color: #1e1e1e !important;}",
       "h1 {color: var(--gradient-base-background-2) !important;}",
-      ".button, .shopify-challenge__button, .customer button {background-color: var(--gradient-base-background-2) !important;}"
+      ".button,.shopify-challenge__button,.customer button {background-color: var(--gradient-base-background-2) !important;}",
+      ".left-img,.right-img,.image-group{display: none !important;}"
     ]
   }
 }

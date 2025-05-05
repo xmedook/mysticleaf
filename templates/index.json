@@ -118,6 +118,10 @@
         "93b081ee-f1c9-4130-8f6f-5ef4300880cb",
         "3546bed4-f32e-471a-a6fe-8844a36a18fd"
       ],
+      "custom_css": [
+        "h2,p{color: #eaf1f4 !important;}",
+        "h3 {font-family: \"Gentium Book Plus\", sans-serif; color: #a8d2f4;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
