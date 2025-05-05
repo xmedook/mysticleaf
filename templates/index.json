@@ -291,7 +291,7 @@
     "image_banner_iMdmee": {
       "type": "image-banner",
       "custom_css": [
-        "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #EAF1F4 !important; }}"
+        "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #eaf1f4 !important; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -409,8 +409,9 @@
       "custom_css": [
         "h2 {color: #144d8c;}",
         ".blog__button {display: none;}",
-        ".card__information {padding: 20px;}",
-        ".card {border-radius: 15px !important;}"
+        ".card__information {padding: 20px; min-height: 200px;}",
+        ".card {border-radius: 15px !important;}",
+        ".card:hover p {color: white !important;}"
       ],
       "settings": {
         "page_full_width": false,
