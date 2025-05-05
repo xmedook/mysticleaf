@@ -317,7 +317,7 @@
       ],
       "custom_css": [
         ".dt-sc-additional-grids {width: 33%;}",
-        "#specification-template--24538967965979__specification_block_JWGKth {background-image: url(\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/fondo_ilira.png?v=1746471713\");}",
+        "#specification-template--24538967965979__specification_block_JWGKth {background-image: url(\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/fondo_ilira.png?v=1746471713\"); background-repeat: no-repeat; background-size: cover;}",
         ".global-media-settings {background-color: transparent;}"
       ],
       "settings": {
