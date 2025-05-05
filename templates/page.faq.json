@@ -11,6 +11,7 @@
   "sections": {
     "6cd6487e-d9a0-4ded-85ba-5068911dc2fd": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -37,14 +38,15 @@
         "f21a5fd2-27d6-4767-80fa-32bff025e7c5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is Marijuana Medicine?",
+            "heading": "¿Cómo garantiza Palantum Health la calidad y pureza de sus productos?",
             "icon": "none",
-            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis.</p>",
+            "row_content": "<p>Cada producto de Palantum Health, incluido ilira Daily Essentials, se produce en instalaciones certificadas por FDA, GMP y Global Standards. Además, realizamos pruebas independientes (third-party testing) para verificar y garantizar la pureza, calidad, transparencia y precisión de cada ingrediente declarado en la etiqueta.</p>",
             "page": ""
           }
         },
         "3a709acf-53d9-4e81-aa55-c7ebbaf39df8": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Are your products legal?",
             "icon": "none",
@@ -54,6 +56,7 @@
         },
         "6403b9c2-0c5b-437d-87d1-d9d16e0d53bd": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I choose the right product for me?",
             "icon": "none",
@@ -114,7 +117,7 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Every Query About Our Product!",
+        "title": "Sobre Palantum Health",
         "heading_size": "h2",
         "sub_heading": "",
         "description": "",
@@ -123,11 +126,10 @@
         "button_style_secondary": false,
         "column_alignment": "center",
         "layout": "none",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "container_color_scheme": "background-1",
         "open_first_collapsible_row": true,
         "enable_address_block": false,
-        "image": "shopify://shop_images/AdobeStock_578508543_1_9f9456a2-88e7-4707-9790-9cb34ebe8497.jpg",
         "image_ratio": "small",
         "address_heading": "",
         "collapsible_address": "",
@@ -344,9 +346,8 @@
         "container_color_scheme": "background-1",
         "open_first_collapsible_row": true,
         "enable_address_block": true,
-        "image": "shopify://shop_images/Myst-contact.jpg",
         "image_ratio": "adapt",
-        "address_heading": "Contact Us At",
+        "address_heading": "Medio de contacto (Titulo)",
         "collapsible_address": "No: 58 A, East Madison Street, Baltimore, MD, USA 4508",
         "collapsible_contact_no": "+000 123 456789",
         "collapsible_contact_id": "example@gmail.com",
@@ -361,10 +362,10 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Still have queries!",
+        "title": "Deja un mensaje",
         "heading_size": "h1",
         "sub_heading": "",
-        "description": "Feel free to write us",
+        "description": "Estamos listos para responder tus dudas",
         "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
