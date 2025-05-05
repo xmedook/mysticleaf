@@ -164,7 +164,7 @@
         "page_full_width": true,
         "page_full_width_spacing": true,
         "enable_sticky_info": false,
-        "enable_product_zoom": "cloud",
+        "enable_product_zoom": "default",
         "gallery_layout": "thumbnail_slider",
         "stacked_column_alignment": "two",
         "thumb_carousel_layout": "thumbnail_slider_left",
@@ -197,8 +197,8 @@
         "heading_3": "Free Shipping",
         "heading_3_text": "Free Shipping World wide",
         "enable_enquiry": false,
-        "padding_top": 0,
-        "padding_bottom": 20,
+        "padding_top": 70,
+        "padding_bottom": 35,
         "display_back_in_stock": false,
         "notify_text": "",
         "notify_error": "",
@@ -322,9 +322,10 @@
         "column_alignment": "center",
         "button_style_secondary": false,
         "enable_image": true,
-        "primary_title": "Title",
-        "primary_sub_title": "Sub title",
-        "primary_description": "Short description",
+        "primary_image": "shopify://shop_images/productoph3.png",
+        "primary_title": "",
+        "primary_sub_title": "",
+        "primary_description": "",
         "primary_button_text": "",
         "primary_button_link": "",
         "primary_text_align": "center",
@@ -338,6 +339,79 @@
         "padding_bottom": 36,
         "custom_class_name": ""
       }
+    },
+    "multicolumn_eUtr4V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cdLDRc": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        },
+        "column_6f8rfj": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        },
+        "column_FNkmp9": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        }
+      },
+      "block_order": [
+        "column_cdLDRc",
+        "column_6f8rfj",
+        "column_FNkmp9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "sub_heading": "Sub Heading",
+        "description": "Use This Text To Share The Information Which You Like!.",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "enable_overlay": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": "",
+        "swiper_enable": false,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "centered_slide": false,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false,
+        "columns_mobile": "1"
+      }
     }
   },
   "order": [
@@ -345,6 +419,7 @@
     "main",
     "product-recommendations",
     "1703051577b27756d3",
-    "specification_block_JWGKth"
+    "specification_block_JWGKth",
+    "multicolumn_eUtr4V"
   ]
 }
