@@ -412,15 +412,16 @@
             "type": "link_list",
             "settings": {
               "heading": "Nosotros",
-              "menu": "",
+              "menu": "footer",
               "alignment": "left",
               "list_style": "vertical"
             }
           },
           "1799d918-6b7b-4ad3-9b55-2ad8975d943b": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
-              "heading": "Quick links",
+              "heading": "Links",
               "menu": "",
               "alignment": "left",
               "list_style": "vertical"
@@ -429,7 +430,7 @@
           "dc1fe050-cc87-40ca-bc4e-bdb5ee8f4ab7": {
             "type": "address",
             "settings": {
-              "address_heading": "Contact info",
+              "address_heading": "Contacto",
               "footer_address": "1222, 13 One arlington Avenue ,USA",
               "footer_contact_no": "+000123456789",
               "footer_contact_id": "example@gmail.com",
