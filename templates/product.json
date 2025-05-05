@@ -315,6 +315,9 @@
         "text_gyLyfg",
         "text_dNH9F9"
       ],
+      "custom_css": [
+        ".dt-sc-additional-grids{width: 33%;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
