@@ -24,6 +24,7 @@
     },
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "custom_css": [
         "h2 {color: #144d8c;}",
         ".blog__button {display: none;}",
@@ -70,10 +71,59 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "featured_blog_Ag9UUP": {
+      "type": "featured-blog",
+      "custom_css": [
+        "h2 {color: #144d8c;}",
+        ".blog__button {display: none;}",
+        ".card__information {padding: 20px; min-height: 200px;}",
+        ".card {border-radius: 15px !important;}",
+        ".card:hover p {color: white !important;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "blog": "diferenciadores",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "accent-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpts": true,
+        "enable_comments": true,
+        "show_view_all": true,
+        "block_banner_style": "grid-style",
+        "overlay_style_height": 400,
+        "overlay_opacity": "0.5",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "custom_class_name": "dt-blog",
+        "swiper_enable": true,
+        "desktop_column": 3,
+        "laptop_column": 2,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false
+      }
     }
   },
   "order": [
     "40206b70-8172-4b18-96ab-2648dc91b5d7",
-    "main"
+    "main",
+    "featured_blog_Ag9UUP"
   ]
 }
