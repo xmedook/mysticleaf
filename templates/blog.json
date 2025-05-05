@@ -24,6 +24,13 @@
     },
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        "h2 {color: #144d8c;}",
+        ".blog__button {display: none;}",
+        ".card__information {padding: 20px; min-height: 200px;}",
+        ".card {border-radius: 15px !important;}",
+        ".card:hover p {color: white !important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
