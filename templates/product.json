@@ -143,7 +143,7 @@
         "custom_liquid_MRjHiE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign button1_text = 'Shop Now' %}\n{% assign button1_url = '/collections/all' %}\n\n{% assign button2_text = 'Learn More' %}\n{% assign button2_url = '/pages/about-us' %}\n\n<div class=\"button-block\" style=\"text-align: center; margin: 20px 0;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;\">\n        {{ button1_text }}\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n        {{ button2_text }}\n    </a>\n</div>"
+            "custom_liquid": "{% assign button1_text = 'Shop Now' %}\n{% assign button1_url = '/collections/all' %}\n\n{% assign button2_text = 'Learn More' %}\n{% assign button2_url = '/pages/about-us' %}\n\n<div class=\"button-block\" style=\"margin: 20px 0; display: flex; flex-direction: column; align-items: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; color: white; padding: 15px; text-decoration: none; border-radius: 5px; width: 150%; margin-bottom: 10px;\">\n        {{ button1_text }}\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #28a745; color: white; padding: 15px; text-decoration: none; border-radius: 5px; width: 150%;\">\n        {{ button2_text }}\n    </a>\n</div>"
           }
         }
       },
