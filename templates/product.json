@@ -59,8 +59,8 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "Nunc vehicula quam semper odio varius tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posue.",
-            "text_style": "body"
+            "text": "",
+            "text_style": "subtitle"
           }
         },
         "ac8dc943-c308-423f-90c3-adea0b3a487e": {
@@ -162,7 +162,7 @@
       ],
       "custom_css": [
         "span.price-item.price-item--regular {color: #144d8c;}",
-        ".product__info-container .product__title h1 {color: #23292D!important;}"
+        ".product__info-container .product__title h1 {color: #23292d !important;}"
       ],
       "settings": {
         "page_full_width": true,
