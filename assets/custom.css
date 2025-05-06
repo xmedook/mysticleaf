@@ -48,6 +48,7 @@
 
   .testimonial-content {
     background: #a8d2f4;
+    border-radius: 15px !important;
   }
 
   .swiper-slide{
