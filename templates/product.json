@@ -160,6 +160,10 @@
         "09c5869c-ee2d-493b-adde-e7ad9062158e",
         "sub_total_kB3BEL"
       ],
+      "custom_css": [
+        "span.price-item.price-item--regular {color: #144d8c;}",
+        ".product__info-container .product__title h1 {color: #23292D!important;}"
+      ],
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": true,
@@ -249,9 +253,8 @@
         "text_c3nQ4R": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
-            "title": "( Inulina de agave )",
-            "desc": "Una fibra prebiótica que nutre tu microbioma intestinal.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -259,9 +262,8 @@
         "text_amLChG": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Creacion_Blue.png",
-            "title": "( L-Teanina )",
-            "desc": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -269,9 +271,8 @@
         "text_9N8UUB": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
-            "title": "( Mononucleótido de Nicotinamida )",
-            "desc": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -279,9 +280,8 @@
         "text_XEpwtb": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
-            "title": "( Metilsulfonilmetano )",
-            "desc": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -289,9 +289,8 @@
         "text_gyLyfg": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
-            "title": "( Malato de Magnesio )",
-            "desc": "El magnesio es esencial para cientos de reacciones enzimáticas.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -299,9 +298,8 @@
         "text_dNH9F9": {
           "type": "text",
           "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
-            "title": "(  L-Glicina )",
-            "desc": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
             "link_text": "View More",
             "link": ""
           }
@@ -315,25 +313,20 @@
         "text_gyLyfg",
         "text_dNH9F9"
       ],
-      "custom_css": [
-        ".dt-sc-additional-grids {width: 33%; gap: 30px;}",
-        "#specification-template--24538967965979__specification_block_JWGKth {background-image: url(\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/fondo_ilira.png?v=1746471713\"); background-repeat: no-repeat; background-size: cover;}",
-        ".global-media-settings {background-color: transparent;}"
-      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "title": "Una fórmula perfectamente diseñada",
         "heading_size": "h1",
         "sub_heading": "",
         "description": "Cada uno de los 21 ingredientes ( vitaminas, minerales, antioxidantes y aminoácidos ) en ilira Daily Essentials fue cuidadosamente seleccionado para apoyar el envejecimiento saludable ofreciendo una cobertura integral.",
-        "button_label": "",
+        "button_label": "Button label",
         "button_link": "",
         "column_alignment": "center",
         "button_style_secondary": false,
         "enable_image": true,
-        "primary_image": "shopify://shop_images/Frame_14_6e9ba838-6937-42aa-aeb9-0eeb227e1426.png",
+        "primary_image": "shopify://shop_images/productoph3.png",
         "primary_title": "",
         "primary_sub_title": "",
         "primary_description": "",
@@ -358,8 +351,19 @@
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
-            "title": "Energía y Metabolismo Celular",
-            "text": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "icon_class": false
+          }
+        },
+        "column_6f8rfj": {
+          "type": "column",
+          "settings": {
+            "block_color_scheme": "background-1",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": "",
             "icon_class": false
@@ -369,19 +373,8 @@
           "type": "column",
           "settings": {
             "block_color_scheme": "background-1",
-            "title": "Claridad Mental y Estado de Ánimo",
-            "text": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>",
-            "link_label": "",
-            "link": "",
-            "icon_class": false
-          }
-        },
-        "column_eHQVNN": {
-          "type": "column",
-          "settings": {
-            "block_color_scheme": "background-1",
-            "title": "Piel, Cabello y Articulaciones Saludables",
-            "text": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>",
+            "title": "column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": "",
             "icon_class": false
@@ -390,25 +383,22 @@
       },
       "block_order": [
         "column_cdLDRc",
-        "column_FNkmp9",
-        "column_eHQVNN"
-      ],
-      "custom_css": [
-        ".section-multicolumn {height: 1200px !important;}"
+        "column_6f8rfj",
+        "column_FNkmp9"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Beneficios e indicaciones de uso",
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "sub_heading": "Una dosis diaria de longevidad",
-        "description": "El futuro de la salud empieza hoy",
-        "button_label": "",
+        "sub_heading": "Sub Heading",
+        "description": "Use This Text To Share The Information Which You Like!.",
+        "button_label": "Button label",
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "enable_overlay": false,
         "padding_top": 36,
         "padding_bottom": 36,
@@ -433,45 +423,36 @@
         "collapsible_row_xz9tcW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿En cuánto tiempo puedo esperar resultados tomando ilira Daily Essentials?",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Aunque la experiencia varía según cada persona, la mayoría de los consumidores comienzan a notar mejoras en energía, claridad mental, mejor sueño, vitalidad y bienestar general después de 4 a 8 semanas de uso diario constante. Los beneficios celulares y antienvejecimiento se optimizan con el uso prolongado.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_QznUgF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Puedo mezclar ilira Daily Essentials con un smoothie o jugo?",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>¡Claro que sí! ilira tiene un excelente sabor natural a camu camu, fresco y refrescante, por lo que es ideal para añadirlo a smoothies, jugos, o simplemente a tu bebida favorita. Además, mezclarlo no altera su efectividad y es una manera práctica y deliciosa de consumirlo diariamente.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_yA9wQ3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Soy diabético, puedo consumir Ilira Daily Essentials?",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>Sí. Ilira está formulado especialmente para ser seguro en personas con diabetes, ya que no contiene azúcar añadida y utiliza endulzantes naturales como Monk Fruit (fruta del monje) y Estevia, los cuales no impactan significativamente en los niveles de glucosa en sangre. Sin embargo, siempre es recomendable consultar con tu médico antes de iniciar cualquier suplemento nuevo.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ijg4rG": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Qué hace diferente a ilira Daily Essentials de otros suplementos anti-envejecimiento en el mercado?",
-            "icon": "check_mark",
-            "row_content": "<p>Ilira se diferencia por su fórmula única con ingredientes científicamente comprobados como NMN, Spermidina, Resveratrol, Quercetina, Fisetina, Aminoácidos, Vitaminas y Minerales, todos en dosis clínicas efectivas. Además, cada ingrediente es validado internamente mediante ensayos clínicos propios, fabricado bajo los más altos estándares internacionales (FDA registered facility, GMP Certified, Global Standards certified) y comprobado mediante pruebas independientes de laboratorios externos, garantizando transparencia absoluta en cada dosis.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_mGY8y4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿ilira Daily Essentials tiene efectos secundarios o interacciones con medicamentos?",
+            "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "<p>ilira está formulado con ingredientes seguros y dosis validadas científicamente. Sin embargo, si actualmente tomas medicamentos, estás embarazada, lactando o tienes alguna condición médica, recomendamos consultar previamente con tu médico antes de empezar cualquier suplemento.</p>",
+            "row_content": "",
             "page": ""
           }
         }
@@ -480,18 +461,17 @@
         "collapsible_row_xz9tcW",
         "collapsible_row_QznUgF",
         "collapsible_row_yA9wQ3",
-        "collapsible_row_ijg4rG",
         "collapsible_row_mGY8y4"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Sobre Ilira Daily Essentials",
+        "title": "Collapsible Content",
         "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
+        "sub_heading": "Sub Heading",
+        "description": "Use This Text To Share The Information Which You Like!.",
+        "button_label": "Button label",
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",

@@ -148,7 +148,7 @@
     "show_secondary_image": true,
     "show_new_tag": true,
     "show_rating": true,
-    "favicon": "shopify://shop_images/PalantumHealth_Icon_Blue.png",
+    "favicon": "shopify://shop_images/title-icon.png",
     "currency_code_enabled": true,
     "cart_type": "drawer",
     "show_vendor": true,
@@ -400,9 +400,8 @@
           "872fb711-49d8-4e35-bc16-d8e2e3131ec4": {
             "type": "text",
             "settings": {
-              "logo": "shopify://shop_images/ph-logo-footer.png",
-              "logo_width": 80,
-              "heading": "",
+              "logo_width": 300,
+              "heading": "Contact Us Anytime !",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
               "alignment": "left",
               "column_width": 21
@@ -411,17 +410,16 @@
           "8c88a831-9d3f-4039-9e74-6f7b20caa8ff": {
             "type": "link_list",
             "settings": {
-              "heading": "Nosotros",
-              "menu": "footer",
+              "heading": "About",
+              "menu": "",
               "alignment": "left",
               "list_style": "vertical"
             }
           },
           "1799d918-6b7b-4ad3-9b55-2ad8975d943b": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
-              "heading": "Links",
+              "heading": "Quick links",
               "menu": "",
               "alignment": "left",
               "list_style": "vertical"
@@ -430,7 +428,7 @@
           "dc1fe050-cc87-40ca-bc4e-bdb5ee8f4ab7": {
             "type": "address",
             "settings": {
-              "address_heading": "Contacto",
+              "address_heading": "Contact info",
               "footer_address": "1222, 13 One arlington Avenue ,USA",
               "footer_contact_no": "+000123456789",
               "footer_contact_id": "example@gmail.com",
@@ -1034,7 +1032,7 @@
       "p {color: #1e1e1e !important;}",
       "h1 {color: var(--gradient-base-background-2) !important;}",
       ".button,.shopify-challenge__button,.customer button {background-color: var(--gradient-base-background-2) !important;}",
-      ".left-img,.right-img,.image-group {display: none !important;}"
+      ".left-img,.right-img,.image-group{display: none !important;}"
     ]
   }
 }
