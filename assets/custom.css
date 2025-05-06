@@ -25,7 +25,9 @@
     font-weight: 500 !important;
   }
 
-
+  blog-slider .card-wrapper{
+    border-radius: 15px !important;
+  }
 
 
 
