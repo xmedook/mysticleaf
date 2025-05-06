@@ -1,3 +1,19 @@
+/*
+*  KOODE 2025
+*  Custom CSS
+*/
+
+/*Home*/
+.support-block-card__image-wrapper img{
+  width: 80px;
+}
+
+/*
+*   FIN - KOODE 2025
+*/
+
+
+
 .bg-color-sandal {
   background-color: #a89166;
   border-color: #a89166;
