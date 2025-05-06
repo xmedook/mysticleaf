@@ -17,7 +17,9 @@
   }
 
 
-
+  .description{
+    text-transform: capitalize;
+  }
 
 
 
