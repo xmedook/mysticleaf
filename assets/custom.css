@@ -60,6 +60,10 @@
         width: 30% !important;
     }
 
+  .specification-block-image img{
+    object-fit: contain !important;
+  }
+
 
 /*
 *   FIN - KOODE 2025
