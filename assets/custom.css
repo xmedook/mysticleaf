@@ -55,11 +55,11 @@
     border-radius: 15px !important;
   }
 
-  @media (max-width: 1540px) {
+ 
     .specification-block .dt-sc-additional-grids {
         width: 30% !important;
     }
-}
+
 
 /*
 *   FIN - KOODE 2025
