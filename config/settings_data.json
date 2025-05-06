@@ -86,10 +86,10 @@
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
-    "text_boxes_border_thickness": 0,
+    "text_boxes_border_thickness": 2,
     "text_boxes_border_opacity": 10,
     "text_boxes_radius": 0,
-    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_opacity": 5,
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,
     "text_boxes_shadow_blur": 5,
@@ -448,7 +448,7 @@
           "footer#Banner-footer {background: #9dc1a6;}",
           ".footer-block.footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-text.left {text-align-last: left;}",
           ".footer-block__details-content.rte.left p {color: #f1f1f1 !important;}",
-          "small.copyright__content p {color: #f1f1f1!important;}"
+          "small.copyright__content p {color: #f1f1f1 !important;}"
         ],
         "settings": {
           "page_full_width": false,
