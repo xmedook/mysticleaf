@@ -400,11 +400,12 @@
           "872fb711-49d8-4e35-bc16-d8e2e3131ec4": {
             "type": "text",
             "settings": {
-              "logo_width": 300,
-              "heading": "Contact Us Anytime !",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
+              "logo": "shopify://shop_images/ph.png",
+              "logo_width": 150,
+              "heading": "",
+              "subtext": "<p>Innovamos la nutrición avanzada y salud celular</p>",
               "alignment": "left",
-              "column_width": 21
+              "column_width": 25
             }
           },
           "8c88a831-9d3f-4039-9e74-6f7b20caa8ff": {
