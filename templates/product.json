@@ -181,7 +181,7 @@
         "gallery_layout": "thumbnail_slider",
         "stacked_column_alignment": "two",
         "thumb_carousel_layout": "thumbnail_slider_left",
-        "media_size": "small",
+        "media_size": "medium",
         "meta_style": "full-width",
         "hide_variants": false,
         "tab_position": "bottom",
