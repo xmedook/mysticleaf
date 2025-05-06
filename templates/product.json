@@ -292,8 +292,9 @@
         "text_XEpwtb": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
+            "title": "( Metilsulfonilmetano )",
+            "desc": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
             "link_text": "View More",
             "link": ""
           }
@@ -301,8 +302,9 @@
         "text_gyLyfg": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Creacion_Blue.png",
+            "title": "( Malato de Magnesio )",
+            "desc": "El magnesio es esencial para cientos de reacciones enzimáticas.",
             "link_text": "View More",
             "link": ""
           }
@@ -310,8 +312,9 @@
         "text_dNH9F9": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
+            "title": "(  L-Glicina )",
+            "desc": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
             "link_text": "View More",
             "link": ""
           }
