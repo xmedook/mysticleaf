@@ -262,8 +262,9 @@
         "text_c3nQ4R": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
+            "title": "( Inulina de agave )",
+            "desc": "Una fibra prebiótica que nutre tu microbioma intestinal.",
             "link_text": "View More",
             "link": ""
           }
