@@ -445,7 +445,10 @@
           "dc1fe050-cc87-40ca-bc4e-bdb5ee8f4ab7"
         ],
         "custom_css": [
-          "footer#Banner-footer {background: #9dc1a6;}"
+          "footer#Banner-footer {background: #9dc1a6;}",
+          ".footer-block.footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-text.left {text-align-last: left;}",
+          ".footer-block__details-content.rte.left p {color: #f1f1f1 !important;}",
+          "small.copyright__content p {color: #f1f1f1!important;}"
         ],
         "settings": {
           "page_full_width": false,
