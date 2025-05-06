@@ -60,7 +60,13 @@
           "type": "text",
           "settings": {
             "text": "",
-            "text_style": "subtitle"
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_nhacbL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.description %}\n  <div class=\"product-description\">\n    <div>{{ product.description | escape }}</div>\n  </div>\n{% else %}\n  <div class=\"product-description\">\n    <h2>Description</h2>\n    <p>No description available for this product.</p>\n  </div>\n{% endif %}"
           }
         },
         "ac8dc943-c308-423f-90c3-adea0b3a487e": {
@@ -106,11 +112,6 @@
             "badge_label": "100% Secured Payment"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -138,6 +139,12 @@
           "type": "sub_total",
           "disabled": true,
           "settings": {}
+        },
+        "custom_liquid_MRjHiE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign button1_text = 'Shop Now' %}\n{% assign button1_url = '/collections/all' %}\n\n{% assign button2_text = 'Learn More' %}\n{% assign button2_url = '/pages/about-us' %}\n\n<div class=\"button-block\" style=\"text-align: center; margin: 20px 0;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;\">\n        {{ button1_text }}\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n        {{ button2_text }}\n    </a>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -147,6 +154,7 @@
         "price",
         "22daea9f-6daf-487e-b422-cba212ae0998",
         "caption",
+        "custom_liquid_nhacbL",
         "ac8dc943-c308-423f-90c3-adea0b3a487e",
         "7fc556c7-f815-4fd8-b219-f78a53af198f",
         "4c6c3629-d7b7-42eb-bd05-e2189e5f2c29",
@@ -154,11 +162,11 @@
         "68863399-17f6-4e5b-8b56-6ef125ef3168",
         "23fc8ca2-22ab-4803-9f12-37a2242738b7",
         "97cd7923-6244-47f8-9e3e-fff6bc433af4",
-        "description",
         "collapsible-row-1",
         "fba18659-f515-470a-ad98-83721b6d8b37",
         "09c5869c-ee2d-493b-adde-e7ad9062158e",
-        "sub_total_kB3BEL"
+        "sub_total_kB3BEL",
+        "custom_liquid_MRjHiE"
       ],
       "custom_css": [
         "span.price-item.price-item--regular {color: #144d8c;}",
