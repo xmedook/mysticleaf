@@ -20,7 +20,7 @@
   .description,
   p,
   h2,
-  button{
+  .button{
     text-transform: capitalize !important;
   }
 
