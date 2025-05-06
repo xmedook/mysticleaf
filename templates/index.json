@@ -19,7 +19,7 @@
             "heading": "La fórmula simplificada de la longevidad",
             "heading_size": "h1",
             "subheading": "",
-            "text": "Sed ut unde omnis iste natus sit volur tatem accus antium laudan tiumtotam rem aperiam eaque ipsa ab illo inventore veritatis et architectobeatae vitae dicta sunt explicabo.",
+            "text": "Innovamos la nutrición avanzada y salud celular",
             "button_label": "Compra ahora",
             "link": "https://sh0rt.bio/ilira-palantum",
             "button_style_secondary": true,
@@ -504,6 +504,7 @@
         },
         "text_yQpNG6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "block_color_scheme": "background-2",
             "author": "Column",
