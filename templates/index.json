@@ -160,6 +160,31 @@
         "custom_class_name": ""
       }
     },
+    "image_banner_iMdmee": {
+      "type": "image-banner",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #eaf1f4 !important; }}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/etiquetaph.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a": {
       "type": "multicolumn",
       "blocks": {
@@ -289,31 +314,6 @@
         "padding_top": 100,
         "padding_bottom": 80,
         "custom_class_name": "nosotros"
-      }
-    },
-    "image_banner_iMdmee": {
-      "type": "image-banner",
-      "custom_css": [
-        "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #eaf1f4 !important; }}"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "image": "shopify://shop_images/etiquetaph.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "custom_class_name": ""
       }
     },
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e": {
@@ -469,7 +469,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"two-column-section\" style=\"display: flex; justify-content: space-between; margin: 20px 0;\">\n    <div class=\"column\" style=\"flex: 1; padding: 20px; border: 1px solid #ccc; border-radius: 5px; margin-right: 10px;\">\n        <h2 style=\"font-size: 24px;\">Título Izquierdo</h2>\n        <p style=\"font-size: 16px; line-height: 1.5;\">Este es un texto de párrafo para la columna izquierda. Aquí puedes incluir más información relevante sobre tu producto o servicio, que será de interés para tus clientes.</p>\n        <a href=\"/collections/all\" class=\"button\" style=\"background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;\">Botón Izquierdo</a>\n    </div>\n\n    <div class=\"column\" style=\"flex: 1; padding: 20px; border: 1px solid #ccc; border-radius: 5px;\">\n        <h2 style=\"font-size: 24px;\">Título Derecho</h2>\n        <p style=\"font-size: 16px; line-height: 1.5;\">Este es un texto de párrafo para la columna derecha. Aquí también puedes incluir información que complemente lo que se presenta en la columna izquierda.</p>\n        <a href=\"/about-us\" class=\"button\" style=\"background-color: #28a745; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;\">Botón Derecho</a>\n    </div>\n</div>",
+        "custom_liquid": "<div class=\"two-column-section\" style=\"display: flex; justify-content: space-between; margin: 20px 0;\">\n    <div class=\"column\" style=\"flex: 1; padding: 20px; border: 1px solid #ccc; border-radius: 5px; margin-right: 10px;\">\n        <h2 style=\"font-size: 24px;\">Mercado Libre</h2>\n        <p style=\"font-size: 16px; line-height: 1.5;\">De venta en:</p>\n        <a href=\"/collections/all\" class=\"button\" style=\"background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;\">Comprar ahora</a>\n    </div>\n\n    <div class=\"column\" style=\"flex: 1; padding: 20px; border: 1px solid #ccc; border-radius: 5px;\">\n        <h2 style=\"font-size: 24px;\">Amazon\nMéxico</h2>\n        <p style=\"font-size: 16px; line-height: 1.5;\">De venta en:</p>\n        <a href=\"/about-us\" class=\"button\" style=\"background-color: #28a745; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;\">Comprar ahora</a>\n    </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
