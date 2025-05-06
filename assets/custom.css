@@ -20,8 +20,9 @@
   .description,
   p,
   h2,
-  .button{
-    text-transform: normal !important;
+  .button,
+  button{
+    text-transform: none !important;
   }
 
   #shopify-section-template--24538968621339__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a h2{
