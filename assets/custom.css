@@ -81,6 +81,12 @@
     }
   }
 
+  @media screen and (min-width: 750px) {
+    .section-template--24538968621339__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a-padding {
+        padding-top: 0px !important;
+    }
+  }
+
 
 /*
 *   FIN - KOODE 2025
