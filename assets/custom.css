@@ -75,7 +75,8 @@
 
   
   @media (min-width: 769px){
-      #shopify-section-template--24538968621339__a2c6b8ef-664c-4cb5-9429-59a162fcc4ae p.description{
+      #shopify-section-template--24538968621339__a2c6b8ef-664c-4cb5-9429-59a162fcc4ae p.description,
+      #shopify-section-template--24538968621339__c3988dc8-ef25-47d6-aa23-fb6ecd7da22a p.description{
       width: 885px !important;
         max-width: 885px !important;
     }
