@@ -362,6 +362,7 @@
         "column_cdLDRc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_10_PM.png",
             "block_color_scheme": "background-1",
             "title": "column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -373,6 +374,7 @@
         "column_DBg7Nm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/yellow_powder_in_glass_of_water.jpg",
             "block_color_scheme": "background-1",
             "title": "column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -384,6 +386,7 @@
         "column_PaBx4D": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_12_PM.png",
             "block_color_scheme": "background-1",
             "title": "column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -395,6 +398,7 @@
         "column_6f8rfj": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
             "block_color_scheme": "background-1",
             "title": "column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -432,9 +436,9 @@
         "laptop_column": 3,
         "tablet_column": 3,
         "mobile_column": 1,
-        "centered_slide": false,
-        "swiper_pagination": false,
-        "swiper_navigation": false,
+        "centered_slide": true,
+        "swiper_pagination": true,
+        "swiper_navigation": true,
         "auto_play": 0,
         "swipe_on_mobile": false,
         "arrow_on_mobile": false,
