@@ -322,7 +322,9 @@
         "text_gyLyfg",
         "text_dNH9F9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.content-align--center h2 {color: #f1f1f1!important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
