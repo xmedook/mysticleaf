@@ -64,6 +64,10 @@
     object-fit: contain !important;
   }
 
+  h5.specification-block-support-heading {
+    font-size: 26px;
+  }
+
 
 /*
 *   FIN - KOODE 2025
