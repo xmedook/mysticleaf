@@ -95,7 +95,7 @@
     }
   },
   "newsletter": {
-    "label": "Your email address",
+    "label": "Tu dirección de correo",
     "success": "Thanks for subscribing",
     "button_label": "Subscribe"
   },
