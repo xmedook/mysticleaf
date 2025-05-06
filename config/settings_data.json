@@ -412,7 +412,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Nosotros",
-              "menu": "",
+              "menu": "footer",
               "alignment": "left",
               "list_style": "vertical"
             }
