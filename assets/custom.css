@@ -25,8 +25,8 @@
     font-weight: 500 !important;
   }
 
-  blog-slider .card .card__inner .card__media {
-    border-radius: 15px 15px 0 0 !important;
+  .card .card__inner .card__media {
+    border-radius: 20px 20px 0 0 !important;
 }
 
 
