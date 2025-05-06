@@ -50,6 +50,10 @@
     background: #a8d2f4;
   }
 
+  .swiper-slide{
+    border-radius: 15px !important;
+  }
+
 /*
 *   FIN - KOODE 2025
 */
