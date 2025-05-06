@@ -68,6 +68,10 @@
     font-size: 22px;
   }
 
+.dt-sc-additional-grids {
+    gap: 40px !important;
+}
+
 
 /*
 *   FIN - KOODE 2025
