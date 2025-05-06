@@ -93,6 +93,11 @@
   }
 
 
+  .two-column-section:first-child{
+    background-color: red !important;
+  } 
+
+
 /*
 *   FIN - KOODE 2025
 */
