@@ -112,7 +112,8 @@
   }
 
   .two-column-section{
-    padding: 0 350px;
+    padding: 0 300px;
+    gap: 50px;
   }
 
 
