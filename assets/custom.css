@@ -93,7 +93,7 @@
   }
 
 
-  .two-column-section:first-child{
+  .two-column-section:first-child(){
     background-color: red !important;
   } 
 
