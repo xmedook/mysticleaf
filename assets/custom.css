@@ -99,11 +99,11 @@
   }
 
   .card-mercado .button{
-    background-color: #FFE600;
+    background-color: #FFE600 !important;
   }
 
   .card-amazon .button{
-    background-color: #FF9900;
+    background-color: #FF9900 !important;
   }
 
 
