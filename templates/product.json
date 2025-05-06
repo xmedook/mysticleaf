@@ -272,8 +272,9 @@
         "text_amLChG": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Creacion_Blue.png",
+            "title": "( L-Teanina )",
+            "desc": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
             "link_text": "View More",
             "link": ""
           }
@@ -281,8 +282,9 @@
         "text_9N8UUB": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "desc": "Lorem ipsum dolor sit amet",
+            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
+            "title": "( Mononucleótido de Nicotinamida )",
+            "desc": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
             "link_text": "View More",
             "link": ""
           }
