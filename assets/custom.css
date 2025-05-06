@@ -98,6 +98,14 @@
     background-color: #A8D2F4 !important;
   }
 
+  .card-mercado .button{
+    background-color: #FFE600;
+  }
+
+  .card-amazon .button{
+    background-color: #FF9900;
+  }
+
 
 /*
 *   FIN - KOODE 2025
