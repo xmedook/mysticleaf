@@ -430,9 +430,9 @@
             "type": "address",
             "settings": {
               "address_heading": "Contacto",
-              "footer_address": "1222, 13 One arlington Avenue ,USA",
-              "footer_contact_no": "+000123456789",
-              "footer_contact_id": "example@gmail.com",
+              "footer_address": "Av. Americas 932, Col. Ayuntamiento, Guadalajara, Jalisco, 44620",
+              "footer_contact_no": "+52 33 1297 4265",
+              "footer_contact_id": "contacto@palantumhealth.com",
               "office_hours": "",
               "alignment": "left"
             }
