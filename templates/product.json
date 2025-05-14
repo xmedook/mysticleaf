@@ -443,15 +443,22 @@
     "tabbed_sections_D4BFCq": {
       "type": "tabbed-sections",
       "blocks": {
-        "tab_1_content_cXQ4iz": {
+        "tab_1_content_63acnP": {
           "type": "tab_1_content",
           "settings": {
-            "section_file": "multicolumn"
+            "section_file": ""
+          }
+        },
+        "tab_2_content_ynARqk": {
+          "type": "tab_2_content",
+          "settings": {
+            "section_file": ""
           }
         }
       },
       "block_order": [
-        "tab_1_content_cXQ4iz"
+        "tab_1_content_63acnP",
+        "tab_2_content_ynARqk"
       ],
       "name": "Tabbed Sections",
       "settings": {
