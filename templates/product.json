@@ -534,6 +534,66 @@
         "padding_bottom": 36,
         "custom_class_name": ""
       }
+    },
+    "comprehensive_benefits_mJ9KcX": {
+      "type": "comprehensive-benefits",
+      "blocks": {
+        "benefit_item_frNeQj": {
+          "type": "benefit_item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_12_PM.png",
+            "front_title": "title",
+            "front_subtitle": "Front Subtitle",
+            "back_title": "Back title",
+            "back_description": "<p>Back description</p>",
+            "cta_text": "CTA",
+            "cta_link": ""
+          }
+        },
+        "benefit_item_MwNpgV": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": "",
+            "cta_text": "",
+            "cta_link": ""
+          }
+        },
+        "benefit_item_fHA9jE": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": "",
+            "cta_text": "",
+            "cta_link": ""
+          }
+        },
+        "benefit_item_HEBpEz": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": "",
+            "cta_text": "",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "benefit_item_frNeQj",
+        "benefit_item_MwNpgV",
+        "benefit_item_fHA9jE",
+        "benefit_item_HEBpEz"
+      ],
+      "name": "Comprehensive Benefits",
+      "settings": {
+        "title": "Comprehensive Benefits"
+      }
     }
   },
   "order": [
@@ -543,6 +603,7 @@
     "1703051577b27756d3",
     "specification_block_JWGKth",
     "multicolumn_eUtr4V",
-    "collapsible_content_fTw7Vy"
+    "collapsible_content_fTw7Vy",
+    "comprehensive_benefits_mJ9KcX"
   ]
 }
