@@ -1,0 +1,166 @@
+{% style %}
+  /* Section specific CSS will go here or in a linked file */
+{% endstyle %}
+
+<link rel="stylesheet" href="{{ 'section-tabbed-sections.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ 'section-tabbed-sections.css' | asset_url }}"></noscript>
+
+{% liquid
+  assign tab_1_title = section.settings.tab_1_title
+  assign tab_2_title = section.settings.tab_2_title
+  assign tab_3_title = section.settings.tab_3_title
+  assign tab_4_title = section.settings.tab_4_title
+%}
+
+<div class="tabbed-sections">
+  <ul class="tab-navigation">
+    {% if tab_1_title != blank %}
+      <li>
+        <button class="tab-link" data-tab="tab-1">{{ tab_1_title }}</button>
+      </li>
+    {% endif %}
+    {% if tab_2_title != blank %}
+      <li>
+        <button class="tab-link" data-tab="tab-2">{{ tab_2_title }}</button>
+      </li>
+    {% endif %}
+    {% if tab_3_title != blank %}
+      <li>
+        <button class="tab-link" data-tab="tab-3">{{ tab_3_title }}</button>
+      </li>
+    {% endif %}
+    {% if tab_4_title != blank %}
+      <li>
+        <button class="tab-link" data-tab="tab-4">{{ tab_4_title }}</button>
+      </li>
+    {% endif %}
+  </ul>
+
+  <div class="tab-content">
+    {% comment %}
+      We will render the content for each tab based on the blocks.
+      Each block represents the content for a specific tab.
+    {% endcomment %}
+    <div class="tab-pane" id="tab-1">
+      {% for block in section.blocks %}
+        {% if block.type == 'tab_1_content' and block.settings.section_file != blank %}
+          {% render block.settings.section_file %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="tab-pane" id="tab-2">
+      {% for block in section.blocks %}
+        {% if block.type == 'tab_2_content' and block.settings.section_file != blank %}
+          {% render block.settings.section_file %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="tab-pane" id="tab-3">
+      {% for block in section.blocks %}
+        {% if block.type == 'tab_3_content' and block.settings.section_file != blank %}
+          {% render block.settings.section_file %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="tab-pane" id="tab-4">
+      {% for block in section.blocks %}
+        {% if block.type == 'tab_4_content' and block.settings.section_file != blank %}
+          {% render block.settings.section_file %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  /* Section specific JS will go here or in a linked file */
+{% endjavascript %}
+
+<script src="{{ 'section-tabbed-sections.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Tabbed Sections",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tab_1_title",
+      "label": "Tab 1 Title",
+      "default": "Tab 1"
+    },
+    {
+      "type": "text",
+      "id": "tab_2_title",
+      "label": "Tab 2 Title",
+      "default": "Tab 2"
+    },
+    {
+      "type": "text",
+      "id": "tab_3_title",
+      "label": "Tab 3 Title",
+      "default": "Tab 3"
+    },
+    {
+      "type": "text",
+      "id": "tab_4_title",
+      "label": "Tab 4 Title",
+      "default": "Tab 4"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab_1_content",
+      "name": "Tab 1 Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_file",
+          "label": "Section snippet name (e.g., comprehensive-benefits)"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "tab_2_content",
+      "name": "Tab 2 Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_file",
+          "label": "Section snippet name (e.g., comprehensive-benefits)"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "tab_3_content",
+      "name": "Tab 3 Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_file",
+          "label": "Section snippet name (e.g., comprehensive-benefits)"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "tab_4_content",
+      "name": "Tab 4 Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_file",
+          "label": "Section snippet name (e.g., comprehensive-benefits)"
+        }
+      ],
+      "limit": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabbed Sections"
+    }
+  ]
+}
+{% endschema %}
