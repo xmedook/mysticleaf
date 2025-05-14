@@ -549,6 +549,9 @@
         "column_PaBx4D",
         "column_6f8rfj"
       ],
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "page_full_width": false,
