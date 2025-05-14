@@ -446,7 +446,7 @@
         "tab_1_content_63acnP": {
           "type": "tab_1_content",
           "settings": {
-            "section_file": ""
+            "section_file": "beneficios-1"
           }
         },
         "tab_2_content_ynARqk": {
@@ -542,7 +542,7 @@
         "enable_overlay": true,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_class_name": "",
+        "custom_class_name": "beneficios-1",
         "swiper_enable": true,
         "desktop_column": 3,
         "laptop_column": 3,
