@@ -125,7 +125,11 @@ ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {
   .card-amazon{
     background-color: #A8D2F4 !important;
     width: 350px !important;
-    gap: 20px;
+  }
+
+  .card-mercado img,
+  .card-amazon img{
+    padding: 20px 0;
   }
 
   .card-mercado .button{
