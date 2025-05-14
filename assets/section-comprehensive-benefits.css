@@ -1,0 +1,148 @@
+.comprehensive-benefits-section {
+  padding: 40px 0; /* Adjust padding as needed */
+  background-color: #f8f0f5; /* Approximate background color from image */
+}
+
+.comprehensive-benefits-section .page-width {
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px; /* Adjust spacing as needed */
+  color: #5a1e35; /* Approximate title color from image */
+  font-size: 36px; /* Adjust font size as needed */
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
+  gap: 20px; /* Adjust gap as needed */
+}
+
+.benefit-item {
+  perspective: 1000px; /* Establish 3D space for flip */
+  width: 100%;
+  height: 0; /* Use padding-bottom for aspect ratio */
+  padding-bottom: 120%; /* Adjust aspect ratio as needed */
+  position: relative;
+  cursor: pointer;
+}
+
+.benefit-item-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 8px; /* Rounded corners from image */
+  overflow: hidden; /* Hide overflowing content during flip */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Basic shadow */
+}
+
+.benefit-item.is-flipped .benefit-item-inner {
+  transform: rotateY(180deg);
+}
+
+.benefit-item-front,
+.benefit-item-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Hide back side during flip */
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+.benefit-item-front {
+  background-color: #fff; /* White background for front */
+  z-index: 2;
+}
+
+.benefit-item-back {
+  background-color: #fff; /* White background for back */
+  transform: rotateY(180deg);
+  color: #333; /* Adjust text color as needed */
+  text-align: center;
+}
+
+.benefit-item-front img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area */
+  border-radius: 8px 8px 0 0; /* Rounded top corners for image */
+  margin-bottom: 15px; /* Space below image */
+}
+
+.benefit-item-front h3 {
+  margin: 0 0 5px 0;
+  color: #5a1e35; /* Approximate title color */
+  font-size: 20px; /* Adjust font size */
+}
+
+.benefit-item-front p {
+  margin: 0;
+  color: #777; /* Approximate subtitle color */
+  font-size: 14px; /* Adjust font size */
+}
+
+.benefit-item-back h3 {
+    margin: 0 0 10px 0;
+    color: #5a1e35; /* Approximate title color */
+    font-size: 20px; /* Adjust font size */
+}
+
+.benefit-item-back div {
+    margin-bottom: 15px;
+    font-size: 14px; /* Adjust font size */
+    line-height: 1.5;
+}
+
+.flip-button,
+.close-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px; /* Adjust icon size */
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px; /* Adjust position */
+  right: 10px; /* Adjust position */
+  color: #5a1e35; /* Approximate icon color */
+  z-index: 3; /* Ensure buttons are clickable */
+}
+
+.close-button {
+  right: 10px; /* Adjust position */
+  top: 10px; /* Adjust position */
+  bottom: auto;
+}
+
+.benefit-item-back .button {
+  margin-top: 10px; /* Space above button */
+  background-color: #5a1e35; /* Approximate button color */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Responsive adjustments using CSS variables */
+@media screen and (min-width: 750px) and (max-width: 1199px) { /* Tablet */
+  .benefits-grid {
+    grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
+  }
+}
+
+@media screen and (max-width: 749px) { /* Mobile */
+  .benefits-grid {
+    grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
+  }
+}

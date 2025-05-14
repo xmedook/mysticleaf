@@ -2,6 +2,29 @@
   Comprehensive Benefits Section
 {% endcomment %}
 
+<link rel="stylesheet" href="{{ 'section-comprehensive-benefits.css' | asset_url }}" media="all">
+<script src="{{ 'section-comprehensive-benefits.js' | asset_url }}" defer="defer"></script>
+
+<style>
+  .benefits-grid {
+    --grid-columns-desktop: {{ section.settings.columns }};
+    --grid-columns-tablet: 2;
+    --grid-columns-mobile: 1;
+  }
+
+  @media screen and (max-width: 749px) {
+    .benefits-grid {
+      --grid-columns-desktop: var(--grid-columns-tablet);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .benefits-grid {
+      --grid-columns-desktop: var(--grid-columns-mobile);
+    }
+  }
+</style>
+
 <div class="comprehensive-benefits-section">
   <div class="page-width">
     {% if section.settings.title != blank %}
@@ -56,6 +79,17 @@
       "id": "title",
       "label": "Section Title",
       "default": "Comprehensive Benefits"
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Number of Columns",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "4", "label": "4" }
+      ],
+      "default": "4"
     }
   ],
   "blocks": [
