@@ -67,14 +67,17 @@
         "column_BGHrrt",
         "column_DUkKpY"
       ],
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
-        "title": "El secreto de la longevidad",
+        "title": "¿Por qué somos diferentes?",
         "heading_size": "h1",
         "sub_heading": "",
-        "description": "Fórmula Longevity 21-en-1 Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento.",
-        "button_label": "Compra ahora",
+        "description": "En Palantum Health no seguimos tendencias. Creamos con evidencia",
+        "button_label": "",
         "button_link": "https://sh0rt.bio/ilira-palantum",
         "button_style_secondary": false,
         "column_alignment": "center",
