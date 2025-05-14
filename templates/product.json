@@ -534,6 +534,58 @@
         "padding_bottom": 36,
         "custom_class_name": ""
       }
+    },
+    "comprehensive_benefits_BQVqig": {
+      "type": "comprehensive-benefits",
+      "blocks": {
+        "benefit_item_cFd7ey": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": ""
+          }
+        },
+        "benefit_item_tXgEkh": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": ""
+          }
+        },
+        "benefit_item_X6qXxb": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": ""
+          }
+        },
+        "benefit_item_i4tGCx": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "benefit_item_cFd7ey",
+        "benefit_item_tXgEkh",
+        "benefit_item_X6qXxb",
+        "benefit_item_i4tGCx"
+      ],
+      "name": "Comprehensive Benefits",
+      "settings": {
+        "title": "Ingredientes Clave",
+        "columns": "4"
+      }
     }
   },
   "order": [
@@ -543,6 +595,7 @@
     "1703051577b27756d3",
     "specification_block_JWGKth",
     "multicolumn_eUtr4V",
-    "collapsible_content_fTw7Vy"
+    "collapsible_content_fTw7Vy",
+    "comprehensive_benefits_BQVqig"
   ]
 }
