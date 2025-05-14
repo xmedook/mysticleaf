@@ -59,9 +59,6 @@
             {% if block.settings.back_description != blank %}
               <div>{{ block.settings.back_description }}</div>
             {% endif %}
-            {% if block.settings.cta_text != blank and block.settings.cta_link != blank %}
-              <a href="{{ block.settings.cta_link }}" class="button">{{ block.settings.cta_text }}</a>
-            {% endif %}
             <button class="close-button">X</button>
           </div>
         </div>
@@ -121,16 +118,6 @@
           "type": "richtext",
           "id": "back_description",
           "label": "Back Description"
-        },
-        {
-          "type": "text",
-          "id": "cta_text",
-          "label": "CTA Button Text"
-        },
-        {
-          "type": "url",
-          "id": "cta_link",
-          "label": "CTA Link"
         }
       ]
     }
