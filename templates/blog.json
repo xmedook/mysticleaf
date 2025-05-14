@@ -22,6 +22,81 @@
         "padding_bottom": 100
       }
     },
+    "multicolumn_cFVf3T": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YLkMLW": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "block_color_scheme": "inverse",
+            "title": "Carefully Picked Over",
+            "text": "<p>Varius sit amet mattis vulputate. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. </p>",
+            "link_label": "",
+            "link": "/",
+            "icon_class": false
+          }
+        },
+        "column_BGHrrt": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "block_color_scheme": "inverse",
+            "title": "Safe For All Skin",
+            "text": "<p>Mauris vitae ultricies leo integer malesuada nunc. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. </p>",
+            "link_label": "",
+            "link": "/",
+            "icon_class": false
+          }
+        },
+        "column_DUkKpY": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "block_color_scheme": "inverse",
+            "title": "Approved By Experts",
+            "text": "<p>Dolor magna eget est lorem ipsum. Aliquet lectus proin nibh nisl condimentum. Dignissim convallis aen.</p>",
+            "link_label": "",
+            "link": "/",
+            "icon_class": false
+          }
+        }
+      },
+      "block_order": [
+        "column_YLkMLW",
+        "column_BGHrrt",
+        "column_DUkKpY"
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "title": "El secreto de la longevidad",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "Fórmula Longevity 21-en-1 Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento.",
+        "button_label": "Compra ahora",
+        "button_link": "https://sh0rt.bio/ilira-palantum",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "enable_overlay": true,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class_name": "",
+        "swiper_enable": true,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "centered_slide": true,
+        "swiper_pagination": false,
+        "swiper_navigation": true,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false,
+        "columns_mobile": "1"
+      }
+    },
     "main": {
       "type": "main-blog",
       "disabled": true,
@@ -123,6 +198,7 @@
   },
   "order": [
     "40206b70-8172-4b18-96ab-2648dc91b5d7",
+    "multicolumn_cFVf3T",
     "main",
     "featured_blog_Ag9UUP"
   ]
