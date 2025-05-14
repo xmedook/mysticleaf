@@ -119,7 +119,8 @@
         "3546bed4-f32e-471a-a6fe-8844a36a18fd"
       ],
       "custom_css": [
-        "h2,p {color: #eaf1f4 !important;}"
+        "h2,p {color: #eaf1f4 !important;}",
+        "h2 {font-weight: 600;}"
       ],
       "settings": {
         "page_full_width": false,
