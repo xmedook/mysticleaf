@@ -279,6 +279,7 @@
       "block_order": [
         "text_QcRaiD"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": false,
@@ -404,6 +405,7 @@
         "text_gyLyfg",
         "text_dNH9F9"
       ],
+      "disabled": true,
       "custom_css": [
         ".title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.content-align--center h2 {color: #f1f1f1 !important;}"
       ],
