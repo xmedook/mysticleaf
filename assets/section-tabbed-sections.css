@@ -1,0 +1,35 @@
+.tabbed-sections .tab-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabbed-sections .tab-navigation li {
+  margin-right: 10px;
+}
+
+.tabbed-sections .tab-link {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.tabbed-sections .tab-link.active {
+  border-bottom-color: #000; /* Or a theme color variable */
+  font-weight: bold;
+}
+
+.tabbed-sections .tab-content .tab-pane {
+  display: none;
+  padding-top: 20px;
+}
+
+.tabbed-sections .tab-content .tab-pane.active {
+  display: block;
+}
