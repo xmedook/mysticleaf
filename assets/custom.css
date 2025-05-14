@@ -155,15 +155,26 @@ ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {
     color: #A8D2F4;
   }
 
-  .custom-text-container .support-title::before{
+  .custom-text-container .support-title::before,
+  .text-blue::before{
     content: "(";
     color: #23292D;
   }
 
-  .custom-text-container .support-title::after{
+  .custom-text-container .support-title::after,
+  .text-blue::after{
       content: ")";
       color: #23292D;
     }
+
+  .text-blue{
+    font-family: Gentium Book Plus !important;
+    font-style: italic;
+    font-size: 16px;
+    color: #A8D2F4;
+  }
+
+
 
 
 /*
