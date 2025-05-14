@@ -440,6 +440,27 @@
         "custom_class_name": ""
       }
     },
+    "tabbed_sections_D4BFCq": {
+      "type": "tabbed-sections",
+      "blocks": {
+        "tab_1_content_cXQ4iz": {
+          "type": "tab_1_content",
+          "settings": {
+            "section_file": "multicolumn"
+          }
+        }
+      },
+      "block_order": [
+        "tab_1_content_cXQ4iz"
+      ],
+      "name": "Tabbed Sections",
+      "settings": {
+        "tab_1_title": "Tab 1",
+        "tab_2_title": "Tab 2",
+        "tab_3_title": "",
+        "tab_4_title": ""
+      }
+    },
     "multicolumn_eUtr4V": {
       "type": "multicolumn",
       "blocks": {
@@ -625,6 +646,15 @@
             "back_description": ""
           }
         },
+        "benefit_item_LUn8Yi": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "",
+            "front_subtitle": "",
+            "back_title": "",
+            "back_description": ""
+          }
+        },
         "benefit_item_tXgEkh": {
           "type": "benefit_item",
           "settings": {
@@ -655,6 +685,7 @@
       },
       "block_order": [
         "benefit_item_cFd7ey",
+        "benefit_item_LUn8Yi",
         "benefit_item_tXgEkh",
         "benefit_item_X6qXxb",
         "benefit_item_i4tGCx"
@@ -675,6 +706,7 @@
     "1703051577b27756d3",
     "specification_block_JWGKth",
     "image_banner_RGWUca",
+    "tabbed_sections_D4BFCq",
     "multicolumn_eUtr4V",
     "collapsible_content_fTw7Vy",
     "comprehensive_benefits_BQVqig"
