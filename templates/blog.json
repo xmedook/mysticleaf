@@ -11,6 +11,10 @@
   "sections": {
     "40206b70-8172-4b18-96ab-2648dc91b5d7": {
       "type": "breadcrumb",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-size: 56px; color: #144d8c; font-weight: 600 !important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
