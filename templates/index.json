@@ -295,7 +295,7 @@
       "custom_css": [
         ".global-media-settings {background-color: transparent;}",
         "h2 {font-weight: 600; color: #144d8c;}",
-        "h6 {color: #23292D;}"
+        "h6 {color: #23292d;}"
       ],
       "settings": {
         "page_full_width": false,
@@ -411,7 +411,7 @@
     "30012ee8-2760-4583-874e-9da8e8518c44": {
       "type": "featured-blog",
       "custom_css": [
-        "h2 {color: #144d8c;}",
+        "h2 {font-weight: 600; color: #144d8c;}",
         ".blog__button {display: none;}",
         ".card__information {padding: 20px; min-height: 200px;}",
         ".card {border-radius: 15px !important;}",
