@@ -293,7 +293,9 @@
         "6fe28161-723f-47a0-b38b-fb18eedf6836"
       ],
       "custom_css": [
-        ".global-media-settings {background-color: transparent;}"
+        ".global-media-settings {background-color: transparent;}",
+        "h2 {font-weight: 600; color: #144d8c;}",
+        "h6 {color: #23292D;}"
       ],
       "settings": {
         "page_full_width": false,
