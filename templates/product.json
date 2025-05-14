@@ -446,13 +446,13 @@
         "tab_1_content_63acnP": {
           "type": "tab_1_content",
           "settings": {
-            "section_file": "multicolumn"
+            "section_file": "section-multicolumn.liquid"
           }
         },
         "tab_2_content_ynARqk": {
           "type": "tab_2_content",
           "settings": {
-            "section_file": "sobre-ilira"
+            "section_file": "section-multicolumn"
           }
         }
       },
