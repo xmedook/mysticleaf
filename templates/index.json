@@ -120,8 +120,7 @@
       ],
       "custom_css": [
         "h2,p {color: #eaf1f4 !important;}",
-        "h3 {font-family: \"Gentium Book Plus\", sans-serif; color: #a8d2f4;}",
-        ".custom-text-container .support-title {font-family: \"Gentium Book Plus\", sans-serif !important;}"
+        "h3 {font-family: \"Gentium Book Plus\", sans-serif; color: #a8d2f4;}"
       ],
       "settings": {
         "page_full_width": false,
