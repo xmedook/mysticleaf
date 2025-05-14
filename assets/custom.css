@@ -3,10 +3,6 @@
 *  Custom CSS
 */
 
-.product__info-wrapper.grid__item {
-    padding-top: 75px;
-}
-
 
 .button, .button-label, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     font-size: 1.8rem;

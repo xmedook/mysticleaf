@@ -1,6 +1,6 @@
 .comprehensive-benefits-section {
   padding: 40px 0; /* Adjust padding as needed */
-  background-color: #f8f0f5; /* Approximate background color from image */
+  background-color: #EAF1F4; /* Approximate background color from image */
 }
 
 .comprehensive-benefits-section .page-width {
@@ -12,7 +12,7 @@
 .section-title {
   text-align: center;
   margin-bottom: 40px; /* Adjust spacing as needed */
-  color: #5a1e35; /* Approximate title color from image */
+  color: #144D8C; /* Approximate title color from image */
   font-size: 36px; /* Adjust font size as needed */
 }
 
@@ -83,7 +83,7 @@
 
 .benefit-item-front h3 {
   margin: 0 0 5px 0;
-  color: #5a1e35; /* Approximate title color */
+  color: #144D8C; /* Approximate title color */
   font-size: 20px; /* Adjust font size */
 }
 
@@ -95,7 +95,7 @@
 
 .benefit-item-back h3 {
     margin: 0 0 10px 0;
-    color: #5a1e35; /* Approximate title color */
+    color: #144D8C; /* Approximate title color */
     font-size: 20px; /* Adjust font size */
 }
 
@@ -114,7 +114,7 @@
   position: absolute;
   bottom: 10px; /* Adjust position */
   right: 10px; /* Adjust position */
-  color: #5a1e35; /* Approximate icon color */
+  color: #144D8C; /* Approximate icon color */
   z-index: 3; /* Ensure buttons are clickable */
 }
 
