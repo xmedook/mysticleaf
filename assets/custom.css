@@ -145,6 +145,27 @@ ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {
   }
 
 
+  /*Seccion banner custom fonts*/
+
+
+  .custom-text-container .support-title {
+    font-family: "Gentium Book Plus";
+    font-style: italic;
+    font-size: 26px;
+    color: #A8D2F4;
+  }
+
+  .custom-text-container .support-title::before{
+    content: "(";
+    color: #23292D;
+  }
+
+  .custom-text-container .support-title::after{
+      content: ")";
+      color: #23292D;
+    }
+
+
 /*
 *   FIN - KOODE 2025
 */
