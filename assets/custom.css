@@ -3,6 +3,27 @@
 *  Custom CSS
 */
 
+
+.button, .button-label, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
+    font-size: 1.8rem;
+}
+
+.dt-sc-rating div[class*="star-rating"]:after {
+    color: #144D8C;
+}
+
+blockquote {
+    color: #144D8C;
+}
+
+.wa-widget-tooltip {
+    background: #144D8C!important;
+}
+
+
+ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {
+    font-weight: 400!important;
+}
 /*Home*/
 
 
