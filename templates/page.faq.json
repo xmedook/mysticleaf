@@ -114,10 +114,13 @@
         "8f17f95c-dc56-4821-9cae-b8461a789f60",
         "23bb1090-1451-431b-a203-db606c095550"
       ],
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "title": "Sobre Palantum Health",
+        "title": "Conoce más acerca de Palantum Health",
         "heading_size": "h2",
         "sub_heading": "",
         "description": "",
