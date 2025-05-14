@@ -611,7 +611,6 @@ display: inline-flex;
         </details>
       </header-drawer>
     {%- endif -%}
-     
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank or section.settings.logo_position == 'middle' and section.settings.show_secondary_menu -%}
      <div class="search-icon">{%  render 'header-search', section: section %}</div>
     {%- endif -%}    
@@ -633,6 +632,7 @@ display: inline-flex;
             <span class="h2">{{ shop.name }}</span>
           {%- endif -%}
         </a>
+        <div><a href="https://sh0rt.bio/ilira-palantum" class="button custom-header-button small-hide">Compra en Línea</a></div>
     {%- if request.page_type == 'index' -%}
       </h1>
     {%- endif -%}
@@ -2133,3 +2133,19 @@ display: inline-flex;
 ]
 }
 {% endschema %}
+<environment_details>
+# VSCode Visible Files
+sections/header.liquid
+
+# VSCode Open Tabs
+sections/header.liquid
+
+# Current Time
+5/5/2025, 9:50:15 a.m. (America/Mexico_City, UTC-6:00)
+
+# Context Window Usage
+291,089 / 1,048.576K tokens used (28%)
+
+# Current Mode
+ACT MODE
+</environment_details>

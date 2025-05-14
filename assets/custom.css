@@ -1132,3 +1132,70 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
   display: grid;
 }
 
+/* Custom Header Button */
+.custom-header-button {
+  background-color: #0000FF; /* Blue background */
+  color: #FFFFFF; /* White text */
+  padding: 8px 15px; /* Adjust padding as needed */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  text-decoration: none;
+  margin-right: 15px; /* Space between button and next element */
+  display: inline-flex; /* Align items nicely */
+  align-items: center;
+  height: fit-content; /* Adjust height based on content */
+}
+
+.custom-header-button:hover {
+  background-color: #0000CC; /* Slightly darker blue on hover */
+  color: #FFFFFF;
+}
+
+/* Ensure visibility on different header layouts */
+.header-row {
+  display: flex; /* Use flexbox for easier alignment */
+  align-items: center;
+}
+
+/* Adjustments for specific logo positions might be needed */
+/* Example for middle-left */
+.header--middle-left .header-row {
+   grid-template-columns: auto 1fr auto 1fr; /* Adjust grid to accommodate button */
+   grid-template-areas: "custom-button heading navigation icons";
+}
+ .header--middle-left .custom-header-button {
+   grid-area: custom-button;
+ }
+
+
+/* Show button on larger screens (adjust breakpoint if needed) */
+@media screen and (min-width: 1280px) { /* Corresponds to section.settings.mobile_screen_width */
+  .custom-header-button.small-hide {
+    display: inline-flex;
+  }
+  /* Hide standard mobile menu toggle if button is present */
+   .header__icon--menu {
+     /* display: none; */ /* Uncomment if you want to hide hamburger on desktop */
+   }
+}
+
+ /* Ensure button is visible on mobile if needed - remove .small-hide class from HTML if always visible */
+ @media screen and (max-width: 1279px) { /* Below mobile_screen_width */
+   .custom-header-button {
+     /* Add styles if you want it visible on mobile */
+     /* Example: display: inline-flex; margin-left: 10px; */
+   }
+   .header-row header-drawer {
+     order: -1; /* Ensure menu drawer icon comes first */
+   }
+    .custom-header-button {
+      order: 0; /* Place button after drawer */
+      margin-left: 10px; /* Add some space */
+    }
+   .header__heading {
+     margin-left: auto; /* Push logo towards center/right */
+   }
+   .header__icons {
+     margin-left: auto; /* Push icons to the right */
+   }
+
+ }
