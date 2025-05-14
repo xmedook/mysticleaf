@@ -3,7 +3,9 @@
 *  Custom CSS
 */
 
-
+.testimonial-content {
+  min-height: 485px !important;
+}
 .product__info-wrapper.grid__item {
     padding-top: 75px;
 }
