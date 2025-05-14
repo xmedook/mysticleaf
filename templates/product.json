@@ -676,9 +676,10 @@
         "benefit_item_cFd7ey": {
           "type": "benefit_item",
           "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
             "front_title": "Inulina de agave",
             "front_subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "back_title": "",
+            "back_title": "Inulina de agave",
             "back_description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>"
           }
         },
