@@ -157,7 +157,7 @@
         "swipe_on_mobile": true,
         "arrow_on_mobile": true,
         "columns_mobile": "1",
-        "custom_class_name": ""
+        "custom_class_name": "custom-text-container"
       }
     },
     "image_banner_iMdmee": {
