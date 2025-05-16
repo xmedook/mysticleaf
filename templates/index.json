@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/mainbg.png",
+            "mobile_image": "shopify://shop_images/productoph3.png",
             "heading": "La fórmula simplificada de la longevidad",
             "heading_size": "h1",
             "subheading": "",
