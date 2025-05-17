@@ -46,61 +46,55 @@
         },
         "3a709acf-53d9-4e81-aa55-c7ebbaf39df8": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "Are your products legal?",
+            "heading": "¿Qué es Palantum Health?",
             "icon": "none",
-            "row_content": "<p>Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. </p>",
+            "row_content": "<p>Palantum Health es una empresa de innovación en salud enfocada en el desarrollo de <strong>suplementos nutracéuticos de alta calidad</strong>, formulados con base en evidencia científica. Nuestra misión es optimizar la salud, la energía celular y el bienestar general a través de soluciones respaldadas por la ciencia.</p>",
             "page": ""
           }
         },
         "6403b9c2-0c5b-437d-87d1-d9d16e0d53bd": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "How do I choose the right product for me?",
+            "heading": "¿Cuál es la visión de Palantum Health?",
             "icon": "none",
-            "row_content": "<p>At enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. </p>",
+            "row_content": "<p>Nuestra visión es transformar el cuidado personal de la salud mediante <strong>productos nutracéuticos avanzados</strong>, diseñados para apoyar el envejecimiento saludable, la longevidad y el equilibrio integral del cuerpo. Buscamos ser una marca referente en ciencia, transparencia y efectividad.</p>",
             "page": ""
           }
         },
         "8c61519e-ebf9-4300-838a-b6c72f4700a1": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "How to redeem my gift card?",
+            "heading": "¿Quién está detrás de Palantum Health?",
             "icon": "none",
-            "row_content": "<p>Blandit fusce id  blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "row_content": "<p>Palantum Health fue fundada por un equipo de <strong>médicos, científicos y expertos en salud</strong>, con formación en biología molecular, investigación clínica y medicina preventiva en instituciones como University of California San Diego y Mount Sinai Medical Center, Miami. Nuestro compromiso es ofrecer productos seguros, funcionales y científicamente validados.</p>",
             "page": ""
           }
         },
         "8fbf2aaa-1f66-4991-a375-4600c4cfd84e": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "What details should I enter when placing an order?",
+            "heading": "¿Qué tipo de productos ofrece Palantum Health?",
             "icon": "none",
-            "row_content": "<p>Maecenas in odo lorem.Maecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. </p>",
+            "row_content": "<p>Ofrecemos <strong>suplementos con formulación premium</strong>, como <em>ilira</em>, que combinan ingredientes activos como NMN, resveratrol, fisetina, spermidina, quercetina, aminoácidos, vitaminas y minerales esenciales. Cada fórmula está diseñada para apoyar funciones celulares clave, promover la vitalidad y mejorar el bienestar general.</p>",
             "page": ""
           }
         },
         "8f17f95c-dc56-4821-9cae-b8461a789f60": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "How do I pay for my purchase?",
+            "heading": "¿Qué hace diferente a Palantum Health de otras marcas de suplementos?",
             "icon": "none",
-            "row_content": "<p>Vestibulum eu maximus turpis. Fusce id blandit blandit finibus eros. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.Maecenas in dictum at commodo lorem.</p>",
+            "row_content": "<p>Lo que nos distingue es nuestro <strong>compromiso con la ciencia y la medicina basada en evidencia</strong>.</p><ul><li><strong>Todas nuestras fórmulas son desarrolladas por nuestro equipo de médicos-científicos</strong>, con formación en biología molecular, investigación clínica y medicina preventiva.</li><li>Seleccionamos únicamente <strong>ingredientes activos respaldados por estudios clínicos</strong>, sin excipientes, rellenos ni aditivos innecesarios.</li><li>Diseñamos productos completos, potentes y transparentes, con <strong>dosis efectivas y combinaciones sinérgicas</strong>.</li><li>Nuestro enfoque no es seguir tendencias, sino ofrecer soluciones que realmente impacten la salud y el bienestar a largo plazo.</li></ul>",
             "page": ""
           }
         },
         "23bb1090-1451-431b-a203-db606c095550": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "What should I do if I received some poor quality products?",
+            "heading": "¿Qué certificaciones tienen los productos de Palantum Health?",
             "icon": "none",
-            "row_content": "<p>Saecenas in dictum at commodo lorem. Fusce id blandit blandit finibus eros. Vestibulum eu maximus turpis. Ut enim mas da id scelerisque eu, volutpat id mi. imus turpis. Ut enim massa, malesuad mi. Maecenas in odo lorem.</p>",
+            "row_content": "<p>Todos nuestros productos son elaborados en instalaciones certificadas con <strong>GMP (Good Manufacturing Practices)</strong>, FDA Registered Facility, y Global Standards. Cada lote se somete a pruebas de calidad, pureza y seguridad para garantizar su efectividad y trazabilidad.</p>",
             "page": ""
           }
         }
