@@ -34,35 +34,43 @@
     <div class="benefits-grid">
       {% for block in section.blocks %}
         <div class="benefit-item">
-          <div class="benefit-item-front">
-            {% if block.settings.image != blank %}
-              <img
-                src="{{ block.settings.image | image_url: width: 400 }}"
-                alt="{{ block.settings.image.alt | escape }}"
-                loading="lazy"
-                width="{{ block.settings.image.width }}"
-                height="{{ block.settings.image.height }}"
-              >
-            {% endif %}
-            {% if block.settings.front_title != blank %}
-              <h3>{{ block.settings.front_title }}</h3>
-            {% endif %}
-            {% if block.settings.front_subtitle != blank %}
-              <p>{{ block.settings.front_subtitle }}</p>
-            {% endif %}
-            <button class="flip-button">+</button>
-          </div>
-          <div class="benefit-item-back">
-            {% if block.settings.back_title != blank %}
-              <h3>{{ block.settings.back_title }}</h3>
-            {% endif %}
-            {% if block.settings.back_description != blank %}
-              <div>{{ block.settings.back_description }}</div>
-            {% endif %}
-            <button class="close-button">X</button>
+          <div class="benefit-item-inner">
+            <div class="benefit-item-front">
+              <div class="benefit-item-upper"> 
+                {% if block.settings.image != blank %}
+                  <img
+                    src="{{ block.settings.image | image_url: width: 400 }}"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.height }}"
+                  >
+                {% endif %}
+              </div>
+              <div class="benefit-item-lower"> 
+                {% if block.settings.front_title != blank %}
+                  <h3>{{ block.settings.front_title }}</h3>
+                {% endif %}
+                {% if block.settings.front_subtitle != blank %}
+                  <p>{{ block.settings.front_subtitle }}</p>
+                {% endif %}
+                <button class="flip-button">+</button> 
+              </div>
+            </div>
+            <div class="benefit-item-back">
+              <div class="benefit-item-lower"> 
+                {% if block.settings.back_title != blank %}
+                  <h3>{{ block.settings.back_title }}</h3>
+                {% endif %}
+                {% if block.settings.back_description != blank %}
+                  <div>{{ block.settings.back_description }}</div>
+                {% endif %}
+                <button class="close-button">X</button> 
+              </div>
+            </div>
           </div>
         </div>
-      {% endfor %}
+{% endfor %}
     </div>
   </div>
 </div>
