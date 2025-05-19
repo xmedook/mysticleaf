@@ -29,48 +29,86 @@
   padding-bottom: 120%; /* Adjust aspect ratio as needed */
   position: relative;
   cursor: pointer;
+  /* Removed display: flex; */
 }
 
 .benefit-item-inner {
   position: absolute;
   width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+  height: 100%; /* Restored height */
+  transition: transform 0.6s; /* Added back transition */
+  transform-style: preserve-3d; /* Added back transform-style */
   border-radius: 8px; /* Rounded corners from image */
   overflow: hidden; /* Hide overflowing content during flip */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Basic shadow */
+  /* Removed height: auto, min-heights, and position: relative */
 }
 
-.benefit-item.is-flipped .benefit-item-inner {
+.benefit-item.is-flipped .benefit-item-inner { /* Flip the inner container */
   transform: rotateY(180deg);
 }
 
 .benefit-item-front,
 .benefit-item-back {
   position: absolute;
+  top: 0; /* Restored position */
+  left: 0; /* Restored position */
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Hide back side during flip */
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* Add back backface-visibility */
+  backface-visibility: hidden; /* Add back backface-visibility */
+  background-color: #fff; /* White background */
+  /* Removed display, flex-direction, and transform-origin */
+}
+
+.benefit-item-upper {
+  /* Styles for the upper image part */
+  width: 100%;
+  height: 200px; /* Force height as requested */
+  overflow: hidden; /* Hide overflowing image */
+}
+
+.benefit-item-upper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Force image size and cover */
+}
+
+.benefit-item-lower {
+  /* Styles for the lower content part */
+  width: 100%;
+  padding: 20px; /* Add padding as requested */
+  box-sizing: border-box; /* Include padding in element's total width and height */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px; /* Adjust padding as needed */
-  box-sizing: border-box;
+  text-align: center;
+  /* Removed flex: 1; */
+}
+
+.benefit-item-lower p {
+  /* Removed line-height */
+}
+
+.benefit-item-back .benefit-item-lower {
+  height: 100%; /* Ensure full height for vertical centering */
 }
 
 .benefit-item-front {
   background-color: #fff; /* White background for front */
   z-index: 2;
+  transform: rotateY(0deg); /* Explicitly set front face rotation */
+  /* Removed opacity, and transition */
 }
 
 .benefit-item-back {
   background-color: #fff; /* White background for back */
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); /* Initial state */
+  /* Removed opacity and transition */
   color: #333; /* Adjust text color as needed */
   text-align: center;
+  z-index: 1; /* Behind front by default */
 }
 
 .benefit-item-front img {
@@ -112,16 +150,19 @@
   font-size: 24px; /* Adjust icon size */
   cursor: pointer;
   position: absolute;
-  bottom: 10px; /* Adjust position */
-  right: 10px; /* Adjust position */
   color: #144D8C; /* Approximate icon color */
   z-index: 3; /* Ensure buttons are clickable */
+}
+
+.flip-button {
+  top: 10px; /* Position in upper right corner */
+  right: 10px; /* Position in upper right corner */
 }
 
 .close-button {
   right: 10px; /* Adjust position */
   top: 10px; /* Adjust position */
-  bottom: auto;
+  /* Removed bottom: auto; as top and right are set */
 }
 
 .benefit-item-back .button {
@@ -139,6 +180,13 @@
   .benefits-grid {
     grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
   }
+}
+
+
+.benefit-item.is-flipped .benefit-item-back { /* Correct backface orientation when flipped */
+  transform: rotateY(0deg) scaleX(-1); /* Added scaleX(-1) */
+  /* Removed opacity */
+  z-index: 3; /* Ensure backface is above the front face (z-index: 2) */
 }
 
 @media screen and (max-width: 749px) { /* Mobile */
