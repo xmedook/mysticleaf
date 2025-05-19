@@ -223,104 +223,6 @@
         "show_quantity_selector": true
       }
     },
-    "comprehensive_benefits_BQVqig": {
-      "type": "comprehensive-benefits",
-      "blocks": {
-        "benefit_item_cFd7ey": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "Inulina de agave",
-            "front_subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "back_title": "Inulina de agave",
-            "back_description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>"
-          }
-        },
-        "benefit_item_LUn8Yi": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "L-Glicina",
-            "front_subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
-            "back_title": "L-Glicina",
-            "back_description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>"
-          }
-        },
-        "benefit_item_tXgEkh": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "Mononucleótido de Nicotinamida (NMN)",
-            "front_subtitle": "NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
-            "back_title": "Mononucleótido de Nicotinamida (NMN):",
-            "back_description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>"
-          }
-        },
-        "benefit_item_X6qXxb": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Metilsulfonilmetano (MSM)",
-            "front_subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo. ",
-            "back_title": "Metilsulfonilmetano (MSM)",
-            "back_description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>"
-          }
-        },
-        "benefit_item_i4tGCx": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Malato de Magnesio",
-            "front_subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
-            "back_title": "Malato de Magnesio",
-            "back_description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>"
-          }
-        },
-        "benefit_item_jTyYUx": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": " L-Teanina",
-            "front_subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés. ",
-            "back_title": " L-Teanina",
-            "back_description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>"
-          }
-        },
-        "benefit_item_WqP7Gg": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Fisetina",
-            "front_subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
-            "back_title": "Fisetina",
-            "back_description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>"
-          }
-        },
-        "benefit_item_XCTny3": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Resveratrol",
-            "front_subtitle": "Polifenol de la longevidad presente en el vino tinto.",
-            "back_title": "Resveratrol",
-            "back_description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_item_cFd7ey",
-        "benefit_item_LUn8Yi",
-        "benefit_item_tXgEkh",
-        "benefit_item_X6qXxb",
-        "benefit_item_i4tGCx",
-        "benefit_item_jTyYUx",
-        "benefit_item_WqP7Gg",
-        "benefit_item_XCTny3"
-      ],
-      "custom_css": [
-        "h2 {color: #144d8c; font-weight: 600 !important;}"
-      ],
-      "name": "Comprehensive Benefits",
-      "settings": {
-        "title": "Ingredientes Clave",
-        "columns": "4"
-      }
-    },
     "custom_liquid_LDwfAk": {
       "type": "custom-liquid",
       "disabled": true,
@@ -429,6 +331,104 @@
       "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "comprehensive_benefits_BQVqig": {
+      "type": "comprehensive-benefits",
+      "blocks": {
+        "benefit_item_cFd7ey": {
+          "type": "benefit_item",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "front_title": "Inulina de agave",
+            "front_subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
+            "back_title": "Inulina de agave",
+            "back_description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>"
+          }
+        },
+        "benefit_item_LUn8Yi": {
+          "type": "benefit_item",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "front_title": "L-Glicina",
+            "front_subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
+            "back_title": "L-Glicina",
+            "back_description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>"
+          }
+        },
+        "benefit_item_tXgEkh": {
+          "type": "benefit_item",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "front_title": "Mononucleótido de Nicotinamida (NMN)",
+            "front_subtitle": "NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
+            "back_title": "Mononucleótido de Nicotinamida (NMN):",
+            "back_description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>"
+          }
+        },
+        "benefit_item_X6qXxb": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "Metilsulfonilmetano (MSM)",
+            "front_subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo. ",
+            "back_title": "Metilsulfonilmetano (MSM)",
+            "back_description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>"
+          }
+        },
+        "benefit_item_i4tGCx": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "Malato de Magnesio",
+            "front_subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
+            "back_title": "Malato de Magnesio",
+            "back_description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>"
+          }
+        },
+        "benefit_item_jTyYUx": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": " L-Teanina",
+            "front_subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés. ",
+            "back_title": " L-Teanina",
+            "back_description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>"
+          }
+        },
+        "benefit_item_WqP7Gg": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "Fisetina",
+            "front_subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
+            "back_title": "Fisetina",
+            "back_description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>"
+          }
+        },
+        "benefit_item_XCTny3": {
+          "type": "benefit_item",
+          "settings": {
+            "front_title": "Resveratrol",
+            "front_subtitle": "Polifenol de la longevidad presente en el vino tinto.",
+            "back_title": "Resveratrol",
+            "back_description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_item_cFd7ey",
+        "benefit_item_LUn8Yi",
+        "benefit_item_tXgEkh",
+        "benefit_item_X6qXxb",
+        "benefit_item_i4tGCx",
+        "benefit_item_jTyYUx",
+        "benefit_item_WqP7Gg",
+        "benefit_item_XCTny3"
+      ],
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
+      "name": "Comprehensive Benefits",
+      "settings": {
+        "title": "Ingredientes Clave",
+        "columns": "4"
       }
     },
     "specification_block_JWGKth": {
@@ -769,12 +769,12 @@
   "order": [
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
-    "comprehensive_benefits_BQVqig",
     "custom_liquid_LDwfAk",
     "custom_liquid_h66Uab",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
+    "comprehensive_benefits_BQVqig",
     "specification_block_JWGKth",
     "custom_liquid_qacQgF",
     "tabbed_sections_D4BFCq",
