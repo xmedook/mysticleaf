@@ -449,6 +449,9 @@
         "benefit_card_8MAkea",
         "benefit_card_hmp7hH"
       ],
+      "custom_css": [
+        ".comprehensive-benefits {padding: 0px 20px !important;}"
+      ],
       "name": "Main Components",
       "settings": {
         "title": "",
