@@ -853,7 +853,9 @@ display: inline-flex;
   </div>
  </div>
   </header>
-</{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
+</{{ header_element }}>
+  {%- comment -%} {% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} {%- endcomment -%}
+
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 {%- endif -%}
