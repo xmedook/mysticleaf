@@ -1039,32 +1039,31 @@
         "custom_class_name": "sobre-ilira"
       }
     },
-    "newsletter_jWNr3C": {
+    "newsletter_gX4Br9": {
       "type": "newsletter",
       "blocks": {
-        "heading_GP7Rjr": {
+        "heading_Ceehqg": {
           "type": "heading",
           "settings": {
             "heading": "Recibe actualizaciones en tu correo",
-            "heading_size": "h2"
+            "heading_size": "h3"
           }
         },
-        "email_form_jLReU9": {
+        "email_form_R7EN8X": {
           "type": "email_form",
           "settings": {}
         }
       },
       "block_order": [
-        "heading_GP7Rjr",
-        "email_form_jLReU9"
+        "heading_Ceehqg",
+        "email_form_R7EN8X"
       ],
       "custom_css": [
         ".newsletter:before {display: none !important;}",
         ".newsletter {background-color: white;}",
         ".field__input {background-color: #eaf1f4;}",
-        "h2 {color: #144d8c; text-align: left; font-size: 30px;}"
+        "h2 {color: #144d8c !important; text-align: left; font-size: 30px; font-family: \"Manrope\" !important;}"
       ],
-      "name": "t:sections.newsletter.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -1092,6 +1091,6 @@
     "tabbed_sections_D4BFCq",
     "multicolumn_eUtr4V",
     "collapsible_content_fTw7Vy",
-    "newsletter_jWNr3C"
+    "newsletter_gX4Br9"
   ]
 }
