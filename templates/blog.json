@@ -187,7 +187,7 @@
         "block_banner_style": "grid-style",
         "overlay_style_height": 400,
         "overlay_opacity": "0.5",
-        "padding_top": 60,
+        "padding_top": 32,
         "padding_bottom": 100,
         "custom_class_name": "dt-blog",
         "swiper_enable": true,
