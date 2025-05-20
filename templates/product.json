@@ -173,7 +173,8 @@
         "span.price-item.price-item--regular {color: #144d8c;}",
         ".product__info-container .product__title h1 {color: #23292d !important;}",
         ".slider-button {width: 25px; height: 25px; display: flex !important;}",
-        "@media screen and (min-width: 750px) {.product--thumbnail .thumbnail-slider {gap: 10px !important; }}"
+        "@media screen and (min-width: 750px) {.product--thumbnail .thumbnail-slider {gap: 10px !important; }}",
+        "@media(max-width: 750px){a.button {width: 100% !important;}}"
       ],
       "settings": {
         "page_full_width": false,
