@@ -268,42 +268,70 @@
     "comprehensive_benefits_2_DC4jCB": {
       "type": "comprehensive-benefits-2",
       "blocks": {
-        "benefit_LmxPnB": {
-          "type": "benefit",
+        "ingredient_7nAUkP": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+          }
+        },
+        "ingredient_8FzCxR": {
+          "type": "ingredient",
           "settings": {
             "title": "Energy",
             "subtitle": "Stay Energized All Day",
-            "description": "<p>Our formula contains B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
           }
         },
-        "benefit_bfttXk": {
-          "type": "benefit",
+        "ingredient_8gyinL": {
+          "type": "ingredient",
           "settings": {
-            "title": "Immunity",
-            "subtitle": "Strengthen Your Defenses",
-            "description": "<p>With vitamins C, D, zinc, and other immune-supporting nutrients, our formula helps maintain a healthy immune system and supports your body's natural defenses.</p>"
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
           }
         },
-        "benefit_fz6PeD": {
-          "type": "benefit",
+        "ingredient_4Vrc6b": {
+          "type": "ingredient",
           "settings": {
-            "title": "Brain Health",
-            "subtitle": "Enhance Mental Clarity",
-            "description": "<p>Our blend includes omega-3 fatty acids, antioxidants, and B vitamins that support cognitive function, memory, and overall brain health.</p>"
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+          }
+        },
+        "ingredient_dnTR4W": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+          }
+        },
+        "ingredient_yfkHbd": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
           }
         }
       },
       "block_order": [
-        "benefit_LmxPnB",
-        "benefit_bfttXk",
-        "benefit_fz6PeD"
+        "ingredient_7nAUkP",
+        "ingredient_8FzCxR",
+        "ingredient_8gyinL",
+        "ingredient_4Vrc6b",
+        "ingredient_dnTR4W",
+        "ingredient_yfkHbd"
       ],
       "name": "Key Ingredients",
       "settings": {
         "title": "Key Ingredients",
-        "flip_trigger": "click",
-        "title_color": "#722F37",
-        "card_background": "#FFFFFF"
+        "show_asterisk": true,
+        "title_color": "#722f37",
+        "card_background": "#ffffff"
       }
     },
     "image_banner_eUQ7db": {
