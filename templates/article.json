@@ -22,7 +22,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_height": "medium"
+            "image_height": "small"
           }
         },
         "content": {
@@ -36,13 +36,14 @@
         "content"
       ],
       "custom_css": [
-        ".dt-sc-blog-navigation {display: none;}"
+        ".dt-sc-blog-navigation {display: none;}",
+        ".row {background-color: #fafafa; padding: 50px 100px; border-radius: 30px;}"
       ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
         "padding_top": 80,
-        "padding_bottom": 80,
+        "padding_bottom": 40,
         "show_articles": false,
         "side_show_excerpts": false,
         "article_title": "Recent posts",
