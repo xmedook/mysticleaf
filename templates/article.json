@@ -37,7 +37,8 @@
       ],
       "custom_css": [
         ".dt-sc-blog-navigation {display: none;}",
-        ".row {background-color: #fafafa; padding: 50px 100px; border-radius: 30px;}"
+        ".row {background-color: #fafafa; padding: 50px 100px; border-radius: 30px;}",
+        "h1 {font-weight: 600; text-align: center !important; color: #144d8c;}"
       ],
       "settings": {
         "page_full_width": false,
@@ -69,7 +70,8 @@
       "type": "featured-blog",
       "custom_css": [
         ".card__information {padding: 35px !important;}",
-        "a.blog__button.button {display: none;}"
+        "a.blog__button.button {display: none;}",
+        "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
