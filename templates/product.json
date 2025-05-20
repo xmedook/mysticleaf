@@ -260,18 +260,72 @@
         "benefit_card_84ix8P": {
           "type": "benefit_card",
           "settings": {
-            "title": "Component",
-            "subtitle": "Component Description",
-            "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
+            "title": "Inulina de agave",
+            "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
+            "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
             "title_color": "#722f37"
           }
         },
         "benefit_card_PertFz": {
           "type": "benefit_card",
           "settings": {
-            "title": "Component",
-            "subtitle": "Component Description",
-            "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
+            "title": "Mononucleótido de Nicotinamida (NMN)",
+            "subtitle": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
+            "description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_j6txRP": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Metilsulfonilmetano (MSM)",
+            "subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
+            "description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_PhyJbx": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Malato de Magnesio",
+            "subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
+            "description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_phEHk4": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "L-Teanina",
+            "subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
+            "description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_4kwixa": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Fisetina",
+            "subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
+            "description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_Bw7WqQ": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Resveratrol",
+            "subtitle": "Polifenol de la longevidad presente en el vino tinto.",
+            "description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_gjtgwJ": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Quercetina",
+            "subtitle": "Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).",
+            "description": "<p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
             "title_color": "#722f37"
           }
         }
@@ -279,7 +333,13 @@
       "block_order": [
         "benefit_card_dKjkTw",
         "benefit_card_84ix8P",
-        "benefit_card_PertFz"
+        "benefit_card_PertFz",
+        "benefit_card_j6txRP",
+        "benefit_card_PhyJbx",
+        "benefit_card_phEHk4",
+        "benefit_card_4kwixa",
+        "benefit_card_Bw7WqQ",
+        "benefit_card_gjtgwJ"
       ],
       "name": "Main Components",
       "settings": {
