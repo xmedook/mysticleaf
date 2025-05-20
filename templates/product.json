@@ -251,7 +251,7 @@
         "benefit_card_dKjkTw": {
           "type": "benefit_card",
           "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "image": "shopify://shop_images/L-Glicina.jpg",
             "title": "L-Glicina",
             "subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
             "description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo.</p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
@@ -261,6 +261,7 @@
         "benefit_card_84ix8P": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Inulina_de_agave.jpg",
             "title": "Inulina de agave",
             "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
             "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. </p><p>Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
@@ -270,6 +271,7 @@
         "benefit_card_PertFz": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Spermidina.jpg",
             "title": "Mononucleótido de Nicotinamida (NMN)",
             "subtitle": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
             "description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
@@ -279,6 +281,7 @@
         "benefit_card_j6txRP": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Metilsulfonilmetano_MSM.jpg",
             "title": "Metilsulfonilmetano (MSM)",
             "subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
             "description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. </p><p>Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>",
@@ -288,6 +291,7 @@
         "benefit_card_PhyJbx": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Malato_de_Magnesio.jpg",
             "title": "Malato de Magnesio",
             "subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
             "description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. </p><p>El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>",
@@ -297,6 +301,7 @@
         "benefit_card_phEHk4": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/L-Teanina2.jpg",
             "title": "L-Teanina",
             "subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
             "description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. </p><p>Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>",
@@ -306,6 +311,7 @@
         "benefit_card_4kwixa": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Fisetina.jpg",
             "title": "Fisetina",
             "subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
             "description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). </p><p>En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
@@ -315,6 +321,7 @@
         "benefit_card_Bw7WqQ": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Resveratrol.jpg",
             "title": "Resveratrol",
             "subtitle": "Polifenol de la longevidad presente en el vino tinto.",
             "description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. </p><p>Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral</p>",
@@ -324,6 +331,7 @@
         "benefit_card_gjtgwJ": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Quercetina.jpg",
             "title": "Quercetina",
             "subtitle": "Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).",
             "description": "<p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. </p><p>Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
@@ -360,7 +368,7 @@
         "benefit_card_NLFamR": {
           "type": "benefit_card",
           "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "image": "shopify://shop_images/Spermidina.jpg",
             "title": "Spermidina",
             "subtitle": "Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.",
             "description": "<p>La spermidina tiene propiedades anti-envejecimiento notables. </p><p>Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
@@ -370,6 +378,7 @@
         "benefit_card_xFLzeT": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Vitamina_C2.jpg",
             "title": "Vitamina C (Ácido ascórbico)",
             "subtitle": "Antioxidante y cofactor del colágeno. Ayuda a fortalecer el sistema inmunológico y puede apoyar en el  envejecimiento de la piel.",
             "description": "<p>La vitamina C neutraliza los radicales libres en todo el cuerpo, protegiendo el ADN y las mitocondrias del daño oxidativo (mantenido así la estabilidad genómica).</p><p>Además, es necesaria para la síntesis de colágeno, lo que mantiene la juventud de la piel, los vasos sanguíneos y las articulaciones. Un nivel adecuado de vitamina C reduce el daño oxidativo inducido por los rayos UV en las células de la piel.</p>",
@@ -379,6 +388,7 @@
         "benefit_card_b86aJB": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Colina.jpg",
             "title": "Colina",
             "subtitle": "Nutriente esencial para la salud cerebral y hepática. Una ingesta adecuada de colina se asocia con optimización y protección cognitiva.",
             "description": "<p>La colina es precursora del neurotransmisor acetilcolina (crucial para la memoria y la cognición) y un componente fundamental de las membranas celulares (fosfatidilcolina). </p><p>La colina también ayuda a metabolizar la homocisteína (junto con B6, B12 y folato) – niveles altos de homocisteína son un factor de riesgo para enfermedades cardíacas y demencia.</p>",
@@ -388,6 +398,7 @@
         "benefit_card_tFae3y": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Acido_Hialuronico.jpg",
             "title": "Ácido Hialurónico",
             "subtitle": "Una molécula natural que retiene la humedad en nuestra piel, articulaciones y tejidos conectivos.",
             "description": "<p>Los niveles de ácido hialurónico disminuyen con la edad, lo que conduce a una piel más seca y rigidez articular. Suplementar con ácido hialurónico ayuda a hidratar la piel (reduciendo arrugas) y a lubricar las articulaciones para mejorar la movilidad. </p><p>Apoya la matriz extracelular, que es parte del entorno celular (importante para la función de las células madre y la reparación tisular).</p>",
@@ -397,6 +408,7 @@
         "benefit_card_4yqtC6": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Vitamina_B6.jpg",
             "title": "Vitamina B6 (Piridoxina)",
             "subtitle": "Una vitamina del grupo B vital para el metabolismo de los aminoácidos, la síntesis de neurotransmisores y la función inmunológica.",
             "description": "<p>La vitamina B6 ayuda a regular los niveles de homocisteína (niveles altos de homocisteína causan envejecimiento vascular y cognitivo). También es necesaria para la producción de citocinas y anticuerpos. </p><p>Un bajo estado de B6 se asocia con mayor inflamación y estrés oxidativo en el cuerpo. Al garantizar una cantidad adecuada de B6, ilira apoya una respuesta inmunitaria equilibrada y la salud cardiovascular.</p>",
@@ -406,6 +418,7 @@
         "benefit_card_zqGwBh": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Selenio.jpg",
             "title": "Ácido Fólico (Vitamina B9)",
             "subtitle": "El folato es esencial para la síntesis y reparación del ADN.",
             "description": "<p>La deficiencia de folato causa roturas cromosómicas acelerando la inestabilidad genómica. </p><p>Al incluir folato, ilira garantiza una replicación adecuada del ADN en las células en división y ayuda a mantener la homocisteína bajo control.</p>",
@@ -415,6 +428,7 @@
         "benefit_card_Eg9YCe": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Vitamina_B1.jpg",
             "title": "Vitamina B1 (Tiamina)",
             "subtitle": "La tiamina es necesaria para la producción de energía mitocondrial.",
             "description": "<p>La deficiencia de tiamina se asocia con enfermedades relacionadas con el envejecimiento, como la neurodegeneración. </p><p>Garantizar niveles óptimos de B1 ayuda a mantener una función mitocondrial robusta y la salud cerebral.</p>",
@@ -424,6 +438,7 @@
         "benefit_card_8MAkea": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Vitamina_K2.jpg",
             "title": "Vitamina K2 (MK-7)",
             "subtitle": "Una forma especializada de vitamina K que apoya la salud ósea y cardiovascular.",
             "description": "<p>La vitamina K2 activa proteínas que dirigen el calcio hacia los huesos (osteocalcina) e inhibe los depósitos de calcio en las arterias. Esto ayuda a prevenir la rigidez arterial. </p><p>Estudios han encontrado que una mayor ingesta de K2 se asocia con un menor riesgo de enfermedad coronaria y mortalidad. </p>",
@@ -433,6 +448,7 @@
         "benefit_card_hmp7hH": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Selenio.jpg",
             "title": "Vitamina B12 (Cianocobalamina)",
             "subtitle": "La vitamina B12 es crucial para la salud del cerebro y los nervios, la síntesis del ADN y la formación de glóbulos rojos.",
             "description": "<p>Al proporcionar B12, ilira apoya una cognición saludable, el estado de ánimo y la metilación del ADN.</p>",
@@ -469,7 +485,7 @@
         "benefit_card_kkVGFk": {
           "type": "benefit_card",
           "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "image": "shopify://shop_images/Vitamina_D3.jpg",
             "title": "Vitamina D3 (Colecalciferol)",
             "subtitle": "La  “vitamina del sol” que actúa como una hormona en el cuerpo.",
             "description": "<p>La vitamina D3 es crítica para la regulación inmunitaria – puede reducir la inflamación crónica y potenciar la inmunidad. También ayuda a mantener la densidad ósea al favorecer la absorción de calcio. </p>",
@@ -479,6 +495,7 @@
         "benefit_card_xMyxVe": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Zinc.jpg",
             "title": "Zinc",
             "subtitle": "El zinc es un mineral involucrado en la reparación del ADN, las defensas antioxidantes y la función inmunológica.",
             "description": "<p>Es esencial para la integridad del ADN, ya que actúa como cofactor para enzimas reparadoras y ayuda a estabilizar la estructura del ADN. </p><p>Una deficiencia leve de zinc aumenta el estrés oxidativo y el daño al ADN, además de perjudicar la función inmunológica. </p>",
@@ -488,6 +505,7 @@
         "benefit_card_mWCfpB": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/Selenio-1.jpg",
             "title": "Selenio",
             "subtitle": "El selenio es un oligoelemento crucial para las enzimas antioxidantes del cuerpo. Estas selenoproteínas ayudan a proteger las células del daño oxidativo y regulan la inflamación.",
             "description": "",
