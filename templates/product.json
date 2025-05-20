@@ -171,7 +171,8 @@
       ],
       "custom_css": [
         "span.price-item.price-item--regular {color: #144d8c;}",
-        ".product__info-container .product__title h1 {color: #23292d !important;}"
+        ".product__info-container .product__title h1 {color: #23292d !important;}",
+        ".slider-button {width: 30px; height: 30px; display: flex !important; }"
       ],
       "settings": {
         "page_full_width": false,
