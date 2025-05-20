@@ -201,12 +201,48 @@
         "swipe_on_mobile": false,
         "arrow_on_mobile": false
       }
+    },
+    "newsletter_ygEUck": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_AfTHmJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recibe actualizaciones en tu correo",
+            "heading_size": "h3"
+          }
+        },
+        "email_form_8QV7RG": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_AfTHmJ",
+        "email_form_8QV7RG"
+      ],
+      "custom_css": [
+        ".newsletter:before {display: none !important;}",
+        ".newsletter {background-color: white;}",
+        ".field__input {background-color: #eaf1f4;}",
+        "h2 {color: #144d8c !important; text-align: left; font-size: 26px; font-family: \"Manrope\" !important; margin-right: 50px;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "inverse",
+        "enable_newletter_bg": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
     }
   },
   "order": [
     "40206b70-8172-4b18-96ab-2648dc91b5d7",
     "multicolumn_cFVf3T",
     "main",
-    "featured_blog_Ag9UUP"
+    "featured_blog_Ag9UUP",
+    "newsletter_ygEUck"
   ]
 }
