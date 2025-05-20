@@ -1,6 +1,314 @@
+{% comment %}
+  Comprehensive Benefits Section with Flip Cards
+  - Displays benefits in a 3-column grid with interactive flip cards
+  - Each card has front (image, title, subtitle) and back (detailed description)
+  - All content is customizable through the Shopify section editor
+  - Responsive design adapts to different screen sizes
+{% endcomment %}
+
+<section class="comprehensive-benefits" id="section-{{ section.id }}">
+  <div class="container">
+    {% if section.settings.title != blank %}
+      <h2 class="section-title">{{ section.settings.title }}</h2>
+    {% endif %}
+    
+    <div class="benefits-grid">
+      {% for block in section.blocks %}
+        <div class="benefit-card-wrapper" {{ block.shopify_attributes }}>
+          <div class="benefit-card">
+            <div class="benefit-card-inner">
+              <div class="benefit-card-front">
+                {% if block.settings.image != blank %}
+                  <div class="benefit-image">
+                    {{ block.settings.image | image_url: width: 300 | image_tag: loading: 'lazy', alt: block.settings.title }}
+                  </div>
+                {% endif %}
+                <div class="benefit-front-content">
+                  {% if block.settings.title != blank %}
+                    <h3 class="benefit-title">{{ block.settings.title }}</h3>
+                  {% endif %}
+                  {% if block.settings.subtitle != blank %}
+                    <p class="benefit-subtitle">{{ block.settings.subtitle }}</p>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="benefit-card-back">
+                <div class="benefit-back-content">
+                  {% if block.settings.title != blank %}
+                    <h3 class="benefit-title">{{ block.settings.title }}</h3>
+                  {% endif %}
+                  {% if block.settings.description != blank %}
+                    <div class="benefit-description">{{ block.settings.description }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Comprehensive Benefits",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Comprehensive Benefits"
+    },
+    {
+      "type": "select",
+      "id": "flip_trigger",
+      "label": "Flip Card Trigger",
+      "options": [
+        {
+          "value": "hover",
+          "label": "Hover"
+        },
+        {
+          "value": "click",
+          "label": "Click"
+        }
+      ],
+      "default": "hover"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#722F37"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card Background Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit Card",
+      "limit": 9,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Person Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Benefit Title",
+          "default": "Energy"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Short Subtitle",
+          "default": "Stay Energized All Day"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Detailed Description",
+          "default": "<p>Our formula contains essential vitamins and minerals that support sustained energy levels throughout the day.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comprehensive Benefits",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Our formula contains B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Immunity",
+            "subtitle": "Strengthen Your Defenses",
+            "description": "<p>With vitamins C, D, zinc, and other immune-supporting nutrients, our formula helps maintain a healthy immune system and supports your body's natural defenses.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Brain Health",
+            "subtitle": "Enhance Mental Clarity",
+            "description": "<p>Our blend includes omega-3 fatty acids, antioxidants, and B vitamins that support cognitive function, memory, and overall brain health.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
+
+<style>
+  #section-{{ section.id }} {
+    padding: 60px 0;
+  }
+  
+  #section-{{ section.id }} .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  #section-{{ section.id }} .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: {{ section.settings.title_color }};
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  #section-{{ section.id }} .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  #section-{{ section.id }} .benefit-card-wrapper {
+    perspective: 1000px;
+  }
+  
+  #section-{{ section.id }} .benefit-card {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  #section-{{ section.id }} .benefit-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  {% if section.settings.flip_trigger == 'hover' %}
+  #section-{{ section.id }} .benefit-card-wrapper:hover .benefit-card-inner {
+    transform: rotateY(180deg);
+  }
+  {% endif %}
+  
+  #section-{{ section.id }} .benefit-card-front,
+  #section-{{ section.id }} .benefit-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: {{ section.settings.card_background }};
+  }
+  
+  #section-{{ section.id }} .benefit-card-back {
+    transform: rotateY(180deg);
+    overflow-y: auto;
+  }
+  
+  #section-{{ section.id }} .benefit-image {
+    width: 100%;
+    max-height: 180px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  #section-{{ section.id }} .benefit-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #section-{{ section.id }} .benefit-title {
+    color: {{ section.settings.title_color }};
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  #section-{{ section.id }} .benefit-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  #section-{{ section.id }} .benefit-description {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  #section-{{ section.id }} .benefit-back-content {
+    max-height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 991px) {
+    #section-{{ section.id }} .benefits-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #section-{{ section.id }} .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    #section-{{ section.id }} .benefit-card {
+      height: 350px;
+    }
+    
+    #section-{{ section.id }} .section-title {
+      font-size: 28px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    {% if section.settings.flip_trigger == 'click' %}
+    const section = document.getElementById('section-{{ section.id }}');
+    const cards = section.querySelectorAll('.benefit-card-wrapper');
+    
+    cards.forEach(card => {
+      card.addEventListener('click', function() {
+        const cardInner = this.querySelector('.benefit-card-inner');
+        if (cardInner.style.transform === 'rotateY(180deg)') {
+          cardInner.style.transform = 'rotateY(0deg)';
+        } else {
+          cardInner.style.transform = 'rotateY(180deg)';
+        }
+      });
+    });
+    {% endif %}
+  });
+</script>
