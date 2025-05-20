@@ -374,6 +374,41 @@
         "padding_top": 56,
         "padding_bottom": 100
       }
+    },
+    "newsletter_A3mGaf": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_8GnFe8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recibe actualizaciones en tu correo",
+            "heading_size": "h3"
+          }
+        },
+        "email_form_eJPRMQ": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_8GnFe8",
+        "email_form_eJPRMQ"
+      ],
+      "custom_css": [
+        ".newsletter:before {display: none !important;}",
+        ".newsletter {background-color: white;}",
+        ".field__input {background-color: #eaf1f4;}",
+        "h2 {color: #144d8c !important; text-align: left; font-size: 26px; font-family: \"Manrope\" !important; margin-right: 50px;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "inverse",
+        "enable_newletter_bg": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
     }
   },
   "order": [
@@ -382,6 +417,7 @@
     "7c3376f1-3f11-4849-b29f-d28c9ec28078",
     "50ae1343-3cc2-48dc-9adb-38b17d4fd9cb",
     "dac594f5-6f42-441b-b718-a5640c6f4896",
-    "25e9d006-146e-44f2-919b-da91295c2fba"
+    "25e9d006-146e-44f2-919b-da91295c2fba",
+    "newsletter_A3mGaf"
   ]
 }
