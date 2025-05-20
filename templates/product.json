@@ -228,7 +228,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "page_full_width": false,
+        "page_full_width": true,
         "page_full_width_spacing": false,
         "title": "",
         "heading_size": "h1",
