@@ -265,6 +265,47 @@
         "padding_bottom": 0
       }
     },
+    "comprehensive_benefits_2_DC4jCB": {
+      "type": "comprehensive-benefits-2",
+      "blocks": {
+        "benefit_LmxPnB": {
+          "type": "benefit",
+          "settings": {
+            "title": "Energy",
+            "subtitle": "Stay Energized All Day",
+            "description": "<p>Our formula contains B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
+          }
+        },
+        "benefit_bfttXk": {
+          "type": "benefit",
+          "settings": {
+            "title": "Immunity",
+            "subtitle": "Strengthen Your Defenses",
+            "description": "<p>With vitamins C, D, zinc, and other immune-supporting nutrients, our formula helps maintain a healthy immune system and supports your body's natural defenses.</p>"
+          }
+        },
+        "benefit_fz6PeD": {
+          "type": "benefit",
+          "settings": {
+            "title": "Brain Health",
+            "subtitle": "Enhance Mental Clarity",
+            "description": "<p>Our blend includes omega-3 fatty acids, antioxidants, and B vitamins that support cognitive function, memory, and overall brain health.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_LmxPnB",
+        "benefit_bfttXk",
+        "benefit_fz6PeD"
+      ],
+      "name": "Key Ingredients",
+      "settings": {
+        "title": "Key Ingredients",
+        "flip_trigger": "click",
+        "title_color": "#722F37",
+        "card_background": "#FFFFFF"
+      }
+    },
     "image_banner_eUQ7db": {
       "type": "image-banner",
       "blocks": {
@@ -772,6 +813,7 @@
     "main",
     "custom_liquid_LDwfAk",
     "custom_liquid_h66Uab",
+    "comprehensive_benefits_2_DC4jCB",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
