@@ -311,7 +311,8 @@
       "custom_css": [
         ".global-media-settings {background-color: transparent;}",
         "h2 {font-weight: 600; color: #144d8c;}",
-        "h6 {color: #23292d;}"
+        "h6 {color: #23292d;}",
+        ".global-media-settings{border: 0px !important;}"
       ],
       "settings": {
         "page_full_width": false,
