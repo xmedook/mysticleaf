@@ -498,6 +498,9 @@
         "benefit_card_xMyxVe",
         "benefit_card_mWCfpB"
       ],
+      "custom_css": [
+        ".comprehensive-benefits {padding: 20px 20px !important;}"
+      ],
       "name": "Main Components",
       "settings": {
         "title": "",
