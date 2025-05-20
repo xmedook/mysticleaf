@@ -350,6 +350,112 @@
         "title_size": 36
       }
     },
+    "main_components_1_Wqexdt": {
+      "type": "main-components-1",
+      "blocks": {
+        "benefit_card_NLFamR": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "title": "Spermidina",
+            "subtitle": "Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.",
+            "description": "<p>La spermidina tiene propiedades anti-envejecimiento notables. </p><p>Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_xFLzeT": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Vitamina C (Ácido ascórbico)",
+            "subtitle": "Antioxidante y cofactor del colágeno. Ayuda a fortalecer el sistema inmunológico y puede apoyar en el  envejecimiento de la piel.",
+            "description": "<p>La vitamina C neutraliza los radicales libres en todo el cuerpo, protegiendo el ADN y las mitocondrias del daño oxidativo (mantenido así la estabilidad genómica).</p><p>Además, es necesaria para la síntesis de colágeno, lo que mantiene la juventud de la piel, los vasos sanguíneos y las articulaciones. Un nivel adecuado de vitamina C reduce el daño oxidativo inducido por los rayos UV en las células de la piel.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_b86aJB": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Colina",
+            "subtitle": "Nutriente esencial para la salud cerebral y hepática. Una ingesta adecuada de colina se asocia con optimización y protección cognitiva.",
+            "description": "<p>La colina es precursora del neurotransmisor acetilcolina (crucial para la memoria y la cognición) y un componente fundamental de las membranas celulares (fosfatidilcolina). La colina también ayuda a metabolizar la homocisteína (junto con B6, B12 y folato) – niveles altos de homocisteína son un factor de riesgo para enfermedades cardíacas y demencia.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_tFae3y": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Ácido Hialurónico",
+            "subtitle": "Una molécula natural que retiene la humedad en nuestra piel, articulaciones y tejidos conectivos.",
+            "description": "<p>Los niveles de ácido hialurónico disminuyen con la edad, lo que conduce a una piel más seca y rigidez articular. Suplementar con ácido hialurónico ayuda a hidratar la piel (reduciendo arrugas) y a lubricar las articulaciones para mejorar la movilidad. Apoya la matriz extracelular, que es parte del entorno celular (importante para la función de las células madre y la reparación tisular).</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_4yqtC6": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Vitamina B6 (Piridoxina)",
+            "subtitle": "Una vitamina del grupo B vital para el metabolismo de los aminoácidos, la síntesis de neurotransmisores y la función inmunológica.",
+            "description": "<p>La vitamina B6 ayuda a regular los niveles de homocisteína (niveles altos de homocisteína causan envejecimiento vascular y cognitivo). También es necesaria para la producción de citocinas y anticuerpos. Un bajo estado de B6 se asocia con mayor inflamación y estrés oxidativo en el cuerpo. Al garantizar una cantidad adecuada de B6, ilira apoya una respuesta inmunitaria equilibrada y la salud cardiovascular.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_zqGwBh": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Ácido Fólico (Vitamina B9)",
+            "subtitle": "El folato es esencial para la síntesis y reparación del ADN.",
+            "description": "<p>La deficiencia de folato causa roturas cromosómicas acelerando la inestabilidad genómica. Al incluir folato, ilira garantiza una replicación adecuada del ADN en las células en división y ayuda a mantener la homocisteína bajo control.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_Eg9YCe": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Vitamina B1 (Tiamina)",
+            "subtitle": "La tiamina es necesaria para la producción de energía mitocondrial.",
+            "description": "<p>La deficiencia de tiamina se asocia con enfermedades relacionadas con el envejecimiento, como la neurodegeneración. Garantizar niveles óptimos de B1 ayuda a mantener una función mitocondrial robusta y la salud cerebral.</p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_8MAkea": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Vitamina K2 (MK-7)",
+            "subtitle": "Una forma especializada de vitamina K que apoya la salud ósea y cardiovascular.",
+            "description": "<p>La vitamina K2 activa proteínas que dirigen el calcio hacia los huesos (osteocalcina) e inhibe los depósitos de calcio en las arterias. Esto ayuda a prevenir la rigidez arterial. Estudios han encontrado que una mayor ingesta de K2 se asocia con un menor riesgo de enfermedad coronaria y mortalidad. </p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_hmp7hH": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Vitamina B12 (Cianocobalamina)",
+            "subtitle": "La vitamina B12 es crucial para la salud del cerebro y los nervios, la síntesis del ADN y la formación de glóbulos rojos.",
+            "description": "<p>Al proporcionar B12, ilira apoya una cognición saludable, el estado de ánimo y la metilación del ADN.</p>",
+            "title_color": "#722f37"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_NLFamR",
+        "benefit_card_xFLzeT",
+        "benefit_card_b86aJB",
+        "benefit_card_tFae3y",
+        "benefit_card_4yqtC6",
+        "benefit_card_zqGwBh",
+        "benefit_card_Eg9YCe",
+        "benefit_card_8MAkea",
+        "benefit_card_hmp7hH"
+      ],
+      "name": "Main Components",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "background_color": "#f9f9f9",
+        "title_color": "#722f37",
+        "title_size": 36
+      }
+    },
     "image_banner_eUQ7db": {
       "type": "image-banner",
       "blocks": {
@@ -864,6 +970,7 @@
     "main",
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
+    "main_components_1_Wqexdt",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
