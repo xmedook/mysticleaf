@@ -351,15 +351,16 @@
         "benefit_card_gjtgwJ"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 30px 20px !important;}"
+        ".comprehensive-benefits {padding: 30px 20px !important;}",
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
       ],
       "name": "Main Components",
       "settings": {
-        "title": "INGREDIENTES CLAVE",
+        "title": "Ingredientes Clave",
         "subtitle": "<p>Una fórmula perfectamente diseñada</p><p>Cada uno de los 21 ingredientes (vitaminas, minerales, antioxidantes y aminoácidos) en ilira Daily Essentials fue cuidadosamente seleccionado para apoyar el envejecimiento saludable ofreciendo una cobertura integral.</p>",
         "background_color": "#eaf1f4",
         "title_color": "#144d8c",
-        "title_size": 36
+        "title_size": 50
       }
     },
     "main_components_1_Wqexdt": {
