@@ -456,6 +456,52 @@
         "title_size": 36
       }
     },
+    "main_components_1_DCyfqB": {
+      "type": "main-components-1",
+      "blocks": {
+        "benefit_card_kkVGFk": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
+            "title": "Vitamina D3 (Colecalciferol)",
+            "subtitle": "La  “vitamina del sol” que actúa como una hormona en el cuerpo.",
+            "description": "<p>La vitamina D3 es crítica para la regulación inmunitaria – puede reducir la inflamación crónica y potenciar la inmunidad. También ayuda a mantener la densidad ósea al favorecer la absorción de calcio. </p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_xMyxVe": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Zinc",
+            "subtitle": "El zinc es un mineral involucrado en la reparación del ADN, las defensas antioxidantes y la función inmunológica.",
+            "description": "<p>Es esencial para la integridad del ADN, ya que actúa como cofactor para enzimas reparadoras y ayuda a estabilizar la estructura del ADN. Una deficiencia leve de zinc aumenta el estrés oxidativo y el daño al ADN, además de perjudicar la función inmunológica. </p>",
+            "title_color": "#722f37"
+          }
+        },
+        "benefit_card_mWCfpB": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Selenio",
+            "subtitle": "El selenio es un oligoelemento crucial para las enzimas antioxidantes del cuerpo. Estas selenoproteínas ayudan a proteger las células del daño oxidativo y regulan la inflamación.",
+            "description": "",
+            "title_color": "#722f37"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_kkVGFk",
+        "benefit_card_xMyxVe",
+        "benefit_card_mWCfpB"
+      ],
+      "name": "Main Components",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "background_color": "#f9f9f9",
+        "title_color": "#722f37",
+        "title_size": 36
+      }
+    },
     "image_banner_eUQ7db": {
       "type": "image-banner",
       "blocks": {
@@ -971,6 +1017,7 @@
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
     "main_components_1_Wqexdt",
+    "main_components_1_DCyfqB",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
