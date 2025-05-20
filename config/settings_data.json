@@ -430,9 +430,9 @@
             "type": "address",
             "settings": {
               "address_heading": "Contacto",
-              "footer_address": "Av. Americas 932, Col. Ayuntamiento,\n<br>Guadalajara, Jalisco, 44620",
-              "footer_contact_no": "+52 33 1297 4265",
-              "footer_contact_id": "contacto@palantumhealth.com",
+              "footer_address": "<h4>Dirección</h4>\nAv. Americas 932, Col. Ayuntamiento,\n<br>Guadalajara, Jalisco, 44620",
+              "footer_contact_no": "<h4>Teléfono</h4>+52 33 1297 4265",
+              "footer_contact_id": "<h4>Correo</h4>contacto@palantumhealth.com",
               "office_hours": "",
               "alignment": "left"
             }
@@ -448,7 +448,8 @@
           "footer#Banner-footer {background: #9dc1a6;}",
           ".footer-block.footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-text.left {text-align-last: left;}",
           ".footer-block__details-content.rte.left p {color: #f1f1f1 !important;}",
-          "small.copyright__content p {color: #f1f1f1 !important;}"
+          "small.copyright__content p {color: #f1f1f1 !important;}",
+          "h5{display: none !important;}"
         ],
         "settings": {
           "page_full_width": false,
