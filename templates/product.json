@@ -224,6 +224,51 @@
         "show_quantity_selector": true
       }
     },
+    "main_components_1_6YGian": {
+      "type": "main-components-1",
+      "blocks": {
+        "benefit_card_dKjkTw": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Component",
+            "subtitle": "Component Description",
+            "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
+            "title_color": "#722F37"
+          }
+        },
+        "benefit_card_84ix8P": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Component",
+            "subtitle": "Component Description",
+            "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
+            "title_color": "#722F37"
+          }
+        },
+        "benefit_card_PertFz": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Component",
+            "subtitle": "Component Description",
+            "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
+            "title_color": "#722F37"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_dKjkTw",
+        "benefit_card_84ix8P",
+        "benefit_card_PertFz"
+      ],
+      "name": "Main Components",
+      "settings": {
+        "title": "Main Components",
+        "subtitle": "<p>Discover the main components our products offer for your wellbeing.</p>",
+        "background_color": "#f9f9f9",
+        "title_color": "#722F37",
+        "title_size": 36
+      }
+    },
     "custom_liquid_LDwfAk": {
       "type": "custom-liquid",
       "disabled": true,
@@ -839,6 +884,7 @@
   "order": [
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
+    "main_components_1_6YGian",
     "custom_liquid_LDwfAk",
     "custom_liquid_h66Uab",
     "comprehensive_benefits_2_DC4jCB",
