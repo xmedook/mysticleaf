@@ -38,7 +38,8 @@
       "custom_css": [
         ".dt-sc-blog-navigation {display: none;}",
         ".row {background-color: #fafafa; padding: 50px 100px; border-radius: 30px;}",
-        "h1 {font-weight: 600; text-align: center !important; color: #144d8c;}"
+        "h1 {font-weight: 600; text-align: center !important; color: #144d8c;}",
+        "@media (min-width: 426px){.article-template__content.rte {column-count: 2; text-align: justify; gap: 60px;}}"
       ],
       "settings": {
         "page_full_width": false,
