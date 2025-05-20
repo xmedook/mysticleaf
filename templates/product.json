@@ -467,7 +467,7 @@
             "title": "Vitamina D3 (Colecalciferol)",
             "subtitle": "La  “vitamina del sol” que actúa como una hormona en el cuerpo.",
             "description": "<p>La vitamina D3 es crítica para la regulación inmunitaria – puede reducir la inflamación crónica y potenciar la inmunidad. También ayuda a mantener la densidad ósea al favorecer la absorción de calcio. </p>",
-            "title_color": "#722f37"
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_xMyxVe": {
@@ -475,8 +475,8 @@
           "settings": {
             "title": "Zinc",
             "subtitle": "El zinc es un mineral involucrado en la reparación del ADN, las defensas antioxidantes y la función inmunológica.",
-            "description": "<p>Es esencial para la integridad del ADN, ya que actúa como cofactor para enzimas reparadoras y ayuda a estabilizar la estructura del ADN. Una deficiencia leve de zinc aumenta el estrés oxidativo y el daño al ADN, además de perjudicar la función inmunológica. </p>",
-            "title_color": "#722f37"
+            "description": "<p>Es esencial para la integridad del ADN, ya que actúa como cofactor para enzimas reparadoras y ayuda a estabilizar la estructura del ADN. </p><p>Una deficiencia leve de zinc aumenta el estrés oxidativo y el daño al ADN, además de perjudicar la función inmunológica. </p>",
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_mWCfpB": {
@@ -485,7 +485,7 @@
             "title": "Selenio",
             "subtitle": "El selenio es un oligoelemento crucial para las enzimas antioxidantes del cuerpo. Estas selenoproteínas ayudan a proteger las células del daño oxidativo y regulan la inflamación.",
             "description": "",
-            "title_color": "#722f37"
+            "title_color": "#144d8c"
           }
         }
       },
