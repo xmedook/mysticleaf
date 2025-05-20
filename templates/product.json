@@ -342,7 +342,9 @@
         "benefit_card_Bw7WqQ",
         "benefit_card_gjtgwJ"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".comprehensive-benefits {padding: 30px 20px !important;}"
+      ],
       "name": "Main Components",
       "settings": {
         "title": "INGREDIENTES CLAVE",
@@ -499,7 +501,7 @@
         "benefit_card_mWCfpB"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 20px 20px !important;}"
+        ".comprehensive-benefits {padding: 30px 20px !important;}"
       ],
       "name": "Main Components",
       "settings": {
