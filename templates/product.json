@@ -230,6 +230,7 @@
         "benefit_card_dKjkTw": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
             "title": "Component",
             "subtitle": "Component Description",
             "description": "<p>This component provides essential functionality for your application. The unique features support your needs and help achieve desired outcomes.</p><p>Regular use can lead to improved results and enhanced performance.</p>",
@@ -262,121 +263,11 @@
       ],
       "name": "Main Components",
       "settings": {
-        "title": "Main Components",
+        "title": "Ingredientes Clave",
         "subtitle": "<p>Discover the main components our products offer for your wellbeing.</p>",
         "background_color": "#f9f9f9",
         "title_color": "#722F37",
         "title_size": 36
-      }
-    },
-    "custom_liquid_LDwfAk": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "title": "",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "custom_liquid": "{%- comment -%}\n  This is a representation of the image as a Liquid-ready HTML/CSS component.\n  The image assets (product bottle, GMP logo, FDA logo) should be uploaded to your\n  Shopify 'Assets' folder, and their names should match those used in the `asset_url` filters below\n  (e.g., 'palanumhealth_bottle.png', 'gmp_certified_logo.png', 'fda_registered_logo.png').\n\n  The complex left curve of the blue background in the original image is approximated\n  with standard CSS border-radius. For an exact replica of that curve,\n  an SVG shape or more advanced CSS techniques like clip-path would be necessary.\n\n  Font: The original image uses a specific sans-serif font. This code uses a common\n  sans-serif stack. For Shopify themes, you might replace this with theme font settings\n  like `{{ settings.type_body_font.family }}`.\n{%- endcomment -%}\n\n<div class=\"ph-section-container\">\n\n  {%- style -%}\n    .ph-section-container {\n      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fallback generic font */\n      /* Example for Shopify theme font integration:\n         font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};\n      */\n      line-height: 1.5;\n      background-color: #fff; /* Assuming a white background for the section */\n    }\n\n    .ph-top-accent-bar {\n      background-color: #A0C8E8; /* Light blue strip from image */\n      height: 30px; /* Approximate height from image */\n    }\n\n    .ph-main-banner-wrapper {\n      padding: 20px 0; /* Provides spacing if the blue banner isn't full-bleed */\n    }\n\n    .ph-main-banner {\n      background-color: #1E4A8B; /* Dark Blue from image */\n      color: white;\n      padding: 35px 40px; /* Top/Bottom, Left/Right */\n      border-top-right-radius: 70px;\n      border-bottom-right-radius: 70px;\n      /* Approximating the left curve with a simpler radius */\n      border-top-left-radius: 25px;\n      border-bottom-left-radius: 25px;\n      width: 95%;\n      max-width: 1100px; /* Max width of the component */\n      margin: 0 auto; /* Center the banner */\n      position: relative;\n      box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* Subtle shadow for depth */\n    }\n\n    .ph-title-section {\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .ph-title-section h1 {\n      font-size: clamp(2.8em, 5vw, 4em); /* Responsive font size */\n      font-weight: 900; /* Extra Bold */\n      margin: 0;\n      line-height: 1;\n      text-transform: uppercase;\n    }\n    .ph-title-section h2 {\n      font-size: clamp(1.8em, 3.5vw, 2.5em); /* Responsive font size */\n      font-weight: 500; /* Medium weight */\n      margin: 8px 0 0 0;\n      color: #BDD4F1; /* Lighter blue for \"EN-1\" */\n      text-transform: uppercase;\n    }\n\n    .ph-product-details-flex {\n      display: flex;\n      align-items: flex-start; /* Align claim text to top, image can self-align center */\n      justify-content: space-between;\n      gap: 30px; /* Gap between columns */\n      margin-bottom: 40px;\n    }\n\n    .ph-claims-column {\n      flex: 1 1 220px; /* Grow, Shrink, Basis */\n      display: flex;\n      flex-direction: column;\n      gap: 30px; /* Space between individual claim blocks */\n    }\n\n    .ph-claim h3 {\n      font-size: clamp(1.2em, 2.5vw, 1.6em);\n      font-weight: 700; /* Bold */\n      margin: 0 0 8px 0;\n    }\n    .ph-claim p {\n      font-size: clamp(0.9em, 2vw, 1.05em);\n      margin: 0;\n      line-height: 1.45;\n      color: #E0EFFF; /* Slightly off-white for better readability on blue */\n    }\n\n    .ph-product-image-container {\n      flex: 1 1 300px; /* Allow image to take space */\n      text-align: center;\n      align-self: center; /* Vertically center image in the flex row */\n      padding: 0 15px; /* Padding around image if columns get very close */\n    }\n    .ph-product-image-container img {\n      max-width: 100%;\n      width: 320px; /* Adjust as needed for product image size */\n      height: auto;\n      transform: rotate(-4deg); /* Slight tilt as in image */\n      filter: drop-shadow(8px 8px 15px rgba(0,0,0,0.25)); /* Shadow for depth */\n    }\n\n    .ph-footer-section {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 30px;\n      gap: 20px;\n      flex-wrap: wrap; /* Allow items to wrap on smaller screens */\n    }\n\n    .ph-logos {\n      display: flex;\n      gap: 20px;\n      align-items: center;\n      flex-wrap: wrap; /* Allow logos to wrap */\n    }\n    .ph-logos img {\n      height: 45px; /* Adjust logo height as needed */\n      width: auto;\n      background-color: white; /* Ensuring logos with transparency have a white bg if needed */\n      padding: 3px;\n      border-radius: 5px; /* Optional: slight rounding for logo background */\n    }\n\n    .ph-content-info {\n      background-color: white;\n      color: #1E4A8B; /* Dark blue text to match banner */\n      padding: 12px 25px;\n      border-radius: 25px; /* Rounded corners */\n      font-weight: bold;\n      font-size: clamp(1em, 2.2vw, 1.25em);\n      white-space: nowrap; /* Keep \"Contenido: 210 g\" on one line */\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n\n    /* Responsive adjustments */\n    @media (max-width: 992px) { /* Tablet landscape and smaller */\n      .ph-main-banner {\n        padding: 30px 30px;\n      }\n      .ph-product-details-flex {\n        gap: 20px; /* Reduce gap */\n      }\n      .ph-claims-column {\n        flex-basis: 180px; /* Allow columns to be a bit narrower */\n      }\n      .ph-product-image-container {\n        flex-basis: 280px; /* Adjust image container basis */\n      }\n       .ph-product-image-container img {\n        width: 280px; /* Reduce image size */\n      }\n    }\n\n    @media (max-width: 768px) { /* Tablet portrait and mobile */\n      .ph-main-banner {\n        width: calc(100% - 20px); /* Nearly full width with small side margins */\n        margin: 0 10px;\n        padding: 25px 20px;\n        border-radius: 30px; /* Simpler, uniform radius for mobile */\n      }\n\n      .ph-product-details-flex {\n        flex-direction: column; /* Stack columns vertically */\n        align-items: center; /* Center items when stacked */\n        gap: 25px;\n      }\n      .ph-claims-column {\n        flex-basis: auto; /* Reset basis for stacked layout */\n        width: 100%;\n        max-width: 400px; /* Max width for claim text blocks */\n        order: 1; /* Text content below image */\n        text-align: center; /* Center claim text on mobile */\n      }\n      .ph-product-image-container {\n        flex-basis: auto; /* Reset basis */\n        width: 75%; /* Control image width in stacked layout */\n        max-width: 280px; /* Max image size */\n        order: 0; /* Image at the top */\n        margin-bottom: 15px; /* Space below image before text */\n      }\n       .ph-product-image-container img {\n         transform: rotate(0deg); /* Straighten image on mobile */\n         width: 100%; /* Image takes width of its container */\n      }\n\n      .ph-footer-section {\n        flex-direction: column; /* Stack footer items */\n        align-items: center; /* Center footer items */\n        gap: 20px;\n      }\n      .ph-logos {\n        order: 1; /* Logos below \"Contenido\" info on mobile */\n        justify-content: center; /* Center logos if they wrap */\n      }\n      .ph-content-info {\n        order: 0; /* \"Contenido\" info at the top of footer on mobile */\n      }\n    }\n  {%- endstyle -%}\n\n  <div class=\"ph-top-accent-bar\"></div>\n  <div class=\"ph-main-banner-wrapper\">\n    <div class=\"ph-main-banner\">\n      <div class=\"ph-title-section\">\n        <h1>21 SUPLEMENTOS</h1>\n        <h2>EN-1</h2>\n      </div>\n\n      <div class=\"ph-product-details-flex\">\n        <div class=\"ph-claims-column ph-claims-left\">\n          <div class=\"ph-claim\">\n            <h3>Sin colorantes</h3>\n            <p>Formulados a través de la investigación científica para garantizar calidad y efectividad</p>\n          </div>\n          <div class=\"ph-claim\">\n            <h3>Sin aditivos</h3>\n            <p>Sin preservantes ni ingredientes innecesarios</p>\n          </div>\n        </div>\n\n        <div class=\"ph-product-image-container\">\n          {%- comment -%}\n            IMPORTANT: Replace 'palanumhealth_bottle.png' with the actual filename\n            of your product image in Shopify Assets.\n          {%- endcomment -%}\n          <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0940/2155/0363/files/ilira_nuevo.png?v=1747244585' | asset_url }}\"\n               alt=\"Palantum Health 21 Suplementos EN-1\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://via.placeholder.com/320x320/FFFFFF/CCCCCC?text=Product+Image+Not+Found';\"\n               >\n        </div>\n\n        <div class=\"ph-claims-column ph-claims-right\">\n          <div class=\"ph-claim\">\n            <h3>Sin azúcar</h3>\n            <p>Nuestro suplemento es completamente libre de azúcares añadidos</p>\n          </div>\n          <div class=\"ph-claim\">\n            <h3>Sin artificiales</h3>\n            <p>Experiencia natural y beneficiosa para tu cuerpo</p>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"ph-footer-section\">\n        <div class=\"ph-logos\">\n          {%- comment -%}\n            IMPORTANT: Replace 'gmp_certified_logo.png' and 'fda_registered_logo.png'\n            with actual filenames of your logo images in Shopify Assets.\n          {%- endcomment -%}\n          <img src=\"{{ 'gmp_certified_logo.png' | asset_url }}\"\n               alt=\"GMP Certified\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://via.placeholder.com/100x50/FFFFFF/CCCCCC?text=GMP';\"\n               >\n          <img src=\"{{ 'fda_registered_logo.png' | asset_url }}\"\n               alt=\"Made in FDA Registered Facility\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://via.placeholder.com/100x50/FFFFFF/CCCCCC?text=FDA';\"\n               >\n        </div>\n        <div class=\"ph-content-info\">\n          Contenido: 210 g\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_h66Uab": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "page_full_width": true,
-        "page_full_width_spacing": false,
-        "title": "",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "custom_liquid": "{%- style -%}\n@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');\n\n\n.ph-section-container {\n      font-family: 'DM Sans', sans-serif; \n      line-height: 1.5;\n      background-color: #fff; \n          background-image: url(https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Fondo_21_estudios.png?v=1747242051);\n    padding: 123px;\n\n    }\n\n    .ph-main-banner-wrapper {\n      padding: 20px 0; \n    }\n\n    .ph-main-banner {\n      background-color: #1E4A8B; \n      color: white !important;\n      padding: 35px 40px; \n      border-radius: 150px 0px 150px 0px;\n      width: 95%;\n      max-width: 1100px; \n      margin: 0 auto; \n      position: relative;\n      box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n    }\n\n    .ph-title-section {\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .ph-title-section h1 {\n      font-size: clamp(2.8em, 5vw, 4em); \n      font-weight: 900; \n      margin: 0;\n      line-height: 1;\n      text-transform: uppercase;\n    color: white !important;\n    }\n    .ph-title-section h2 {\n      font-size: clamp(1.8em, 3.5vw, 2.5em);\n      font-family: \"Gentium Book Plus\";\n      font-weight: 500; \n      margin: 8px 0 0 0;\n      color: #BDD4F1 !important;\n      text-transform: uppercase;\n    }\n\n    .ph-product-details-flex {\n      display: flex;\n      align-items: flex-start; \n      justify-content: space-between;\n      gap: 30px; \n      margin-bottom: 40px;\n    }\n\n    .ph-claims-column {\n      flex: 1 1 220px; \n      display: flex;\n      flex-direction: column;\n      gap: 30px; /* Space between individual claim blocks */\n    }\n\n    .ph-claim h3 {\n      font-size: clamp(1.2em, 2.5vw, 1.6em);\n      font-weight: 700; /* Bold */\n      margin: 0 0 8px 0;\n      color: white !important;\n    }\n    .ph-claim p {\n      color: white !important;\n      font-size: clamp(0.9em, 2vw, 1.05em);\n      margin: 0;\n      line-height: 1.45;\n      color: #E0EFFF; \n    }\n\n    .ph-product-image-container {\n      flex: 1 1 300px; \n      text-align: center;\n      align-self: center; \n      padding: 0 15px; \n    }\n    .ph-product-image-container img {\n      max-width: 100%;\n      width: 320px; \n      height: auto;\n      filter: drop-shadow(8px 8px 15px rgba(0,0,0,0.25)); \n    }\n\n    .ph-footer-section {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 30px;\n      gap: 20px;\n      flex-wrap: wrap; \n    }\n\n    .ph-logos {\n      display: flex;\n      gap: 20px;\n      align-items: center;\n      flex-wrap: wrap; \n    }\n    .ph-logos img {\n      height: 85px; \n      width: auto;\n      \n      padding: 3px;\n      border-radius: 5px;\n    }\n\n    .ph-content-info {\n      background-color: white;\n      color: #1E4A8B; /* Dark blue text to match banner */\n      padding: 12px 25px;\n      border-radius: 25px; /* Rounded corners */\n      font-weight: bold;\n      font-size: clamp(1em, 2.2vw, 1.25em);\n      white-space: nowrap; /* Keep \"Contenido: 210 g\" on one line */\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n\n    /* Responsive adjustments */\n    @media (max-width: 992px) { /* Tablet landscape and smaller */\n      .ph-main-banner {\n        padding: 30px 30px;\n      }\n      .ph-product-details-flex {\n        gap: 20px; /* Reduce gap */\n      }\n      .ph-claims-column {\n        flex-basis: 180px; /* Allow columns to be a bit narrower */\n      }\n      .ph-product-image-container {\n        flex-basis: 280px; /* Adjust image container basis */\n      }\n       .ph-product-image-container img {\n        width: 280px; /* Reduce image size */\n      }\n    }\n\n    @media (max-width: 768px) { /* Tablet portrait and mobile */\n      .ph-main-banner {\n        width: calc(100% - 20px); /* Nearly full width with small side margins */\n        margin: 0 10px;\n        padding: 25px 20px;\n        border-radius: 30px; /* Simpler, uniform radius for mobile */\n      }\n\n      .ph-product-details-flex {\n        flex-direction: column; /* Stack columns vertically */\n        align-items: center; /* Center items when stacked */\n        gap: 25px;\n      }\n      .ph-claims-column {\n        flex-basis: auto; /* Reset basis for stacked layout */\n        width: 100%;\n        max-width: 400px; /* Max width for claim text blocks */\n        order: 1; /* Text content below image */\n        text-align: center; /* Center claim text on mobile */\n      }\n      .ph-product-image-container {\n        flex-basis: auto; /* Reset basis */\n        width: 75%; /* Control image width in stacked layout */\n        max-width: 280px; /* Max image size */\n        order: 0; /* Image at the top */\n        margin-bottom: 15px; /* Space below image before text */\n      }\n       .ph-product-image-container img {\n         transform: rotate(0deg); /* Straighten image on mobile */\n         width: 100%; /* Image takes width of its container */\n      }\n\n      .ph-footer-section {\n        flex-direction: column; /* Stack footer items */\n        align-items: center; /* Center footer items */\n        gap: 20px;\n      }\n      .ph-logos {\n        order: 1; /* Logos below \"Contenido\" info on mobile */\n        justify-content: center; /* Center logos if they wrap */\n      }\n      .ph-content-info {\n        order: 0; /* \"Contenido\" info at the top of footer on mobile */\n         }\n {%- endstyle -%}\n\n<div class=\"ph-section-container\">\n\n\n \n  <div class=\"ph-main-banner-wrapper\">\n    <div class=\"ph-main-banner\">\n      <div class=\"ph-title-section\">\n        <h1>21 SUPLEMENTOS</h1>\n        <h2>EN-1</h2>\n      </div>\n\n      <div class=\"ph-product-details-flex\">\n        <div class=\"ph-claims-column ph-claims-left\">\n          <div class=\"ph-claim\">\n            <h3>Sin colorantes</h3>\n            <p>Formulados a través de la investigación científica para garantizar calidad y efectividad</p>\n          </div>\n          <div class=\"ph-claim\">\n            <h3>Sin aditivos</h3>\n            <p>Sin preservantes ni ingredientes innecesarios</p>\n          </div>\n        </div>\n\n        <div class=\"ph-product-image-container\">\n         \n          <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0940/2155/0363/files/ilira_nuevo.png?v=1747244585' | asset_url }}\"\n               alt=\"Palantum Health 21 Suplementos EN-1\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://cdn.shopify.com/s/files/1/0940/2155/0363/files/ilira_nuevo.png?v=1747244585';\"\n               >\n        </div>\n\n        <div class=\"ph-claims-column ph-claims-right\">\n          <div class=\"ph-claim\">\n            <h3>Sin azúcar</h3>\n            <p>Nuestro suplemento es completamente libre de azúcares añadidos</p>\n          </div>\n          <div class=\"ph-claim\">\n            <h3>Sin artificiales</h3>\n            <p>Experiencia natural y beneficiosa para tu cuerpo</p>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"ph-footer-section\">\n        <div class=\"ph-logos\">\n          \n          <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0940/2155/0363/files/GMP_optimizada.png?v=1747697602' | asset_url }}\"\n               alt=\"GMP Certified\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://cdn.shopify.com/s/files/1/0940/2155/0363/files/GMP_optimizada.png?v=1747697602';\"\n               >\n          <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0940/2155/0363/files/FDA_optimizada.png?v=1747697602' | asset_url }}\"\n               alt=\"Made in FDA Registered Facility\"\n               loading=\"lazy\"\n               onerror=\"this.onerror=null; this.src='https://cdn.shopify.com/s/files/1/0940/2155/0363/files/FDA_optimizada.png?v=1747697602';\"\n               >\n        </div>\n        <div class=\"ph-content-info\">\n          Contenido: 210 g\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "comprehensive_benefits_2_DC4jCB": {
-      "type": "comprehensive-benefits-2",
-      "blocks": {
-        "ingredient_7nAUkP": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        },
-        "ingredient_8FzCxR": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        },
-        "ingredient_8gyinL": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        },
-        "ingredient_4Vrc6b": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        },
-        "ingredient_dnTR4W": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        },
-        "ingredient_yfkHbd": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Energy",
-            "subtitle": "Stay Energized All Day",
-            "description": "<p>Boost energy levels with our proprietary blend of B vitamins, iron, and other essential nutrients that support cellular energy production and help maintain vitality throughout the day.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "ingredient_7nAUkP",
-        "ingredient_8FzCxR",
-        "ingredient_8gyinL",
-        "ingredient_4Vrc6b",
-        "ingredient_dnTR4W",
-        "ingredient_yfkHbd"
-      ],
-      "name": "Key Ingredients",
-      "settings": {
-        "title": "Key Ingredients",
-        "show_asterisk": true,
-        "title_color": "#722f37",
-        "card_background": "#ffffff"
       }
     },
     "image_banner_eUQ7db": {
@@ -446,104 +337,6 @@
       "disabled": true,
       "settings": {
         "include_margins": true
-      }
-    },
-    "comprehensive_benefits_BQVqig": {
-      "type": "comprehensive-benefits",
-      "blocks": {
-        "benefit_item_cFd7ey": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "Inulina de agave",
-            "front_subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "back_title": "Inulina de agave",
-            "back_description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>"
-          }
-        },
-        "benefit_item_LUn8Yi": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "L-Glicina",
-            "front_subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
-            "back_title": "L-Glicina",
-            "back_description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>"
-          }
-        },
-        "benefit_item_tXgEkh": {
-          "type": "benefit_item",
-          "settings": {
-            "image": "shopify://shop_images/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png",
-            "front_title": "Mononucleótido de Nicotinamida (NMN)",
-            "front_subtitle": "NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
-            "back_title": "Mononucleótido de Nicotinamida (NMN):",
-            "back_description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>"
-          }
-        },
-        "benefit_item_X6qXxb": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Metilsulfonilmetano (MSM)",
-            "front_subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo. ",
-            "back_title": "Metilsulfonilmetano (MSM)",
-            "back_description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>"
-          }
-        },
-        "benefit_item_i4tGCx": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Malato de Magnesio",
-            "front_subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
-            "back_title": "Malato de Magnesio",
-            "back_description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>"
-          }
-        },
-        "benefit_item_jTyYUx": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": " L-Teanina",
-            "front_subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés. ",
-            "back_title": " L-Teanina",
-            "back_description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>"
-          }
-        },
-        "benefit_item_WqP7Gg": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Fisetina",
-            "front_subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
-            "back_title": "Fisetina",
-            "back_description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>"
-          }
-        },
-        "benefit_item_XCTny3": {
-          "type": "benefit_item",
-          "settings": {
-            "front_title": "Resveratrol",
-            "front_subtitle": "Polifenol de la longevidad presente en el vino tinto.",
-            "back_title": "Resveratrol",
-            "back_description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_item_cFd7ey",
-        "benefit_item_LUn8Yi",
-        "benefit_item_tXgEkh",
-        "benefit_item_X6qXxb",
-        "benefit_item_i4tGCx",
-        "benefit_item_jTyYUx",
-        "benefit_item_WqP7Gg",
-        "benefit_item_XCTny3"
-      ],
-      "custom_css": [
-        "h2 {color: #144d8c; font-weight: 600 !important;}"
-      ],
-      "name": "Comprehensive Benefits",
-      "settings": {
-        "title": "Ingredientes Clave",
-        "columns": "4"
       }
     },
     "specification_block_JWGKth": {
@@ -885,13 +678,9 @@
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
     "main_components_1_6YGian",
-    "custom_liquid_LDwfAk",
-    "custom_liquid_h66Uab",
-    "comprehensive_benefits_2_DC4jCB",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
-    "comprehensive_benefits_BQVqig",
     "specification_block_JWGKth",
     "custom_liquid_qacQgF",
     "tabbed_sections_D4BFCq",
