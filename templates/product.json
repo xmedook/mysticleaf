@@ -1062,7 +1062,7 @@
         ".newsletter:before {display: none !important;}",
         ".newsletter {background-color: white;}",
         ".field__input {background-color: #eaf1f4;}",
-        "h2 {color: #144d8c !important; text-align: left; font-size: 30px; font-family: \"Manrope\" !important;}"
+        "h2 {color: #144d8c !important; text-align: left; font-size: 26px; font-family: \"Manrope\" !important; margin-right: 50px;}"
       ],
       "settings": {
         "page_full_width": false,
