@@ -396,8 +396,8 @@
           "settings": {
             "title": "Vitamina B6 (Piridoxina)",
             "subtitle": "Una vitamina del grupo B vital para el metabolismo de los aminoácidos, la síntesis de neurotransmisores y la función inmunológica.",
-            "description": "<p>La vitamina B6 ayuda a regular los niveles de homocisteína (niveles altos de homocisteína causan envejecimiento vascular y cognitivo). También es necesaria para la producción de citocinas y anticuerpos. Un bajo estado de B6 se asocia con mayor inflamación y estrés oxidativo en el cuerpo. Al garantizar una cantidad adecuada de B6, ilira apoya una respuesta inmunitaria equilibrada y la salud cardiovascular.</p>",
-            "title_color": "#722f37"
+            "description": "<p>La vitamina B6 ayuda a regular los niveles de homocisteína (niveles altos de homocisteína causan envejecimiento vascular y cognitivo). También es necesaria para la producción de citocinas y anticuerpos. </p><p>Un bajo estado de B6 se asocia con mayor inflamación y estrés oxidativo en el cuerpo. Al garantizar una cantidad adecuada de B6, ilira apoya una respuesta inmunitaria equilibrada y la salud cardiovascular.</p>",
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_zqGwBh": {
@@ -405,8 +405,8 @@
           "settings": {
             "title": "Ácido Fólico (Vitamina B9)",
             "subtitle": "El folato es esencial para la síntesis y reparación del ADN.",
-            "description": "<p>La deficiencia de folato causa roturas cromosómicas acelerando la inestabilidad genómica. Al incluir folato, ilira garantiza una replicación adecuada del ADN en las células en división y ayuda a mantener la homocisteína bajo control.</p>",
-            "title_color": "#722f37"
+            "description": "<p>La deficiencia de folato causa roturas cromosómicas acelerando la inestabilidad genómica. </p><p>Al incluir folato, ilira garantiza una replicación adecuada del ADN en las células en división y ayuda a mantener la homocisteína bajo control.</p>",
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_Eg9YCe": {
@@ -414,8 +414,8 @@
           "settings": {
             "title": "Vitamina B1 (Tiamina)",
             "subtitle": "La tiamina es necesaria para la producción de energía mitocondrial.",
-            "description": "<p>La deficiencia de tiamina se asocia con enfermedades relacionadas con el envejecimiento, como la neurodegeneración. Garantizar niveles óptimos de B1 ayuda a mantener una función mitocondrial robusta y la salud cerebral.</p>",
-            "title_color": "#722f37"
+            "description": "<p>La deficiencia de tiamina se asocia con enfermedades relacionadas con el envejecimiento, como la neurodegeneración. </p><p>Garantizar niveles óptimos de B1 ayuda a mantener una función mitocondrial robusta y la salud cerebral.</p>",
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_8MAkea": {
@@ -423,8 +423,8 @@
           "settings": {
             "title": "Vitamina K2 (MK-7)",
             "subtitle": "Una forma especializada de vitamina K que apoya la salud ósea y cardiovascular.",
-            "description": "<p>La vitamina K2 activa proteínas que dirigen el calcio hacia los huesos (osteocalcina) e inhibe los depósitos de calcio en las arterias. Esto ayuda a prevenir la rigidez arterial. Estudios han encontrado que una mayor ingesta de K2 se asocia con un menor riesgo de enfermedad coronaria y mortalidad. </p>",
-            "title_color": "#722f37"
+            "description": "<p>La vitamina K2 activa proteínas que dirigen el calcio hacia los huesos (osteocalcina) e inhibe los depósitos de calcio en las arterias. Esto ayuda a prevenir la rigidez arterial. </p><p>Estudios han encontrado que una mayor ingesta de K2 se asocia con un menor riesgo de enfermedad coronaria y mortalidad. </p>",
+            "title_color": "#144d8c"
           }
         },
         "benefit_card_hmp7hH": {
@@ -433,7 +433,7 @@
             "title": "Vitamina B12 (Cianocobalamina)",
             "subtitle": "La vitamina B12 es crucial para la salud del cerebro y los nervios, la síntesis del ADN y la formación de glóbulos rojos.",
             "description": "<p>Al proporcionar B12, ilira apoya una cognición saludable, el estado de ánimo y la metilación del ADN.</p>",
-            "title_color": "#722f37"
+            "title_color": "#144d8c"
           }
         }
       },
