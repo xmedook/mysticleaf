@@ -841,65 +841,60 @@
         "tab1_column_BdDMjV": {
           "type": "tab1_column",
           "settings": {
-            "title": "Column Title",
+            "title": "Energía y Metabolismo Celular",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
           }
         },
         "tab1_column_b8CAdB": {
           "type": "tab1_column",
           "settings": {
-            "title": "Column Title",
+            "title": "Claridad Mental y Estado de Ánimo",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<ul><li>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</li></ul>"
           }
         },
         "tab1_column_YMF6nd": {
           "type": "tab1_column",
           "settings": {
-            "title": "Column Title",
+            "title": "Piel, Cabello y Articulaciones Saludables",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<ul><li>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</li></ul>"
           }
         },
         "tab1_column_VnPG8b": {
           "type": "tab1_column",
           "settings": {
-            "title": "Column Title",
+            "title": "Sistema Inmunológico",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<p>Zinc, Selenio y Vitamina C apoyan tus defensas y ayudan a combatir el estrés oxidativo.</p>"
           }
         },
         "tab2_column_qNz4qm": {
           "type": "tab2_column",
           "settings": {
-            "title": "Column Title",
+            "image": "shopify://shop_images/yellow_powder_in_glass_of_water.jpg",
+            "title": "Preparación",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<p>Disuelve el contenido de dos cucharadas en 350 - 450 ml de agua o jugo de tu preferencia y agita hasta disolver.</p>"
           }
         },
         "tab2_column_BkRNwc": {
           "type": "tab2_column",
           "settings": {
-            "title": "Column Title",
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_12_PM.png",
+            "title": "Sabor",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<p>Disfruta de su refrescante sabor natural a camu-camu.</p>"
           }
         },
         "tab2_column_8LmYPg": {
           "type": "tab2_column",
           "settings": {
-            "title": "Column Title",
+            "image": "shopify://shop_images/u2884899135_a_fit_hispanic_woman_in_sportswear_drinking_a_tra_922d0991-5e01-406a-b74a-119519744d06_2.png",
+            "title": "Constancia",
             "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
-          }
-        },
-        "tab2_column_B74rqD": {
-          "type": "tab2_column",
-          "settings": {
-            "title": "Column Title",
-            "column_title_color": "#000000",
-            "description": "<p>Column description text.</p>"
+            "description": "<p>Tómalo diariamente para obtener resultados consistentes a largo plazo.</p>"
           }
         }
       },
@@ -910,18 +905,17 @@
         "tab1_column_VnPG8b",
         "tab2_column_qNz4qm",
         "tab2_column_BkRNwc",
-        "tab2_column_8LmYPg",
-        "tab2_column_B74rqD"
+        "tab2_column_8LmYPg"
       ],
       "name": "Tabbed Content",
       "settings": {
-        "tagline": "Your Tagline Here",
+        "tagline": "Una dosis diaria de longevidad",
         "tagline_color": "#000000",
-        "title": "Tabbed Section Title",
+        "title": "BENEFICIOS E INDICACIONES DE USO",
         "title_color": "#000000",
         "background_color": "#f4f4f4",
-        "tab1_title": "Tab 1",
-        "tab2_title": "Tab 2"
+        "tab1_title": "Beneficios clave",
+        "tab2_title": "Modo de empleo"
       }
     },
     "tabbed_sections_D4BFCq": {
