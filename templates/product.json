@@ -841,6 +841,7 @@
         "tab1_column_BdDMjV": {
           "type": "tab1_column",
           "settings": {
+            "image": "shopify://shop_images/Energia.jpg",
             "title": "Energía y Metabolismo Celular",
             "column_title_color": "#000000",
             "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
@@ -849,6 +850,7 @@
         "tab1_column_b8CAdB": {
           "type": "tab1_column",
           "settings": {
+            "image": "shopify://shop_images/Claridad_Mental.jpg",
             "title": "Claridad Mental y Estado de Ánimo",
             "column_title_color": "#000000",
             "description": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>"
@@ -857,6 +859,7 @@
         "tab1_column_YMF6nd": {
           "type": "tab1_column",
           "settings": {
+            "image": "shopify://shop_images/Articulaciones_Saludables.jpg",
             "title": "Piel, Cabello y Articulaciones Saludables",
             "column_title_color": "#000000",
             "description": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>"
