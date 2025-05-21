@@ -354,7 +354,7 @@
       "custom_css": [
         ".comprehensive-benefits {padding: 30px 20px !important;}",
         "h2 {font-size: 60px !important; color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 900px) {h2 {font-size: 52px !important; }}"
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
       ],
       "name": "Main Components",
       "settings": {
@@ -913,15 +913,16 @@
         "tab2_column_8LmYPg"
       ],
       "custom_css": [
-        "button{color: #144d8c; }",
+        "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
-        "h3 {color: #144d8c !important;}"
+        "h3 {color: #144d8c !important;}",
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
       ],
       "name": "Tabbed Content",
       "settings": {
         "tagline": "Una dosis diaria de longevidad",
         "tagline_color": "#000000",
-        "title": "BENEFICIOS E INDICACIONES DE USO",
+        "title": "Beneficios e Indicaciones de Uso",
         "title_color": "#144d8c",
         "background_color": "#eaf1f4",
         "tab1_title": "Beneficios clave",
