@@ -1,0 +1,405 @@
+{%- style -%}
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  .ph-section-container {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: url({{ section.settings.background_image | img_url: 'master' }});
+    background-size: cover;
+    background-position: center;
+    padding: 123px;
+  }
+
+  .ph-main-banner-wrapper {
+    padding: 20px 0;
+  }
+
+  .ph-main-banner {
+    background-color: #1E4A8B;
+    color: white !important;
+    padding: 35px 40px;
+    border-radius: 150px 0px 150px 0px;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  .ph-title-section {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .ph-title-section h1 {
+    font-size: clamp(2.8em, 5vw, 4em);
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white !important;
+  }
+  .ph-title-section h2 {
+    font-size: clamp(1.8em, 3.5vw, 2.5em);
+    font-family: "Gentium Book Plus";
+    font-weight: 500;
+    margin: 8px 0 0 0;
+    color: #BDD4F1 !important;
+    text-transform: uppercase;
+  }
+
+  .ph-product-details-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .ph-claims-column {
+    flex: 1 1 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ph-claim h3 {
+    font-size: clamp(1.2em, 2.5vw, 1.6em);
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: white !important;
+  }
+  .ph-claim p {
+    color: #E0EFFF;
+    font-size: clamp(0.9em, 2vw, 1.05em);
+    margin: 0;
+    line-height: 1.45;
+  }
+
+  .ph-product-image-container {
+    flex: 1 1 300px;
+    text-align: center;
+    align-self: center;
+    padding: 0 15px;
+  }
+  .ph-product-image-container img {
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    filter: drop-shadow(8px 8px 15px rgba(0,0,0,0.25));
+  }
+
+  .ph-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .ph-logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ph-logos img {
+    height: 85px;
+    width: auto;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .ph-content-info {
+    background-color: white;
+    color: #1E4A8B;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: clamp(1em, 2.2vw, 1.25em);
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  /* Responsive: tablet y móvil */
+  @media (max-width: 768px) {
+    .ph-section-container {
+      padding: 60px 20px;
+    }
+    .ph-main-banner {
+      width: 100%;
+      margin: 0;
+      padding: 25px 20px;
+      border-radius: 30px;
+    }
+
+    .ph-title-section h1 {
+      font-size: 2em;
+    }
+    .ph-title-section h2 {
+      font-size: 1.4em;
+    }
+
+    .ph-product-details-flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .ph-claims-column {
+      width: 100%;
+      max-width: 400px;
+      order: 1;
+      text-align: center;
+    }
+
+    .ph-product-image-container {
+      width: 75%;
+      max-width: 280px;
+      order: 0;
+      margin-bottom: 15px;
+    }
+    .ph-product-image-container img {
+      transform: rotate(0deg);
+      width: 100%;
+    }
+
+    .ph-footer-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .ph-logos {
+      order: 1;
+      justify-content: center;
+    }
+
+    .ph-content-info {
+      order: 0;
+      text-align: center;
+    }
+  }
+{%- endstyle -%}
+<div class="ph-section-container">
+  <div class="ph-main-banner-wrapper">
+    <div class="ph-main-banner">
+      <div class="ph-title-section">
+        <h1>{{ section.settings.main_title }}</h1>
+        <h2>{{ section.settings.subtitle }}</h2>
+      </div>
+
+      <div class="ph-product-details-flex">
+        <div class="ph-claims-column ph-claims-left">
+          <div class="ph-claim">
+            <h3>{{ section.settings.claim1_title }}</h3>
+            <p>{{ section.settings.claim1_text }}</p>
+          </div>
+          <div class="ph-claim">
+            <h3>{{ section.settings.claim2_title }}</h3>
+            <p>{{ section.settings.claim2_text }}</p>
+          </div>
+        </div>
+
+        <div class="ph-product-image-container">
+          {% if section.settings.product_image != blank %}
+            <img
+              src="{{ section.settings.product_image | img_url: 'master' }}"
+              alt="{{ section.settings.product_image.alt | default: 'Product Image' }}"
+              loading="lazy"
+              width="320"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              width
+              #}
+              height="auto"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              height
+              #}
+            >
+          {% endif %}
+        </div>
+
+        <div class="ph-claims-column ph-claims-right">
+          <div class="ph-claim">
+            <h3>{{ section.settings.claim3_title }}</h3>
+            <p>{{ section.settings.claim3_text }}</p>
+          </div>
+          <div class="ph-claim">
+            <h3>{{ section.settings.claim4_title }}</h3>
+            <p>{{ section.settings.claim4_text }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ph-footer-section">
+        <div class="ph-logos">
+          {% if section.settings.logo1_image != blank %}
+            <img
+              src="{{ section.settings.logo1_image | img_url: 'master' }}"
+              alt="{{ section.settings.logo1_image.alt | default: 'Logo 1' }}"
+              loading="lazy"
+              width="85"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              width
+              #}
+              height="auto"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              height
+              #}
+            >
+          {% endif %}
+          {% if section.settings.logo2_image != blank %}
+            <img
+              src="{{ section.settings.logo2_image | img_url: 'master' }}"
+              alt="{{ section.settings.logo2_image.alt | default: 'Logo 2' }}"
+              loading="lazy"
+              width="85"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              width
+              #}
+              height="auto"
+              {#
+              TODO:
+              Update
+              with
+              actual
+              image
+              height
+              #}
+            >
+          {% endif %}
+        </div>
+        <div class="ph-content-info">
+          {{ section.settings.content_info }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "21 Suplementos Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "21 SUPLEMENTOS"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "EN-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "Product Image"
+    },
+    {
+      "type": "text",
+      "id": "claim1_title",
+      "label": "Claim 1 Title",
+      "default": "Sin colorantes"
+    },
+    {
+      "type": "textarea",
+      "id": "claim1_text",
+      "label": "Claim 1 Text",
+      "default": "Formulados a través de la investigación científica para garantizar calidad y efectividad"
+    },
+    {
+      "type": "text",
+      "id": "claim2_title",
+      "label": "Claim 2 Title",
+      "default": "Sin aditivos"
+    },
+    {
+      "type": "textarea",
+      "id": "claim2_text",
+      "label": "Claim 2 Text",
+      "default": "Sin preservantes ni ingredientes innecesarios"
+    },
+    {
+      "type": "text",
+      "id": "claim3_title",
+      "label": "Claim 3 Title",
+      "default": "Sin azúcar"
+    },
+    {
+      "type": "textarea",
+      "id": "claim3_text",
+      "label": "Claim 3 Text",
+      "default": "Nuestro suplemento es completamente libre de azúcares añadidos"
+    },
+    {
+      "type": "text",
+      "id": "claim4_title",
+      "label": "Claim 4 Title",
+      "default": "Sin artificiales"
+    },
+    {
+      "type": "textarea",
+      "id": "claim4_text",
+      "label": "Claim 4 Text",
+      "default": "Experiencia natural y beneficiosa para tu cuerpo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo1_image",
+      "label": "Logo 1 Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo2_image",
+      "label": "Logo 2 Image"
+    },
+    {
+      "type": "text",
+      "id": "content_info",
+      "label": "Content Info Text",
+      "default": "Contenido: 210 g"
+    }
+  ],
+  "presets": [
+    {
+      "name": "21 Suplementos Section"
+    }
+  ]
+}
+{% endschema %}
