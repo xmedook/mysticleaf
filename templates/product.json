@@ -882,6 +882,7 @@
         "tab2_column_BkRNwc": {
           "type": "tab2_column",
           "settings": {
+            "image": "shopify://shop_images/ph_modo_de_uso_1.jpg",
             "title": "Sabor",
             "column_title_color": "#000000",
             "description": "<p>Disfruta de su refrescante sabor natural a camu-camu.</p>"
