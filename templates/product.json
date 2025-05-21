@@ -834,34 +834,6 @@
         "padding_bottom": 52
       }
     },
-    "tabbed_sections_D4BFCq": {
-      "type": "tabbed-sections",
-      "blocks": {
-        "tab_1_content_63acnP": {
-          "type": "tab_1_content",
-          "settings": {
-            "section_file": "section-multicolumn.liquid"
-          }
-        },
-        "tab_2_content_ynARqk": {
-          "type": "tab_2_content",
-          "settings": {
-            "section_file": "section-multicolumn"
-          }
-        }
-      },
-      "block_order": [
-        "tab_1_content_63acnP",
-        "tab_2_content_ynARqk"
-      ],
-      "name": "Tabbed Sections",
-      "settings": {
-        "tab_1_title": "Tab 1",
-        "tab_2_title": "Tab 2",
-        "tab_3_title": "",
-        "tab_4_title": ""
-      }
-    },
     "multicolumn_eUtr4V": {
       "type": "multicolumn",
       "blocks": {
@@ -952,6 +924,96 @@
         "swipe_on_mobile": true,
         "arrow_on_mobile": false,
         "columns_mobile": "1"
+      }
+    },
+    "tabbed_content_Q8gfzi": {
+      "type": "tabbed-content",
+      "blocks": {
+        "tab1_column_qDb8ee": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_10_PM.png",
+            "title": "Energía y Metabolismo Celular",
+            "column_title_color": "#000000",
+            "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
+          }
+        },
+        "tab1_column_pFHAnm": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab1_column_XHrTxx": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab1_column_TGjxGC": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_7xn9T9": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_P3aJJ8": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_E7xB69": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_Yef7Fn": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1_column_qDb8ee",
+        "tab1_column_pFHAnm",
+        "tab1_column_XHrTxx",
+        "tab1_column_TGjxGC",
+        "tab2_column_7xn9T9",
+        "tab2_column_P3aJJ8",
+        "tab2_column_E7xB69",
+        "tab2_column_Yef7Fn"
+      ],
+      "name": "Tabbed Content",
+      "settings": {
+        "tagline": "Una dosis diaria de longevidad",
+        "tagline_color": "#000000",
+        "title": "Beneficios e indicaciones de uso",
+        "title_color": "#000000",
+        "background_color": "#f4f4f4",
+        "tab1_title": "Beneficios clave",
+        "tab2_title": "Modo de empleo"
       }
     },
     "collapsible_content_fTw7Vy": {
@@ -1090,8 +1152,8 @@
     "comprehensive_benefits_BQVqig",
     "specification_block_JWGKth",
     "custom_liquid_qacQgF",
-    "tabbed_sections_D4BFCq",
     "multicolumn_eUtr4V",
+    "tabbed_content_Q8gfzi",
     "collapsible_content_fTw7Vy",
     "newsletter_gX4Br9"
   ]
