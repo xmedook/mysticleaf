@@ -841,7 +841,6 @@
         "tab1_column_BdDMjV": {
           "type": "tab1_column",
           "settings": {
-            "image": "shopify://shop_images/Energia.jpg",
             "title": "Energía y Metabolismo Celular",
             "column_title_color": "#000000",
             "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
@@ -868,6 +867,7 @@
         "tab1_column_VnPG8b": {
           "type": "tab1_column",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_9_2025_04_02_10_PM.png",
             "title": "Sistema Inmunológico",
             "column_title_color": "#000000",
             "description": "<p>Zinc, Selenio y Vitamina C apoyan tus defensas y ayudan a combatir el estrés oxidativo.</p>"
