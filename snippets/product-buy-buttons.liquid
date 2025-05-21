@@ -1,0 +1,113 @@
+{% comment %}
+  Product Buy Buttons Snippet
+  Displays two customizable buy buttons with inline or stacked layout options.
+
+  Author: Cline
+  Version: 1.0
+{% endcomment %}
+
+{% assign button1_url = snippet.settings.button1_url %}
+{% assign button2_url = snippet.settings.button2_url %}
+{% assign layout = snippet.settings.layout %}
+
+<div
+  class="product-buy-buttons"
+  style="margin: 40px 0px 20px 0px; display: flex; flex-direction: {{ layout }}; align-items: flex-start;"
+>
+  <a
+    href="{{ button1_url }}"
+    class="button"
+    style="background-color: {{ snippet.settings.button1_bg_color }}; padding: 15px; text-decoration: none; border-radius: 5px; width: 50%; margin-bottom: {{ layout == 'column' ? '20px' : '0' }}; display: flex; align-items: center; color: {{ snippet.settings.button1_text_color }}; margin-right: {{ layout == 'row' ? '20px' : '0' }};"
+  >
+    <span style="margin-right: 10px;">{{ snippet.settings.button1_text }}</span>
+    {% if snippet.settings.button1_image != blank %}
+      {{ snippet.settings.button1_image | image_url: width: 100 | image_tag: alt: snippet.settings.button1_text | escape, style: 'width: 100px; height: auto; padding-top: 5px;' }}
+    {% endif %}
+  </a>
+  <a
+    href="{{ button2_url }}"
+    class="button"
+    style="background-color: {{ snippet.settings.button2_bg_color }}; padding: 15px; text-decoration: none; border-radius: 5px; width: 50%; display: flex; align-items: center; color: {{ snippet.settings.button2_text_color }};"
+  >
+    <span style="margin-right: 10px;">{{ snippet.settings.button2_text }}</span>
+    {% if snippet.settings.button2_image != blank %}
+      {{ snippet.settings.button2_image | image_url: width: 100 | image_tag: alt: snippet.settings.button2_text | escape, style: 'width: 100px; height: auto;' }}
+    {% endif %}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "Product Buy Buttons",
+  "settings": [
+    {
+      "type": "url",
+      "id": "button1_url",
+      "label": "Button 1 URL",
+      "default": "https://amazon.com.mx"
+    },
+    {
+      "type": "text",
+      "id": "button1_text",
+      "label": "Button 1 Text",
+      "default": "Comprar en"
+    },
+    {
+      "type": "image_picker",
+      "id": "button1_image",
+      "label": "Button 1 Image"
+    },
+    {
+      "type": "color",
+      "id": "button1_bg_color",
+      "label": "Button 1 Background Color",
+      "default": "#007bff"
+    },
+    {
+      "type": "color",
+      "id": "button1_text_color",
+      "label": "Button 1 Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "url",
+      "id": "button2_url",
+      "label": "Button 2 URL",
+      "default": "https://mercadolibre.com.mx"
+    },
+    {
+      "type": "text",
+      "id": "button2_text",
+      "label": "Button 2 Text",
+      "default": "Comprar en"
+    },
+    {
+      "type": "image_picker",
+      "id": "button2_image",
+      "label": "Button 2 Image"
+    },
+    {
+      "type": "color",
+      "id": "button2_bg_color",
+      "label": "Button 2 Background Color",
+      "default": "#FFCC00"
+    },
+    {
+      "type": "color",
+      "id": "button2_text_color",
+      "label": "Button 2 Text Color",
+      "default": "#23292D"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Button Layout",
+      "options": [
+        { "value": "column", "label": "Stacked" },
+        { "value": "row", "label": "Inline" }
+      ],
+      "default": "column"
+    }
+  ]
+}
+{% endschema %}
