@@ -66,34 +66,36 @@
 
       <div id="tab2" class="tabbed-content-section__pane">
         <div class="tabbed-content-section__grid">
-          {% assign tab2_blocks = section.blocks | where: 'type', 'tab2_column' %}
-          {% for block in tab2_blocks limit: 4 %}
-            <div class="tabbed-content-section__column" {{ block.shopify_attributes }}>
-              {% if block.settings.image != blank %}
-                <div class="tabbed-content-section__image-container">
-                  {{
-                    block.settings.image
-                    | image_url: width: 400
-                    | image_tag: loading: 'lazy', class: 'tabbed-content-section__image', alt: block.settings.title
-                    | escape
-                  }}
-                </div>
-              {% endif %}
-              {% if block.settings.title != blank %}
-                <h3
-                  class="tabbed-content-section__column-title"
-                  style="color: {{ block.settings.column_title_color }};"
-                >
-                  {{ block.settings.title }}
-                </h3>
-              {% endif %}
-              {% if block.settings.description != blank %}
-                <div class="tabbed-content-section__column-description">
-                  {{ block.settings.description }}
-                </div>
-              {% endif %}
+           <div class="carousel-wrapper">
+            {% assign tab2_blocks = section.blocks | where: 'type', 'tab2_column' %}
+            {% for block in tab2_blocks limit: 4 %}
+              <div class="tabbed-content-section__column" {{ block.shopify_attributes }}>
+                {% if block.settings.image != blank %}
+                  <div class="tabbed-content-section__image-container">
+                    {{
+                      block.settings.image
+                      | image_url: width: 400
+                      | image_tag: loading: 'lazy', class: 'tabbed-content-section__image', alt: block.settings.title
+                      | escape
+                    }}
+                  </div>
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <h3
+                    class="tabbed-content-section__column-title"
+                    style="color: {{ block.settings.column_title_color }};"
+                  >
+                    {{ block.settings.title }}
+                  </h3>
+                {% endif %}
+                {% if block.settings.description != blank %}
+                  <div class="tabbed-content-section__column-description">
+                    {{ block.settings.description }}
+                  </div>
+                {% endif %}
+              </div>
+            {% endfor %}
             </div>
-          {% endfor %}
         </div>
       </div>
     </div>
