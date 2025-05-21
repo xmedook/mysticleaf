@@ -817,6 +817,7 @@
     },
     "custom_liquid_qacQgF": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": true,
@@ -921,7 +922,7 @@
         "tagline_color": "#000000",
         "title": "BENEFICIOS E INDICACIONES DE USO",
         "title_color": "#144d8c",
-        "background_color": "#f4f4f4",
+        "background_color": "#80bfe2",
         "tab1_title": "Beneficios clave",
         "tab2_title": "Modo de empleo"
       }
