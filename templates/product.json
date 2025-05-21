@@ -107,6 +107,7 @@
         },
         "97cd7923-6244-47f8-9e3e-fff6bc433af4": {
           "type": "badge",
+          "disabled": true,
           "settings": {
             "badge_label": "100% Secured Payment"
           }
