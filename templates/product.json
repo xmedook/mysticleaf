@@ -835,6 +835,95 @@
         "padding_bottom": 52
       }
     },
+    "tabbed_content_PhC6fG": {
+      "type": "tabbed-content",
+      "blocks": {
+        "tab1_column_BdDMjV": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab1_column_b8CAdB": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab1_column_YMF6nd": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab1_column_VnPG8b": {
+          "type": "tab1_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_qNz4qm": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_BkRNwc": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_8LmYPg": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        },
+        "tab2_column_B74rqD": {
+          "type": "tab2_column",
+          "settings": {
+            "title": "Column Title",
+            "column_title_color": "#000000",
+            "description": "<p>Column description text.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1_column_BdDMjV",
+        "tab1_column_b8CAdB",
+        "tab1_column_YMF6nd",
+        "tab1_column_VnPG8b",
+        "tab2_column_qNz4qm",
+        "tab2_column_BkRNwc",
+        "tab2_column_8LmYPg",
+        "tab2_column_B74rqD"
+      ],
+      "name": "Tabbed Content",
+      "settings": {
+        "tagline": "Your Tagline Here",
+        "tagline_color": "#000000",
+        "title": "Tabbed Section Title",
+        "title_color": "#000000",
+        "background_color": "#f4f4f4",
+        "tab1_title": "Tab 1",
+        "tab2_title": "Tab 2"
+      }
+    },
     "tabbed_sections_D4BFCq": {
       "type": "tabbed-sections",
       "blocks": {
@@ -1160,6 +1249,7 @@
     "comprehensive_benefits_BQVqig",
     "specification_block_JWGKth",
     "custom_liquid_qacQgF",
+    "tabbed_content_PhC6fG",
     "tabbed_sections_D4BFCq",
     "multicolumn_eUtr4V",
     "product_tab_kGxYxC",
