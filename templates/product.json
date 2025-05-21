@@ -851,7 +851,7 @@
           "settings": {
             "title": "Claridad Mental y Estado de Ánimo",
             "column_title_color": "#000000",
-            "description": "<ul><li>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</li></ul>"
+            "description": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>"
           }
         },
         "tab1_column_YMF6nd": {
@@ -859,7 +859,7 @@
           "settings": {
             "title": "Piel, Cabello y Articulaciones Saludables",
             "column_title_color": "#000000",
-            "description": "<ul><li>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</li></ul>"
+            "description": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>"
           }
         },
         "tab1_column_VnPG8b": {
