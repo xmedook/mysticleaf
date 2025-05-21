@@ -986,7 +986,8 @@
         "collapsible_row_VGBiKD"
       ],
       "custom_css": [
-        "h2 {color: #144d8c; font-weight: 600 !important;}"
+        "h2 {color: #144d8c; font-weight: 600 !important;}",
+        "@media (max-width: 900px) {h2 {font-size: 22px !important; }}"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
