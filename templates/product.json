@@ -913,7 +913,8 @@
         "tab2_column_8LmYPg"
       ],
       "custom_css": [
-        "button {color: #144d8c; border-bottom: 2px solid #144d8c;}",
+        "button{color: #144d8c; }",
+        "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}"
       ],
       "name": "Tabbed Content",
