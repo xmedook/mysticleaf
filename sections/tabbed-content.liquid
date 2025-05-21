@@ -1,0 +1,375 @@
+{% comment %}
+  Tabbed Content Section
+  A custom section featuring content organized into two tabs with 4 columns each.
+
+  Author: Cline
+  Version: 1.0
+{% endcomment %}
+
+<div class="tabbed-content-section" style="background-color: {{ section.settings.background_color }}">
+  <div class="tabbed-content-section__container">
+    {% if section.settings.tagline != blank %}
+      <p class="tabbed-content-section__tagline" style="color: {{ section.settings.tagline_color }};">
+        {{ section.settings.tagline }}
+      </p>
+    {% endif %}
+
+    {% if section.settings.title != blank %}
+      <h2 class="tabbed-content-section__title" style="color: {{ section.settings.title_color }};">
+        {{ section.settings.title }}
+      </h2>
+    {% endif %}
+
+    <div class="tabbed-content-section__tabs">
+      <button class="tabbed-content-section__tab-button active" data-tab="tab1">
+        {{ section.settings.tab1_title }}
+      </button>
+      <button class="tabbed-content-section__tab-button" data-tab="tab2">{{ section.settings.tab2_title }}</button>
+    </div>
+
+    <div class="tabbed-content-section__content">
+      <div id="tab1" class="tabbed-content-section__pane active">
+        <div class="tabbed-content-section__grid">
+          {% assign tab1_blocks = section.blocks | where: 'type', 'tab1_column' %}
+          {% for block in tab1_blocks limit: 4 %}
+            <div class="tabbed-content-section__column" {{ block.shopify_attributes }}>
+              {% if block.settings.image != blank %}
+                <div class="tabbed-content-section__image-container">
+                  {{
+                    block.settings.image
+                    | image_url: width: 400
+                    | image_tag: loading: 'lazy', class: 'tabbed-content-section__image', alt: block.settings.title
+                    | escape
+                  }}
+                </div>
+              {% endif %}
+              {% if block.settings.title != blank %}
+                <h3
+                  class="tabbed-content-section__column-title"
+                  style="color: {{ block.settings.column_title_color }};"
+                >
+                  {{ block.settings.title }}
+                </h3>
+              {% endif %}
+              {% if block.settings.description != blank %}
+                <div class="tabbed-content-section__column-description">
+                  {{ block.settings.description }}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div id="tab2" class="tabbed-content-section__pane">
+        <div class="tabbed-content-section__grid">
+          {% assign tab2_blocks = section.blocks | where: 'type', 'tab2_column' %}
+          {% for block in tab2_blocks limit: 4 %}
+            <div class="tabbed-content-section__column" {{ block.shopify_attributes }}>
+              {% if block.settings.image != blank %}
+                <div class="tabbed-content-section__image-container">
+                  {{
+                    block.settings.image
+                    | image_url: width: 400
+                    | image_tag: loading: 'lazy', class: 'tabbed-content-section__image', alt: block.settings.title
+                    | escape
+                  }}
+                </div>
+              {% endif %}
+              {% if block.settings.title != blank %}
+                <h3
+                  class="tabbed-content-section__column-title"
+                  style="color: {{ block.settings.column_title_color }};"
+                >
+                  {{ block.settings.title }}
+                </h3>
+              {% endif %}
+              {% if block.settings.description != blank %}
+                <div class="tabbed-content-section__column-description">
+                  {{ block.settings.description }}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% style %}
+  .tabbed-content-section {
+    padding: 60px 20px;
+    font-family: sans-serif; /* Use a default font or theme variable */
+  }
+
+  .tabbed-content-section__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .tabbed-content-section__tagline {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .tabbed-content-section__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .tabbed-content-section__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tabbed-content-section__tab-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+    margin: 0 10px;
+  }
+
+  .tabbed-content-section__tab-button.active {
+    color: #000; /* Active tab color */
+    border-bottom-color: #000; /* Active tab underline color */
+    font-weight: bold;
+  }
+
+  .tabbed-content-section__tab-button:not(.active) {
+    color: #666; /* Inactive tab color */
+  }
+
+  .tabbed-content-section__content {
+    position: relative;
+  }
+
+  .tabbed-content-section__pane {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .tabbed-content-section__pane.active {
+    display: block;
+    opacity: 1;
+  }
+
+  .tabbed-content-section__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .tabbed-content-section__column {
+    text-align: center;
+  }
+
+  .tabbed-content-section__image-container {
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .tabbed-content-section__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .tabbed-content-section__column-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .tabbed-content-section__column-description {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Responsive adjustments */
+  @media screen and (max-width: 990px) {
+    .tabbed-content-section__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .tabbed-content-section {
+      padding: 40px 15px;
+    }
+
+    .tabbed-content-section__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tabbed-content-section__tab-button {
+      font-size: 16px;
+      padding: 8px 15px;
+    }
+  }
+{% endstyle %}
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabButtons = document.querySelectorAll('.tabbed-content-section__tab-button');
+    const tabPanes = document.querySelectorAll('.tabbed-content-section__pane');
+
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', function () {
+        const targetTab = this.dataset.tab;
+
+        tabButtons.forEach((btn) => btn.classList.remove('active'));
+        this.classList.add('active');
+
+        tabPanes.forEach((pane) => {
+          if (pane.id === targetTab) {
+            pane.classList.add('active');
+          } else {
+            pane.classList.remove('active');
+          }
+        });
+      });
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Tabbed Content",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "Your Tagline Here"
+    },
+    {
+      "type": "color",
+      "id": "tagline_color",
+      "label": "Tagline Color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Tabbed Section Title"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "text",
+      "id": "tab1_title",
+      "label": "Tab 1 Title",
+      "default": "Tab 1"
+    },
+    {
+      "type": "text",
+      "id": "tab2_title",
+      "label": "Tab 2 Title",
+      "default": "Tab 2"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Tab 1 Column",
+      "type": "tab1_column",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Column Title"
+        },
+        {
+          "type": "color",
+          "id": "column_title_color",
+          "label": "Column Title Color",
+          "default": "#000000"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Column description text.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Tab 2 Column",
+      "type": "tab2_column",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Column Title"
+        },
+        {
+          "type": "color",
+          "id": "column_title_color",
+          "label": "Column Title Color",
+          "default": "#000000"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Column description text.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabbed Content",
+      "blocks": [
+        { "type": "tab1_column" },
+        { "type": "tab1_column" },
+        { "type": "tab1_column" },
+        { "type": "tab1_column" },
+        { "type": "tab2_column" },
+        { "type": "tab2_column" },
+        { "type": "tab2_column" },
+        { "type": "tab2_column" }
+      ]
+    }
+  ]
+}
+{% endschema %}
