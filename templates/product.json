@@ -911,12 +911,15 @@
         "tab2_column_BkRNwc",
         "tab2_column_8LmYPg"
       ],
+      "custom_css": [
+        "button {color: #144d8c; border-bottom: 2px solid #144D8C;}"
+      ],
       "name": "Tabbed Content",
       "settings": {
         "tagline": "Una dosis diaria de longevidad",
         "tagline_color": "#000000",
         "title": "BENEFICIOS E INDICACIONES DE USO",
-        "title_color": "#000000",
+        "title_color": "#144d8c",
         "background_color": "#f4f4f4",
         "tab1_title": "Beneficios clave",
         "tab2_title": "Modo de empleo"
