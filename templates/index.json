@@ -205,7 +205,7 @@
     "image_banner_W8wcNy": {
       "type": "image-banner",
       "custom_css": [
-        ".banner__content {background-color: #eaf1f4; z-index: -1;}"
+        ".banner__content{background-color: #eaf1f4 !important; z-index: -1;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
