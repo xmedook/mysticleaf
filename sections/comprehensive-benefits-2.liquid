@@ -13,39 +13,41 @@
     {% endif %}
     
     <div class="ingredients-grid">
-      {% for block in section.blocks %}
-        <div class="ingredient-card" {{ block.shopify_attributes }} data-card-id="{{ block.id }}">
-          <div class="ingredient-image">
-            {% if block.settings.image != blank %}
-              {{ block.settings.image | image_url: width: 500 | image_tag: loading: 'lazy', alt: block.settings.title, class: 'card-image' }}
-            {% endif %}
+       <div class="carousel-wrapper">
+        {% for block in section.blocks %}
+          <div class="ingredient-card" {{ block.shopify_attributes }} data-card-id="{{ block.id }}">
+            <div class="ingredient-image">
+              {% if block.settings.image != blank %}
+                {{ block.settings.image | image_url: width: 500 | image_tag: loading: 'lazy', alt: block.settings.title, class: 'card-image' }}
+              {% endif %}
+            </div>
+            <div class="ingredient-content">
+              {% if block.settings.title != blank %}
+                <h3 class="ingredient-title">{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.subtitle != blank %}
+                <p class="ingredient-subtitle">{{ block.settings.subtitle }}</p>
+              {% endif %}
+              <button class="toggle-button expand" aria-label="Expand details" data-card-id="{{ block.id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+              <button class="toggle-button collapse" aria-label="Collapse details" data-card-id="{{ block.id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+            <div class="ingredient-details" data-card-id="{{ block.id }}">
+              {% if block.settings.description != blank %}
+                <div class="ingredient-description">{{ block.settings.description }}</div>
+              {% endif %}
+            </div>
           </div>
-          <div class="ingredient-content">
-            {% if block.settings.title != blank %}
-              <h3 class="ingredient-title">{{ block.settings.title }}</h3>
-            {% endif %}
-            {% if block.settings.subtitle != blank %}
-              <p class="ingredient-subtitle">{{ block.settings.subtitle }}</p>
-            {% endif %}
-            <button class="toggle-button expand" aria-label="Expand details" data-card-id="{{ block.id }}">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-            </button>
-            <button class="toggle-button collapse" aria-label="Collapse details" data-card-id="{{ block.id }}">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-            </button>
-          </div>
-          <div class="ingredient-details" data-card-id="{{ block.id }}">
-            {% if block.settings.description != blank %}
-              <div class="ingredient-description">{{ block.settings.description }}</div>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
@@ -297,6 +299,25 @@
       height: 200px;
     }
   }
+
+  /* Carrusel en móvil */
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding-inline: 16px;
+  }
+
+  .tabbed-content-section__column {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
+    min-width: 250px;
+    box-sizing: border-box;
+  }
+}
 </style>
 
 <script>
