@@ -23,6 +23,25 @@
       --grid-columns-desktop: var(--grid-columns-mobile);
     }
   }
+
+    /* Carrusel en móvil */
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding-inline: 16px;
+  }
+
+  .tabbed-content-section__column {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
+    min-width: 250px;
+    box-sizing: border-box;
+  }
+}
 </style>
 
 <div class="comprehensive-benefits-section">
