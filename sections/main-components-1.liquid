@@ -241,7 +241,35 @@
     }
   }
 
-   
+
+  @media screen and (max-width: 768px) {
+  .carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
+
+  .benefit-card {
+    flex: 0 0 85%; /* o 100% si quieres una por pantalla completa */
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: white;
+  }
+
+  /* Ocultar scrollbars (opcional) */
+  .carousel-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
 {% endstyle %}
 
 {% javascript %}
