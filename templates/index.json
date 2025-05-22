@@ -177,6 +177,7 @@
     },
     "image_banner_iMdmee": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner__media {height: 100%; background-color: #eaf1f4 !important; display: block !important;}",
         "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #eaf1f4 !important; }}"
@@ -203,9 +204,12 @@
     },
     "image_banner_W8wcNy": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner__content {background-color: #eaf1f4; z-index: -1;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "page_full_width": false,
+        "page_full_width": true,
         "page_full_width_spacing": false,
         "image": "shopify://shop_images/etiquetaph.png",
         "image_overlay_opacity": 0,
