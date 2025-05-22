@@ -563,6 +563,32 @@
         "title_size": 36
       }
     },
+    "image_banner_888EhY": {
+      "type": "image-banner",
+      "custom_css": [
+        ".row {display: none;}",
+        "@media screen and (max-width: 767px) {.row {display: block !important; }}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/banner-tabla.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
     "image_banner_eUQ7db": {
       "type": "image-banner",
       "blocks": {
@@ -847,7 +873,10 @@
     },
     "custom_liquid_qacQgF": {
       "type": "custom-liquid",
-      "custom_css": [],
+      "custom_css": [
+        ".row {display: block;}",
+        "@media screen and (max-width: 767px) {.row {display: none !important; }}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": true,
@@ -1091,6 +1120,7 @@
     "main_components_1_6YGian",
     "main_components_1_Wqexdt",
     "main_components_1_DCyfqB",
+    "image_banner_888EhY",
     "image_banner_eUQ7db",
     "product-recommendations",
     "1703051577b27756d3",
