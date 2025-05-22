@@ -226,32 +226,25 @@
 
 /* Móvil: Carrusel horizontal */
 @media screen and (max-width: 749px) {
-  .comprehensive-benefits {
-    padding: 40px 15px;
-  }
-
-  .comprehensive-benefits__title {
-    font-size: 28px !important;
-  }
-
   .comprehensive-benefits__grid {
-    display: flex;
+    display: flex !important;
+    flex-wrap: nowrap;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 20px;
     padding-inline: 10px;
+
+    /* elimina propiedades de grid heredadas */
+    grid-template-columns: none !important;
   }
 
   .benefit-card {
     flex: 0 0 85%;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    height: 400px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    background: white;
   }
+
 
   /* Ocultar scrollbars (opcional) */
   .comprehensive-benefits__grid::-webkit-scrollbar {
