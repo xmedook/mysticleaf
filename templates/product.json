@@ -230,7 +230,7 @@
       "type": "image-banner",
       "custom_css": [
         "/* Ocultar en desktop y tablet */.row {display: none;}",
-        " /* Mostrar solo en móviles (máx. 767px) */@media screen and (max-width: 767px) {.row {display: block; }}"
+        " /* Mostrar solo en móviles (máx. 767px) */@media screen and (max-width: 767px) {.row {display: block !important; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
