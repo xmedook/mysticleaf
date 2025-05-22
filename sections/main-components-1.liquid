@@ -241,22 +241,24 @@
     }
   }
 
-  /* Estilo general */
+   @media (min-width: 769px) {
+      /* Estilo general */
 .tabbed-content-section__grid {
   width: 100%;
 }
 
 /* Por defecto: grid en escritorio */
 .carousel-wrapper {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-
-/* Carrusel en móvil */
+    }
+  
+  /* Carrusel en móvil */
 @media (max-width: 768px) {
   .carousel-wrapper {
-    display: flex !important;
+    display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
