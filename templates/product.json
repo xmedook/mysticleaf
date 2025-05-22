@@ -584,7 +584,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "margin_top": 50,
+        "margin_top": 70,
         "margin_bottom": 0,
         "custom_class_name": ""
       }
