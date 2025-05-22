@@ -21,7 +21,6 @@
     {% endif %}
 
     <div class="comprehensive-benefits__grid">
-        <div class="carousel-wrapper">
 
           {% for block in section.blocks %}
             {% case block.type %}
@@ -67,7 +66,6 @@
                 </div>
             {% endcase %}
           {% endfor %}
-       </div>
     </div>
   </div>
 </div>
@@ -98,13 +96,14 @@
   font-size: 16px;
 }
 
-/* Grid en desktop y tablet */
+/* Desktop: Grid de 3 columnas */
 .comprehensive-benefits__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
+/* Tarjeta con efecto flip */
 .benefit-card {
   perspective: 1000px;
   height: 450px;
@@ -216,28 +215,32 @@
   margin-right: 6px;
 }
 
-/* Tablet */
+/* Tablet: 2 columnas */
 @media screen and (max-width: 990px) {
   .comprehensive-benefits__grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
 
-/* Carrusel en móvil */
+/* Móvil: Carrusel horizontal */
 @media screen and (max-width: 749px) {
   .comprehensive-benefits {
     padding: 40px 15px;
   }
 
-  /* Carrusel horizontal en móvil */
+  .comprehensive-benefits__title {
+    font-size: 28px !important;
+  }
+
   .comprehensive-benefits__grid {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    gap: 1rem;
-    padding-inline: 1rem;
-    flex-wrap: nowrap;
+    gap: 20px;
+    padding-inline: 10px;
   }
 
   .benefit-card {
@@ -250,11 +253,7 @@
     background: white;
   }
 
-  .comprehensive-benefits__title {
-    font-size: 28px !important;
-  }
-
-  /* Ocultar scrollbar (opcional) */
+  /* Ocultar scrollbars (opcional) */
   .comprehensive-benefits__grid::-webkit-scrollbar {
     display: none;
   }
