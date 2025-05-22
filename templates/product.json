@@ -230,7 +230,7 @@
       "type": "image-banner",
       "custom_css": [
         ".row {display: none;}",
-        " @media screen and (max-width: 767px) {.row {display: block !important; }}"
+        "@media screen and (max-width: 767px) {.row {display: block !important; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -255,7 +255,8 @@
     "custom_liquid_n8kg9N": {
       "type": "custom-liquid",
       "custom_css": [
-        "@media (min-width: 768px) {.section-template--24538967965979__custom_liquid_n8kg9N {display: none !important; }}"
+        ".row {display: block;}",
+        "@media screen and (max-width: 767px) {.row {display: none !important; }}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
