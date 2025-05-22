@@ -229,8 +229,8 @@
     "image_banner_PUpFRY": {
       "type": "image-banner",
       "custom_css": [
-        "/* Ocultar en desktop y tablet */img {display: none;}",
-        "/* Mostrar solo en móviles (máx. 767px) */@media screen and (max-width: 767px) {img {display: block; }}"
+        "/* Ocultar en desktop y tablet */.banner__media {display: none;}",
+        " /* Mostrar solo en móviles (máx. 767px) */@media screen and (max-width: 767px) {.banner__media {display: block; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
