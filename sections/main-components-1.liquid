@@ -241,38 +241,7 @@
     }
   }
 
-   @media (min-width: 769px) {
-      /* Estilo general */
-      .comprehensive-benefits__grid {
-        width: 100%;
-      }
-      
-      /* Por defecto: grid en escritorio */
-      .carousel-wrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-      }
-    }
-  
-  /* Carrusel en móvil */
-@media (max-width: 768px) {
-  .carousel-wrapper {
-    display: flex !important;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    gap: 16px;
-    padding-inline: 16px;
-  }
-
-  .comprehensive-benefits__grid {
-    flex: 0 0 80%;
-    scroll-snap-align: start;
-    min-width: 250px;
-    box-sizing: border-box;
-  }
-}
+   
 {% endstyle %}
 
 {% javascript %}
