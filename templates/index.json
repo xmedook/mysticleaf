@@ -201,6 +201,28 @@
         "custom_class_name": ""
       }
     },
+    "image_banner_W8wcNy": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/etiquetaph.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a": {
       "type": "multicolumn",
       "blocks": {
@@ -779,6 +801,7 @@
     "22208e64-dcc3-4578-b425-207fdf5259a3",
     "a2c6b8ef-664c-4cb5-9429-59a162fcc4ae",
     "image_banner_iMdmee",
+    "image_banner_W8wcNy",
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a",
     "6c29e21f-a46b-4ba5-be13-add5ab2536be",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
