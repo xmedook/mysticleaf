@@ -228,6 +228,9 @@
     },
     "image_banner_PUpFRY": {
       "type": "image-banner",
+      "custom_css": [
+        "@media (min-width: 769px) {#Banner-template--24538967965979__image_banner_PUpFRY{display: none;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": true,
@@ -250,6 +253,7 @@
     },
     "custom_liquid_n8kg9N": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": true,
