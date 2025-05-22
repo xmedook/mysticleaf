@@ -253,7 +253,9 @@
     },
     "custom_liquid_n8kg9N": {
       "type": "custom-liquid",
-      "custom_css": [],
+      "custom_css": [
+        "@media(min-width: 768px){.section-template--24538967965979__custom_liquid_n8kg9N{display: none !important; }}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": true,
