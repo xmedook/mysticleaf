@@ -340,7 +340,8 @@
         ".global-media-settings {background-color: transparent;}",
         "h2 {font-weight: 600; color: #144d8c;}",
         "h6 {color: #23292d;}",
-        ".global-media-settings {border: 0px !important;}"
+        ".global-media-settings {border: 0px !important;}",
+        ".bg-image:after{object-fit: contain !important;}"
       ],
       "settings": {
         "page_full_width": true,
