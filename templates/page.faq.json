@@ -110,7 +110,7 @@
       ],
       "custom_css": [
         "h2 {color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 750px) {h3 {font-size: 22px; } p{font-size: 14 px; }}"
+        "@media (max-width: 750px) {h3 {font-size: 22px; } p {font-size: 14 px; }}"
       ],
       "settings": {
         "page_full_width": false,
@@ -348,10 +348,10 @@
         "enable_address_block": true,
         "image": "shopify://shop_images/WhatsApp_Image_2025-05-16_at_4.14.50_PM.jpg",
         "image_ratio": "adapt",
-        "address_heading": "Dirección:",
-        "collapsible_address": "Av. Americas 932, Ayuntamiento, Guadalajara, Jalisco, 44620.",
-        "collapsible_contact_no": "+52 33 1297 4265",
-        "collapsible_contact_id": "contacto@palantumhealth.com",
+        "address_heading": "",
+        "collapsible_address": "",
+        "collapsible_contact_no": "",
+        "collapsible_contact_id": "",
         "desktop_layout": "image_first",
         "padding_top": 60,
         "padding_bottom": 0,
