@@ -358,7 +358,7 @@
         "color_scheme": "background-1",
         "grid-align": "normal",
         "padding_top": 100,
-        "padding_bottom": 80,
+        "padding_bottom": 100,
         "custom_class_name": "nosotros"
       }
     },
