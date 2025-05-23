@@ -274,7 +274,7 @@
       ],
       "custom_css": [
         "h2 {color: #144d8c; font-weight: 600 !important;}",
-        "button::hover{background-color: red !important;}"
+        "a.button:hover {background-color: #a8d2f4 !important;}"
       ],
       "settings": {
         "page_full_width": true,
