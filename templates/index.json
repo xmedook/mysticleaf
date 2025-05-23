@@ -21,7 +21,7 @@
             "heading_size": "h1",
             "subheading": "",
             "text": "Innovamos la nutrición avanzada y salud celular",
-            "button_label": "Compra ahora",
+            "button_label": "Compra en Línea",
             "link": "https://sh0rt.bio/ilira-palantum",
             "button_style_secondary": true,
             "box_align": "middle-left",
@@ -135,7 +135,8 @@
       ],
       "custom_css": [
         "h2,h6,p {color: #eaf1f4 !important;}",
-        "h2 {font-weight: 600;}"
+        "h2 {font-weight: 600;}",
+        ".title-wrapper--no-top-margin>.sub-heading {font-size: 16px;font-weight: 700;}"
       ],
       "settings": {
         "page_full_width": false,
