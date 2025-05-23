@@ -1047,7 +1047,7 @@
       ],
       "custom_css": [
         "h2 {color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 900px) {h3 {font-size: 22px !important; }}"
+        "h3{font-size: 20px;}"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
