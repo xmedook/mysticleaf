@@ -136,14 +136,14 @@
       "custom_css": [
         "h2,h6,p {color: #eaf1f4 !important;}",
         "h2 {font-weight: 600;}",
-        ".title-wrapper--no-top-margin>.sub-heading {font-size: 16px;font-weight: 700;}"
+        ".title-wrapper--no-top-margin > .sub-heading {font-size: 16px; font-weight: 700;}"
       ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
         "enable_bg-img": true,
         "bg-img": "shopify://shop_images/homeph.png",
-        "title": "Ilira Daily Essentials",
+        "title": "ilira Daily Essentials",
         "heading_size": "h1",
         "sub_heading": "un suplemento de vanguardia",
         "description": "Descubre ilira Daily Essentials, un suplemento alimenticio diseñado para impulsar la longevidad, el envejecimiento saludable y el bienestar integral. Respaldado por médicos y científicos de Palantum Health, la mezcla en polvo de ilira ofrece una fórmula 21-en-1 que podrás incluir en tu rutina diaria. ¿El resultado? Más energía, mejor reparación celular, mayor claridad mental, articulaciones fuertes y una piel radiante.",
