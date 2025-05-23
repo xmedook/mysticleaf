@@ -213,7 +213,7 @@
         "page_full_width_spacing": false,
         "image": "shopify://shop_images/Etiqueta_nuevo.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
