@@ -137,7 +137,7 @@
         "h2,h6,p {color: #eaf1f4 !important;}",
         "h2 {font-weight: 600;}",
         ".title-wrapper--no-top-margin > .sub-heading {font-size: 16px; font-weight: 700;}",
-        ".rte p{line-height: 20px;}"
+        ".rte p {line-height: 20px;}"
       ],
       "settings": {
         "page_full_width": false,
@@ -273,7 +273,8 @@
         "e6f108f9-bd0e-4f6e-8052-186dcf1e14cd"
       ],
       "custom_css": [
-        "h2 {color: #144d8c; font-weight: 600 !important;}"
+        "h2 {color: #144d8c; font-weight: 600 !important;}",
+        "button::hover{background-color: red !important;}"
       ],
       "settings": {
         "page_full_width": true,
