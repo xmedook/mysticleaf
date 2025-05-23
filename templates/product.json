@@ -59,7 +59,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Precio de introducción",
             "text_style": "body"
           }
         },
@@ -972,7 +972,7 @@
         "tab2_column_8LmYPg"
       ],
       "custom_css": [
-        "h2{font-size: 60px;}",
+        "h2 {font-size: 60px;}",
         "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
