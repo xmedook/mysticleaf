@@ -136,7 +136,8 @@
       "custom_css": [
         "h2,h6,p {color: #eaf1f4 !important;}",
         "h2 {font-weight: 600;}",
-        ".title-wrapper--no-top-margin > .sub-heading {font-size: 16px; font-weight: 700;}"
+        ".title-wrapper--no-top-margin > .sub-heading {font-size: 16px; font-weight: 700;}",
+        ".rte p{line-height: 20px;}"
       ],
       "settings": {
         "page_full_width": false,
