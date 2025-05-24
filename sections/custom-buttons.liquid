@@ -1,0 +1,271 @@
+{% comment %}
+  Section for Custom Buttons
+{% endcomment %}
+
+<div
+  class="custom-buttons-container"
+  style="
+    margin: {{ section.settings.margin_top | default: 40 }}px 0px {{ section.settings.margin_bottom | default: 20 }}px 0px;
+    display: flex;
+    flex-direction: {{ section.settings.button_layout | default: 'row' }};
+    align-items: center;
+    gap: {{ section.settings.button_gap | default: 20 }}px;
+    justify-content: {{ section.settings.button_alignment | default: 'flex-start' }};
+  "
+>
+  {% if section.settings.button1_url != blank and section.settings.button1_text != blank %}
+    <a
+      href="{{ section.settings.button1_url }}"
+      class="button custom-button-1"
+      style="
+        background-color: {{ section.settings.button1_bg_color | default: '#007bff' }};
+        color: {{ section.settings.button1_text_color | default: '#ffffff' }};
+        padding: {{ section.settings.button_padding_vertical | default: 15 }}px {{ section.settings.button_padding_horizontal | default: 15 }}px;
+        text-decoration: none;
+        border-radius: {{ section.settings.button_border_radius | default: 5 }}px;
+        width: {{ section.settings.button_width | default: '280px' }};
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center content within button */
+        text-align: center; /* Center text if logo is small or not present */
+      "
+    >
+      <span style="margin-right: {% if section.settings.button1_logo != blank %}10px{% else %}0px{% endif %}; flex-grow: 1; text-align: center;">
+        {{- section.settings.button1_text -}}
+      </span>
+      {% if section.settings.button1_logo != blank %}
+        <img
+          src="{{ section.settings.button1_logo | image_url: width: section.settings.logo_width }}"
+          alt="{{ section.settings.button1_logo.alt | default: 'Button 1 Logo' }}"
+          width="{{ section.settings.logo_width | default: 100 }}"
+          height="auto"
+          style="
+            width: {{ section.settings.logo_width | default: 100 }}px;
+            height: auto;
+            padding-top: {% if section.settings.button1_text == 'Comprar en' %}5px{% else %}0px{% endif %}; /* Specific adjustment for 'Comprar en' */
+          "
+        >
+      {% endif %}
+    </a>
+  {% endif %}
+
+  {% if section.settings.button2_url != blank and section.settings.button2_text != blank %}
+    <a
+      href="{{ section.settings.button2_url }}"
+      class="button custom-button-2"
+      style="
+        background-color: {{ section.settings.button2_bg_color | default: '#FFCC00' }} !important; /* Important to override potential theme styles */
+        color: {{ section.settings.button2_text_color | default: '#23292D' }};
+        padding: {{ section.settings.button_padding_vertical | default: 15 }}px {{ section.settings.button_padding_horizontal | default: 15 }}px;
+        text-decoration: none;
+        border-radius: {{ section.settings.button_border_radius | default: 5 }}px;
+        width: {{ section.settings.button_width | default: '280px' }};
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center content within button */
+        text-align: center; /* Center text if logo is small or not present */
+      "
+    >
+      <span style="margin-right: {% if section.settings.button2_logo != blank %}10px{% else %}0px{% endif %}; flex-grow: 1; text-align: center;">
+        {{- section.settings.button2_text -}}
+      </span>
+      {% if section.settings.button2_logo != blank %}
+        <img
+          src="{{ section.settings.button2_logo | image_url: width: section.settings.logo_width }}"
+          alt="{{ section.settings.button2_logo.alt | default: 'Button 2 Logo' }}"
+          width="{{ section.settings.logo_width | default: 100 }}"
+          height="auto"
+          style="
+            width: {{ section.settings.logo_width | default: 100 }}px;
+            height: auto;
+          "
+        >
+      {% endif %}
+    </a>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Botones Custom",
+  "tag": "section",
+  "class": "section-custom-buttons",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Button Layout & Spacing"
+    },
+    {
+      "type": "select",
+      "id": "button_layout",
+      "label": "Button Layout",
+      "options": [
+        { "value": "row", "label": "Side by side" },
+        { "value": "column", "label": "One under the other" }
+      ],
+      "default": "row"
+    },
+    {
+      "type": "select",
+      "id": "button_alignment",
+      "label": "Button Alignment (Side by side)",
+      "options": [
+        { "value": "flex-start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "flex-end", "label": "Right" },
+        { "value": "space-between", "label": "Space Between" },
+        { "value": "space-around", "label": "Space Around" }
+      ],
+      "default": "flex-start",
+      "info": "Only applies if 'Side by side' layout is selected."
+    },
+    {
+      "type": "range",
+      "id": "button_gap",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Gap between buttons",
+      "default": 20
+    },
+    {
+      "type": "text",
+      "id": "button_width",
+      "label": "Button Width",
+      "default": "280px",
+      "info": "e.g., 280px, 100%, auto"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Vertical Padding",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "min": 5,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Horizontal Padding",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 25,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Border Radius",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 20,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "Logo Width",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Button 1 Settings"
+    },
+    {
+      "type": "text",
+      "id": "button1_text",
+      "label": "Button 1 Text",
+      "default": "Comprar en"
+    },
+    {
+      "type": "url",
+      "id": "button1_url",
+      "label": "Button 1 URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "button1_logo",
+      "label": "Button 1 Logo"
+    },
+    {
+      "type": "color",
+      "id": "button1_bg_color",
+      "label": "Button 1 Background Color",
+      "default": "#007bff"
+    },
+    {
+      "type": "color",
+      "id": "button1_text_color",
+      "label": "Button 1 Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Button 2 Settings"
+    },
+    {
+      "type": "text",
+      "id": "button2_text",
+      "label": "Button 2 Text",
+      "default": "Comprar en"
+    },
+    {
+      "type": "url",
+      "id": "button2_url",
+      "label": "Button 2 URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "button2_logo",
+      "label": "Button 2 Logo"
+    },
+    {
+      "type": "color",
+      "id": "button2_bg_color",
+      "label": "Button 2 Background Color",
+      "default": "#FFCC00"
+    },
+    {
+      "type": "color",
+      "id": "button2_text_color",
+      "label": "Button 2 Text Color",
+      "default": "#23292D"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Botones Custom"
+    }
+  ]
+}
+{% endschema %}
