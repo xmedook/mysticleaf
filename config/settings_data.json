@@ -1043,7 +1043,8 @@
       " /* Estilos adicionales para mejorar la legibilidad sobre el fondo */#specification-template--24538967965979__specification_block_JWGKth .page-width {color: white; /* o cualquier color que contraste con el fondo */}",
       ".global-media-settings {background-color: transparent;}",
       ".mobile-toolbar__icons {display: none !important;}",
-      ".product__info-bottom.tabs {display: none;}"
+      ".product__info-bottom.tabs {display: none;}",
+      "ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {text-transform: none;}"
     ]
   }
 }
