@@ -184,7 +184,7 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "enable_product_zoom": "zoom",
         "gallery_layout": "thumbnail",
         "stacked_column_alignment": "one",
@@ -224,10 +224,10 @@
         "notify_text": "",
         "notify_error": "",
         "show_adv_product": false,
-        "choose_label": "Related Accessories",
+        "choose_label": "",
         "prev_next_products": false,
         "show_share": false,
-        "share_label": "Share",
+        "share_label": "",
         "show_quantity_selector": false
       }
     },
