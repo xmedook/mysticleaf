@@ -66,7 +66,7 @@
         "custom_liquid_nhacbL": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.description %}\n  <div class=\"product-description\">\n    <div>{{ product.description | escape }}</div>\n  </div>\n{% else %}\n  <div class=\"product-description\">\n    <h2>Description</h2>\n    <p>No description available for this product.</p>\n  </div>\n{% endif %}"
+            "custom_liquid": "{% if product.description %}\n  <div class=\"product-description\">\n    <div>{{ product.description }}</div>\n  </div>\n{% else %}\n  <div class=\"product-description\">\n    <h2>Description</h2>\n    <p>No description available for this product.</p>\n  </div>\n{% endif %}"
           }
         },
         "ac8dc943-c308-423f-90c3-adea0b3a487e": {
