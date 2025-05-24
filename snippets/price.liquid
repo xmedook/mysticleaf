@@ -91,6 +91,17 @@
                {% endif %}
           </div>
       {% endcomment %}
+      {%- if show_badges -%}
+        {% if request.page_type == 'product' %}
+          <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+            {{ 'products.product.sale' | t }}
+          </span>
+        {% else %}
+          <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+            {{ 'products.product.on_sale' | t }}
+          </span>
+        {% endif %}
+      {%- endif -%}
     </div>
 
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
@@ -110,15 +121,6 @@
   </div>
 
   {%- if show_badges -%}
-    {% if request.page_type == 'product' %}
-      <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-        {{ 'products.product.sale' | t }}
-      </span>
-    {% else %}
-      <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-        {{ 'products.product.on_sale' | t }}
-      </span>
-    {% endif %}
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
     </span>
