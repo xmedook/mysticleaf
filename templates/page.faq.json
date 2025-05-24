@@ -360,6 +360,9 @@
     },
     "25e9d006-146e-44f2-919b-da91295c2fba": {
       "type": "contact-form",
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
