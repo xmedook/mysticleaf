@@ -163,7 +163,7 @@
       "inventory_out_of_stock_continue_selling": "In stock",
       "reviews": "Reviews",
       "on_sale": "OFF",
-      "sale": "Sale",
+      "sale": "Precio de introducción",
       "total": "Sub total",
       "product_variants": "Product variants",
       "stock_status": "Availability",
@@ -579,7 +579,7 @@
   "promo": {
     "label": {
       "new": "New",
-      "sale": "Sale",
+      "sale": "Precio de introducción",
       "offer": "Offer"
     }
   },
