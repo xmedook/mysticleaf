@@ -146,7 +146,7 @@
           "type": "custom_liquid",
           "name": "Botones de Compra",
           "settings": {
-            "custom_liquid": "{% assign button1_url = 'https://amazon.com.mx' %}\n{% assign button2_url = 'https://mercadolibre.com.mx' %}\n\n<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: column; align-items: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; padding: 15px; text-decoration: none; border-radius: 5px; width: 50%; margin-bottom: 20px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 50%; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/mercadolibre.png?v=1747251862\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto;\">\n    </a>\n</div>"
+            "custom_liquid": "{% assign button1_url = 'https://amazon.com.mx' %}\n{% assign button2_url = 'https://mercadolibre.com.mx' %}\n\n<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/mercadolibre.png?v=1747251862\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto;\">\n    </a>\n</div>"
           }
         }
       },
@@ -179,7 +179,7 @@
         "@media (max-width: 750px) {a.button {width: 100% !important; }}",
         "modal-opener .global-media-settings {border: 1px solid #ffffff00 !important;}",
         ".product__info-container p.product__text {margin-top: -25px;}",
-        ".price__sale {color: #144D8C;}"
+        ".price__sale {color: #144d8c;}"
       ],
       "settings": {
         "page_full_width": false,
