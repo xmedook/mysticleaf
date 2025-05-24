@@ -185,7 +185,7 @@
         "page_full_width": false,
         "page_full_width_spacing": false,
         "enable_sticky_info": true,
-        "enable_product_zoom": "cloud",
+        "enable_product_zoom": "zoom",
         "gallery_layout": "thumbnail",
         "stacked_column_alignment": "one",
         "thumb_carousel_layout": "thumbnail_slider_left",
