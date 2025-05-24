@@ -54,10 +54,12 @@
         },
         "22daea9f-6daf-487e-b422-cba212ae0998": {
           "type": "rating",
+          "disabled": true,
           "settings": {}
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Precio de introducción",
             "text_style": "body"
@@ -176,7 +178,8 @@
         "@media screen and (min-width: 750px) {.product--thumbnail .thumbnail-slider {gap: 10px !important; }}",
         "@media (max-width: 750px) {a.button {width: 100% !important; }}",
         "modal-opener .global-media-settings {border: 1px solid #ffffff00 !important;}",
-        ".product__info-container p.product__text {margin-top: -25px;}"
+        ".product__info-container p.product__text {margin-top: -25px;}",
+        ".price__sale {color: #144D8C;}"
       ],
       "settings": {
         "page_full_width": false,
