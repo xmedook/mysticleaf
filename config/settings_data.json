@@ -1042,7 +1042,8 @@
       "#specification-template--24538967965979__specification_block_JWGKth {background-image: url(\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Background-producto.jpg?v=1746542439\"); background-size: cover; /* Estira la imagen para cubrir todo el contenedor */ background-position: center; /* Centra la imagen */ background-repeat: no-repeat; /* Evita la repetición de la imagen */ /* Agrega otras propiedades de estilo si es necesario */ min-height: 100vh; /* Asegúrate de que el fondo se extienda a la altura completa de la vista */}",
       " /* Estilos adicionales para mejorar la legibilidad sobre el fondo */#specification-template--24538967965979__specification_block_JWGKth .page-width {color: white; /* o cualquier color que contraste con el fondo */}",
       ".global-media-settings {background-color: transparent;}",
-      ".mobile-toolbar__icons{display: none !important;}"
+      ".mobile-toolbar__icons {display: none !important;}",
+      ".product__info-bottom.tabs {display: none;}"
     ]
   }
 }
