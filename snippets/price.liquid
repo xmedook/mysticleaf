@@ -91,18 +91,15 @@
                {% endif %}
           </div>
       {% endcomment %}
-      {%- if show_badges -%}
-        {% if request.page_type == 'product' %}
-          <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-            {{ 'products.product.sale' | t }}
-          </span>
-        {% else %}
-          <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-            {{ 'products.product.on_sale' | t }}
-          </span>
-        {% endif %}
-      {%- endif -%}
     </div>
+
+    {%- if show_badges -%}
+      <div>
+        <span class="badge price__badge-sale color-accent-2">
+          {{ 'products.product.sale' | t }}
+        </span>
+      </div>
+    {%- endif -%}
 
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
