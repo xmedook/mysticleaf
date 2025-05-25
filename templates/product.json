@@ -850,6 +850,66 @@
         "custom_class_name": "una-formula"
       }
     },
+    "section_comparison_table_yqPYPR": {
+      "type": "section-comparison-table",
+      "blocks": {
+        "feature_CQdMhQ": {
+          "type": "feature",
+          "settings": {
+            "name": "Clinically proven",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": ""
+          }
+        },
+        "feature_BxWwUx": {
+          "type": "feature",
+          "settings": {
+            "name": "Feature",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": ""
+          }
+        },
+        "feature_eXmwn8": {
+          "type": "feature",
+          "settings": {
+            "name": "Electrolytes",
+            "our_product_has_value": true,
+            "our_product_value": "114mg",
+            "other_product_has_value": true,
+            "other_product_value": "350mg"
+          }
+        },
+        "feature_6fqVAW": {
+          "type": "feature",
+          "settings": {
+            "name": "No artificial colors or sweeteners",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_CQdMhQ",
+        "feature_BxWwUx",
+        "feature_eXmwn8",
+        "feature_6fqVAW"
+      ],
+      "name": "Comparison Table",
+      "settings": {
+        "section_title": "Us vs. Them",
+        "section_subtitle": "From high-quality ingredients to delicious flavors, here's a snapshot of why health conscious people are trying and sticking with our recovery drink over others.",
+        "our_product_title": "Our Product",
+        "other_product_title": "Other Products",
+        "primary_color": "#3B82F6",
+        "secondary_color": "#EFF6FF"
+      }
+    },
     "custom_liquid_qacQgF": {
       "type": "custom-liquid",
       "custom_css": [
@@ -1105,6 +1165,7 @@
     "1703051577b27756d3",
     "comprehensive_benefits_BQVqig",
     "specification_block_JWGKth",
+    "section_comparison_table_yqPYPR",
     "custom_liquid_qacQgF",
     "tabbed_content_PhC6fG",
     "collapsible_content_fTw7Vy",
