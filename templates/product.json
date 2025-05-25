@@ -231,6 +231,45 @@
         "show_quantity_selector": false
       }
     },
+    "image_with_text_PRgVpA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dBDpTW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Los niveles de NAD+ y un envejecimiento saludable van de la mano.",
+            "heading_size": "h2"
+          }
+        },
+        "text_m34dTL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Investigacion publicada....</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dBDpTW",
+        "text_m34dTL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "custom_liquid_n8kg9N": {
       "type": "custom-liquid",
       "custom_css": [
@@ -568,42 +607,6 @@
         "custom_class_name": ""
       }
     },
-    "image_banner_eUQ7db": {
-      "type": "image-banner",
-      "blocks": {
-        "text_QcRaiD": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_QcRaiD"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "image": "shopify://shop_images/Mesa_de_trabajo_2CA_CA.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "custom_class_name": ""
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -628,13 +631,6 @@
         "show_rating": true,
         "padding_top": 50,
         "padding_bottom": 80
-      }
-    },
-    "1703051577b27756d3": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "comprehensive_benefits_BQVqig": {
@@ -741,113 +737,6 @@
       "settings": {
         "title": "Ingredientes Clave",
         "columns": "4"
-      }
-    },
-    "specification_block_JWGKth": {
-      "type": "specification-block",
-      "blocks": {
-        "text_c3nQ4R": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
-            "title": "( Inulina de agave )",
-            "desc": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "link_text": "View More",
-            "link": ""
-          }
-        },
-        "text_amLChG": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Creacion_Blue.png",
-            "title": "( L-Teanina )",
-            "desc": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
-            "link_text": "View More",
-            "link": ""
-          }
-        },
-        "text_9N8UUB": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
-            "title": "( Mononucleótido de Nicotinamida )",
-            "desc": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
-            "link_text": "View More",
-            "link": ""
-          }
-        },
-        "text_XEpwtb": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Probado_Blue.png",
-            "title": "( Metilsulfonilmetano )",
-            "desc": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
-            "link_text": "View More",
-            "link": ""
-          }
-        },
-        "text_gyLyfg": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Creacion_Blue.png",
-            "title": "( Malato de Magnesio )",
-            "desc": "El magnesio es esencial para cientos de reacciones enzimáticas.",
-            "link_text": "View More",
-            "link": ""
-          }
-        },
-        "text_dNH9F9": {
-          "type": "text",
-          "settings": {
-            "block-image": "shopify://shop_images/PalantumHealth_Optimizacion_Blue.png",
-            "title": "(  L-Glicina )",
-            "desc": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
-            "link_text": "View More",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_c3nQ4R",
-        "text_amLChG",
-        "text_9N8UUB",
-        "text_XEpwtb",
-        "text_gyLyfg",
-        "text_dNH9F9"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.content-align--center h2 {color: #f1f1f1 !important;}"
-      ],
-      "settings": {
-        "page_full_width": false,
-        "page_full_width_spacing": false,
-        "color_scheme": "background-1",
-        "title": "Una fórmula perfectamente diseñada",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "Cada uno de los 21 ingredientes ( vitaminas, minerales, antioxidantes y aminoácidos ) en ilira Daily Essentials fue cuidadosamente seleccionado para apoyar el envejecimiento saludable ofreciendo una cobertura integral.",
-        "button_label": "",
-        "button_link": "",
-        "column_alignment": "center",
-        "button_style_secondary": false,
-        "enable_image": true,
-        "primary_image": "shopify://shop_images/centrada-pala2.png",
-        "primary_title": "",
-        "primary_sub_title": "",
-        "primary_description": "",
-        "primary_button_text": "",
-        "primary_button_link": "",
-        "primary_text_align": "center",
-        "vertical_position": "position-vertical-center",
-        "banner_style": "grid",
-        "specification_style": "style1",
-        "overlay_style_height": "960",
-        "primary_position": "center",
-        "content_reverse": false,
-        "padding_top": 84,
-        "padding_bottom": 84,
-        "custom_class_name": "una-formula"
       }
     },
     "section_comparison_table_yqPYPR": {
@@ -1155,16 +1044,14 @@
   "order": [
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
+    "image_with_text_PRgVpA",
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
     "main_components_1_Wqexdt",
     "main_components_1_DCyfqB",
     "image_banner_888EhY",
-    "image_banner_eUQ7db",
     "product-recommendations",
-    "1703051577b27756d3",
     "comprehensive_benefits_BQVqig",
-    "specification_block_JWGKth",
     "section_comparison_table_yqPYPR",
     "custom_liquid_qacQgF",
     "tabbed_content_PhC6fG",
