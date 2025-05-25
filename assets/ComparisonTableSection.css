@@ -1,0 +1,10 @@
+.comparison-table-section {
+  padding: 2rem 0;
+  background-color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+  .comparison-table-section {
+    padding: 1rem 0;
+  }
+}
