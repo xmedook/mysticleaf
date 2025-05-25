@@ -3,6 +3,13 @@
 *  Custom CSS
 */
 
+.shopify-section-header-sticky .header-wrapper .header {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+
+
 .testimonial-content {
   min-height: 485px !important;
 }
