@@ -1045,9 +1045,7 @@
       ".mobile-toolbar__icons {display: none !important;}",
       ".product__info-bottom.tabs {display: none;}",
       "ul.dt-nav > li > .megamenu_megamenu a.dt-sc-nav-link {text-transform: none;}",
-      ".section-header {margin-bottom: 0px !important;}",
-      ".header-row {background: #ffffff8; padding: 10px 30px 10px 30px; border-radius: 15px;}",
-      "header#header {border: none;}"
+      ".section-header {margin-bottom: 0px !important;}"
     ]
   }
 }
