@@ -210,7 +210,8 @@
           "6785f306-a6b1-4f8d-abdc-7f21d70a632f"
         ],
         "custom_css": [
-          "p.announcement-bar__message.h5 {font-weight: 200 !important; font-size: 12px;}"
+          "p.announcement-bar__message.h5 {font-weight: 200 !important; font-size: 12px;}",
+          ".section-header {margin-bottom: 0px!important;}"
         ],
         "settings": {
           "color_scheme": "background-2",
@@ -1044,7 +1045,7 @@
       ".global-media-settings {background-color: transparent;}",
       ".mobile-toolbar__icons {display: none !important;}",
       ".product__info-bottom.tabs {display: none;}",
-      "ul.dt-nav>li>.megamenu_megamenu a.dt-sc-nav-link {text-transform: none;}"
+      "ul.dt-nav > li > .megamenu_megamenu a.dt-sc-nav-link {text-transform: none;}"
     ]
   }
 }
