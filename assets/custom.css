@@ -4,6 +4,10 @@
 */
 
 
+.swiper-slide.swiper-slide-active .banner__box {
+    transition-delay: 5s!important;
+}
+
 .slideshow__media {
   position: relative; /* Needed for absolute positioning of the video */
   width: 100%;
