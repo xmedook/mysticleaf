@@ -3,18 +3,8 @@
 *  Custom CSS
 */
 
-.shopify-section-header-sticky .header-wrapper .header {
-    box-shadow: none!important;
-    background-color: transparent!important;
-}
-.header-row {
-  background: #fffff80!important;
-  padding: 10px 30px 10px 30px!important;
-  border-radius: 15px!important;
-}
-
-header#header {
-  border: none!important;
+.slideshow__text-wrapper.banner__content.banner__content--middle-left.page-width.banner--desktop-transparent {
+    max-width: 150rem!important;
 }
 
 .testimonial-content {
