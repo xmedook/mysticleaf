@@ -1,0 +1,267 @@
+<div
+  class="comparison-table-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="comparison-table"
+>
+  <div
+    class="comparison-section"
+    style="--primary-color: {{ section.settings.primary_color }}; --secondary-color: {{ section.settings.secondary_color }}"
+  >
+    <div class="comparison-header">
+      <h2 class="comparison-title">{{ section.settings.section_title }}</h2>
+      <p class="comparison-subtitle">{{ section.settings.section_subtitle }}</p>
+    </div>
+
+    <!-- Desktop Table -->
+    <div class="comparison-table-container desktop-only">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th class="feature-column">Features</th>
+            <th class="product-column our-product">{{ section.settings.our_product_title }}</th>
+            <th class="product-column other-product">{{ section.settings.other_product_title }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for block in section.blocks %}
+            {% if block.type == 'feature' %}
+              <tr class="feature-row" {{ block.shopify_attributes }}>
+                <td class="feature-name">{{ block.settings.name }}</td>
+                <td class="our-product-value">
+                  {% if block.settings.our_product_has_value %}
+                    <span class="check-icon">{% render 'icon-check' %}</span>
+                    {% if block.settings.our_product_value != blank %}
+                      <span class="value-text">{{ block.settings.our_product_value }}</span>
+                    {% endif %}
+                  {% else %}
+                    {% if block.settings.our_product_value != blank %}
+                      <span class="value-text">{{ block.settings.our_product_value }}</span>
+                    {% else %}
+                      <span class="x-icon">{% render 'icon-x' %}</span>
+                    {% endif %}
+                  {% endif %}
+                </td>
+                <td class="other-product-value">
+                  {% if block.settings.other_product_has_value %}
+                    <span class="check-icon">{% render 'icon-check' %}</span>
+                    {% if block.settings.other_product_value != blank %}
+                      <span class="value-text">{{ block.settings.other_product_value }}</span>
+                    {% endif %}
+                  {% else %}
+                    {% if block.settings.other_product_value != blank %}
+                      <span class="value-text">{{ block.settings.other_product_value }}</span>
+                    {% else %}
+                      <span class="x-icon">{% render 'icon-x' %}</span>
+                    {% endif %}
+                  {% endif %}
+                </td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile Cards -->
+    <div class="comparison-cards-container mobile-only">
+      {% for block in section.blocks %}
+        {% if block.type == 'feature' %}
+          <div class="comparison-card" data-feature-id="{{ block.id }}" {{ block.shopify_attributes }}>
+            <div class="comparison-card-header" data-toggle-feature="{{ block.id }}">
+              <h3 class="feature-name">{{ block.settings.name }}</h3>
+              <span class="chevron-icon chevron-down">{% render 'icon-chevron-down' %}</span>
+              <span class="chevron-icon chevron-up" style="display: none;">{% render 'icon-chevron-up' %}</span>
+            </div>
+            <div class="comparison-card-content" data-feature-content="{{ block.id }}">
+              <div class="product-comparison">
+                <div class="product-column">
+                  <h4 class="product-title">{{ section.settings.our_product_title }}</h4>
+                  <div class="product-value">
+                    {% if block.settings.our_product_has_value %}
+                      <span class="check-icon">{% render 'icon-check' %}</span>
+                      {% if block.settings.our_product_value != blank %}
+                        <span class="value-text">{{ block.settings.our_product_value }}</span>
+                      {% endif %}
+                    {% else %}
+                      {% if block.settings.our_product_value != blank %}
+                        <span class="value-text">{{ block.settings.our_product_value }}</span>
+                      {% else %}
+                        <span class="x-icon">{% render 'icon-x' %}</span>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="product-column">
+                  <h4 class="product-title">{{ section.settings.other_product_title }}</h4>
+                  <div class="product-value">
+                    {% if block.settings.other_product_has_value %}
+                      <span class="check-icon">{% render 'icon-check' %}</span>
+                      {% if block.settings.other_product_value != blank %}
+                        <span class="value-text">{{ block.settings.other_product_value }}</span>
+                      {% endif %}
+                    {% else %}
+                      {% if block.settings.other_product_value != blank %}
+                        <span class="value-text">{{ block.settings.other_product_value }}</span>
+                      {% else %}
+                        <span class="x-icon">{% render 'icon-x' %}</span>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Toggle mobile feature cards
+    const toggleButtons = document.querySelectorAll('[data-toggle-feature]');
+
+    toggleButtons.forEach((button) => {
+      button.addEventListener('click', function () {
+        const featureId = this.getAttribute('data-toggle-feature');
+        const content = document.querySelector(`[data-feature-content="${featureId}"]`);
+        const chevronDown = this.querySelector('.chevron-down');
+        const chevronUp = this.querySelector('.chevron-up');
+
+        if (content.classList.contains('expanded')) {
+          content.classList.remove('expanded');
+          chevronDown.style.display = 'inline-block';
+          chevronUp.style.display = 'none';
+        } else {
+          content.classList.add('expanded');
+          chevronDown.style.display = 'none';
+          chevronUp.style.display = 'inline-block';
+        }
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Comparison Table",
+  "tag": "section",
+  "class": "comparison-table-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Us vs. Them"
+    },
+    {
+      "type": "textarea",
+      "id": "section_subtitle",
+      "label": "Section Subtitle",
+      "default": "From high-quality ingredients to delicious flavors, here's a snapshot of why health conscious people are trying and sticking with our recovery drink over others."
+    },
+    {
+      "type": "text",
+      "id": "our_product_title",
+      "label": "Our Product Column Title",
+      "default": "Our Product"
+    },
+    {
+      "type": "text",
+      "id": "other_product_title",
+      "label": "Other Product Column Title",
+      "default": "Other Products"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Primary Color",
+      "default": "#3B82F6"
+    },
+    {
+      "type": "color",
+      "id": "secondary_color",
+      "label": "Secondary Color",
+      "default": "#EFF6FF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Feature Name",
+          "default": "Feature"
+        },
+        {
+          "type": "checkbox",
+          "id": "our_product_has_value",
+          "label": "Our Product Has Value",
+          "default": true,
+          "info": "Check to show a checkmark, uncheck to show an X"
+        },
+        {
+          "type": "text",
+          "id": "our_product_value",
+          "label": "Our Product Value (Optional)",
+          "info": "Leave empty to show only checkmark/X, or add text like '114mg'"
+        },
+        {
+          "type": "checkbox",
+          "id": "other_product_has_value",
+          "label": "Other Product Has Value",
+          "default": false,
+          "info": "Check to show a checkmark, uncheck to show an X"
+        },
+        {
+          "type": "text",
+          "id": "other_product_value",
+          "label": "Other Product Value (Optional)",
+          "info": "Leave empty to show only checkmark/X, or add text like '350mg'"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison Table",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "name": "Clinically proven",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": ""
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "name": "Electrolytes",
+            "our_product_has_value": true,
+            "our_product_value": "114mg",
+            "other_product_has_value": true,
+            "other_product_value": "350mg"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "name": "No artificial colors or sweeteners",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": ""
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
