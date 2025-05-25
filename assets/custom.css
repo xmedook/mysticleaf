@@ -4,11 +4,18 @@
 */
 
 .shopify-section-header-sticky .header-wrapper .header {
-    box-shadow: none;
-    background-color: transparent;
+    box-shadow: none!important;
+    background-color: transparent!important;
+}
+.header-row {
+  background: #ffffff8!important;
+  padding: 10px 30px 10px 30px!important;
+  border-radius: 15px!important;
 }
 
-
+header#header {
+  border: none!important;
+}
 
 .testimonial-content {
   min-height: 485px !important;
