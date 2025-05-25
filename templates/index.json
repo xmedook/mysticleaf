@@ -50,8 +50,8 @@
         "swiper_navigation": false,
         "auto_play": 0,
         "slider_effect": "slide",
-        "show_text_below": true,
-        "overlay_opacity": 0.5,
+        "show_text_below": false,
+        "overlay_opacity": 0,
         "overlay_color": "#eaf1f4",
         "overlay_screen_width": "576",
         "custom_class_name": ""
