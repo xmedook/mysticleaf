@@ -3,6 +3,30 @@
 *  Custom CSS
 */
 
+
+.slideshow__media {
+  position: relative; /* Needed for absolute positioning of the video */
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Hide any overflow from the video */
+}
+
+.slideshow__media video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crucial for cover mode */
+  z-index: -1; /* Place the video behind other content */
+}
+
+/* Optional: Hide the default image placeholders */
+.slideshow__media img {
+  display: none;
+}
+
+
 .slideshow__text-wrapper.banner__content.banner__content--middle-left.page-width.banner--desktop-transparent {
     max-width: 150rem!important;
 }
