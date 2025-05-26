@@ -4,7 +4,8 @@
 */
 
 header{
-  sticky: top;
+  position: sticky !important;
+  top: 0;
 }
 
 .swiper-slide.swiper-slide-active .banner__box {
