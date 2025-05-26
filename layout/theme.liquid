@@ -376,6 +376,18 @@
     {% if template == 'index' %}
       <script src="{{ 'slideshow.js' | asset_url }}" defer></script>
     {% endif %}
+
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const el = document.querySelector('.swiper-slide  .slideshow__text.banner__box');
+      if (el) {
+        el.classList.add('visible');
+      }
+    }, 3000); // 3 segundos
+  });
+</script>
   </head>
 
   <body
