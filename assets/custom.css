@@ -3,9 +3,9 @@
 *  Custom CSS
 */
 
-#header{
+  #header{
   position: sticky !important;
-  top: 0;
+    top: 0 !important;
 }
 
 .swiper-slide.swiper-slide-active .banner__box {
