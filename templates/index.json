@@ -39,9 +39,9 @@
         "a.button.button--secondary {background: #144d8c; border: none;}",
         "h2.banner__heading.h1 {font-weight: 700;}",
         ".swiper-slide.swiper-slide-active .banner__box {transition-delay: 3 !important;}",
-        ".swiper-slide.swiper-slide-active .banner__box {transform: scale(1); opacity: 0 !impotant; transition-delay: .5s;}",
-        ".slideshow__text.banner__box {opacity: 0 !important; transition: opacity 0.5s ease;}",
-        ".slideshow__text.banner__box.visible {opacity: 1;}"
+        ".swiper-slide.swiper-slide-active .banner__box {transform: scale(1); opacity: 0 !impotant; transition-delay: 0.5s;}",
+        ".swiper-slide.swiper-slide-active .slideshow__text.banner__box {opacity: 0; transition: opacity 0.5s ease;}",
+        ".swiper-slide.swiper-slide-active.slideshow__text.banner__box.visible {opacity: 1;}"
       ],
       "settings": {
         "page_full_width": true,
