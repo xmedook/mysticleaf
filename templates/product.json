@@ -231,6 +231,46 @@
         "show_quantity_selector": false
       }
     },
+    "image_with_text_kHiHB7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MVp3fA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Los niveles de NAD+ y un envejecimiento saludable van de la mano.",
+            "heading_size": "h2"
+          }
+        },
+        "text_RRnKWp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MVp3fA",
+        "text_RRnKWp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "image": "shopify://shop_images/Ilira_daily_esssentials_section_page-0001_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "image_with_text_PRgVpA": {
       "type": "image-with-text",
       "blocks": {
@@ -261,46 +301,6 @@
         "page_full_width": true,
         "page_full_width_spacing": true,
         "image": "shopify://shop_images/chart.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_class_name": ""
-      }
-    },
-    "image_with_text_kHiHB7": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MVp3fA": {
-          "type": "heading",
-          "settings": {
-            "heading": "Los niveles de NAD+ y un envejecimiento saludable van de la mano.",
-            "heading_size": "h2"
-          }
-        },
-        "text_RRnKWp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MVp3fA",
-        "text_RRnKWp"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "page_full_width": true,
-        "page_full_width_spacing": true,
-        "image": "shopify://shop_images/Ilira_daily_esssentials_section_page-0001_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -1205,8 +1205,8 @@
   "order": [
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
-    "image_with_text_PRgVpA",
     "image_with_text_kHiHB7",
+    "image_with_text_PRgVpA",
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
     "main_components_1_Wqexdt",
