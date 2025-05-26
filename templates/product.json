@@ -742,17 +742,77 @@
     "section_comparison_table_yqPYPR": {
       "type": "section-comparison-table",
       "blocks": {
+        "feature_6fqVAW": {
+          "type": "feature",
+          "settings": {
+            "name": "Ingrediente NAD+ principal",
+            "our_product_has_value": true,
+            "our_product_value": "NMN (500 mg)",
+            "other_product_has_value": false,
+            "other_product_value": "❌ NR (100–300 mg) "
+          }
+        },
         "feature_CQdMhQ": {
           "type": "feature",
           "settings": {
-            "name": "Clinically proven",
+            "name": "Dosis Efectiva",
             "our_product_has_value": true,
-            "our_product_value": "",
+            "our_product_value": "NMN (500 mg)",
             "other_product_has_value": false,
-            "other_product_value": ""
+            "other_product_value": " ❌ Usualmente menor a 350 mg"
           }
         },
         "feature_BxWwUx": {
+          "type": "feature",
+          "settings": {
+            "name": "Apoya producción de NAD+",
+            "our_product_has_value": true,
+            "our_product_value": "Directo (NMN)",
+            "other_product_has_value": true,
+            "other_product_value": "Indirecto (requiere conversión)"
+          }
+        },
+        "feature_eXmwn8": {
+          "type": "feature",
+          "settings": {
+            "name": "Senolíticos incluidos",
+            "our_product_has_value": true,
+            "our_product_value": "Sí (Fisetina, Quercetina)",
+            "other_product_has_value": false,
+            "other_product_value": "❌ No"
+          }
+        },
+        "feature_MyHMcQ": {
+          "type": "feature",
+          "settings": {
+            "name": "Cantidad de ingredientes activos",
+            "our_product_has_value": true,
+            "our_product_value": "21 en 1 solo producto",
+            "other_product_has_value": false,
+            "other_product_value": "❌ 1–3 ingredientes "
+          }
+        },
+        "feature_HGMChw": {
+          "type": "feature",
+          "settings": {
+            "name": "Formato",
+            "our_product_has_value": true,
+            "our_product_value": "Polvo soluble con sabor natural",
+            "other_product_has_value": false,
+            "other_product_value": "❌ Cápsulas "
+          }
+        },
+        "feature_DPntxc": {
+          "type": "feature",
+          "settings": {
+            "name": "Absorción",
+            "our_product_has_value": true,
+            "our_product_value": "Alta (polvo)",
+            "other_product_has_value": false,
+            "other_product_value": "❌  Baja (cápsulas)"
+          }
+        },
+        "feature_hJx9R3": {
           "type": "feature",
           "settings": {
             "name": "Feature",
@@ -762,32 +822,71 @@
             "other_product_value": ""
           }
         },
-        "feature_eXmwn8": {
+        "feature_N97KWC": {
           "type": "feature",
           "settings": {
-            "name": "Electrolytes",
+            "name": "Apoyo cognitivo",
             "our_product_has_value": true,
-            "our_product_value": "114mg",
-            "other_product_has_value": true,
-            "other_product_value": "350mg"
+            "our_product_value": "Colina, Teanina, Vitaminas B6, B12, D3, Magnesio",
+            "other_product_has_value": false,
+            "other_product_value": "❌  No específico"
           }
         },
-        "feature_6fqVAW": {
+        "feature_Y7bXE7": {
           "type": "feature",
           "settings": {
-            "name": "No artificial colors or sweeteners",
+            "name": "",
             "our_product_has_value": true,
             "our_product_value": "",
             "other_product_has_value": false,
-            "other_product_value": ""
+            "other_product_value": "❌"
+          }
+        },
+        "feature_cmyJnD": {
+          "type": "feature",
+          "settings": {
+            "name": "",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": "❌"
+          }
+        },
+        "feature_M4d3gg": {
+          "type": "feature",
+          "settings": {
+            "name": "",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": "❌"
+          }
+        },
+        "feature_DPjmFH": {
+          "type": "feature",
+          "settings": {
+            "name": "",
+            "our_product_has_value": true,
+            "our_product_value": "",
+            "other_product_has_value": false,
+            "other_product_value": "❌"
           }
         }
       },
       "block_order": [
+        "feature_6fqVAW",
         "feature_CQdMhQ",
         "feature_BxWwUx",
         "feature_eXmwn8",
-        "feature_6fqVAW"
+        "feature_MyHMcQ",
+        "feature_HGMChw",
+        "feature_DPntxc",
+        "feature_hJx9R3",
+        "feature_N97KWC",
+        "feature_Y7bXE7",
+        "feature_cmyJnD",
+        "feature_M4d3gg",
+        "feature_DPjmFH"
       ],
       "name": "Comparison Table",
       "settings": {
