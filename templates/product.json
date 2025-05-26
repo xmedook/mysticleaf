@@ -911,6 +911,7 @@
         "feature_VW8Q6G"
       ],
       "custom_css": [
+        "p{font-size: 16px;}",
         "h2 {font-size: 60px !important; color: #144d8c; font-weight: 600 !important;}",
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
       ],
