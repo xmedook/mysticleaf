@@ -271,6 +271,65 @@
         "custom_class_name": ""
       }
     },
+    "image_with_text_f36cfA": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_7AEctf": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_Fwjij7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu metabolismo también envejece.",
+            "heading_size": "h1"
+          }
+        },
+        "text_TCXBcD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A medida que envejeces, tu metabolismo se vuelvemás lento y menos eficiente. Esto afectadirectamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo.Esto ocurre por dos razones principales:</p><p>1. Disminución de NAD+</p><p>Los niveles de NAD+ (una coenzima esencial para laproducción de energía celular) disminuyen con laedad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del NAD+,también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Q78Cq6": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "caption_7AEctf",
+        "heading_Fwjij7",
+        "text_TCXBcD",
+        "button_Q78Cq6"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/Ilira_daily_esssentials_section_page-0002.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "image_with_text_PRgVpA": {
       "type": "image-with-text",
       "blocks": {
@@ -284,7 +343,7 @@
         "text_m34dTL": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>ilira incrementa los niveles de NAD+ mediante<br/>NMN, uno de los precursores mas eficientes del<br/>NAD+.<br/>Un estudio clínico en humanos demostró que 3О<br/>días de suplementación con NMN a una dosis<br/>de 250 mg/día resultaron en un aumento del<br/>40% en los niveles de NAD+ en sangre.<br/>La suplementación con NMN ha demostrado<br/>apoyar la sensibilidad a la insulina, la salud<br/>vascular (clave para la resistencia física) y la<br/>función muscular.</p><p><br/>Referencia: Igarashi, Masaki, et al. Nature Aging<br/><br/></p>",
+            "text": "<p>ilira incrementa los niveles de <strong>NAD+</strong> mediante <strong>NMN</strong>, uno de los precursores mas eficientes del NAD+. Un estudio clínico en humanos demostró que <strong>3Оdías de suplementación con NMN</strong> a una dosis de 250 mg/día resultaron en un <strong>aumento del 40% en los niveles de NAD+ en sangre.</strong> </p><p>La suplementación con NMN ha demostrado apoyar la sensibilidad a la insulina, la salud vascular (clave para la resistencia física) y la función muscular.</p><p>Referencia: Igarashi, Masaki, et al. Nature Aging</p>",
             "text_style": "body"
           }
         }
@@ -1206,6 +1265,7 @@
     "2246be81-f016-4af3-a46e-0b3d46f7e978",
     "main",
     "image_with_text_kHiHB7",
+    "image_with_text_f36cfA",
     "image_with_text_PRgVpA",
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
