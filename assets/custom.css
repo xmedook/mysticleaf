@@ -7,6 +7,12 @@
   position: sticky !important;
     top: 0 !important;
 }
+
+.blue-text{
+  font-family: Gentium;
+  color: #144d8c;
+  font-weight: 600;
+}
                     
 /* Banner */
 .swiper-slide .banner__box {
