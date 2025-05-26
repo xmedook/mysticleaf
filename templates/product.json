@@ -253,7 +253,9 @@
         "heading_dBDpTW",
         "text_m34dTL"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": true,
