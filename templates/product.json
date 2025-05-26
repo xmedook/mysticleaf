@@ -835,41 +835,61 @@
         "feature_Y7bXE7": {
           "type": "feature",
           "settings": {
-            "name": "",
+            "name": "Apoyo a Piel, Articulaciones, Salud Ósea y Colágeno",
             "our_product_has_value": true,
-            "our_product_value": "",
+            "our_product_value": "Glicina, Ácido Hialurónico, MSM, Vitaminas K2 y D3",
             "other_product_has_value": false,
-            "other_product_value": "❌"
+            "other_product_value": "❌ No"
           }
         },
         "feature_cmyJnD": {
           "type": "feature",
           "settings": {
-            "name": "",
+            "name": "Apoyo Inmunológico",
+            "our_product_has_value": true,
+            "our_product_value": "Zinc, Selenio, Vitamina C",
+            "other_product_has_value": false,
+            "other_product_value": "❌ No"
+          }
+        },
+        "feature_bDbygk": {
+          "type": "feature",
+          "settings": {
+            "name": "Feature",
             "our_product_has_value": true,
             "our_product_value": "",
             "other_product_has_value": false,
-            "other_product_value": "❌"
+            "other_product_value": ""
           }
         },
         "feature_M4d3gg": {
           "type": "feature",
           "settings": {
-            "name": "",
+            "name": "Apoyo Cardiovascular",
             "our_product_has_value": true,
-            "our_product_value": "",
+            "our_product_value": "Vitamina K2, B9, B12, MSM",
             "other_product_has_value": false,
-            "other_product_value": "❌"
+            "other_product_value": "❌ No"
           }
         },
         "feature_DPjmFH": {
           "type": "feature",
           "settings": {
-            "name": "",
+            "name": "Probióticos incluidos",
             "our_product_has_value": true,
-            "our_product_value": "",
+            "our_product_value": "Sí (Inulina de agave)",
             "other_product_has_value": false,
-            "other_product_value": "❌"
+            "other_product_value": "❌ No"
+          }
+        },
+        "feature_VW8Q6G": {
+          "type": "feature",
+          "settings": {
+            "name": "Valor por porción",
+            "our_product_has_value": true,
+            "our_product_value": "Alta – múltiples rutas de longevidad",
+            "other_product_has_value": false,
+            "other_product_value": "❌ Baja – fórmula limitada"
           }
         }
       },
@@ -885,8 +905,10 @@
         "feature_N97KWC",
         "feature_Y7bXE7",
         "feature_cmyJnD",
+        "feature_bDbygk",
         "feature_M4d3gg",
-        "feature_DPjmFH"
+        "feature_DPjmFH",
+        "feature_VW8Q6G"
       ],
       "name": "Comparison Table",
       "settings": {
