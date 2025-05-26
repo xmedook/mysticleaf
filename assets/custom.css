@@ -8,6 +8,18 @@
     top: 0 !important;
 }
 
+/* Banner */
+.swiper-slide .banner__box {
+  opacity: 0;
+}
+.swiper-slide .banner__box .visible {
+  opacity: 1 !important;
+}
+.swiper-slide.swiper-slide-active .banner__box {
+  transform: scale(1);
+  opacity: 1 !important;
+  transition-delay: 0.5s;
+}
 .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
     padding-left: 60px  !important;
 }
