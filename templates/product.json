@@ -237,14 +237,14 @@
         "heading_dBDpTW": {
           "type": "heading",
           "settings": {
-            "heading": "Los niveles de NAD+ y un envejecimiento saludable van de la mano.",
+            "heading": "Optimiza el envejecimientometabólico celular",
             "heading_size": "h2"
           }
         },
         "text_m34dTL": {
           "type": "text",
           "settings": {
-            "text": "<p>Investigacion publicada....</p>",
+            "text": "<p><br/>ilira incrementa los niveles de NAD+ mediante<br/>NMN, uno de los precursores mas eficientes del<br/>NAD+.<br/>Un estudio clínico en humanos demostró que 3О<br/>días de suplementación con NMN a una dosis<br/>de 250 mg/día resultaron en un aumento del<br/>40% en los niveles de NAD+ en sangre.<br/>La suplementación con NMN ha demostrado<br/>apoyar la sensibilidad a la insulina, la salud<br/>vascular (clave para la resistencia física) y la<br/>función muscular.</p><p><br/>Referencia: Igarashi, Masaki, et al. Nature Aging<br/><br/></p>",
             "text_style": "body"
           }
         }
@@ -253,16 +253,18 @@
         "heading_dBDpTW",
         "text_m34dTL"
       ],
+      "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": true,
+        "image": "shopify://shop_images/chart.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
