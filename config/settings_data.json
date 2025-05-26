@@ -361,7 +361,7 @@
           "5a9a0c89-b27c-44b1-b651-5d0ec17484b4"
         ],
         "custom_css": [
-          "#header{position: sticky !important; top: 0 !important;}"
+          "#header {position: sticky !important; top: 0 !important;}"
         ],
         "settings": {
           "page_full_width": true,
