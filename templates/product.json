@@ -402,7 +402,8 @@
       "custom_css": [
         ".comprehensive-benefits {padding: 30px 20px !important;}",
         "h2 {font-size: 60px !important; color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        ".comprehensive-benefits__subtitle p:first-child{font-weight: 700;}"
       ],
       "name": "Main Components",
       "settings": {
