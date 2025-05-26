@@ -312,6 +312,9 @@
         "text_TCXBcD",
         "button_Q78Cq6"
       ],
+      "custom_css": [
+        "img {height: 550px !important;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": false,
