@@ -253,6 +253,9 @@
         "heading_MVp3fA",
         "text_RRnKWp"
       ],
+      "custom_css": [
+        ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": true,
@@ -313,7 +316,7 @@
         "button_Q78Cq6"
       ],
       "custom_css": [
-        "img {height: 550px !important;}"
+        ".media > img {object-fit: contain; height: 500px !important; object-position: center center; }"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
