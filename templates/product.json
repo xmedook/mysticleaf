@@ -403,7 +403,7 @@
         ".comprehensive-benefits {padding: 30px 20px !important;}",
         "h2 {font-size: 60px !important; color: #144d8c; font-weight: 600 !important;}",
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
-        ".comprehensive-benefits__subtitle p:first-child{font-weight: 700;}"
+        ".comprehensive-benefits__subtitle p:first-child {font-weight: 700;}"
       ],
       "name": "Main Components",
       "settings": {
@@ -1020,7 +1020,8 @@
         "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
-        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        ".tabbed-content-section__container p:first-child{font-weight: 700;}"
       ],
       "name": "Tabbed Content",
       "settings": {
