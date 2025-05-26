@@ -3,6 +3,9 @@
 *  Custom CSS
 */
 
+header{
+  sticky: top;
+}
 
 .swiper-slide.swiper-slide-active .banner__box {
     transition-delay: 2s!important;
