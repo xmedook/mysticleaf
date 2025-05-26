@@ -254,7 +254,8 @@
         "text_RRnKWp"
       ],
       "custom_css": [
-        ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}"
+        ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}",
+        "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -316,7 +317,8 @@
         "button_Q78Cq6"
       ],
       "custom_css": [
-        ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}"
+        ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}",
+        "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -359,7 +361,8 @@
         "text_m34dTL"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}"
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
+        "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
