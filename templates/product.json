@@ -287,7 +287,7 @@
         "text_RRnKWp": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>ilira incrementa los niveles de NAD+ mediante<br/>NMN, uno de los precursores mas eficientes del<br/>NAD+.<br/>Un estudio clínico en humanos demostró que 3О<br/>días de suplementación con NMN a una dosis<br/>de 250 mg/día resultaron en un aumento del<br/>40% en los niveles de NAD+ en sangre.<br/>La suplementación con NMN ha demostrado<br/>apoyar la sensibilidad a la insulina, la salud<br/>vascular (clave para la resistencia física) y la<br/>función muscular.</p><p><br/>Referencia: Igarashi, Masaki, et al. Nature Aging<br/><br/></p>",
+            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
             "text_style": "body"
           }
         }
@@ -300,7 +300,7 @@
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": true,
-        "image": "shopify://shop_images/chart.png",
+        "image": "shopify://shop_images/Ilira_daily_esssentials_section_page-0001_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
