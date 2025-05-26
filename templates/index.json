@@ -38,8 +38,8 @@
         ".banner__text {color: #23292d;}",
         "a.button.button--secondary {background: #144d8c; border: none;}",
         "h2.banner__heading.h1 {font-weight: 700;}",
-        " /* Banner */.swiper-slide .banner__box {opacity: 0 !important;}",
-        ".swiper-slide .slideshow__text.banner__box.visible {opacity: 1;}"
+        " /* Banner */.swiper-slide .banner__box {opacity: 0;}",
+        ".swiper-slide .banner__box.visible {opacity: 1;}"
       ],
       "settings": {
         "page_full_width": true,
