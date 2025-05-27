@@ -522,5 +522,15 @@
     </div>
     {{ 'custom-scripts.js' | asset_url | script_tag }}
 
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Comprueba si estás en la entrada deseada por la URL
+        if (window.location.pathname.includes("/blogs/diferenciadores/ingredientes-clave")) {
+          window.location.href = "/pages/ingredientes-clave";
+        }
+      });
+    </script>
+
   </body>
 </html>
