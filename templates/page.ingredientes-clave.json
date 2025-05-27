@@ -21,23 +21,23 @@
     "main_components_1_mcmEWP": {
       "type": "main-components-1",
       "blocks": {
-        "benefit_card_UjPrRN": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/L-Glicina.jpg",
-            "title": "L-Glicina",
-            "subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
-            "description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo.</p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
-            "title_color": "#144d8c"
-          }
-        },
         "benefit_card_miVTWV": {
           "type": "benefit_card",
           "settings": {
             "image": "shopify://shop_images/Inulina_de_agave.jpg",
             "title": "Inulina de agave",
-            "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. </p><p>Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
+            "subtitle": "",
+            "description": "<p><strong> </strong>Una fibra prebiótica que nutre tu microbioma intestinal. </p><p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_UjPrRN": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Glicina.jpg",
+            "title": "L-Glicina",
+            "subtitle": "",
+            "description": "<p>Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.</p><p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. </p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.<br/><br/></p>",
             "title_color": "#144d8c"
           }
         },
@@ -46,8 +46,8 @@
           "settings": {
             "image": "shopify://shop_images/Spermidina.jpg",
             "title": "Mononucleótido de Nicotinamida (NMN)",
-            "subtitle": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
-            "description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
+            "subtitle": "",
+            "description": "<p>Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN. Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.<br/><br/></p>",
             "title_color": "#144d8c"
           }
         },
@@ -113,8 +113,8 @@
         }
       },
       "block_order": [
-        "benefit_card_UjPrRN",
         "benefit_card_miVTWV",
+        "benefit_card_UjPrRN",
         "benefit_card_j9iiBB",
         "benefit_card_d3jBbQ",
         "benefit_card_x9wRCH",
