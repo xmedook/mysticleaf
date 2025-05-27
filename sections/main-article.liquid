@@ -14,6 +14,14 @@
     }
   }
 {%- endstyle -%}
+
+{% if article.handle == 'ingredientes-clave' %}
+  <script>
+    window.location.href = '/pages/ingredientes-clave';
+  </script>
+{% endif %}
+
+
 <article class="section-{{ section.id }}-padding article-template" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="{% if section.settings.page_full_width %} page-full-width {% else %} page-width {% endif %} {% if section.settings.page_full_width_spacing %} page-full-width_spacing {% endif %} isolate">
  <div class="row"> 
