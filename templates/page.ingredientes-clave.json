@@ -323,6 +323,12 @@
         "heading_cfDmDc",
         "email_form_NEnAzw"
       ],
+      "custom_css": [
+        ".newsletter:before {display: none !important;}",
+        ".newsletter {background-color: white;}",
+        ".field__input {background-color: #eaf1f4;}",
+        "h2 {color: #144d8c !important; text-align: left; font-size: 26px; font-family: \"Manrope\" !important; margin-right: 50px;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
