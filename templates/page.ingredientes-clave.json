@@ -245,11 +245,60 @@
         "title_color": "#722f37",
         "title_size": 36
       }
+    },
+    "main_components_1_6AGCMP": {
+      "type": "main-components-1",
+      "blocks": {
+        "benefit_card_xKHFDR": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Vitamina_D3.jpg",
+            "title": "Vitamina D3 (Colecalciferol)",
+            "subtitle": "La  “vitamina del sol” que actúa como una hormona en el cuerpo.",
+            "description": "<p>La vitamina D3 es crítica para la regulación inmunitaria – puede reducir la inflamación crónica y potenciar la inmunidad. También ayuda a mantener la densidad ósea al favorecer la absorción de calcio. </p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_qD3wmg": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Zinc.jpg",
+            "title": "Zinc",
+            "subtitle": "El zinc es un mineral involucrado en la reparación del ADN, las defensas antioxidantes y la función inmunológica.",
+            "description": "<p>Es esencial para la integridad del ADN, ya que actúa como cofactor para enzimas reparadoras y ayuda a estabilizar la estructura del ADN. </p><p>Una deficiencia leve de zinc aumenta el estrés oxidativo y el daño al ADN, además de perjudicar la función inmunológica. </p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_gfwLJi": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Selenio-1.jpg",
+            "title": "Selenio",
+            "subtitle": "El selenio es un oligoelemento crucial para las enzimas antioxidantes del cuerpo. Estas selenoproteínas ayudan a proteger las células del daño oxidativo y regulan la inflamación.",
+            "description": "<p>Además contribuye al funcionamiento normal del sistema inmunológico. Ayuda al metabolismo de las hormonas tiroideas, lo que influye en el crecimiento, el desarrollo y el metabolismo. Es clave para la reproducción saludable tanto en hombres como en mujeres y tiene un rol en la prevención del envejecimiento celular.</p>",
+            "title_color": "#144d8c"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_xKHFDR",
+        "benefit_card_qD3wmg",
+        "benefit_card_gfwLJi"
+      ],
+      "name": "Main Components",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "background_color": "#eaf1f4",
+        "title_color": "#722f37",
+        "title_size": 36
+      }
     }
   },
   "order": [
     "main",
     "main_components_1_mcmEWP",
-    "main_components_1_gc4nFt"
+    "main_components_1_gc4nFt",
+    "main_components_1_6AGCMP"
   ]
 }
