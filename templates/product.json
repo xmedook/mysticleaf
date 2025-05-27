@@ -1014,11 +1014,12 @@
       "custom_css": [
         "p {font-size: 16px;}",
         "h2 {font-size: 60px !important; color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}"
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        "td.our-product-value {display: flex;}"
       ],
       "name": "Comparison Table",
       "settings": {
-        "section_title": "ilira Daily Essentials <br>vs <br>Otros suplementos de NAD+",
+        "section_title": "ilira Daily Essentials vs Otros suplementos de NAD+",
         "section_subtitle": "From high-quality ingredients to delicious flavors, here's a snapshot of why health conscious people are trying and sticking with our recovery drink over others.",
         "our_product_title": "ilira Daily Essentials",
         "other_product_title": "Otros productos",
