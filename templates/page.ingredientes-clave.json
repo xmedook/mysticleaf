@@ -18,22 +18,123 @@
         "padding_bottom": 0
       }
     },
-    "breadcrumb_UiTzKT": {
-      "type": "breadcrumb",
+    "main_components_1_mcmEWP": {
+      "type": "main-components-1",
+      "blocks": {
+        "benefit_card_UjPrRN": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Glicina.jpg",
+            "title": "L-Glicina",
+            "subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
+            "description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo.</p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_miVTWV": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Inulina_de_agave.jpg",
+            "title": "Inulina de agave",
+            "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
+            "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. </p><p>Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_j9iiBB": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Spermidina.jpg",
+            "title": "Mononucleótido de Nicotinamida (NMN)",
+            "subtitle": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
+            "description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_d3jBbQ": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Metilsulfonilmetano_MSM.jpg",
+            "title": "Metilsulfonilmetano (MSM)",
+            "subtitle": "Compuesto organosulfurado conocido por reducir la inflamación y el estrés oxidativo.",
+            "description": "<p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. </p><p>Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_x9wRCH": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Malato_de_Magnesio.jpg",
+            "title": "Malato de Magnesio",
+            "subtitle": "El magnesio es esencial para cientos de reacciones enzimáticas.",
+            "description": "<p>Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. </p><p>El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_64X7jG": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Teanina2.jpg",
+            "title": "L-Teanina",
+            "subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
+            "description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. </p><p>Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_WjCRVE": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Fisetina.jpg",
+            "title": "Fisetina",
+            "subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
+            "description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). </p><p>En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_MaJQrG": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Resveratrol.jpg",
+            "title": "Resveratrol",
+            "subtitle": "Polifenol de la longevidad presente en el vino tinto.",
+            "description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. </p><p>Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_A9fXKz": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Quercetina.jpg",
+            "title": "Quercetina",
+            "subtitle": "Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).",
+            "description": "<p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. </p><p>Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
+            "title_color": "#144d8c"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_UjPrRN",
+        "benefit_card_miVTWV",
+        "benefit_card_j9iiBB",
+        "benefit_card_d3jBbQ",
+        "benefit_card_x9wRCH",
+        "benefit_card_64X7jG",
+        "benefit_card_WjCRVE",
+        "benefit_card_MaJQrG",
+        "benefit_card_A9fXKz"
+      ],
+      "name": "Main Components",
       "settings": {
-        "page_full_width": true,
-        "page_full_width_spacing": false,
-        "use_breadcrumb_title": true,
-        "breadcrumb_style": "center",
-        "image_overlay_opacity": 40,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Ingredientes Clave",
+        "subtitle": "<p>Una fórmula perfectamente diseñada</p><p>Cada uno de los 21 ingredientes (vitaminas, minerales, antioxidantes y aminoácidos) en ilira Daily Essentials fue cuidadosamente seleccionado para apoyar el envejecimiento saludable ofreciendo una cobertura integral.</p>",
+        "background_color": "#eaf1f4",
+        "title_color": "#144d8c",
+        "title_size": 50
       }
     }
   },
   "order": [
     "main",
-    "breadcrumb_UiTzKT"
+    "main_components_1_mcmEWP"
   ]
 }
