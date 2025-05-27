@@ -123,6 +123,9 @@
         "benefit_card_MaJQrG",
         "benefit_card_A9fXKz"
       ],
+      "custom_css": [
+        ".comprehensive-benefits{padding: 30px;}"
+      ],
       "name": "Main Components",
       "settings": {
         "title": "Ingredientes Clave",
@@ -237,6 +240,9 @@
         "benefit_card_wDqCBy",
         "benefit_card_yG3hHB"
       ],
+      "custom_css": [
+        ".comprehensive-benefits {padding: 0px !important;}"
+      ],
       "name": "Main Components",
       "settings": {
         "title": "",
@@ -284,6 +290,9 @@
         "benefit_card_xKHFDR",
         "benefit_card_qD3wmg",
         "benefit_card_gfwLJi"
+      ],
+      "custom_css": [
+        ".comprehensive-benefits {padding: 30px;}"
       ],
       "name": "Main Components",
       "settings": {
