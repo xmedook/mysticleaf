@@ -255,6 +255,7 @@
       ],
       "custom_css": [
         ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}",
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
         "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
@@ -318,6 +319,7 @@
       ],
       "custom_css": [
         ".media > img {object-fit: contain; height: 500px !important; object-position: center center;}",
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
         "h2 {font-weight: 600; color: #144d8c;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
@@ -325,7 +327,7 @@
         "page_full_width": false,
         "page_full_width_spacing": false,
         "image": "shopify://shop_images/image_6.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -344,14 +346,14 @@
         "heading_dBDpTW": {
           "type": "heading",
           "settings": {
-            "heading": "Optimiza el envejecimientometabólico celular",
+            "heading": "Los niveles de NAD+ y un envejecimiento saludable van de la mano.",
             "heading_size": "h2"
           }
         },
         "text_m34dTL": {
           "type": "text",
           "settings": {
-            "text": "<p>ilira incrementa los niveles de <strong>NAD+</strong> mediante <strong>NMN</strong>, uno de los precursores mas eficientes del NAD+. Un estudio clínico en humanos demostró que <strong>3О días de suplementación con NMN</strong> a una dosis de 250 mg/día resultaron en un <strong>aumento del 40% en los niveles de NAD+ en sangre.</strong> </p><p>La suplementación con NMN ha demostrado apoyar la sensibilidad a la insulina, la salud vascular (clave para la resistencia física) y la función muscular.</p><p>Referencia: Igarashi, Masaki, et al. Nature Aging</p>",
+            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
             "text_style": "body"
           }
         }
@@ -368,10 +370,98 @@
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": true,
+        "image": "shopify://shop_images/atomos-opt.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
+    "image_with_text_Qnw6wN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rdHzCK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Optimiza el envejecimiento metabólico celular",
+            "heading_size": "h2"
+          }
+        },
+        "text_9GFrNL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ilira incrementa los niveles de <strong>NAD+</strong> mediante <strong>NMN</strong>, uno de los precursores mas eficientes del NAD+. Un estudio clínico en humanos demostró que <strong>3О días de suplementación con NMN</strong> a una dosis de 250 mg/día resultaron en un <strong>aumento del 40% en los niveles de NAD+ en sangre.</strong> </p><p>La suplementación con NMN ha demostrado apoyar la sensibilidad a la insulina, la salud vascular (clave para la resistencia física) y la función muscular.</p><p>Referencia: Igarashi, Masaki, et al. Nature Aging</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rdHzCK",
+        "text_9GFrNL"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
+        "h2 {font-weight: 600; color: #144d8c;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
         "image": "shopify://shop_images/chart.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
+    "image_with_text_adLd7B": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_G3cM4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu metabolismo también envejece.",
+            "heading_size": "h2"
+          }
+        },
+        "text_qyrYzK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p><p>1. Disminución de NAD+</p><p>Los niveles de NAD+ (una coenzima esencial para laproducción de energía celular) disminuyen con laedad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del NAD+,también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G3cM4M",
+        "text_qyrYzK"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
+        "h2 {font-weight: 600; color: #144d8c;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "image": "shopify://shop_images/image_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -1278,6 +1368,8 @@
     "image_with_text_kHiHB7",
     "image_with_text_f36cfA",
     "image_with_text_PRgVpA",
+    "image_with_text_Qnw6wN",
+    "image_with_text_adLd7B",
     "custom_liquid_n8kg9N",
     "main_components_1_6YGian",
     "main_components_1_Wqexdt",
