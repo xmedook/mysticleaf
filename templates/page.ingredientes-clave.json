@@ -125,7 +125,7 @@
       ],
       "custom_css": [
         ".comprehensive-benefits {padding: 30px;}",
-        ".benefit-card flipped:nth-child(3) .benefit-card__flip-back {padding-top: 0px;}"
+        ".benefit-card:nth-child(3) .benefit-card__flip-back {padding-top: 0px;}"
       ],
       "name": "Main Components",
       "settings": {
