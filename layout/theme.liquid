@@ -389,6 +389,18 @@
     }, 3000); // 3 segundos
   });
 </script>
+
+
+     <script>
+      
+        
+        if (window.location.pathname.includes("/blogs/diferenciadores/ingredientes-clave")) {
+          window.location.href = "/pages/ingredientes-clave";
+        }
+      });
+    </script>
+
+    
   </head>
 
   <body
@@ -523,14 +535,7 @@
     {{ 'custom-scripts.js' | asset_url | script_tag }}
 
 
-    <script>
-      
-        
-        if (window.location.pathname.includes("/blogs/diferenciadores/ingredientes-clave")) {
-          window.location.href = "/pages/ingredientes-clave";
-        }
-      
-    </script>
+   
 
   </body>
 </html>
