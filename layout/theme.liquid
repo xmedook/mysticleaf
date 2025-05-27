@@ -380,25 +380,25 @@
 
 
     <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-          const el = document.querySelector('.swiper-slide .banner__box');
-      if (el) {
-                  el.classList.add('swiper-slide-active');
-      }
-    }, 3000); // 3 segundos
-  });
-</script>
+     /* CUSTOM SCIPTS KOODE */
+
+    /*Función para retrasar el texto del hero de la homepage*/
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+            const el = document.querySelector('.swiper-slide .banner__box');
+        if (el) {
+                    el.classList.add('swiper-slide-active');
+        }
+      }, 3000); // 3 segundos
+    });
 
 
-     <script>
-      
-        
-        if (window.location.pathname.includes("/blogs/diferenciadores/ingredientes-clave")) {
+      /*Redireccion del blog a pag personalizada*/
+      if (window.location.pathname.includes("/blogs/diferenciadores/ingredientes-clave")) {
           window.location.href = "/pages/ingredientes-clave";
         }
-      
-    </script>
+</script>
+
 
     
   </head>
