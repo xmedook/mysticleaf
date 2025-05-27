@@ -244,7 +244,7 @@
         "text_RRnKWp": {
           "type": "text",
           "settings": {
-            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (&lt;span class=\"text-blue\"&gt;dinucleótido de nicotinamida y adenina)</strong> &lt;/span&gt;se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
+            "text": "<p>Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el <strong>NAD+</strong> y el estado de salud en el ser humano. El <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.</p><p>Desafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.</p><p><strong>Referencia:</strong> Janssens, G. E., et al. <em>Nature Aging</em></p>",
             "text_style": "body"
           }
         }
@@ -344,7 +344,7 @@
         "heading_dBDpTW": {
           "type": "heading",
           "settings": {
-            "heading": "Optimiza el envejecimiento metabólico celular",
+            "heading": "Optimiza el envejecimientometabólico celular",
             "heading_size": "h2"
           }
         },
@@ -361,8 +361,7 @@
         "text_m34dTL"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
-        "h2 {font-weight: 600; color: #144d8c;}"
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -1029,6 +1028,7 @@
     },
     "custom_liquid_qacQgF": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".row {display: block;}",
         "@media screen and (max-width: 767px) {.row {display: none !important; }}"
