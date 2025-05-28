@@ -872,6 +872,16 @@
             "other_product_value": "❌ No"
           }
         },
+        "feature_FU7VWM": {
+          "type": "feature",
+          "settings": {
+            "name": "Spermidina",
+            "our_product_has_value": true,
+            "our_product_value": "10 mg",
+            "other_product_has_value": false,
+            "other_product_value": "❌ No"
+          }
+        },
         "feature_MyHMcQ": {
           "type": "feature",
           "settings": {
@@ -968,6 +978,7 @@
         "feature_CQdMhQ",
         "feature_BxWwUx",
         "feature_eXmwn8",
+        "feature_FU7VWM",
         "feature_MyHMcQ",
         "feature_HGMChw",
         "feature_DPntxc",
