@@ -110,7 +110,8 @@
       ],
       "custom_css": [
         "h2 {color: #144d8c; font-weight: 600 !important;}",
-        "@media (max-width: 750px) {h3 {font-size: 18px; } p {font-size: 14 px; }}"
+        "h3 {font-size: 20px; }",
+        "@media (max-width: 750px) {p {font-size: 14 px; }}"
       ],
       "settings": {
         "page_full_width": false,
