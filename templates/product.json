@@ -902,16 +902,6 @@
             "other_product_value": "❌  Baja (cápsulas)"
           }
         },
-        "feature_hJx9R3": {
-          "type": "feature",
-          "settings": {
-            "name": "Feature",
-            "our_product_has_value": true,
-            "our_product_value": "",
-            "other_product_has_value": false,
-            "other_product_value": ""
-          }
-        },
         "feature_N97KWC": {
           "type": "feature",
           "settings": {
@@ -981,7 +971,6 @@
         "feature_MyHMcQ",
         "feature_HGMChw",
         "feature_DPntxc",
-        "feature_hJx9R3",
         "feature_N97KWC",
         "feature_Y7bXE7",
         "feature_cmyJnD",
