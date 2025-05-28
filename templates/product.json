@@ -144,7 +144,6 @@
         },
         "custom_liquid_MRjHiE": {
           "type": "custom_liquid",
-          "name": "Botones de Compra",
           "settings": {
             "custom_liquid": "{% assign button1_url = 'https://amazon.com.mx' %}\n{% assign button2_url = 'https://mercadolibre.com.mx' %}\n\n<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #007bff; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
           }
@@ -258,7 +257,6 @@
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
         ".grid--gapless.grid {column-gap: 8px; row-gap: 0;}"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -303,11 +301,10 @@
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
         ".grid--gapless.grid {column-gap: 8px; row-gap: 0;}"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "image": "shopify://shop_images/moleculas-opt.png",
+        "image": "shopify://shop_images/molecula_ilira_nuevo.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -348,11 +345,10 @@
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
         ".grid--gapless.grid {column-gap: 8px; row-gap: 0;}"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "image": "shopify://shop_images/chart.png",
+        "image": "shopify://shop_images/grafica_ilira.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -372,7 +368,6 @@
         ".row {display: block;}",
         "@media screen and (max-width: 767px) {.row {display: none !important; }}"
       ],
-      "name": "21 suplementos en 1",
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
@@ -501,7 +496,6 @@
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
         ".comprehensive-benefits__subtitle p:first-child {font-weight: 700;}"
       ],
-      "name": "Main Components",
       "settings": {
         "title": "Ingredientes Clave",
         "subtitle": "<p>Una fórmula perfectamente diseñada</p><p>Cada uno de los 21 ingredientes (vitaminas, minerales, antioxidantes y aminoácidos) en ilira Daily Essentials fue cuidadosamente seleccionado para apoyar el envejecimiento saludable ofreciendo una cobertura integral.</p>",
@@ -618,7 +612,6 @@
       "custom_css": [
         ".comprehensive-benefits {padding: 0px 20px !important;}"
       ],
-      "name": "Main Components",
       "settings": {
         "title": "",
         "subtitle": "",
@@ -669,7 +662,6 @@
       "custom_css": [
         ".comprehensive-benefits {padding: 30px 20px !important;}"
       ],
-      "name": "Main Components",
       "settings": {
         "title": "",
         "subtitle": "",
@@ -684,7 +676,6 @@
         ".row {display: none;}",
         "@media screen and (max-width: 767px) {.row {display: block !important; }}"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
@@ -830,7 +821,6 @@
         "benefit_item_XCTny3"
       ],
       "disabled": true,
-      "name": "Comprehensive Benefits",
       "settings": {
         "title": "Ingredientes Clave",
         "columns": "4"
@@ -1002,7 +992,6 @@
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
         "td.our-product-value {display: flex;}"
       ],
-      "name": "Comparison Table",
       "settings": {
         "section_title": "ilira Daily Essentials vs Otros suplementos de NAD+",
         "section_subtitle": "From high-quality ingredients to delicious flavors, here's a snapshot of why health conscious people are trying and sticking with our recovery drink over others.",
@@ -1019,7 +1008,6 @@
         ".row {display: block;}",
         "@media screen and (max-width: 767px) {.row {display: none !important; }}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
@@ -1121,7 +1109,6 @@
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
         ".tabbed-content-section__container p:first-child {font-weight: 700;}"
       ],
-      "name": "Tabbed Content",
       "settings": {
         "tagline": "Una dosis diaria de longevidad",
         "tagline_color": "#000000",
@@ -1192,7 +1179,6 @@
         "h2 {color: #144d8c; font-weight: 600 !important;}",
         "h3 {font-size: 20px;}"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
