@@ -37,10 +37,10 @@
       ],
       "custom_css": [
         ".dt-sc-blog-navigation {display: none;}",
-        "p{margin: 0;}",
+        "p {margin: 0;}",
         ".row {background-color: #fafafa; padding: 50px 100px; border-radius: 30px;}",
         "h1 {font-weight: 600; text-align: left !important; color: #144d8c;}",
-        "@media (min-width: 900px) {.article-template__content.rte {column-count: 1; text-align: left; gap: 60px; font-style: italic; }}",
+        "@media (min-width: 900px) {.article-template__content.rte {column-count: 1; text-align: left; gap: 60px; font-style: normal; }}",
         "@media (max-width: 750px) {.row {padding: 25px 10px !important; }}"
       ],
       "settings": {
