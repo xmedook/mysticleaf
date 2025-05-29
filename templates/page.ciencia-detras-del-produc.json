@@ -18,27 +18,27 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_V8teL6": {
+    "image_with_text_bbdmGn": {
       "type": "image-with-text",
       "blocks": {
-        "heading_AgWVCW": {
+        "heading_JKHDLQ": {
           "type": "heading",
           "settings": {
-            "heading": "Tu metabolismo también envejece.",
+            "heading": "Optimiza el envejecimiento metabólico celular",
             "heading_size": "h2"
           }
         },
-        "text_JabJVH": {
+        "text_UQDyg3": {
           "type": "text",
           "settings": {
-            "text": "<p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p><p>1. Disminución de NAD+</p><p>Los niveles de NAD+ (una coenzima esencial para laproducción de energía celular) disminuyen con laedad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del NAD+,también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
+            "text": "<p>ilira incrementa los niveles de <strong>NAD+</strong> mediante <strong>NMN</strong>, uno de los precursores mas eficientes del NAD+. Un estudio clínico en humanos demostró que <strong>3О días de suplementación con NMN</strong> a una dosis de 250 mg/día resultaron en un <strong>aumento del 40% en los niveles de NAD+ en sangre.</strong> </p><p>La suplementación con NMN ha demostrado apoyar la sensibilidad a la insulina, la salud vascular (clave para la resistencia física) y la función muscular.</p><p>Referencia: Igarashi, Masaki, et al. Nature Aging</p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_AgWVCW",
-        "text_JabJVH"
+        "heading_JKHDLQ",
+        "text_UQDyg3"
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
@@ -49,10 +49,10 @@
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
-        "image": "shopify://shop_images/molecula_ilira_nuevo.png",
+        "image": "shopify://shop_images/grafica_ilira.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -108,6 +108,51 @@
         "custom_class_name": ""
       }
     },
+    "image_with_text_V8teL6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AgWVCW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu metabolismo también envejece.",
+            "heading_size": "h2"
+          }
+        },
+        "text_JabJVH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p><p>1. Disminución de NAD+</p><p>Los niveles de NAD+ (una coenzima esencial para laproducción de energía celular) disminuyen con laedad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del NAD+,también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AgWVCW",
+        "text_JabJVH"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
+        "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
+        ".grid--gapless.grid {column-gap: 8px; row-gap: 0;}",
+        ".image-with-text__media {border: none;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "image": "shopify://shop_images/molecula_ilira_nuevo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "newsletter_dLkenD": {
       "type": "newsletter",
       "blocks": {
@@ -146,8 +191,9 @@
   },
   "order": [
     "main",
-    "image_with_text_V8teL6",
+    "image_with_text_bbdmGn",
     "image_with_text_LXdpnR",
+    "image_with_text_V8teL6",
     "newsletter_dLkenD"
   ]
 }
