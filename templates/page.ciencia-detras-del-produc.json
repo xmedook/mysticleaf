@@ -40,6 +40,12 @@
         "heading_AyaRpe",
         "text_QMag7G"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
+        "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
+        ".grid--gapless.grid {column-gap: 8px; row-gap: 0;}",
+        ".image-with-text__media {border: none;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
