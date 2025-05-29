@@ -18,6 +18,32 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_JHkMbF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zXKR6g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ciencia detrás del producto",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zXKR6g"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 600; color: #144d8c;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_LXdpnR": {
       "type": "image-with-text",
       "blocks": {
@@ -191,6 +217,7 @@
   },
   "order": [
     "main",
+    "rich_text_JHkMbF",
     "image_with_text_LXdpnR",
     "image_with_text_V8teL6",
     "image_with_text_bbdmGn",
