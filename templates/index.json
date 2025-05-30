@@ -505,6 +505,69 @@
         "arrow_on_mobile": false
       }
     },
+    "custom_product_display_fWfCyf": {
+      "type": "custom-product-display",
+      "blocks": {
+        "title_mbH864": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_mbH864"
+      ],
+      "name": "Custom Product Display",
+      "settings": {
+        "product_picker": "ilira-daily-essentials",
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "enable_sticky_info": false,
+        "enable_product_zoom": "cloud",
+        "gallery_layout": "thumbnail",
+        "stacked_column_alignment": "one",
+        "thumb_carousel_layout": "thumbnail_slider_left",
+        "media_size": "small",
+        "meta_style": "one-half",
+        "hide_variants": false,
+        "tab_position": "bottom",
+        "tab_style": "tab",
+        "show_wishlist": false,
+        "show_review_tab": false,
+        "rating_script": "",
+        "enable_sticky_bar": true,
+        "sidebar_settings": "no-sidebar",
+        "show_menu": false,
+        "menu_title": "Heading",
+        "linklist": "",
+        "show_image": false,
+        "sidebar_title": "Heading",
+        "sidebar_button": "Shop Now",
+        "sidebar_link": "",
+        "show_collection": false,
+        "collection_title": "Heading",
+        "collection": "",
+        "collection_limit": 5,
+        "iconwithtext": "Heading",
+        "heading_1": "Heading",
+        "heading_1_text": "Text",
+        "heading_2": "Heading",
+        "heading_2_text": "Text",
+        "heading_3": "Heading",
+        "heading_3_text": "Text",
+        "enable_enquiry": false,
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "display_back_in_stock": false,
+        "notify_text": "",
+        "notify_error": "",
+        "show_adv_product": false,
+        "choose_label": "Choose style",
+        "prev_next_products": false,
+        "show_share": false,
+        "share_label": "Share",
+        "show_quantity_selector": false
+      }
+    },
     "custom_liquid_9TYwAp": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -815,6 +878,7 @@
     "6c29e21f-a46b-4ba5-be13-add5ab2536be",
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
+    "custom_product_display_fWfCyf",
     "custom_liquid_9TYwAp",
     "testimonials_AA4ymR",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
