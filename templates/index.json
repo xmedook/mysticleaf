@@ -525,7 +525,7 @@
         "custom_liquid_KUTeX8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <span class=\"product-attributes-value\"><a href=\"/collections/vendors?q=Palantum%20Health\" title=\"Palantum Health\">Palantum Health</a></span>\n                </div>"
+            "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <span class=\"product-attributes-value\"><a href=\"\" title=\"Palantum Health\">Palantum Health</a></span>\n                </div>"
           }
         },
         "custom_liquid_z8UPBt": {
@@ -543,7 +543,7 @@
         "custom_liquid_z8UPBt"
       ],
       "custom_css": [
-        ".price-item,.price__sale{color: #144d8c;}",
+        ".price-item,.price__sale {color: #144d8c;}",
         "@media screen and (max-width: 1439px) {.product-label {min-width: 50px; }}",
         ".slider-button {width: 25px; height: 25px; display: flex !important;}",
         "@media screen and (min-width: 750px) {.product--thumbnail .thumbnail-slider {gap: 10px !important; }}",
