@@ -525,7 +525,7 @@
         "custom_liquid_KUTeX8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <span class=\"product-attributes-value\"><p>Palantum Health</p></span>\n                </div>"
+            "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <p class=\"product-attributes-value\">Palantum Health</span>\n                </div>"
           }
         },
         "custom_liquid_z8UPBt": {
