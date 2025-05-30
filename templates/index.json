@@ -516,17 +516,38 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_p9TjKb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"no-js-hidden price-wrapper\" id=\"price-template--24538967965979__main\" role=\"status\">\n<div class=\"\n    price price--large price--on-sale  price--show-badge product-price-current\n  \" data-price=\"71000\">\n  <div class=\"price__container\">\n    <div class=\"price__regular\">\n      <span class=\"visually-hidden visually-hidden--inline\">Regular price</span>\n      <span class=\"price-item price-item--regular\">\n        $ 710.00 MXN\n      </span>\n    </div>\n\n    <div class=\"price__sale\">\n      <span class=\"visually-hidden visually-hidden--inline\">Sale price</span>\n      <span class=\"price-item price-item--sale price-item--last\">\n        $ 710.00 MXN\n      </span>\n        <span class=\"visually-hidden visually-hidden--inline\">Regular price</span>\n        \n          <span>\n            <s class=\"price-item price-item--regular\">\n              \n                $ 990.00 MXN\n              \n            </s>\n          </span>\n        \n\n    </div><div>\n        <span class=\"badge price__badge-sale color-accent-2\">\n          Precio de introducción\n        </span>\n      </div><small class=\"unit-price caption hidden\">\n      <span class=\"visually-hidden\">Unit price</span>\n      <span class=\"price-item price-item--last\">\n        <span></span>\n        <span aria-hidden=\"true\">/</span>\n        <span class=\"visually-hidden\">&nbsp;per&nbsp;</span>\n        <span>\n        </span>\n      </span>\n    </small>\n  </div><span class=\"badge price__badge-sold-out color-inverse\">\n      Sold out\n    </span></div>\n</div>"
+          }
+        },
         "custom_liquid_xGgmc6": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div class=\"product-description\">\n    <div><p>Suplemento alimenticio diseñado para impulsar la longevidad, el envejecimiento saludable y el bienestar integral. Respaldado por médicos y científicos de Palantum Health, la mezcla en polvo de ilira ofrece una fórmula 21-en-1 que podrás incluir en tu rutina diaria. ¿El resultado? Más energía, mejor reparación celular, mayor claridad mental, articulaciones fuertes y una piel radiante.</p>\n<p>Promueve un envejecimiento saludable, siéntete bien a tu edad;</p>\n<ul>\n<li>Promueve la energía celular y reduce el cansancio y la fatiga general</li>\n<li>Combate el envejecimiento a nivel celular y protege tu ADN de los factores de estrés</li>\n<li>Apoya la síntesis de colágeno y ceramidas para una piel saludable</li>\n<li>Favorece el buen funcionamiento muscular<br>\n</li>\n</ul>\n<p>Uso recomendado:</p>\n<ul>\n<li>Disolver el contenido de 2 cucharadas en 350 – 450 ml de agua o jugo de tu preferencia. Agitar hasta disolver.</li>\n</ul></div>\n  </div>"
+          }
+        },
+        "custom_liquid_KUTeX8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <span class=\"product-attributes-value\"><a href=\"/collections/vendors?q=Palantum%20Health\" title=\"Palantum Health\">Palantum Health</a></span>\n                </div>"
+          }
+        },
+        "custom_liquid_z8UPBt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"https://amazon.com.mx\" class=\"button\" style=\"background-color: #007bff; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"https://mercadolibre.com.mx\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
           }
         }
       },
       "block_order": [
         "title_mbH864",
         "price_8YaC7J",
-        "custom_liquid_xGgmc6"
+        "custom_liquid_p9TjKb",
+        "custom_liquid_xGgmc6",
+        "custom_liquid_KUTeX8",
+        "custom_liquid_z8UPBt"
       ],
       "name": "Custom Product Display",
       "settings": {
