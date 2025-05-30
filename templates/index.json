@@ -549,6 +549,9 @@
         "custom_liquid_KUTeX8",
         "custom_liquid_z8UPBt"
       ],
+      "custom_css": [
+        ".price-item{color: #144d8c;}"
+      ],
       "name": "Custom Product Display",
       "settings": {
         "product_picker": "ilira-daily-essentials",
