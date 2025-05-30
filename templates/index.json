@@ -534,7 +534,7 @@
         "show_wishlist": false,
         "show_review_tab": false,
         "rating_script": "",
-        "enable_sticky_bar": true,
+        "enable_sticky_bar": false,
         "sidebar_settings": "no-sidebar",
         "show_menu": false,
         "menu_title": "Heading",
