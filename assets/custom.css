@@ -8,7 +8,7 @@
     top: 0 !important;
 }
 
-.product-attributes product_vendor{
+.product-attributes .product_vendor{
   display: flex;
   flex-direction: row;
 }
