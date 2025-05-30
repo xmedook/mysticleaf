@@ -20,6 +20,10 @@
   font-size: 18px;
 }
 
+.product__info-container{
+  min-width: 50px !important;
+}
+
 .blue-text{
   font-family: "Gentium";
   color: #144d8c;
