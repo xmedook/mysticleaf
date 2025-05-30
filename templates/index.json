@@ -543,7 +543,8 @@
         "custom_liquid_z8UPBt"
       ],
       "custom_css": [
-        ".price-item {color: #144d8c;}"
+        ".price-item {color: #144d8c;}",
+        "@media screen and (max-width: 1439px) {.product-label {min-width: 50px; }}"
       ],
       "name": "Custom Product Display",
       "settings": {
