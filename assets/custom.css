@@ -8,6 +8,10 @@
     top: 0 !important;
 }
 
+.product-attributes-value{
+  cursor: pointer;
+}
+
 .blue-text{
   font-family: "Gentium";
   color: #144d8c;
