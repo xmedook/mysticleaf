@@ -9,7 +9,7 @@
 }
 
 .product-attributes-value{
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .blue-text{
