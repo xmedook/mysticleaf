@@ -345,7 +345,7 @@
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
         ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
-        "@media (max-width: 425px){.nosotros{padding: 0px 20px; }}"
+        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; }}"
       ],
       "settings": {
         "page_full_width": true,
@@ -723,7 +723,8 @@
         ".newsletter:before {display: none !important;}",
         ".newsletter {background-color: white;}",
         ".field__input {background-color: #eaf1f4;}",
-        "h2 {color: #144d8c; text-align: left; font-size: 30px;}"
+        "h2 {color: #144d8c; text-align: left; font-size: 30px;}",
+        "@media (max-width: 425px){h2{font-size: 28px; }}"
       ],
       "settings": {
         "page_full_width": false,
