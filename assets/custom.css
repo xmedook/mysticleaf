@@ -8,13 +8,15 @@
     top: 0 !important;
 }
 
-.product-attributes .product_vendor{
-  display: flex;
-  flex-direction: row;
+.product-attributes.product_vendor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .product-attributes-value{
-  color: #334fb4;
+  color: #334fb4 !important;
+  font-weight: 500;
   font-size: 18px;
 }
 
