@@ -1110,7 +1110,7 @@
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
-        ".tabbed-content-section__tagline p:first-child {font-weight: 700;}"
+        ".tabbed-content-section__tagline {font-weight: 700 !important;}"
       ],
       "settings": {
         "tagline": "Beneficios clave e indicaciones de uso",
