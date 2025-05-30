@@ -9,7 +9,8 @@
 }
 
 .product-attributes-value{
-  cursor: pointer !important;
+  color: #334fb4;
+  font-size: 18px;
 }
 
 .blue-text{
