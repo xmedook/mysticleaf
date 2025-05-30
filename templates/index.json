@@ -570,6 +570,7 @@
     },
     "custom_liquid_9TYwAp": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
