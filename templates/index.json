@@ -511,10 +511,20 @@
         "title_mbH864": {
           "type": "title",
           "settings": {}
+        },
+        "price_8YaC7J": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_8gqaFw": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
-        "title_mbH864"
+        "title_mbH864",
+        "price_8YaC7J",
+        "description_8gqaFw"
       ],
       "name": "Custom Product Display",
       "settings": {
