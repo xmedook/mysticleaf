@@ -543,15 +543,14 @@
         "custom_liquid_z8UPBt"
       ],
       "custom_css": [
-        ".price-item {color: #144d8c;}",
+        ".price-item,.price__sale{color: #144d8c;}",
         "@media screen and (max-width: 1439px) {.product-label {min-width: 50px; }}",
         ".slider-button {width: 25px; height: 25px; display: flex !important;}",
         "@media screen and (min-width: 750px) {.product--thumbnail .thumbnail-slider {gap: 10px !important; }}",
         "@media (max-width: 750px) {a.button {width: 100% !important; }}",
         "modal-opener .global-media-settings {border: 1px solid #ffffff00 !important;}",
         ".product__info-container p.product__text {margin-top: -25px;}",
-        ".price__sale {color: #144d8c;}",
-        ".slider-button[disabled] .icon {color: wh;}"
+        ".slider-button[disabled] .icon {color: white !important;}"
       ],
       "name": "Custom Product Display",
       "settings": {
