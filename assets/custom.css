@@ -8,6 +8,11 @@
     top: 0 !important;
 }
 
+.product-attributes product_vendor{
+  display: flex;
+  flex-direction: row;
+}
+
 .product-attributes-value{
   color: #334fb4;
   font-size: 18px;
