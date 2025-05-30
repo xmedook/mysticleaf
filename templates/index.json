@@ -516,12 +516,6 @@
           "type": "price",
           "settings": {}
         },
-        "custom_liquid_p9TjKb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"no-js-hidden price-wrapper\" id=\"price-template--24538967965979__main\" role=\"status\">\n<div class=\"\n    price price--large price--on-sale  price--show-badge product-price-current\n  \" data-price=\"71000\">\n  <div class=\"price__container\">\n    <div class=\"price__regular\">\n      <span class=\"visually-hidden visually-hidden--inline\">Regular price</span>\n      <span class=\"price-item price-item--regular\">\n        $ 710.00 MXN\n      </span>\n    </div>\n\n    <div class=\"price__sale\">\n      <span class=\"visually-hidden visually-hidden--inline\">Sale price</span>\n      <span class=\"price-item price-item--sale price-item--last\">\n        $ 710.00 MXN\n      </span>\n        <span class=\"visually-hidden visually-hidden--inline\">Regular price</span>\n        \n          <span>\n            <s class=\"price-item price-item--regular\">\n              \n                $ 990.00 MXN\n              \n            </s>\n          </span>\n        \n\n    </div><div>\n        <span class=\"badge price__badge-sale color-accent-2\">\n          Precio de introducción\n        </span>\n      </div><small class=\"unit-price caption hidden\">\n      <span class=\"visually-hidden\">Unit price</span>\n      <span class=\"price-item price-item--last\">\n        <span></span>\n        <span aria-hidden=\"true\">/</span>\n        <span class=\"visually-hidden\">&nbsp;per&nbsp;</span>\n        <span>\n        </span>\n      </span>\n    </small>\n  </div><span class=\"badge price__badge-sold-out color-inverse\">\n      Sold out\n    </span></div>\n</div>"
-          }
-        },
         "custom_liquid_xGgmc6": {
           "type": "custom_liquid",
           "settings": {
@@ -544,13 +538,12 @@
       "block_order": [
         "title_mbH864",
         "price_8YaC7J",
-        "custom_liquid_p9TjKb",
         "custom_liquid_xGgmc6",
         "custom_liquid_KUTeX8",
         "custom_liquid_z8UPBt"
       ],
       "custom_css": [
-        ".price-item{color: #144d8c;}"
+        ".price-item {color: #144d8c;}"
       ],
       "name": "Custom Product Display",
       "settings": {
