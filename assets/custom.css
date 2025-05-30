@@ -24,6 +24,13 @@
   min-width: 50px !important;
 }
 
+/*Custom buttons ML y Amazon*/
+@media (max-width: 425px){
+  .button-block .button{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .blue-text{
   font-family: "Gentium";
   color: #144d8c;
