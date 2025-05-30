@@ -344,7 +344,8 @@
         "h2 {font-weight: 600; color: #144d8c;}",
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
-        ".gordon-grid-banner .bg-image:after {background-size: contain !important;}"
+        ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
+        "@media (max-width: 425px){.nosotros{padding: 0px 20px; }}"
       ],
       "settings": {
         "page_full_width": true,
