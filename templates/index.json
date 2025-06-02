@@ -22,7 +22,7 @@
             "subheading": "",
             "text": "Innovamos la nutrición avanzada y salud celular",
             "button_label": "Compra en Línea",
-            "link": "https://sh0rt.bio/ilira-palantum",
+            "link": "shopify://products/ilira-daily-essentials",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -724,7 +724,7 @@
         ".newsletter {background-color: white;}",
         ".field__input {background-color: #eaf1f4;}",
         "h2 {color: #144d8c; text-align: left; font-size: 30px;}",
-        "@media (max-width: 425px){h2{font-size: 28px; }}"
+        "@media (max-width: 425px) {h2 {font-size: 28px; }}"
       ],
       "settings": {
         "page_full_width": false,
