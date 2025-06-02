@@ -711,7 +711,8 @@
         "text_j6eyGi"
       ],
       "custom_css": [
-        "h2 {font-weight: 600; color: #144d8c;}"
+        "h2 {font-weight: 600; color: #144d8c;}",
+        ".dt-sc-rating div[class*=star-rating]:after {color: #fec42d; text-shadow: 2px 2px 4px #144D8C;}"
       ],
       "name": "t:sections.testimonials.presets.name",
       "settings": {
