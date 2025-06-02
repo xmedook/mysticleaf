@@ -382,6 +382,10 @@
     <script>
      /* CUSTOM SCIPTS KOODE - Act. May27 */
 
+      {% if template == 'page.ciencia-detras-ilira' %}
+        <link href="{{ 'custom_2.css' | asset_url }}" rel="stylesheet">
+      {% endif %}
+
     /*Función para retrasar el texto del hero de la homepage*/
     document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
