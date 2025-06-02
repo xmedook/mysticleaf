@@ -304,7 +304,7 @@
         "text_qyrYzK": {
           "type": "text",
           "settings": {
-            "text": "<p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p><p>1. Disminución de NAD+</p><p>Los niveles de NAD+ (una coenzima esencial para laproducción de energía celular) disminuyen con laedad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del NAD+,también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
+            "text": "<p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p><p>1. Disminución de <strong>NAD+</strong></p><p>Los niveles de <strong>NAD+</strong> (una coenzima esencial para la producción de energía celular) disminuyen con la edad.</p><p>2. Declive de enzimas mitocondriales:  </p><p>Enzimas como la SIRT3, que dependen del <strong>NAD+</strong>, también reducen su actividad, afectando elrendimiento mitocondrial.</p>",
             "text_style": "body"
           }
         }
