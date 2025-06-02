@@ -633,9 +633,9 @@
           "type": "text",
           "settings": {
             "block_color_scheme": "background-2",
-            "author": "Guillermo M.",
-            "job_title": "45 años",
-            "quote": "<p>No quiero solo envejecer, quiero sentirme bien mientras lo hago. Este producto se ha vuelto parte de mi rutina porque me hace sentir que estoy cuidando mi cuerpo desde adentro. Es como un pequeño impulso diario para mantenerme activa, con energía y pensando a largo plazo.</p>",
+            "author": "Laura C.",
+            "job_title": "",
+            "quote": "<p>No soy fan de tomar mil pastillas, así que encontrar algo como Ilira fue un alivio. Me gusta porque es práctico, pero más allá de eso, realmente he notado cambios. Me siento con más energía en las mañanas, y mucho más enfocada en el trabajo. Es como si la cabeza me funcionara más ligera. No fue algo inmediato, pero después de unos días empecé a sentirme mejor sin darme cuenta. Se volvió parte de mi rutina sin esfuerzo, y ahora no quiero dejarlo.</p>",
             "star": "5",
             "link_label": "",
             "link": ""
@@ -645,9 +645,9 @@
           "type": "text",
           "settings": {
             "block_color_scheme": "background-2",
-            "author": "Paulina G",
-            "job_title": "36 años",
-            "quote": "<p>Este suplemento tiene NAD+ (sí, también tuve que googlearlo), que básicamente ayuda a que las células funcionen mejor y se regeneren. Lo estoy tomando hace un mes y me noto con más energía y hasta durmiendo mejor. Me gusta porque no promete milagros, pero se nota que apoya al cuerpo de verdad.</p>",
+            "author": "Dr. Diego M.",
+            "job_title": "",
+            "quote": "<p>Como médico, soy muy escéptico con los suplementos. La mayoría no contienen lo que realmente dicen. ilira, me llamó la atención no solo por su fórmula con NMN, resveratrol, quercetina, fisetina y spermidina, sino porque está respaldado por ciencia y desarrollado por médicos-científicos a través de Palantum. Eso me dio confianza.<br/>Llevo un mes tomándolo y lo que he notado es una energía más constante, mejor sueño y mayor claridad mental. Personalmente, estoy muy enfocado en envejecer de forma saludable, y sé que aumentar los niveles de NAD+ es clave para eso. Con Ilira, sé que estoy apoyando mi salud desde lo más profundo, sin necesidad de tomar 10 frascos distintos. Simple, efectivo y científicamente sólido.</p>",
             "star": "5",
             "link_label": "",
             "link": ""
@@ -657,9 +657,45 @@
           "type": "text",
           "settings": {
             "block_color_scheme": "background-2",
-            "author": "Carolina M.",
-            "job_title": "52 años",
-            "quote": "<p>Desde que empecé a tomar este producto, he notado una diferencia real en mis niveles de energía y claridad mental. Me siento más vital, como si hubiera rejuvenecido varios años. Saber que contiene NAD+ y que apoya la regeneración celular me da tranquilidad de que estoy invirtiendo en mi salud a largo plazo. ¡Totalmente recomendable!</p>",
+            "author": "Andrea R.",
+            "job_title": "",
+            "quote": "<p>No esperaba sentir tanto con un solo suplemento, pero honestamente me ha sorprendido. No me siento cansada como antes y mi mente está mucho más clara. Incluso mi humor ha mejorado. Lo mejor es que no se siente forzado, simplemente me siento más yo. Me encanta que tenga tanta ciencia detrás, pero que no se sienta como una receta de laboratorio. Es simple, completo y efectivo. Justo lo que estaba buscando.</p>",
+            "star": "5",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_NUaTFB": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Mariana G.",
+            "job_title": "",
+            "quote": "<p>Empecé a tomar ilira hace tres semanas y honestamente no esperaba notar tanto cambio tan pronto. Lo primero que sentí fue una mejora en mi energía durante el día, ya no necesito esa segunda taza de café. También noté que mi mente está más clara. Saber que estoy tomando 21 ingredientes respaldados por ciencia en un solo producto me da muchísima tranquilidad y además ahorro bastante en suplementos. ¡Excelente producto!</p>",
+            "star": "5",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_iPDF6A": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Javier L.",
+            "job_title": "",
+            "quote": "<p>Antes tomaba varios suplementos por separado: NMN, vitamina D, magnesio, etc. Me salía carísimo y era muy poco práctico. Desde que descubrí Ilira, simplifiqué mi rutina completamente. Me siento con más energía, duermo mejor y mi concentración ha mejorado notablemente. También noté que mi digestión mejoró y mis articulaciones se sienten menos inflamadas. Es como tener todo lo que necesito en una sola dosis diaria. Estoy muy satisfecho.</p>",
+            "star": "5",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_j6eyGi": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "background-2",
+            "author": "Sofía M.",
+            "job_title": "",
+            "quote": "<p>Lo que más me impresionó de Ilira fue encontrar ingredientes como Spermidina, Fisetina, Quercetina y Resveratrol que había investigado antes pero nunca había visto juntos en un solo suplemento. Tiene la dosis más alta de NMN que he visto en el mercado para aumentar los niveles de NAD+. Desde que lo tomo, me siento con más claridad mental, menos fatiga, y ya no tengo esa inflamación constante después de entrenar.</p>",
             "star": "5",
             "link_label": "",
             "link": ""
@@ -669,7 +705,10 @@
       "block_order": [
         "text_kjjY6X",
         "text_AGYPXR",
-        "text_yQpNG6"
+        "text_yQpNG6",
+        "text_NUaTFB",
+        "text_iPDF6A",
+        "text_j6eyGi"
       ],
       "custom_css": [
         "h2 {font-weight: 600; color: #144d8c;}"
