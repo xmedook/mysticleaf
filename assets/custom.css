@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (min-width: 750px) {
+    hr {
+        margin: 0;
+    }
+  }
+
   #header{
   position: sticky !important;
     top: 0 !important;
