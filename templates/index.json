@@ -214,7 +214,7 @@
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
-        "image": "shopify://shop_images/Etiqueta_nuevo.png",
+        "image": "shopify://shop_images/3.1_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": true,
@@ -712,7 +712,7 @@
       ],
       "custom_css": [
         "h2 {font-weight: 600; color: #144d8c;}",
-        ".dt-sc-rating div[class*=star-rating]:after {color: #fec42d; text-shadow: 2px 2px 4px #144D8C;}"
+        ".dt-sc-rating div[class*=\"star-rating\"]:after {color: #fea32d; text-shadow: 2px 2px 4px #144d8c;}"
       ],
       "name": "t:sections.testimonials.presets.name",
       "settings": {
