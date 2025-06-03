@@ -19,7 +19,7 @@ body {
 /* === TEXTOS GENERALES === */
 h2 {
   font-family: 'Manrope', sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #144D8C;
@@ -37,25 +37,24 @@ p {
   background-image: url('https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Colina.jpg?v=1747772452');
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  border-radius: 16px;
 }
 
 .hero-content {
   background-color: rgba(234, 241, 244, 0.85);
-  padding: 4rem;
+  padding: 2rem;
   border-radius: 16px;
   max-width: 900px;
 }
 
 .hero-content h1 {
   font-family: 'Manrope', sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
