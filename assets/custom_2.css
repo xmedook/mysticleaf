@@ -159,6 +159,7 @@ section .section-header h2 {
   font-size: 20px;
   margin: 1rem 0 0.5rem;
   color: #144D8C;
+  padding: 15px;
 }
 
 .card p {
