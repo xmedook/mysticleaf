@@ -140,7 +140,7 @@ section .section-header h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   width: 100%;
-  max-width: 300px;
+  max-width: 380px;
   transition: transform 0.3s ease;
 }
 
