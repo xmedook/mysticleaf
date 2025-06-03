@@ -173,7 +173,7 @@ section .section-header h2 {
   color: white;
   text-align: center;
   padding: 4rem 2rem;
-  border-radius: 16x;
+  border-radius: 16px;
 }
 
 .cta-content {
@@ -193,7 +193,7 @@ section .section-header h2 {
 .cta-content p {
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  color: white;
+  color: white !important;
   line-height: 1.7;
 }
 
