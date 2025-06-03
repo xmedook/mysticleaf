@@ -38,12 +38,13 @@ p {
   background-image: url('https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Colina.jpg?v=1747772452');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 700vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 4rem;
+  border-radius: 16px;
 }
 
 .hero-content {
