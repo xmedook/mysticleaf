@@ -165,7 +165,7 @@ section .section-header h2 {
 .card p {
   font-family: 'DM Sans', sans-serif;
   font-size: 15px;
-  padding: 0 1rem 1.5rem;
+  padding: 0px 15px;
   color: #144D8C;
 }
 
