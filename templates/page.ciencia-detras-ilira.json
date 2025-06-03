@@ -64,6 +64,9 @@
         "collapsible_row_BxNAcm",
         "collapsible_row_DtympW"
       ],
+      "custom_css": [
+        "h2 {color: #144d8c; font-weight: 600 !important;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
