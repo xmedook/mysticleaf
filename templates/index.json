@@ -672,8 +672,8 @@
             "block_color_scheme": "background-2",
             "author": "Dr. Diego M.",
             "job_title": "",
-            "quote": "<p>Como médico, soy muy escéptico con los suplementos. La mayoría no contienen lo que realmente dicen. ilira, me llamó la atención no solo por su fórmula con NMN, resveratrol, quercetina, fisetina y spermidina, sino porque está respaldado por ciencia y desarrollado por médicos-científicos a través de Palantum. Eso me dio confianza.</p>",
-            "star": "5",
+            "quote": "<p>Como médico, soy muy escéptico con los suplementos. La mayoría no contienen lo que realmente dicen. ilira, me llamó la atención no solo por su fórmula con NMN, resveratrol, quercetina, fisetina y spermidina, sino porque está respaldado por ciencia y desarrollado por médicos-científicos a través de Palantum. Eso me dio confianza.<br/>Llevo un mes tomándolo y lo que he notado es una energía más constante, mejor sueño y mayor claridad mental. Personalmente, estoy muy enfocado en envejecer de forma saludable, y sé que aumentar los niveles de NAD+ es clave para eso. Con Ilira, sé que estoy apoyando mi salud desde lo más profundo, sin necesidad de tomar 10 frascos distintos. Simple, efectivo y científicamente sólido.</p>",
+            "star": "4",
             "link_label": "",
             "link": ""
           }
@@ -714,18 +714,6 @@
             "link": ""
           }
         },
-        "text_bU9Nck": {
-          "type": "text",
-          "settings": {
-            "block_color_scheme": "background-2",
-            "author": "Dr. Mario L.",
-            "job_title": "",
-            "quote": "<p>Llevo un mes tomándolo y lo que he notado es una energía más constante, mejor sueño y mayor claridad mental. Personalmente, estoy muy enfocado en envejecer de forma saludable, y sé que aumentar los niveles de NAD+ es clave para eso. Con Ilira, sé que estoy apoyando mi salud desde lo más profundo, sin necesidad de tomar 10 frascos distintos. Simple, efectivo y científicamente sólido.</p>",
-            "star": "5",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "text_j6eyGi": {
           "type": "text",
           "settings": {
@@ -745,12 +733,12 @@
         "text_yQpNG6",
         "text_NUaTFB",
         "text_iPDF6A",
-        "text_bU9Nck",
         "text_j6eyGi"
       ],
       "custom_css": [
         "h2 {font-weight: 600; color: #144d8c;}",
-        ".dt-sc-rating div[class*=\"star-rating\"]:after {color: #fea32d; text-shadow: 2px 2px 4px #144d8c;}"
+        ".dt-sc-rating div[class*=\"star-rating\"]:after {color: #fea32d; text-shadow: 2px 2px 4px #144d8c;}",
+        "blockquote{min-height: 558px;}"
       ],
       "name": "t:sections.testimonials.presets.name",
       "settings": {
