@@ -288,6 +288,7 @@
         "heading_dBDpTW",
         "text_m34dTL"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
@@ -314,7 +315,7 @@
     "custom_liquid_4ehbea": {
       "type": "custom-liquid",
       "custom_css": [
-        "p{margin: 0; padding-bottom: 5px;}"
+        "p {margin: 0; padding-bottom: 5px;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
@@ -356,6 +357,7 @@
         "heading_G3cM4M",
         "text_qyrYzK"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
@@ -421,6 +423,7 @@
         "heading_rdHzCK",
         "text_9GFrNL"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.image-with-text--overlap .image-with-text__media-item--top {align-self: center; }}",
         "h2 {font-weight: 600; color: #144d8c; font-size: 28px;}",
