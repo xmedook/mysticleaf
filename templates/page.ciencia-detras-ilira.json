@@ -160,6 +160,9 @@
     },
     "custom_liquid_hLb83D": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".card{max-width: 365px;}"
+      ],
       "name": "Seccion 8: Beneficios Holisticos",
       "settings": {
         "page_full_width": false,
