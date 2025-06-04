@@ -313,6 +313,9 @@
     },
     "custom_liquid_4ehbea": {
       "type": "custom-liquid",
+      "custom_css": [
+        "p{margin: 0; padding-bottom: 5px;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
