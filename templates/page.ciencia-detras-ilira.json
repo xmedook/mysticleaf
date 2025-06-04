@@ -60,6 +60,126 @@
     },
     "custom_liquid_MQCpB3": {
       "type": "custom-liquid",
+      "name": "SECCIÓN 3: Envejecimiento Metabólico con NAD+",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<!-- SECCIÓN 3: Envejecimiento Metabólico con NAD+ -->\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/glass_of_water_2.jpg?v=1747858174\" alt=\"Metabolismo NAD⁺\" />\n    </div>\n    <div class=\"text-column\">\n      <h2>Enfocándonos en el Envejecimiento Metabólico con NAD⁺</h2>\n      <p>\n        El NAD⁺ (nicotinamida adenina dinucleótido) es un metabolito esencial cuyos niveles son monitoreados de cerca por la célula para ajustar y equilibrar sus reacciones metabólicas. Regular la vasta cantidad de reacciones metabólicas para mantener el equilibrio entre la producción y el uso de energía es crucial para la salud celular. Durante la restricción calórica, los niveles de NAD⁺ aumentan, desencadenando una red específica de reacciones metabólicas que han demostrado proporcionar numerosos beneficios para la salud.\n      </p>\n      <p>\n        A medida que envejecemos, los niveles de NAD⁺ disminuyen. Ilira proporciona un precursor inmediato de NAD⁺ llamado NMN (β-nicotinamida mononucleótido), que es eficientemente convertido en NAD⁺ por las células. La suplementación directa con NAD⁺ no es práctica, ya que el NAD⁺ no puede entrar en las células. El NMN es uno de los precursores más eficientes, requiriendo el menor número de pasos de reacción. Estudios clínicos han demostrado que el NMN es seguro y eficaz para aumentar los niveles de NAD⁺ en humanos.\n      </p>\n    </div>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_HUpcmy": {
+      "type": "custom-liquid",
+      "name": "CTA",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<section class=\"cta-nmn\">\n  <div class=\"cta-content\">\n    <h2>La Mayor Dosis de NMN</h2>\n    <p>Ilira proporciona <strong>500 mg de NMN por porción</strong>, la cantidad ideal para maximizar tu energía celular y la reparación del ADN según estudios científicos.</p>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_XtkUzJ": {
+      "type": "custom-liquid",
+      "name": "Seccion 5: Cards",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<section class=\"compuestos-section\">\n  <div class=\"section-header\">\n    <h2>Activación de Procesos Celulares Clave</h2>\n    <p>Protección mitocondrial utilizando compuestos naturales respaldados por estudios científicos.</p>\n  </div>\n  <div class=\"card-grid\">\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Fisetina.jpg?v=1747772453\" alt=\"Fisetina\">\n      <h3>Fisetina</h3>\n      <p>Flavonoide que elimina células dañadas y reduce la inflamación, mejorando la función celular.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Quercetina.jpg?v=1747772452\" alt=\"Quercetina\">\n      <h3>Quercetina</h3>\n      <p>Antioxidante y antiinflamatorio que también elimina células senescentes.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Spermidina.jpg?v=1747772453\" alt=\"Spermidina\">\n      <h3>Spermidina</h3>\n      <p>Poliamina que promueve la autofagia, el proceso de limpieza y regeneración celular.</p>\n    </div>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_BPYEHM": {
+      "type": "custom-liquid",
+      "name": "Sección 6: Potenciadores",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"text-column\">\n      <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n      <p>Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece:</p>\n      <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n    </div>\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Metilsulfonilmetano_MSM.jpg?v=1747772453\" alt=\"NAD y Senolíticos\">\n    </div>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_KdyQCk": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_hLb83D": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_6amBKF": {
+      "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
@@ -196,6 +316,12 @@
     "custom_liquid_3x3JD9",
     "custom_liquid_P9CYxV",
     "custom_liquid_MQCpB3",
+    "custom_liquid_HUpcmy",
+    "custom_liquid_XtkUzJ",
+    "custom_liquid_BPYEHM",
+    "custom_liquid_KdyQCk",
+    "custom_liquid_hLb83D",
+    "custom_liquid_6amBKF",
     "collapsible_content_YUrXWH",
     "custom_liquid_twHbrU",
     "newsletter_rJribW"
