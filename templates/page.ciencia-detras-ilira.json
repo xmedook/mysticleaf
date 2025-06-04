@@ -184,7 +184,7 @@
     "custom_liquid_6amBKF": {
       "type": "custom-liquid",
       "custom_css": [
-        ".section-header{width: 1200px;}"
+        "section .section-header {max-width: 1200px !important; }"
       ],
       "name": "Seccion 9: Estudios clinicos",
       "settings": {
