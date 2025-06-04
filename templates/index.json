@@ -738,7 +738,7 @@
       "custom_css": [
         "h2 {font-weight: 600; color: #144d8c;}",
         ".dt-sc-rating div[class*=\"star-rating\"]:after {color: #fea32d; text-shadow: 2px 2px 4px #144d8c;}",
-        "blockquote{min-height: 558px;}"
+        "blockquote {min-height: 864px;}"
       ],
       "name": "t:sections.testimonials.presets.name",
       "settings": {
