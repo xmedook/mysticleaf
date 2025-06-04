@@ -262,8 +262,8 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Los niveles de NAD+ y un envejecimiento saludable van de la mano.</h2>\n    <p>\n      Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el NAD+ y el estado de salud en el ser humano. El  <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.\n\nDesafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.\n      </p>\n    <p><strong>Referencia:</strong> Janssens, G. E., et al. Nature Aging\n    </p>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://palantum.myshopify.com/cdn/shop/files/atomos-opt.png?v=1748377185\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "image_with_text_PRgVpA": {
@@ -331,8 +331,8 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://palantum.myshopify.com/cdn/shop/files/molecula_ilira_nuevo.png?v=1748471176\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Los niveles de NAD+ y un envejecimiento saludable van de la mano.</h2>\n    <p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p>\n    <p>1. Disminución de <strong>NAD+</strong></p>\n    <p>Los niveles de <strong>NAD+</strong> (una coenzima esencial para la <strong>producción de energía celular</strong>) disminuyen con la edad.</p>\n    <p>2. Declive de <strong>enzimas </strong>mitocondriales:  </p>\n    <p>Enzimas como la <strong>SIRT3</strong>, que dependen del <strong>NAD+</strong>, también reducen su actividad, afectando el rendimiento mitocondrial.</p>\n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "image_with_text_adLd7B": {
@@ -397,8 +397,8 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Optimiza el envejecimiento metabólico celular\n</h2>\n    <p>\n      ilira incrementa los niveles de <strong>NAD+</strong> mediante <strong>NMN</strong>, uno de los precursores mas eficientes del NAD+</strong>. Un estudio clínico en humanos demostró que <strong>3О días de suplementación con NMN</strong> a una dosis de 250 mg/día resultaron en un <strong>aumento del 40% en los niveles de NAD+ en sangre.</strong>\n      </p>\n    <p>La suplementación con NMN ha demostrado apoyar la sensibilidad a la insulina, la salud vascular (clave para la resistencia física) y la función muscular.</p>\n    \n    <p><strong>Referencia:</strong> Igarashi, Masaki, et al. Nature Aging\n    </p>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://palantum.myshopify.com/cdn/shop/files/grafica_ilira.png?v=1748471176&width=750\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "image_with_text_Qnw6wN": {
