@@ -20,6 +20,46 @@
     },
     "custom_liquid_3x3JD9": {
       "type": "custom-liquid",
+      "name": "Seccion 1 - Hero",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<!-- SECCIÓN 1: Hero -->\n<section class=\"hero-ilira\">\n  <div class=\"hero-content\">\n    <h1>El secreto de la juventud<br> comienza a nivel celular.</h1>\n    <p>\n      Ilira combina un precursor de NAD⁺, el β-nicotinamida mononucleótido (NMN), con una selección de compuestos bioactivos respaldados por la ciencia, incluyendo fisetina, quercetina y spermidina. Esta formulación está diseñada para abordar los efectos del envejecimiento en el metabolismo a nivel celular, promoviendo la producción y utilización de energía celular. Los ingredientes de Ilira están formulados para aumentar los niveles de NAD⁺, un metabolito clave que disminuye universalmente con la edad, y activar procesos celulares que respaldan la función y salud mitocondrial.\n    </p>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_P9CYxV": {
+      "type": "custom-liquid",
+      "name": "Fórmula 21-en-1 ",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<!-- SECCIÓN 2: Fórmula 21-en-1 -->\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"text-column\">\n      <h2>Fórmula 21-en-1</h2>\n      <p>\n        Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, Ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento. Esta combinación sinérgica está diseñada para intervenir en el envejecimiento desde distintos frentes: energía, inflamación, autofagia, senescencia y salud cardiovascular, cerebral, ósea y metabólica.\n      </p>\n    </div>\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"21 ingredientes\" />\n    </div>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_MQCpB3": {
+      "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
@@ -32,7 +72,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<!-- SECCIÓN 1: Hero -->\n<section class=\"hero-ilira\">\n  <div class=\"hero-content\">\n    <h1>El secreto de la juventud<br> comienza a nivel celular.</h1>\n    <p>\n      Ilira combina un precursor de NAD⁺, el β-nicotinamida mononucleótido (NMN), con una selección de compuestos bioactivos respaldados por la ciencia, incluyendo fisetina, quercetina y spermidina. Esta formulación está diseñada para abordar los efectos del envejecimiento en el metabolismo a nivel celular, promoviendo la producción y utilización de energía celular. Los ingredientes de Ilira están formulados para aumentar los niveles de NAD⁺, un metabolito clave que disminuye universalmente con la edad, y activar procesos celulares que respaldan la función y salud mitocondrial.\n    </p>\n  </div>\n</section>\n\n<!-- SECCIÓN 2: Fórmula 21-en-1 -->\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"text-column\">\n      <h2>Fórmula 21-en-1</h2>\n      <p>\n        Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, Ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento. Esta combinación sinérgica está diseñada para intervenir en el envejecimiento desde distintos frentes: energía, inflamación, autofagia, senescencia y salud cardiovascular, cerebral, ósea y metabólica.\n      </p>\n    </div>\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"21 ingredientes\" />\n    </div>\n  </div>\n</section>\n\n<!-- SECCIÓN 3: Envejecimiento Metabólico con NAD⁺ -->\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/glass_of_water_2.jpg?v=1747858174\" alt=\"Metabolismo NAD⁺\" />\n    </div>\n    <div class=\"text-column\">\n      <h2>Enfocándonos en el Envejecimiento Metabólico con NAD⁺</h2>\n      <p>\n        El NAD⁺ (nicotinamida adenina dinucleótido) es un metabolito esencial cuyos niveles son monitoreados de cerca por la célula para ajustar y equilibrar sus reacciones metabólicas. Regular la vasta cantidad de reacciones metabólicas para mantener el equilibrio entre la producción y el uso de energía es crucial para la salud celular. Durante la restricción calórica, los niveles de NAD⁺ aumentan, desencadenando una red específica de reacciones metabólicas que han demostrado proporcionar numerosos beneficios para la salud.\n      </p>\n      <p>\n        A medida que envejecemos, los niveles de NAD⁺ disminuyen. Ilira proporciona un precursor inmediato de NAD⁺ llamado NMN (β-nicotinamida mononucleótido), que es eficientemente convertido en NAD⁺ por las células. La suplementación directa con NAD⁺ no es práctica, ya que el NAD⁺ no puede entrar en las células. El NMN es uno de los precursores más eficientes, requiriendo el menor número de pasos de reacción. Estudios clínicos han demostrado que el NMN es seguro y eficaz para aumentar los niveles de NAD⁺ en humanos.\n      </p>\n    </div>\n  </div>\n</section>\n\n<section class=\"cta-nmn\">\n  <div class=\"cta-content\">\n    <h2>La Mayor Dosis de NMN</h2>\n    <p>Ilira proporciona <strong>500 mg de NMN por porción</strong>, la cantidad ideal para maximizar tu energía celular y la reparación del ADN según estudios científicos.</p>\n  </div>\n</section>\n\n<section class=\"compuestos-section\">\n  <div class=\"section-header\">\n    <h2>Activación de Procesos Celulares Clave</h2>\n    <p>Protección mitocondrial utilizando compuestos naturales respaldados por estudios científicos.</p>\n  </div>\n  <div class=\"card-grid\">\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Fisetina.jpg?v=1747772453\" alt=\"Fisetina\">\n      <h3>Fisetina</h3>\n      <p>Flavonoide que elimina células dañadas y reduce la inflamación, mejorando la función celular.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Quercetina.jpg?v=1747772452\" alt=\"Quercetina\">\n      <h3>Quercetina</h3>\n      <p>Antioxidante y antiinflamatorio que también elimina células senescentes.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Spermidina.jpg?v=1747772453\" alt=\"Spermidina\">\n      <h3>Spermidina</h3>\n      <p>Poliamina que promueve la autofagia, el proceso de limpieza y regeneración celular.</p>\n    </div>\n  </div>\n</section>\n\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"text-column\">\n      <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n      <p>Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece:</p>\n      <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n    </div>\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Metilsulfonilmetano_MSM.jpg?v=1747772453\" alt=\"NAD y Senolíticos\">\n    </div>\n  </div>\n</section>\n\n<section class=\"seccion-generica\">\n  <div class=\"section-content\">\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png?v=1746462945\" alt=\"Formato en polvo Ilira\">\n    </div>\n    <div class=\"text-column\">\n      <h2>Formato en Polvo = Mejor Absorción</h2>\n      <p>Ilira se presenta en un práctico formato en polvo con sabor natural a camu-camu, no en cápsulas. ¿Por qué? Porque una bebida en polvo permite:</p>\n      <ul class=\"checklist\">\n        <li>Dosis más altas</li>\n        <li>Mayor biodisponibilidad</li>\n        <li>Absorción más rápida y efectiva</li>\n      </ul>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"compuestos-section\">\n  <div class=\"section-header\">\n    <h2>Beneficios Holísticos para la Salud</h2>\n    <p>Hemos añadido ingredientes clave para potenciar la salud integral:</p>\n  </div>\n  <div class=\"card-grid\">\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/L-Glicina.jpg?v=1747772452\" alt=\"Glicina, Magnesio y Colina\">\n      <h3>Glicina, Magnesio, Colina</h3>\n      <p>Apoyo para la función cognitiva, relajación muscular y metabolismo saludable.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Vitamina_B6.jpg?v=1747772452\" alt=\"Vitaminas\">\n      <h3>Vitaminas y Zinc</h3>\n      <p>B6, B9, B12, D3, K2, C y Zinc para inmunidad, salud ósea y cardiovascular.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Acido_Hialuronico.jpg?v=1747772453\" alt=\"Ácido hialurónico\">\n      <h3>Ácido Hialurónico</h3>\n      <p>Elasticidad de la piel y soporte articular desde adentro hacia afuera.</p>\n    </div>\n    <div class=\"card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Acido_Folico.jpg?v=1747772453\" alt=\"MSM\">\n      <h3>MSM</h3>\n      <p>Propiedades antiinflamatorias para salud articular, movilidad y dolor crónico.</p>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"section-header\">\n  <h2>Estudios Clínicos en Humanos con NMN</h2>\n  <p>Un ensayo clínico humano publicado en el Journal of the International Society of Sports\nNutrition estudió los efectos de la suplementación con NMN en la capacidad de utilización de\noxígeno de corredores de mediana edad. Los resultados corroboran estudios preclínicos que\nmuestran que la suplementación oral con NMN mejora la capacidad del cuerpo para absorber\ny utilizar oxígeno, y puede aumentar la resistencia atlética.\nOtro estudio publicado en Endocrine Journal, evaluó la seguridad y el metabolismo de NMN\nen hombres japoneses sanos de mediana edad. Se administraron dosis únicas de 100, 250 y\n500 mg, y se concluyó que:</p>\n</section>\n\n<section class=\"seccion-generica bullet-image\">\n  \n  <div class=\"section-content\">\n    <div class=\"text-column\">\n      <ul class=\"checklist\">\n        <li>Dosis más altas</li>\n        <li>Mayor biodisponibilidad</li>\n        <li>Absorción más rápida y efectiva</li>\n      </ul>\n    </div>\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/pexels-tima-miroshnichenko-9574505.png?v=1748645907\" alt=\"Estudios\">\n    </div>\n  </div>\n</section>\n<section class=\"section-header\">\n  <p>Este estudio respalda la viabilidad clínica del <strong>NMN</strong> como estrategia segura para\npromover la salud metabólica y mitigar procesos asociados al envejecimiento en humanos.\nOtro estudio clínico publicado en la revista Science mostró que la suplementación oral con\n<strong>NMN</strong> proporcionó beneficios metabólicos a mujeres mayores con prediabetes, reportando\nuna mejora en la sensibilidad a la insulina muscular. </p>\n</section>",
+        "custom_liquid": "",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -154,6 +194,8 @@
   "order": [
     "main",
     "custom_liquid_3x3JD9",
+    "custom_liquid_P9CYxV",
+    "custom_liquid_MQCpB3",
     "collapsible_content_YUrXWH",
     "custom_liquid_twHbrU",
     "newsletter_rJribW"
