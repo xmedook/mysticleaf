@@ -76,6 +76,11 @@ p {
   
 }
 
+.bullet-image{
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
 .section-content {
   display: flex;
   max-width: 1200px;
