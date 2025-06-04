@@ -132,7 +132,7 @@ section .section-header h2 {
 
 .card-grid {
   display: flex;
-  gap: 3rem;
+    gap: 4rem;
   flex-wrap: wrap;
   justify-content: center;
 }
