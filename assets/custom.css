@@ -301,7 +301,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 0px auto;
   height: 600px;
   display: flex;
   justify-content: flex-end;
