@@ -359,13 +359,13 @@ body {
    Responsive (Tablets/Móviles)
 -------------------------- */
 @media (max-width: 768px) {
-  .image-text__textcontainer {
+  .image-text__container {
     flex-direction: column;
     height: auto;
     align-items: center;
   }
 
-  .image-text__texttext-box {
+  .image-text__text-box {
     position: static;
     width: 100%;
     max-width: 600px;
@@ -373,7 +373,7 @@ body {
     margin-top: 20px;
   }
 
-  .image-text__textimage-box img {
+  .image-text__image-box img {
     height: auto;
   }
 }
