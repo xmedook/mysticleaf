@@ -8,16 +8,18 @@
 
 <div class="tabbed-content-section" style="background-color: {{ section.settings.background_color }}">
   <div class="tabbed-content-section__container">
-    {% if section.settings.tagline != blank %}
-      <p class="tabbed-content-section__tagline" style="color: {{ section.settings.tagline_color }};">
-        {{ section.settings.tagline }}
-      </p>
-    {% endif %}
+    
 
     {% if section.settings.title != blank %}
       <h2 class="tabbed-content-section__title" style="color: {{ section.settings.title_color }};">
         {{ section.settings.title }}
       </h2>
+    {% endif %}
+
+    {% if section.settings.tagline != blank %}
+      <p class="tabbed-content-section__tagline" style="color: {{ section.settings.tagline_color }};">
+        {{ section.settings.tagline }}
+      </p>
     {% endif %}
 
     <div class="tabbed-content-section__tabs">
