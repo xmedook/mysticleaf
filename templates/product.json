@@ -473,26 +473,6 @@
     "main_components_1_6YGian": {
       "type": "main-components-1",
       "blocks": {
-        "benefit_card_dKjkTw": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/L-Glicina.jpg",
-            "title": "L-Glicina",
-            "subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
-            "description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo.</p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_84ix8P": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Inulina_de_agave.jpg",
-            "title": "Inulina de agave",
-            "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
-            "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. </p><p>Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
-            "title_color": "#144d8c"
-          }
-        },
         "benefit_card_PertFz": {
           "type": "benefit_card",
           "settings": {
@@ -500,6 +480,46 @@
             "title": "Mononucleótido de Nicotinamida (NMN)",
             "subtitle": "Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN.",
             "description": "<p>Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_Bw7WqQ": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Resveratrol.jpg",
+            "title": "Resveratrol",
+            "subtitle": "Polifenol de la longevidad presente en el vino tinto.",
+            "description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. </p><p>Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_gjtgwJ": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Quercetina.jpg",
+            "title": "Quercetina",
+            "subtitle": "Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).",
+            "description": "<p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. </p><p>Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_4kwixa": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Fisetina.jpg",
+            "title": "Fisetina",
+            "subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
+            "description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). </p><p>En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_UgrtTM": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Spermidina.jpg",
+            "title": "Spermidina",
+            "subtitle": "Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.",
+            "description": "<p>La spermidina tiene propiedades anti-envejecimiento notables. </p><p>Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
             "title_color": "#144d8c"
           }
         },
@@ -523,57 +543,37 @@
             "title_color": "#144d8c"
           }
         },
-        "benefit_card_phEHk4": {
+        "benefit_card_dKjkTw": {
           "type": "benefit_card",
           "settings": {
-            "image": "shopify://shop_images/L-Teanina2.jpg",
-            "title": "L-Teanina",
-            "subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
-            "description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. </p><p>Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>",
+            "image": "shopify://shop_images/L-Glicina.jpg",
+            "title": "L-Glicina",
+            "subtitle": "Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.",
+            "description": "<p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo.</p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
             "title_color": "#144d8c"
           }
         },
-        "benefit_card_4kwixa": {
+        "benefit_card_84ix8P": {
           "type": "benefit_card",
           "settings": {
-            "image": "shopify://shop_images/Fisetina.jpg",
-            "title": "Fisetina",
-            "subtitle": "Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.",
-            "description": "<p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). </p><p>En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_Bw7WqQ": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Resveratrol.jpg",
-            "title": "Resveratrol",
-            "subtitle": "Polifenol de la longevidad presente en el vino tinto.",
-            "description": "<p>El resveratrol activa las sirtuinas (particularmente SIRT1), imitando los beneficios de la restricción calórica. </p><p>Mejora la función metabólica y posee efectos antioxidantes y antiinflamatorios.  Apoya la salud cardiovascular y la función cerebral</p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_gjtgwJ": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Quercetina.jpg",
-            "title": "Quercetina",
-            "subtitle": "Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).",
-            "description": "<p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. </p><p>Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
+            "image": "shopify://shop_images/Inulina_de_agave.jpg",
+            "title": "Inulina de agave",
+            "subtitle": "Una fibra prebiótica que nutre tu microbioma intestinal.",
+            "description": "<p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. </p><p>Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
             "title_color": "#144d8c"
           }
         }
       },
       "block_order": [
-        "benefit_card_dKjkTw",
-        "benefit_card_84ix8P",
         "benefit_card_PertFz",
+        "benefit_card_Bw7WqQ",
+        "benefit_card_gjtgwJ",
+        "benefit_card_4kwixa",
+        "benefit_card_UgrtTM",
         "benefit_card_j6txRP",
         "benefit_card_PhyJbx",
-        "benefit_card_phEHk4",
-        "benefit_card_4kwixa",
-        "benefit_card_Bw7WqQ",
-        "benefit_card_gjtgwJ"
+        "benefit_card_dKjkTw",
+        "benefit_card_84ix8P"
       ],
       "custom_css": [
         ".comprehensive-benefits {padding: 30px 20px !important;}",
@@ -592,16 +592,6 @@
     "main_components_1_Wqexdt": {
       "type": "main-components-1",
       "blocks": {
-        "benefit_card_NLFamR": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Spermidina.jpg",
-            "title": "Spermidina",
-            "subtitle": "Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.",
-            "description": "<p>La spermidina tiene propiedades anti-envejecimiento notables. </p><p>Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
-            "title_color": "#144d8c"
-          }
-        },
         "benefit_card_xFLzeT": {
           "type": "benefit_card",
           "settings": {
@@ -609,6 +599,16 @@
             "title": "Vitamina C (Ácido ascórbico)",
             "subtitle": "Antioxidante y cofactor del colágeno. Ayuda a fortalecer el sistema inmunológico y puede apoyar en el  envejecimiento de la piel.",
             "description": "<p>La vitamina C neutraliza los radicales libres en todo el cuerpo, protegiendo el ADN y las mitocondrias del daño oxidativo (mantenido así la estabilidad genómica).</p><p>Además, es necesaria para la síntesis de colágeno, lo que mantiene la juventud de la piel, los vasos sanguíneos y las articulaciones. Un nivel adecuado de vitamina C reduce el daño oxidativo inducido por los rayos UV en las células de la piel.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_38bdBg": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Teanina2.jpg",
+            "title": "L-Teanina",
+            "subtitle": "Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés.",
+            "description": "<p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. </p><p>Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.</p>",
             "title_color": "#144d8c"
           }
         },
@@ -684,8 +684,8 @@
         }
       },
       "block_order": [
-        "benefit_card_NLFamR",
         "benefit_card_xFLzeT",
+        "benefit_card_38bdBg",
         "benefit_card_b86aJB",
         "benefit_card_tFae3y",
         "benefit_card_4yqtC6",
