@@ -310,8 +310,16 @@ body {
   box-sizing: border-box;
 }
 
-.image-text__image-box {
+.position-left{
   position: relative;
+}
+.position-right{
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.image-text__image-box {
   z-index: 1;
 }
 
@@ -325,9 +333,6 @@ body {
 }
 
 .image-text__text-box {
-  position: absolute;
-  bottom: 0;
-  left: 10px;
   background-color: #eaf3ff;
   padding: 30px;
   width: 600px;
