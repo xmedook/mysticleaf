@@ -161,7 +161,7 @@
     "custom_liquid_hLb83D": {
       "type": "custom-liquid",
       "custom_css": [
-        ".card{max-width: 365px;}"
+        ".card {max-width: 365px;}"
       ],
       "name": "Seccion 8: Beneficios Holisticos",
       "settings": {
@@ -183,6 +183,9 @@
     },
     "custom_liquid_6amBKF": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".section-header{width: 1200px;}"
+      ],
       "name": "Seccion 9: Estudios clinicos",
       "settings": {
         "page_full_width": false,
