@@ -368,6 +368,7 @@ body {
     flex-direction: column;
     height: auto;
     align-items: center;
+    gap: 20px;
   }
 
   .image-text__text-box {
