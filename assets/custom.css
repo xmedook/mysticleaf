@@ -372,6 +372,11 @@ body {
     padding: 50px 0px;
   }
 
+  .position-right {
+    position: relative;
+    bottom: 0;
+    left: 0px;
+  }
       
 
   .image-text__text-box {
