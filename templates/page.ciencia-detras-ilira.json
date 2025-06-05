@@ -267,6 +267,14 @@
         "tab2_column_8hFRfA",
         "tab2_column_wVbN3V"
       ],
+      "custom_css": [
+        "h2 {font-size: 60px;}",
+        "button {color: #144d8c;}",
+        "button.active {border-bottom: 2px solid #144d8c;}",
+        "h3 {color: #144d8c !important;}",
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        ".tabbed-content-section__tagline {padding-bottom: 20px; font-weight: 700 !important;}"
+      ],
       "settings": {
         "tagline": "Hemos añadido ingredientes clave para potenciar la salud integral:",
         "tagline_color": "#000000",
