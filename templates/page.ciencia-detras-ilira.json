@@ -110,7 +110,9 @@
     "custom_liquid_NhMawk": {
       "type": "custom-liquid",
       "custom_css": [
-        "@media (min-width: 768px){.image-text__text-box,.image-text__image-box img {height: 550px;}.image-text__container {height: 700px;}}"
+        ".image-text__text-box,.image-text__image-box img {height: 550px;}",
+        ".image-text__container {height: 700px;}",
+        "@media (max-width: 767px){}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
