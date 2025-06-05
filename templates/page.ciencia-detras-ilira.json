@@ -191,6 +191,92 @@
         "padding_bottom": 52
       }
     },
+    "tabbed_content_RJX98r": {
+      "type": "tabbed-content",
+      "blocks": {
+        "tab1_column_hWDeCH": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/L-Glicina.jpg",
+            "title": "Glicina, Magnesio, Colina",
+            "column_title_color": "#000000",
+            "description": "<p>Apoyo para la función cognitiva, relajación muscular y metabolismo saludable.</p>"
+          }
+        },
+        "tab1_column_XRh4Le": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Vitamina_B6.jpg",
+            "title": "Vitaminas y Zinc",
+            "column_title_color": "#000000",
+            "description": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>"
+          }
+        },
+        "tab1_column_hF9zVF": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Acido_Hialuronico.jpg",
+            "title": "Ácido Hialurónico",
+            "column_title_color": "#000000",
+            "description": "<p>Elasticidad de la piel y soporte articular desde adentro hacia afuera.</p>"
+          }
+        },
+        "tab1_column_q4dPKf": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Acido_Folico.jpg",
+            "title": "MSM",
+            "column_title_color": "#000000",
+            "description": "<p>Propiedades antiinflamatorias para salud articular, movilidad y dolor crónico.</p>"
+          }
+        },
+        "tab2_column_gReU7q": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/glass_of_water_2.jpg",
+            "title": "Preparación",
+            "column_title_color": "#000000",
+            "description": "<p>Disuelve el contenido de dos cucharadas en 350 - 450 ml de agua o jugo de tu preferencia y agita hasta disolver.</p>"
+          }
+        },
+        "tab2_column_8hFRfA": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/ph_modo_de_uso_1.jpg",
+            "title": "Sabor",
+            "column_title_color": "#000000",
+            "description": "<p>Disfruta de su refrescante sabor natural a camu-camu.</p>"
+          }
+        },
+        "tab2_column_wVbN3V": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/uso_ph.jpg",
+            "title": "Constancia",
+            "column_title_color": "#000000",
+            "description": "<p>Tómalo diariamente para obtener resultados consistentes a largo plazo.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1_column_hWDeCH",
+        "tab1_column_XRh4Le",
+        "tab1_column_hF9zVF",
+        "tab1_column_q4dPKf",
+        "tab2_column_gReU7q",
+        "tab2_column_8hFRfA",
+        "tab2_column_wVbN3V"
+      ],
+      "settings": {
+        "tagline": "Hemos añadido ingredientes clave para potenciar la salud integral:",
+        "tagline_color": "#000000",
+        "title": "Beneficios Holísticos para la Salud",
+        "title_color": "#144d8c",
+        "background_color": "#eaf1f4",
+        "tab1_title": "",
+        "tab2_title": ""
+      }
+    },
     "custom_liquid_6amBKF": {
       "type": "custom-liquid",
       "custom_css": [
@@ -341,6 +427,7 @@
     "custom_liquid_BPYEHM",
     "custom_liquid_KdyQCk",
     "custom_liquid_hLb83D",
+    "tabbed_content_RJX98r",
     "custom_liquid_6amBKF",
     "collapsible_content_YUrXWH",
     "custom_liquid_twHbrU",
