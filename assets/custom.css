@@ -369,7 +369,10 @@ body {
     height: auto;
     align-items: center;
     gap: 20px;
+    padding: 50px 0px;
   }
+
+
 
   .image-text__text-box {
     position: static;
