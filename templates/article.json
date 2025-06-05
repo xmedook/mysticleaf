@@ -42,7 +42,7 @@
         "h1 {font-weight: 600; text-align: left !important; color: #144d8c;}",
         "@media (min-width: 900px) {.article-template__content.rte {column-count: 1; text-align: left; gap: 60px; font-style: normal; }}",
         "@media (max-width: 750px) {.row {padding: 25px 10px !important; }}",
-        ".article-template__hero-container {border-radius: 16px !iimpotant;}"
+        ".article-template__hero-medium.media {border-radius: 16px;}"
       ],
       "settings": {
         "page_full_width": false,
