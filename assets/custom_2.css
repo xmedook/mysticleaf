@@ -136,7 +136,7 @@ section .section-header h2 {
 
 .card-grid {
   display: flex;
-    gap: 4rem;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -147,7 +147,7 @@ section .section-header h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   width: 100%;
-  max-width: 320px;
+  max-width: 260px;
   min-height: 362px;
   transition: transform 0.3s ease;
 }
