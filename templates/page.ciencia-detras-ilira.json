@@ -152,6 +152,7 @@
     },
     "custom_liquid_XtkUzJ": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Seccion 5: Cards",
       "settings": {
         "page_full_width": false,
@@ -168,6 +169,61 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "tabbed_content_PNywg3": {
+      "type": "tabbed-content",
+      "blocks": {
+        "tab1_column_UBQgK8": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Fisetina.jpg",
+            "title": "Fisetina",
+            "column_title_color": "#000000",
+            "description": "<p>Flavonoide que elimina células dañadas y reduce la inflamación, mejorando la función celular.</p>"
+          }
+        },
+        "tab1_column_aQGi6L": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Quercetina.jpg",
+            "title": "Quercetina",
+            "column_title_color": "#000000",
+            "description": "<p>Antioxidante y antiinflamatorio que también elimina células senescentes.</p>"
+          }
+        },
+        "tab1_column_DgYHjA": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Spermidina.jpg",
+            "title": "Spermidina",
+            "column_title_color": "#000000",
+            "description": "<p>Poliamina que promueve la autofagia, el proceso de limpieza y regeneración celular.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1_column_UBQgK8",
+        "tab1_column_aQGi6L",
+        "tab1_column_DgYHjA"
+      ],
+      "custom_css": [
+        "h2 {font-size: 42px;}",
+        "button {color: #144d8c;}",
+        "button.active {border-bottom: 2px solid #144d8c;}",
+        "h3 {color: #144d8c !important;}",
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        ".tabbed-content-section__tagline {padding-bottom: 20px;}",
+        ".tabbed-content-section__tabs {display: none;}"
+      ],
+      "settings": {
+        "tagline": "Protección mitocondrial utilizando compuestos naturales respaldados por estudios científicos.",
+        "tagline_color": "#000000",
+        "title": "Activación de Procesos Celulares Clave",
+        "title_color": "#144d8c",
+        "background_color": "#eaf1f4",
+        "tab1_title": "",
+        "tab2_title": ""
       }
     },
     "custom_liquid_BPYEHM": {
@@ -526,6 +582,7 @@
     "custom_liquid_NhMawk",
     "custom_liquid_HUpcmy",
     "custom_liquid_XtkUzJ",
+    "tabbed_content_PNywg3",
     "custom_liquid_BPYEHM",
     "custom_liquid_f3FApY",
     "custom_liquid_KdyQCk",
