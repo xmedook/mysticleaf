@@ -40,6 +40,9 @@
     },
     "custom_liquid_P9CYxV": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".image-column {justify-content: flex-end;}"
+      ],
       "name": "Fórmula 21-en-1 ",
       "settings": {
         "page_full_width": false,
@@ -60,6 +63,9 @@
     },
     "custom_liquid_MQCpB3": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".image-column {justify-content: flex-start;}"
+      ],
       "name": "SECCIÓN 3: Envejecimiento Metabólico con NAD+",
       "settings": {
         "page_full_width": false,
@@ -120,6 +126,9 @@
     },
     "custom_liquid_BPYEHM": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".image-column {justify-content: flex-end;}"
+      ],
       "name": "Sección 6: Potenciadores",
       "settings": {
         "page_full_width": false,
@@ -140,6 +149,9 @@
     },
     "custom_liquid_KdyQCk": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".image-column {justify-content: flex-start;}"
+      ],
       "name": "Sección 7: Formato polvo",
       "settings": {
         "page_full_width": false,
@@ -185,7 +197,7 @@
       "type": "custom-liquid",
       "custom_css": [
         "section .section-header {max-width: 1200px !important;}",
-        ".estudios-grid{padding: 40px 0px;}"
+        ".estudios-grid {padding: 40px 0px;}"
       ],
       "name": "Seccion 9: Estudios clinicos",
       "settings": {
