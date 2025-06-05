@@ -172,6 +172,7 @@
     },
     "custom_liquid_BPYEHM": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".image-column {justify-content: flex-end;}"
       ],
@@ -207,7 +208,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n    <p>\n      Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece: </p>\n    <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"Supplement Image\">\n  </div>\n</div>",
+        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n    <p>\n      Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece: </p>\n    <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Metilsulfonilmetano_MSM.jpg?v=1747772453\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -215,6 +216,7 @@
     },
     "custom_liquid_KdyQCk": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".image-column {justify-content: flex-start;}"
       ],
@@ -233,6 +235,26 @@
         "custom_liquid": "<section class=\"seccion-generica\">\n  <div class=\"section-content reverse-mobile\">\n    <div class=\"image-column\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/u2884899135_a_clean_minimalistic_product_display_background_f_59986578-315e-4520-b9f6-eab917ac3e8a_2.png?v=1746462945\" alt=\"Formato en polvo Ilira\">\n    </div>\n    <div class=\"text-column\">\n      <h2>Formato en Polvo = Mejor Absorción</h2>\n      <p>Ilira se presenta en un práctico formato en polvo con sabor natural a camu-camu, no en cápsulas. ¿Por qué? Porque una bebida en polvo permite:</p>\n      <ul class=\"checklist\">\n        <li>Dosis más altas</li>\n        <li>Mayor biodisponibilidad</li>\n        <li>Absorción más rápida y efectiva</li>\n      </ul>\n    </div>\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_WMtHTC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/glass_of_water_2.jpg?v=1747858174\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Formato en Polvo = Mejor Absorción</h2>\n    <p>Ilira se presenta en un práctico formato en polvo con sabor natural a camu-camu, no en cápsulas. ¿Por qué? Porque una bebida en polvo permite:\n</p>\n    <ul class=\"checklist\">\n        <li>Dosis más altas</li>\n        <li>Mayor biodisponibilidad</li>\n        <li>Absorción más rápida y efectiva</li>\n      </ul>\n    \n  </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 52,
         "padding_bottom": 52
       }
     },
@@ -506,6 +528,7 @@
     "custom_liquid_BPYEHM",
     "custom_liquid_f3FApY",
     "custom_liquid_KdyQCk",
+    "custom_liquid_WMtHTC",
     "custom_liquid_hLb83D",
     "tabbed_content_RJX98r",
     "custom_liquid_6amBKF",
