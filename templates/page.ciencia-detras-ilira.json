@@ -172,6 +172,7 @@
     },
     "custom_liquid_hLb83D": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [],
       "name": "Seccion 8: Beneficios Holisticos",
       "settings": {
@@ -268,7 +269,7 @@
         "tab2_column_wVbN3V"
       ],
       "custom_css": [
-        "h2 {font-size: 60px;}",
+        "h2 {font-size: 42px;}",
         "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
