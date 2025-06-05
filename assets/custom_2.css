@@ -223,10 +223,10 @@ section .section-header h2 {
 }
 
 .checklist li::before {
-  content: "✔";
+  content: "✔   ";
   color: #9DC1A6;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
 }
@@ -338,7 +338,7 @@ section .section-header h2 {
   }
 
   .compuestos-section {
-    padding: 8rem 0;
+          padding: 8rem 0;
    }
 
 
