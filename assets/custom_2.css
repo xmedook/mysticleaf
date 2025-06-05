@@ -337,6 +337,10 @@ section .section-header h2 {
     object-fit: contain;
   }
 
+  .compuestos-section {
+    padding: 8rem 0;
+   }
+
 
   .card-grid {
     flex-direction: column;
