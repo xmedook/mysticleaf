@@ -271,8 +271,8 @@
         "collapsible_contact_no": "",
         "collapsible_contact_id": "",
         "desktop_layout": "image_first",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 52,
+        "padding_bottom": 52,
         "custom_class_name": "preguntas-clave"
       }
     },
