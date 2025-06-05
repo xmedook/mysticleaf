@@ -452,6 +452,7 @@
           ".footer-block.footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-text.left {text-align-last: left;}",
           ".footer-block__details-content.rte.left p {color: #f1f1f1 !important;}",
           "small.copyright__content p {color: #f1f1f1 !important;}",
+          "h2{color: white;}",
           "h5 {display: none !important;}",
           "h4 {margin: 0 !important;}"
         ],
