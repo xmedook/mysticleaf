@@ -84,6 +84,7 @@
     },
     "custom_liquid_MQCpB3": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".image-column {justify-content: flex-start;}"
       ],
@@ -107,6 +108,10 @@
     },
     "custom_liquid_NhMawk": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".image-text__text-box,.image-text__image-box img {height: 550px;}",
+        ".image-text__container {height: 700px;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
