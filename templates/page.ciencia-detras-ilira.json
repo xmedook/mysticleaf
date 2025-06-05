@@ -64,6 +64,7 @@
     },
     "custom_liquid_nAQGC7": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
@@ -76,7 +77,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"image-text__container rever\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Fórmula 21-en-1</h2>\n    <p>\n      Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, Ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento. \n      </p>\n    <p>\n      Esta combinación sinérgica está diseñada para intervenir en el envejecimiento desde distintos frentes: energía, inflamación, autofagia, senescencia y salud cardiovascular, cerebral, ósea y metabólica.\n      </p>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"Supplement Image\">\n  </div>\n</div>",
+        "custom_liquid": "<div class=\"image-text__container reverse-mobile\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Fórmula 21-en-1</h2>\n    <p>\n      Mientras que la mayoría de los productos competidores solo incluyen entre 1 y 5 ingredientes activos, Ilira contiene 21 ingredientes en una sola mezcla, cubriendo múltiples vías de la longevidad en un solo suplemento. \n      </p>\n    <p>\n      Esta combinación sinérgica está diseñada para intervenir en el envejecimiento desde distintos frentes: energía, inflamación, autofagia, senescencia y salud cardiovascular, cerebral, ósea y metabólica.\n      </p>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -109,8 +110,7 @@
     "custom_liquid_NhMawk": {
       "type": "custom-liquid",
       "custom_css": [
-        ".image-text__text-box,.image-text__image-box img {height: 550px;}",
-        ".image-text__container {height: 700px;}"
+        "@media (min-width: 768px){.image-text__text-box,.image-text__image-box img {height: 550px;}.image-text__container {height: 700px;}}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
