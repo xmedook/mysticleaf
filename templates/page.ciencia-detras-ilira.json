@@ -193,6 +193,26 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_f3FApY": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n    <p>\n      Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece: </p>\n    <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/1A.jpg?v=1747843043\" alt=\"Supplement Image\">\n  </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_KdyQCk": {
       "type": "custom-liquid",
       "custom_css": [
@@ -484,6 +504,7 @@
     "custom_liquid_HUpcmy",
     "custom_liquid_XtkUzJ",
     "custom_liquid_BPYEHM",
+    "custom_liquid_f3FApY",
     "custom_liquid_KdyQCk",
     "custom_liquid_hLb83D",
     "tabbed_content_RJX98r",
