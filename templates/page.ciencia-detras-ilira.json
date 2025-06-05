@@ -65,7 +65,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".image-column {justify-content: flex-start;}",
-        "@media (max-width: 768px) {.section-content {flex-direction: column-reverse; }}"
+        "@media (max-width: 768px) {.section-content {flex-direction: column-reverse !important; }}"
       ],
       "name": "SECCIÓN 3: Envejecimiento Metabólico con NAD+",
       "settings": {
