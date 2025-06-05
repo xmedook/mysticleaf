@@ -64,7 +64,8 @@
     "custom_liquid_MQCpB3": {
       "type": "custom-liquid",
       "custom_css": [
-        ".image-column {justify-content: flex-start;}"
+        ".image-column {justify-content: flex-start;}",
+        "@media (max-width: 768px) {.section-content {flex-direction: column-reverse; }}"
       ],
       "name": "SECCIÓN 3: Envejecimiento Metabólico con NAD+",
       "settings": {
@@ -275,7 +276,7 @@
         "h3 {color: #144d8c !important;}",
         "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
         ".tabbed-content-section__tagline {padding-bottom: 20px; font-weight: 700 !important;}",
-        ".tabbed-content-section__tabs{display: none;}"
+        ".tabbed-content-section__tabs {display: none;}"
       ],
       "settings": {
         "tagline": "Hemos añadido ingredientes clave para potenciar la salud integral:",
