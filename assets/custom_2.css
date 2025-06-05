@@ -344,7 +344,7 @@ section .section-header h2 {
   }
 
   .card {
-    max-width: 90%;
+    max-width: 100% !important;
   }
   .estudios-grid {
     grid-template-columns: repeat(1, 1fr);
