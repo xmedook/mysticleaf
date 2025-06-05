@@ -323,12 +323,16 @@ section .section-header h2 {
     flex-wrap: nowrap;
   }
 
+  .reverse-mobile{
+    flex-direction: column-reverse;
+  }
+
   h2 {
     font-size: 34px;
   }
 
   .image-column img {
-    max-width: 100%;
+      max-width: 100%;
     height: auto;
     object-fit: contain;
   }
