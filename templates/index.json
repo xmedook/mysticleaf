@@ -314,7 +314,7 @@
       "type": "custom-liquid",
       "custom_css": [
         "h2 {color: #144d8c; font-weight: 600 !important;}",
-        "a.button{background-color: #144d8c;}",
+        "a.button {background-color: #144d8c;}",
         "a.button:hover {background-color: #a8d2f4 !important;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
@@ -371,7 +371,8 @@
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
         ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
-        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; }}"
+        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; }}",
+        "svg{display: none;}"
       ],
       "settings": {
         "page_full_width": true,
