@@ -411,6 +411,11 @@ a.button.custom-header-button.small-hide {
     background-color: #144d8c;
 }
 
+.price__sale,
+.product-label {
+  color: #144d8c !impotant;
+}
+
 /*
 *   FIN - KOODE 2025
 */
