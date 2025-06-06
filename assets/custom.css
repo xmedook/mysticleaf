@@ -412,8 +412,9 @@ a.button.custom-header-button.small-hide {
 }
 
 .price__sale,
-.product-label {
-  color: #144d8c !important;
+.product-label,
+.product-attributes-value{
+      color: #144d8c !important;
 }
 
 /*
