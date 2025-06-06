@@ -564,8 +564,8 @@
         ".newsletter {background-color: white;}",
         ".field__input {background-color: #eaf1f4;}",
         "h2 {color: #144d8c; text-align: left; font-size: 30px;}",
-        "@media (max-width: 425px) {h2 {font-size: 28px; }}",
-        ".newsletter__wrapper {width: 1200px;}"
+        ".newsletter__wrapper {width: 1200px;}",
+        "@media (max-width: 425px) {h2 {font-size: 28px; } .newsletter__wrapper {width: 100%; }}"
       ],
       "settings": {
         "page_full_width": false,
