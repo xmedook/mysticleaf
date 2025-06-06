@@ -21,7 +21,8 @@
     "custom_liquid_3x3JD9": {
       "type": "custom-liquid",
       "custom_css": [
-        "h1 {color: #144d8c !important;}"
+        "h1 {color: #144d8c !important;}",
+        "p {color: black;}"
       ],
       "name": "Seccion 1 - Hero",
       "settings": {
@@ -45,7 +46,8 @@
       "type": "custom-liquid",
       "disabled": true,
       "custom_css": [
-        ".image-column {justify-content: flex-end;}"
+        ".image-column {justify-content: flex-end;}",
+        "p {color: black;}"
       ],
       "name": "Fórmula 21-en-1 ",
       "settings": {
@@ -214,6 +216,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 42px;}",
+        "p {color: black;}",
         "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
@@ -257,6 +260,9 @@
     },
     "custom_liquid_f3FApY": {
       "type": "custom-liquid",
+      "custom_css": [
+        "p {color: black;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
@@ -419,6 +425,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 42px;}",
+        "p {color: black;}",
         "button {color: #144d8c;}",
         "button.active {border-bottom: 2px solid #144d8c;}",
         "h3 {color: #144d8c !important;}",
@@ -441,7 +448,8 @@
       "custom_css": [
         "section .section-header {max-width: 1200px !important;}",
         ".estudios-grid {padding: 40px 0px;}",
-        "h2 {font-weight: 700 !important; text-align: center; padding-bottom: 25px;}"
+        "h2 {font-weight: 700 !important; text-align: center; padding-bottom: 25px;}",
+        "p{color: black;}"
       ],
       "name": "Seccion 9: Estudios clinicos",
       "settings": {
