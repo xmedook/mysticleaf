@@ -633,6 +633,26 @@
         "show_quantity_selector": false
       }
     },
+    "custom_liquid_A8amQL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "custom_liquid": "<div class=\"\" style=\"width: 100%; height: null; position: relative; padding-top: 52.67%\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%\" allowtransparency=\"true\"   src=\"https://adilo.bigcommand.com/watch/mxwj9NDR \"  frameborder=\"0\" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen scrolling=\"no\"></iframe></div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_9TYwAp": {
       "type": "custom-liquid",
       "disabled": true,
@@ -1003,6 +1023,7 @@
     "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
     "custom_product_display_fWfCyf",
+    "custom_liquid_A8amQL",
     "custom_liquid_9TYwAp",
     "testimonials_AA4ymR",
     "af686e46-ff27-4a26-ba17-388d869e0a5b",
