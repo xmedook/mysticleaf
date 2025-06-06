@@ -21,26 +21,6 @@
     "main_components_1_mcmEWP": {
       "type": "main-components-1",
       "blocks": {
-        "benefit_card_miVTWV": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Inulina_de_agave.jpg",
-            "title": "Inulina de agave",
-            "subtitle": "",
-            "description": "<p><strong> </strong>Una fibra prebiótica que nutre tu microbioma intestinal. </p><p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_UjPrRN": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/L-Glicina.jpg",
-            "title": "L-Glicina",
-            "subtitle": "",
-            "description": "<p>Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.</p><p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. </p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
-            "title_color": "#144d8c"
-          }
-        },
         "benefit_card_j9iiBB": {
           "type": "benefit_card",
           "settings": {
@@ -48,46 +28,6 @@
             "title": "Mononucleótido de Nicotinamida (NMN)",
             "subtitle": "",
             "description": "<p>Precursor directo del NAD⁺, la molécula necesaria para la energía celular y la reparación del ADN. Los niveles de NAD⁺ disminuyen con la edad, afectando el metabolismo y el mantenimiento celular. </p><p>Al tomar NMN, ilira aumenta los niveles de NAD⁺ para optimizar  las mitocondrias y activar las sirtuinas (genes de longevidad). Los estudios muestran que el NMN mejora múltiples problemas relacionados con la edad.</p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_d3jBbQ": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Metilsulfonilmetano_MSM.jpg",
-            "title": "Metilsulfonilmetano (MSM)",
-            "subtitle": "",
-            "description": "<p>Compuesto organo-sulfurado conocido por reducir la inflamación y el estrés oxidativo.</p><p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.<br/></p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_x9wRCH": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Malato_de_Magnesio.jpg",
-            "title": "Malato de Magnesio",
-            "subtitle": "",
-            "description": "<p>El magnesio es esencial para cientos de reacciones enzimáticas. Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. </p><p>El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_64X7jG": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/L-Teanina2.jpg",
-            "title": "L-Teanina",
-            "subtitle": "",
-            "description": "<p>Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés. </p><p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.<br/><br/></p>",
-            "title_color": "#144d8c"
-          }
-        },
-        "benefit_card_WjCRVE": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Fisetina.jpg",
-            "title": "Fisetina",
-            "subtitle": "",
-            "description": "<p>Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.</p><p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
             "title_color": "#144d8c"
           }
         },
@@ -110,18 +50,78 @@
             "description": "<p>Flavonoide antioxidante y senolítico (especialmente cuando se combina con otros compuestos).</p><p>Ayuda a eliminar las células senescentes reduciendo la inflamación y mejorando la salud cardiovascular. Además, la quercetina estabiliza los mastocitos (reduciendo la histamina) y apoya la inmunidad.</p>",
             "title_color": "#144d8c"
           }
+        },
+        "benefit_card_WjCRVE": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Fisetina.jpg",
+            "title": "Fisetina",
+            "subtitle": "",
+            "description": "<p>Flavonoide presente en frutas como las fresas, es clave para un envejecimiento más saludable al eliminar las “malas” células que impulsan los procesos de envejecimiento.</p><p>La fisetina apoya selectivamente a eliminar células senescentes (células dañadas que impulsan la inflamación). En estudios en Mayo Clinic, la fisetina fue el senolítico con mejor desempeño entre 10 flavonoides evaluados. Demostró reducir los marcadores de senescencia celular.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_rMXzRw": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Spermidina.jpg",
+            "title": "Spermidina",
+            "subtitle": "",
+            "description": "<p>Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.</p><p>La spermidina tiene propiedades anti-envejecimiento notables. Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_d3jBbQ": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Metilsulfonilmetano_MSM.jpg",
+            "title": "Metilsulfonilmetano (MSM)",
+            "subtitle": "",
+            "description": "<p>Compuesto organo-sulfurado conocido por reducir la inflamación y el estrés oxidativo.</p><p>El MSM apoya el dolor articular y ha demostrado disminuir citocinas proinflamatorias como IL-6 y TNF-α. Al combatir la inflamación, el MSM ayuda a proteger las células del daño inflamatorio.<br/></p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_DWgkdk": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Malato_de_Magnesio.jpg",
+            "title": "Malato de Magnesio",
+            "subtitle": "",
+            "description": "<p>El magnesio es esencial para cientos de reacciones enzimáticas. Estabiliza el ADN y es necesario para que las enzimas reparadoras del ADN actúen, preservando la estabilidad genómica. </p><p>El malato de magnesio también apoya la producción de ATP en las mitocondrias (el malato es un intermediario del ciclo de Krebs) – combatiendo la fatiga. </p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_UjPrRN": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Glicina.jpg",
+            "title": "L-Glicina",
+            "subtitle": "",
+            "description": "<p>Aminoácido que apoya en la creación de proteínas y la producción de glutatión, promoviendo la desintoxicación y las defensas antioxidantes.</p><p>La suplementación con glicina ha demostrado mejorar la salud metabólica y reducir el estrés oxidativo. </p><p>Además, promueve la síntesis de colágeno, proteína esencial para la salud de la piel, las articulaciones y otros tejidos conectivos.</p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_miVTWV": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/Inulina_de_agave.jpg",
+            "title": "Inulina de agave",
+            "subtitle": "",
+            "description": "<p><strong> </strong>Una fibra prebiótica que nutre tu microbioma intestinal. </p><p>Un intestino saludable reduce la inflamación crónica y apoya la salud metabólica. Se ha demostrado incluso que la inulina promueve la longevidad al mejorar la sensibilidad a la insulina y el equilibrio de la microbiota.</p>",
+            "title_color": "#144d8c"
+          }
         }
       },
       "block_order": [
-        "benefit_card_miVTWV",
-        "benefit_card_UjPrRN",
         "benefit_card_j9iiBB",
-        "benefit_card_d3jBbQ",
-        "benefit_card_x9wRCH",
-        "benefit_card_64X7jG",
-        "benefit_card_WjCRVE",
         "benefit_card_MaJQrG",
-        "benefit_card_A9fXKz"
+        "benefit_card_A9fXKz",
+        "benefit_card_WjCRVE",
+        "benefit_card_rMXzRw",
+        "benefit_card_d3jBbQ",
+        "benefit_card_DWgkdk",
+        "benefit_card_UjPrRN",
+        "benefit_card_miVTWV"
       ],
       "custom_css": [
         ".comprehensive-benefits {padding: 30px;}",
@@ -139,16 +139,6 @@
     "main_components_1_gc4nFt": {
       "type": "main-components-1",
       "blocks": {
-        "benefit_card_GL6cC7": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/Spermidina.jpg",
-            "title": "Spermidina",
-            "subtitle": "",
-            "description": "<p>Compuesto poliamínico natural que induce la autofagia, el proceso de autolimpieza celular.</p><p>La spermidina tiene propiedades anti-envejecimiento notables. Al eliminar proteínas y células dañadas, la spermidina ayuda a que las células se mantengan en estado óptimo.</p>",
-            "title_color": "#144d8c"
-          }
-        },
         "benefit_card_g39ELC": {
           "type": "benefit_card",
           "settings": {
@@ -156,6 +146,16 @@
             "title": "Vitamina C (Ácido ascórbico)",
             "subtitle": "",
             "description": "<p>Antioxidante y cofactor del colágeno. Ayuda a fortalecer el sistema inmunológico y puede apoyar en el  envejecimiento de la piel. </p><p>La vitamina C neutraliza los radicales libres en todo el cuerpo, protegiendo el ADN y las mitocondrias del daño oxidativo (mantenido así la estabilidad genómica). </p><p>Además, es necesaria para la síntesis de colágeno, lo que mantiene la juventud de la piel, los vasos sanguíneos y las articulaciones. Un nivel adecuado de vitamina C reduce el daño oxidativo inducido por los rayos UV en las células de la piel.<br/><br/></p>",
+            "title_color": "#144d8c"
+          }
+        },
+        "benefit_card_VRjqWi": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/L-Teanina2.jpg",
+            "title": "L-Teanina",
+            "subtitle": "",
+            "description": "<p>Un aminoácido proveniente del té verde que promueve la relajación y el alivio del estrés. </p><p>La L-teanina tiene efectos neuroprotectores, reduce el cortisol y el estrés oxidativo en el cerebro. Puede inducir autofagia y mitofagia en las células, ayudando a eliminar componentes dañados.<br/><br/></p>",
             "title_color": "#144d8c"
           }
         },
@@ -219,7 +219,7 @@
             "title_color": "#144d8c"
           }
         },
-        "benefit_card_yG3hHB": {
+        "benefit_card_Yx8FHd": {
           "type": "benefit_card",
           "settings": {
             "image": "shopify://shop_images/Selenio.jpg",
@@ -231,15 +231,15 @@
         }
       },
       "block_order": [
-        "benefit_card_GL6cC7",
         "benefit_card_g39ELC",
+        "benefit_card_VRjqWi",
         "benefit_card_j7LCjy",
         "benefit_card_bdQ9Pm",
         "benefit_card_6xCMJY",
         "benefit_card_4k6Yqm",
         "benefit_card_fA89Kt",
         "benefit_card_wDqCBy",
-        "benefit_card_yG3hHB"
+        "benefit_card_Yx8FHd"
       ],
       "custom_css": [
         ".comprehensive-benefits {padding: 0px !important;}"
