@@ -194,7 +194,7 @@
         "@media (max-width: 750px) {a.button {width: 100% !important; }}",
         "modal-opener .global-media-settings {border: 1px solid #ffffff00 !important;}",
         ".product__info-container p.product__text {margin-top: -25px;}",
-        ".price__sale {color: #144d8c;}"
+        ".price__sale,,.pr{color: #144d8c;}"
       ],
       "settings": {
         "page_full_width": false,
