@@ -404,7 +404,7 @@ body {
 }
 
 .mobile-toolbar__icons{
-  display: none;
+      display: none !important;
 }
 
 /*
