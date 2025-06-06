@@ -361,7 +361,8 @@
           "5a9a0c89-b27c-44b1-b651-5d0ec17484b4"
         ],
         "custom_css": [
-          "#header {position: sticky !important; top: 0 !important;}"
+          "#header {position: sticky !important; top: 0 !important;}",
+          ".shopify-policy__container {max-width: 1200px;}"
         ],
         "settings": {
           "page_full_width": true,
@@ -452,7 +453,7 @@
           ".footer-block.footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-text.left {text-align-last: left;}",
           ".footer-block__details-content.rte.left p {color: #f1f1f1 !important;}",
           "small.copyright__content p {color: #f1f1f1 !important;}",
-          "h2{color: white;}",
+          "h2 {color: white;}",
           "h5 {display: none !important;}",
           "h4 {margin: 0 !important;}"
         ],
@@ -1034,22 +1035,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "BF.banner--desktop-transparent {margin: 0 var(--page-full-width-spacing);}",
-      ".banner__heading {text-transform: none;}",
-      ".accordion__title {color: #1e1e1e;}",
-      "h2.title.h2 {color: #144d8c;}",
-      "p {color: #1e1e1e !important;}",
-      "h1 {color: var(--gradient-base-background-2) !important;}",
-      ".button,.shopify-challenge__button,.customer button {background-color: var(--gradient-base-background-2) !important;}",
-      ".left-img,.right-img,.image-group {display: none !important;}",
-      "#specification-template--24538967965979__specification_block_JWGKth {background-image: url(\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Background-producto.jpg?v=1746542439\"); background-size: cover; /* Estira la imagen para cubrir todo el contenedor */ background-position: center; /* Centra la imagen */ background-repeat: no-repeat; /* Evita la repetición de la imagen */ /* Agrega otras propiedades de estilo si es necesario */ min-height: 100vh; /* Asegúrate de que el fondo se extienda a la altura completa de la vista */}",
-      " /* Estilos adicionales para mejorar la legibilidad sobre el fondo */#specification-template--24538967965979__specification_block_JWGKth .page-width {color: white; /* o cualquier color que contraste con el fondo */}",
-      ".global-media-settings {background-color: transparent;}",
-      ".mobile-toolbar__icons {display: none !important;}",
-      ".product__info-bottom.tabs {display: none;}",
-      "ul.dt-nav > li > .megamenu_megamenu a.dt-sc-nav-link {text-transform: none;}",
-      ".section-header {margin-bottom: 0px !important;}"
-    ]
+    "custom_css": []
   }
 }
