@@ -407,6 +407,10 @@ body {
       display: none !important;
 }
 
+a.button.custom-header-button.small-hide {
+    background-color: #144d8c;
+}
+
 /*
 *   FIN - KOODE 2025
 */
