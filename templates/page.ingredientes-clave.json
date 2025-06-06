@@ -304,6 +304,47 @@
         "title_size": 36
       }
     },
+    "featured_blog_iJN4k7": {
+      "type": "featured-blog",
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "{{ section.settings.blog.title }}",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "blog": "diferenciadores",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpts": false,
+        "enable_comments": false,
+        "show_view_all": false,
+        "block_banner_style": "grid-style",
+        "overlay_style_height": 400,
+        "overlay_opacity": "0.5",
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "custom_class_name": "",
+        "swiper_enable": false,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false
+      }
+    },
     "newsletter_dLkenD": {
       "type": "newsletter",
       "blocks": {
@@ -345,6 +386,7 @@
     "main_components_1_mcmEWP",
     "main_components_1_gc4nFt",
     "main_components_1_6AGCMP",
+    "featured_blog_iJN4k7",
     "newsletter_dLkenD"
   ]
 }
