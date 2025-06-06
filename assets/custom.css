@@ -403,6 +403,10 @@ body {
     color: #144d8c;
 }
 
+.mobile-toolbar__icons{
+  display: none;
+}
+
 /*
 *   FIN - KOODE 2025
 */
