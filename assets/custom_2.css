@@ -363,5 +363,9 @@ section .section-header h2 {
         gap: 10px;
     }
 
+  .study-card{
+    width: 100% !important;
+  }
+
 
  }
