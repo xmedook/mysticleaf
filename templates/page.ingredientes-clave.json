@@ -306,6 +306,11 @@
     },
     "featured_blog_iJN4k7": {
       "type": "featured-blog",
+      "custom_css": [
+        ".card__information {padding: 35px !important;}",
+        "a.blog__button.button {display: none;}",
+        "h2 {font-weight: 600; color: #144d8c;}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
