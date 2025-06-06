@@ -1035,8 +1035,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".price__sale,.product_vendor p {color: #144d8c !impotant;}"
-    ]
+    "custom_css": []
   }
 }
