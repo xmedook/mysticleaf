@@ -20,6 +20,9 @@
     },
     "custom_liquid_3x3JD9": {
       "type": "custom-liquid",
+      "custom_css": [
+        "h2 {color: #144d8c !important;}"
+      ],
       "name": "Seccion 1 - Hero",
       "settings": {
         "page_full_width": false,
@@ -112,7 +115,7 @@
       "custom_css": [
         ".image-text__text-box,.image-text__image-box img {height: 550px;}",
         ".image-text__container {height: 700px;}",
-        "@media (max-width: 767px) {.image-text__image-box img, .image-text__container{width: 100%; height: auto; }}"
+        "@media (max-width: 767px) {.image-text__image-box img, .image-text__container {width: 100%; height: auto; }}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
