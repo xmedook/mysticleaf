@@ -395,6 +395,13 @@ body {
 .shopify-policy__container {
     max-width: 1200px !important;
 }
+.shopify-policy__title{
+    display: none;
+}
+.shopify-policy__body h3{
+      font-weight: 600;
+    color: #144d8c;
+}
 
 /*
 *   FIN - KOODE 2025
