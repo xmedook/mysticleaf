@@ -1035,6 +1035,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".page-full-width.section-template--24538968621339__22208e64-dcc3-4578-b425-207fdf5259a3-slideshow {margin-top: -24px;}"
+    ]
   }
 }
