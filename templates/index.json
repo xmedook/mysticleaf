@@ -776,7 +776,8 @@
         ".dt-sc-rating div[class*=\"star-rating\"]:after {color: #fea32d; text-shadow: 2px 2px 4px #144d8c;}",
         "blockquote {min-height: 550px;}",
         ".content-left {display: flex; flex-direction: column; justify-content: space-between; height: 100%; /* o un valor fijo como 300px si es necesario */}",
-        ".content-left cite {margin-top: auto; /* empuja el cite al fondo */}"
+        ".content-left cite {margin-top: auto; /* empuja el cite al fondo */}",
+        ".swiper{opacity: 1 !important;}"
       ],
       "name": "t:sections.testimonials.presets.name",
       "settings": {
