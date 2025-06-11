@@ -553,7 +553,8 @@
       "custom_css": [
         ".card__information {padding: 35px !important;}",
         "a.blog__button.button {display: none;}",
-        "h2 {font-weight: 600; color: #144d8c;}"
+        "h2 {font-weight: 600; color: #144d8c;}",
+        ".grid{justify-content: space-between;}"
       ],
       "settings": {
         "page_full_width": false,
