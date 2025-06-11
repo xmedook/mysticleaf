@@ -160,7 +160,7 @@
         "h2 {color: #144d8c;}",
         ".blog__button {display: none;}",
         ".card__information {padding: 20px; min-height: 200px;}",
-        ".card {border-radius: 15px !important;}",
+        ".card {border-radius: 15px !important; padding-bottom: 20px;}",
         ".card:hover p {color: white !important;}"
       ],
       "settings": {
@@ -190,7 +190,7 @@
         "padding_top": 32,
         "padding_bottom": 100,
         "custom_class_name": "dt-blog",
-        "swiper_enable": true,
+        "swiper_enable": false,
         "desktop_column": 3,
         "laptop_column": 2,
         "tablet_column": 2,
