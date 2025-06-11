@@ -554,7 +554,7 @@
         ".card__information {padding: 35px !important;}",
         "a.blog__button.button {display: none;}",
         "h2 {font-weight: 600; color: #144d8c;}",
-        ".grid{justify-content: space-between;}"
+        "@media screen and (min-width: 1200px) {.grid__item {width:380px !important; } .grid {justify-content: space-between; }}"
       ],
       "settings": {
         "page_full_width": false,
