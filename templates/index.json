@@ -647,7 +647,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"\" style=\"width: 100%; height: null; position: relative; padding-top: 52.67%\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100vw; height: 100%\" allowtransparency=\"true\"   src=\"https://adilo.bigcommand.com/watch/mlk5tP30 \"  frameborder=\"0\" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen scrolling=\"no\"></iframe></div>",
+        "custom_liquid": "<div class=\"\" style=\"width: 100%; height: null; position: relative; padding-top: 52.67%\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%\" allowtransparency=\"true\"   src=\"https://adilo.bigcommand.com/watch/mlk5tP30 \"  frameborder=\"0\" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen scrolling=\"no\"></iframe></div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
