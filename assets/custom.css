@@ -4,12 +4,10 @@
 */
 
 @media (max-width: 425px){
-  body{
-    overflow-x: hidden !important;
+  main#MainContent {
+    overflow-x: hidden;
   }
-  * {
-  outline: 1px solid red;
-}
+  
   .menu-drawer{
     z-index: 999;
   }
