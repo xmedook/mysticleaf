@@ -3,6 +3,18 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {%- style -%}
+
+
+  /*Koode custom code*/
+  .
+  @media (max-width: 768px){
+    slideshow__text-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+    
+  /*Fin Koode*/
+  }
   {%- if section.blocks.first.settings.image != blank -%}
 
     @media screen and (max-width: 749px) {
