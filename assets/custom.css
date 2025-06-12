@@ -16,6 +16,9 @@
   product-modal#ProductModal-template--24538968621339__custom_product_display_fWfCyf {
     width: 425px;
   }
+  .zoomContainer{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 750px) {
