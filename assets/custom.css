@@ -5,7 +5,7 @@
 
 @media (max-width: 425px){
   main {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
   }
   
   .menu-drawer{
