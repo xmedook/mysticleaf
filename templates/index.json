@@ -40,7 +40,8 @@
         "h2.banner__heading.h1 {font-weight: 700;}",
         " /* Banner */.swiper-slide .banner__box {opacity: 0;}",
         ".swiper-slide .banner__box .visible {opacity: 1 !important;}",
-        ".swiper-slide.swiper-slide-active .banner__box {transform: scale(1); opacity: 1 !important; transition-delay: 0.5s;}"
+        ".swiper-slide.swiper-slide-active .banner__box {transform: scale(1); opacity: 1 !important; transition-delay: 0.5s;}",
+        ".row{margin-top: -24px;}"
       ],
       "settings": {
         "page_full_width": true,
@@ -187,7 +188,6 @@
         ".banner__media {height: 100%; background-color: #eaf1f4 !important; display: block !important;}",
         "@media screen and (min-width: 750px) {.banner__media {height: 100%; background-color: #eaf1f4 !important; }}"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -210,7 +210,6 @@
     "image_banner_W8wcNy": {
       "type": "image-banner",
       "custom_css": [],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "page_full_width": true,
         "page_full_width_spacing": false,
@@ -317,7 +316,6 @@
         "a.button {background-color: #144d8c;}",
         "a.button:hover {background-color: #a8d2f4 !important;}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -581,7 +579,6 @@
         ".product__info-container p.product__text {margin-top: -25px;}",
         ".slider-button[disabled] .icon {color: white !important;}"
       ],
-      "name": "Custom Product Display",
       "settings": {
         "product_picker": "ilira-daily-essentials",
         "page_full_width": false,
@@ -635,7 +632,6 @@
     },
     "custom_liquid_A8amQL": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -656,7 +652,6 @@
     "custom_liquid_9TYwAp": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -780,7 +775,6 @@
         ".swiper {padding: 0px 30px;}",
         ".swiper-button-next,.swiper-button-prev {opacity: 1 !important;}"
       ],
-      "name": "t:sections.testimonials.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
