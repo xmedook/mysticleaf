@@ -24,7 +24,6 @@
         "h1 {color: #144d8c !important;}",
         "p {color: black;}"
       ],
-      "name": "Seccion 1 - Hero",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -49,7 +48,6 @@
         ".image-column {justify-content: flex-end;}",
         "p {color: black;}"
       ],
-      "name": "Fórmula 21-en-1 ",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -70,7 +68,6 @@
     "custom_liquid_nAQGC7": {
       "type": "custom-liquid",
       "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -94,7 +91,6 @@
       "custom_css": [
         ".image-column {justify-content: flex-start;}"
       ],
-      "name": "SECCIÓN 3: Envejecimiento Metabólico con NAD+",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -119,7 +115,6 @@
         ".image-text__container {height: 700px;}",
         "@media (max-width: 767px) {.image-text__image-box img, .image-text__container {width: 100%; height: auto; }}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -139,7 +134,6 @@
     },
     "custom_liquid_HUpcmy": {
       "type": "custom-liquid",
-      "name": "CTA",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -160,7 +154,6 @@
     "custom_liquid_XtkUzJ": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Seccion 5: Cards",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -240,7 +233,6 @@
       "custom_css": [
         ".image-column {justify-content: flex-end;}"
       ],
-      "name": "Sección 6: Potenciadores",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -263,7 +255,6 @@
       "custom_css": [
         "p {color: black;}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -287,7 +278,6 @@
       "custom_css": [
         ".image-column {justify-content: flex-start;}"
       ],
-      "name": "Sección 7: Formato polvo",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -307,7 +297,6 @@
     },
     "custom_liquid_WMtHTC": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -329,7 +318,6 @@
       "type": "custom-liquid",
       "disabled": true,
       "custom_css": [],
-      "name": "Seccion 8: Beneficios Holisticos",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -452,7 +440,6 @@
         "p {color: black;}",
         "@media (max-width: 768px) {.study-card {width: 100% !important; }}"
       ],
-      "name": "Seccion 9: Estudios clinicos",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -531,7 +518,6 @@
     },
     "custom_liquid_twHbrU": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -543,7 +529,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<section class=\"estudios-section\">\n  <div class=\"estudios-container\">\n    <h2>21 ingredientes basados en 21 estudios clínicos</h2>\n    <div class=\"estudios-grid\">\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Spermidina</p>\n        <p class=\"study-reference\">\n          Madeo, Frank et al. “Spermidine delays aging in humans.”<br>\n          <a href=\"https://doi.org/10.18632/aging.101517\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Irie, J. et al. “Effect of oral administration of nicotinamide mononucleotide on clinical parameters in healthy Japanese men.”<br>\n          <a href=\"https://doi.org/10.1507/endocrj.EJ19-0313\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Yoshino, J. et al. “Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women.”<br>\n          <a href=\"https://www.science.org/doi/10.1126/science.abe9985\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Liao, B. et al. “Chronic nicotinamide mononucleotide supplementation increases aerobic capacity in amateur runners.”<br>\n          <a href=\"https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00449-w\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Fisetina</p>\n        <p class=\"study-reference\">\n          Yousefzadeh, M. et al. “Fisetin is a senotherapeutic that extends lifespan and healthspan.”<br>\n          <a href=\"https://doi.org/10.1016/j.ebiom.2018.09.015\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Inulina</p>\n        <p class=\"study-reference\">\n          Dong, Y. et al. “Inulin increases lifespan and healthspan in Drosophila.”<br>\n          <a href=\"https://doi.org/10.3390/nu11030636\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Glicina</p>\n        <p class=\"study-reference\">\n          Miller, R. et al. “Glycine extends lifespan in mice.”<br>\n          <a href=\"https://doi.org/10.1111/acel.12953\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">MSM</p>\n        <p class=\"study-reference\">\n          Muizzuddin, N. et al. “Evaluation of the effect of methylsulfonylmethane on the skin.”<br>\n          <a href=\"https://doi.org/10.1024/0300-9831/a000643\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Magnesio</p>\n        <p class=\"study-reference\">\n          Dominguez, L. J. et al. “The role of magnesium in aging.”<br>\n          <a href=\"https://doi.org/10.3390/nu16040496\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">L-Teanina</p>\n        <p class=\"study-reference\">\n          Chen, Q. et al. “L-Theanine increases longevity in C. elegans.”<br>\n          <a href=\"https://doi.org/10.3390/molecules29112691\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Sirtuinas</p>\n        <p class=\"study-reference\">\n          Sah, S. et al. “Sirtuin activators as geroprotectors.”<br>\n          <a href=\"https://doi.org/10.37349/eds.2025.100881\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Colina</p>\n        <p class=\"study-reference\">\n          Poly, C. et al. “Choline intake and cognitive performance.”<br>\n          <a href=\"https://doi.org/10.3945/ajcn.110.008938\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina K2</p>\n        <p class=\"study-reference\">\n          Mandatori, D. et al. “Vitamin K2, vascular health, and bone metabolism.”<br>\n          <a href=\"https://doi.org/10.3390/nu13041222\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Tiamina</p>\n        <p class=\"study-reference\">\n          Marrs, C. et al. “Thiamine deficiency and aging.”<br>\n          <a href=\"https://doi.org/10.3390/cells10102595\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina B12</p>\n        <p class=\"study-reference\">\n          Jatoi, N. et al. “Vitamin B12 and cognitive decline.”<br>\n          <a href=\"https://doi.org/10.7759/cureus.6976\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina D</p>\n        <p class=\"study-reference\">\n          Fantini, M. et al. “Vitamin D as a longevity factor.”<br>\n          <a href=\"https://doi.org/10.3390/ijms24054546\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Selenio</p>\n        <p class=\"study-reference\">\n          Alehagen, U. et al. “Selenium and aging biomarkers.”<br>\n          <a href=\"https://doi.org/10.3390/biom11101478\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>",
+        "custom_liquid": "<section class=\"estudios-section\">\n  <div class=\"estudios-container\">\n    <h2>21 ingredientes basados en 21 estudios clínicos</h2>\n    <div class=\"estudios-grid\">\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Spermidina</p>\n        <p class=\"study-reference\">\n          Madeo, Frank et al. “Spermidine delays aging in humans.”<br>\n          <a href=\"https://doi.org/10.18632/aging.101517\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Irie, J. et al. “Effect of oral administration of nicotinamide mononucleotide on clinical parameters in healthy Japanese men.”<br>\n          <a href=\"https://doi.org/10.1507/endocrj.EJ19-0313\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Yoshino, J. et al. “Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women.”<br>\n          <a href=\"https://www.science.org/doi/10.1126/science.abe9985\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">NMN</p>\n        <p class=\"study-reference\">\n          Liao, B. et al. “Chronic nicotinamide mononucleotide supplementation increases aerobic capacity in amateur runners.”<br>\n          <a href=\"https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00449-w\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Fisetina</p>\n        <p class=\"study-reference\">\n          Yousefzadeh, M. et al. “Fisetin is a senotherapeutic that extends lifespan and healthspan.”<br>\n          <a href=\"https://doi.org/10.1016/j.ebiom.2018.09.015\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Inulina</p>\n        <p class=\"study-reference\">\n          Dong, Y. et al. “Inulin increases lifespan and healthspan in Drosophila.”<br>\n          <a href=\"https://doi.org/10.3390/nu11030636\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Glicina</p>\n        <p class=\"study-reference\">\n          Miller, R. et al. “Glycine extends lifespan in mice.”<br>\n          <a href=\"https://doi.org/10.1111/acel.12953\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">MSM</p>\n        <p class=\"study-reference\">\n          Muizzuddin, N. et al. “Evaluation of the effect of methylsulfonylmethane on the skin.”<br>\n          <a href=\"https://doi.org/10.1024/0300-9831/a000643\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Magnesio</p>\n        <p class=\"study-reference\">\n          Dominguez, L. J. et al. “The role of magnesium in aging.”<br>\n          <a href=\"https://doi.org/10.3390/nu16040496\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">L-Teanina</p>\n        <p class=\"study-reference\">\n          Chen, Q. et al. “L-Theanine increases longevity in C. elegans.”<br>\n          <a href=\"https://doi.org/10.3390/molecules29112691\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Sirtuinas</p>\n        <p class=\"study-reference\">\n          Sah, S. et al. “Sirtuin activators as geroprotectors.”<br>\n          <a href=\"https://doi.org/10.37349/eds.2025.100881\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Colina</p>\n        <p class=\"study-reference\">\n          Poly, C. et al. “Choline intake and cognitive performance.”<br>\n          <a href=\"https://doi.org/10.3945/ajcn.110.008938\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina K2</p>\n        <p class=\"study-reference\">\n          Mandatori, D. et al. “Vitamin K2, vascular health, and bone metabolism.”<br>\n          <a href=\"https://doi.org/10.3390/nu13041222\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Tiamina</p>\n        <p class=\"study-reference\">\n          Marrs, C. et al. “Thiamine deficiency and aging.”<br>\n          <a href=\"https://doi.org/10.3390/cells10102595\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina B12</p>\n        <p class=\"study-reference\">\n          Jatoi, N. et al. “Vitamin B12 and cognitive decline.”<br>\n          <a href=\"https://doi.org/10.7759/cureus.6976\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Vitamina D</p>\n        <p class=\"study-reference\">\n          Fantini, M. et al. “Vitamin D as a longevity factor.”<br>\n          <a href=\"https://doi.org/10.3390/ijms24054546\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n      <div class=\"study-card\">\n        <p class=\"study-title\">Selenio</p>\n        <p class=\"study-reference\">\n          Alehagen, U. et al. “Selenium and aging biomarkers.”<br>\n          <a href=\"https://doi.org/10.3390/biom11101478\" target=\"_blank\">Ver estudio</a>\n        </p>\n      </div>\n\n\n    </div>\n  </div>\n\n</section>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
