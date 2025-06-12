@@ -58,8 +58,15 @@
   color: #144d8c;
   font-weight: 600;
 }
+
+/*Bloquear slider*/
+.swiper[data-swiper-slider] .swiper-wrapper {
+  transform: none !important;
+  transition: none !important;
+}
                     
 /* Banner */
+
 .swiper-slide .banner__box {
       opacity: 0;
 }
