@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/0001.jpg",
-            "mobile_image": "shopify://shop_images/productoph3.png",
+            "mobile_image": "shopify://shop_images/hero-movil-palantumhealth.jpg",
             "heading": "La fórmula simplificada de la longevidad",
             "heading_size": "h1",
             "subheading": "",
@@ -369,7 +369,7 @@
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
         ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
-        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; } .image-group{display: none; }}",
+        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; } .image-group {display: none; }}",
         "svg {display: none;}"
       ],
       "settings": {
