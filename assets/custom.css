@@ -5,9 +5,11 @@
 
 @media (max-width: 425px){
   body{
-   overflow-x: hidden;
+    max-width: 425px !important;
   }
- 
+  * {
+  outline: 1px solid red;
+}
   .menu-drawer{
     z-index: 999;
   }
