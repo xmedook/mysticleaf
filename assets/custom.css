@@ -76,7 +76,7 @@
 .swiper-slide.swiper-slide-active .banner__box {
   transform: scale(1);
   opacity: 1 !important;
-  transition-delay: 0.5s;
+  transition-delay: 0.1s;
       }
 .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
     padding-left: 60px  !important;
