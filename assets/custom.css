@@ -4,7 +4,9 @@
 */
 
 @media (max-width: 425px){
-  
+  main {
+    overflow-x: hidden;
+  }
   
   .menu-drawer{
     z-index: 999;
