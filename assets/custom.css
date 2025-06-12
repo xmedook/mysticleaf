@@ -77,8 +77,8 @@
 }
 /*Bloquear slider*/
 .swiper[data-swiper-slider] .swiper-wrapper {
-  transform: none !important;
   
+  transition: none !important;
 }
 .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
     padding-left: 60px  !important;
