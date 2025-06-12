@@ -41,7 +41,7 @@
         " /* Banner */.swiper-slide .banner__box {opacity: 0;}",
         ".swiper-slide .banner__box .visible {opacity: 1 !important;}",
         ".swiper-slide.swiper-slide-active .banner__box {transform: scale(1); opacity: 1 !important; transition-delay: 0.5s;}",
-        ".row{margin-top: -24px;}"
+        ".row {margin-top: -24px;}"
       ],
       "settings": {
         "page_full_width": true,
@@ -369,7 +369,7 @@
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
         ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
-        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; }}",
+        "@media (max-width: 425px) {.nosotros {padding: 0px 20px; } .image-group{display: none; }}",
         "svg {display: none;}"
       ],
       "settings": {
