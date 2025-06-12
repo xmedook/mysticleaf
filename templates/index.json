@@ -49,7 +49,7 @@
         "slider_image_height": 900,
         "slider_image_height_laptop": 800,
         "slider_image_height_tab": 700,
-        "slider_image_height_mobile": 600,
+        "slider_image_height_mobile": 700,
         "swiper_pagination": false,
         "swiper_navigation": false,
         "auto_play": 0,
