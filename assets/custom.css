@@ -425,6 +425,9 @@ body {
     hr{
       margin: 0;
     }
+    .product__info-as-bottom-tabs{
+      display: none;
+    }
   }
       
 
