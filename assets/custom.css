@@ -388,6 +388,15 @@ body {
     bottom: 0;
     left: 0px;
   }
+
+  /*Mobile Home*/
+  @media (max-width: 768px){
+    .support-block-list{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
       
 
   .image-text__text-box {
