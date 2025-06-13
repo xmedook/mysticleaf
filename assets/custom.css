@@ -458,7 +458,7 @@ body {
     flex-wrap: wrap;
   }
   .tabbed-content-section__column {
-        flex: 0 0 47%;
+        flex: 0 0 47% !important;
         min-width: 150px;
     }
 }
