@@ -407,6 +407,11 @@ body {
     .card.article-card.card--standard.card--media {
         max-width: 80vw;
     }
+    .swiper-button-next,
+    .swiper-button-prev{
+      opacity: 1 !important;
+      top: 50% !important;
+    }
 
 
   }
