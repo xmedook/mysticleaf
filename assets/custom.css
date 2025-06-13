@@ -452,6 +452,10 @@ body {
   .image-text__image-box img {
     height: auto;
   }
+  .carousel-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .shopify-policy__container {
