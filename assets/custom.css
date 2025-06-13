@@ -396,7 +396,7 @@ body {
       flex-direction: column;
       flex-wrap: wrap;
     }
-    #Slider-template--24538968621339__a2c6b8ef-664c-4cb5-9429-59a162fcc4ae .slider-buttons.no-js-hidden.medium-hide {
+    .slider-buttons.no-js-hidden.medium-hide {
       display: none;
     }
 
