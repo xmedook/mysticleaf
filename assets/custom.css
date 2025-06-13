@@ -418,7 +418,13 @@ body {
         padding-left: 8vw;
     }
 
+  }
 
+  /*Mobile ilira page */
+  @media (max-width: 768px){
+    hr{
+      margin: 0;
+    }
   }
       
 
