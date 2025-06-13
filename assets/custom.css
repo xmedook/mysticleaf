@@ -392,9 +392,9 @@ body {
   /*Mobile Home*/
   @media (max-width: 768px){
     .support-block-list{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
+      flex-direction: row;
+        flex-wrap: wrap !important;
+        justify-content: center;
     }
     .slider-buttons.no-js-hidden.medium-hide {
       display: none;
