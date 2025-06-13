@@ -757,6 +757,7 @@
     },
     "image_banner_888EhY": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".row {display: none;}",
         "@media screen and (max-width: 767px) {.row {display: block !important; }}"
