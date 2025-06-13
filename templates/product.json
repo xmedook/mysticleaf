@@ -316,7 +316,8 @@
     "custom_liquid_4ehbea": {
       "type": "custom-liquid",
       "custom_css": [
-        "p {margin: 0; padding-bottom: 5px;}"
+        "p {margin: 0; padding-bottom: 5px;}",
+        "@media (max-width: 768px) {.reverse-mobile {flex-direction: column-reverse !important; }}"
       ],
       "settings": {
         "page_full_width": false,
@@ -329,7 +330,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/blog_la_ciencia.png?v=1749076773\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Tu metabolismo también envejece.</h2>\n    <p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p>\n    <p><strong>1. Disminución de NAD+</strong></p>\n    <p>Los niveles de <strong>NAD+</strong> (una coenzima esencial para la <strong>producción de energía celular</strong>) disminuyen con la edad.</p>\n    <p><strong>2. Declive de enzimas mitocondriales:</strong>  </p>\n    <p>Enzimas como la <strong>SIRT3</strong>, que dependen del <strong>NAD+</strong>, también reducen su actividad, afectando el rendimiento mitocondrial.</p>\n  </div>\n</div>",
+        "custom_liquid": "<div class=\"image-text__container  \">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/blog_la_ciencia.png?v=1749076773\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Tu metabolismo también envejece.</h2>\n    <p>A medida que envejeces, tu metabolismo se vuelve más lento y menos eficiente. Esto afecta directamente la energía, la funcion celular y tu capacidad para mantener un estado de salud optimo. Esto ocurre por dos razones principales:</p>\n    <p><strong>1. Disminución de NAD+</strong></p>\n    <p>Los niveles de <strong>NAD+</strong> (una coenzima esencial para la <strong>producción de energía celular</strong>) disminuyen con la edad.</p>\n    <p><strong>2. Declive de enzimas mitocondriales:</strong>  </p>\n    <p>Enzimas como la <strong>SIRT3</strong>, que dependen del <strong>NAD+</strong>, también reducen su actividad, afectando el rendimiento mitocondrial.</p>\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 52,
         "padding_bottom": 52
