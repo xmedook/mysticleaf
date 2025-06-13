@@ -263,7 +263,7 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Los niveles de NAD+ y un envejecimiento saludable van de la mano.</h2>\n    <p>\n      Investigación publicada en <strong>Nature Aging</strong> sugiere que existe una relación clara entre el NAD+ y el estado de salud en el ser humano. El  <strong>NAD+ (dinucleótido de nicotinamida y adenina)</strong> se encuentra en cada célula del cuerpo; es esencial en el funcionamiento del metabolismo humano.\n\nDesafortunadamente, los <strong>niveles de NAD+ disminuyen</strong> drásticamente con el envejecimiento.\n      </p>\n    <p><strong>Referencia:</strong> Janssens, G. E., et al. Nature Aging\n    </p>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/la_ciencia.png?v=1749076773\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "padding_top": 52,
         "padding_bottom": 0
       }
     },
