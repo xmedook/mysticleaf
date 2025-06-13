@@ -52,6 +52,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_MRjHiE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign button1_url = 'https://www.amazon.com.mx/dp/B0F4Z29KY6' %}\n{% assign button2_url = 'https://articulo.mercadolibre.com.mx/MLM-3705995168-ilira-by-palantum-nmn-500mg-resveratrol-spermidina-210g-_JM' %}\n\n<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #144d8c; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
+          }
+        },
         "22daea9f-6daf-487e-b422-cba212ae0998": {
           "type": "rating",
           "disabled": true,
@@ -155,12 +161,6 @@
           "settings": {
             "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <p class=\"product-attributes-value\">Palantum Health</p>\n                </div>"
           }
-        },
-        "custom_liquid_MRjHiE": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign button1_url = 'https://www.amazon.com.mx/dp/B0F4Z29KY6' %}\n{% assign button2_url = 'https://articulo.mercadolibre.com.mx/MLM-3705995168-ilira-by-palantum-nmn-500mg-resveratrol-spermidina-210g-_JM' %}\n\n<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"{{ button1_url }}\" class=\"button\" style=\"background-color: #144d8c; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"{{ button2_url }}\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
-          }
         }
       },
       "block_order": [
@@ -168,6 +168,7 @@
         "title",
         "bcddc1ff-b68c-4e0b-992f-5cee1c432000",
         "price",
+        "custom_liquid_MRjHiE",
         "22daea9f-6daf-487e-b422-cba212ae0998",
         "caption",
         "custom_liquid_nhacbL",
@@ -183,8 +184,7 @@
         "fba18659-f515-470a-ad98-83721b6d8b37",
         "09c5869c-ee2d-493b-adde-e7ad9062158e",
         "sub_total_kB3BEL",
-        "custom_liquid_mQ847h",
-        "custom_liquid_MRjHiE"
+        "custom_liquid_mQ847h"
       ],
       "custom_css": [
         "span.price-item.price-item--regular {color: #144d8c !important;}",
@@ -247,7 +247,6 @@
     },
     "custom_liquid_XFcfd8": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -316,7 +315,6 @@
       "custom_css": [
         "p {margin: 0; padding-bottom: 5px;}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -382,7 +380,6 @@
     },
     "custom_liquid_J78aQn": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
