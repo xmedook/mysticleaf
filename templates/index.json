@@ -544,6 +544,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_z8UPBt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"button-block\" style=\"margin: 40px 0px 40px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"https://www.amazon.com.mx/dp/B0F4Z29KY6\" class=\"button\" style=\"background-color: #144d8c; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"https://articulo.mercadolibre.com.mx/MLM-3705995168-ilira-by-palantum-nmn-500mg-resveratrol-spermidina-210g-_JM\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
+          }
+        },
         "custom_liquid_xGgmc6": {
           "type": "custom_liquid",
           "settings": {
@@ -555,20 +561,14 @@
           "settings": {
             "custom_liquid": "<div class=\"product-attributes product_vendor\">\n                  <p class=\"product-label\">Marca</p>\n                  <p class=\"product-attributes-value\">Palantum Health</p>\n                </div>"
           }
-        },
-        "custom_liquid_z8UPBt": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"button-block\" style=\"margin: 40px 0px 20px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start;\">\n    <a href=\"https://www.amazon.com.mx/dp/B0F4Z29KY6\" class=\"button\" style=\"background-color: #144d8c; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: white;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/AMZN_BIG.D.png?v=1747699875\" alt=\"Amazon\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n    <a href=\"https://articulo.mercadolibre.com.mx/MLM-3705995168-ilira-by-palantum-nmn-500mg-resveratrol-spermidina-210g-_JM\" class=\"button\" style=\"background-color: #FFCC00!important; padding: 15px; text-decoration: none; border-radius: 5px; width: 280px; display: flex; align-items: center; color: #23292D;\">\n        <span style=\"margin-right: 10px;\">Comprar en</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/logoml2.png?v=1748113930\" alt=\"Mercado Libre\" style=\"width: 100px; height: auto; padding-top: 5px;\">\n    </a>\n</div>"
-          }
         }
       },
       "block_order": [
         "title_mbH864",
         "price_8YaC7J",
+        "custom_liquid_z8UPBt",
         "custom_liquid_xGgmc6",
-        "custom_liquid_KUTeX8",
-        "custom_liquid_z8UPBt"
+        "custom_liquid_KUTeX8"
       ],
       "custom_css": [
         ".price-item,.price__sale {color: #144d8c;}",
