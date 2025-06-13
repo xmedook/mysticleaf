@@ -3,24 +3,7 @@
 *  Custom CSS
 */
 
-@media (max-width: 425px){
-  main {
-    /*overflow-x: hidden;*/
-  }
-  
-  .menu-drawer{
-    z-index: 999;
-  }
-  product-modal#ProductModal-template--24538968621339__custom_product_display_fWfCyf {
-    width: 425px;
-  }
-  .zoomContainer{
-    display: none;
-  }
-  .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
-    padding-left: 35px  !important;
-}
-}
+
 
 @media screen and (min-width: 750px) {
     hr {
@@ -377,6 +360,26 @@ body {
 /* -------------------------
    Responsive (Tablets/Móviles)
 -------------------------- */
+
+@media (max-width: 425px){
+  main {
+    /*overflow-x: hidden;*/
+  }
+  
+  .menu-drawer{
+    z-index: 999;
+  }
+  product-modal#ProductModal-template--24538968621339__custom_product_display_fWfCyf {
+    width: 425px;
+  }
+  .zoomContainer{
+    display: none;
+  }
+  .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
+    padding-left: 35px  !important;
+  }
+}
+
 @media (max-width: 768px) {
   .image-text__container {
     flex-direction: column;
