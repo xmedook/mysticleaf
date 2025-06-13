@@ -17,6 +17,9 @@
   .zoomContainer{
     display: none;
   }
+  .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile-- {
+    padding-left: 35px  !important;
+}
 }
 
 @media screen and (min-width: 750px) {
