@@ -247,6 +247,9 @@
     },
     "custom_liquid_XFcfd8": {
       "type": "custom-liquid",
+      "custom_css": [
+        "@media (max-width: 768px) {.image-text__container {padding: 0; }}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
