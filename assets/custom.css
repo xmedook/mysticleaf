@@ -415,6 +415,7 @@ body {
     .product__media img.zoom_out {
         width: 80vw !important;
         object-fit: contain;
+        padding-left: 10vw;
     }
 
 
