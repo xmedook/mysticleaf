@@ -462,6 +462,10 @@ body {
         flex: 0 0 47% !important;
         min-width: 150px !important;
     }
+
+  .article-template__title {
+    width: 90%;
+  }
 }
 
 .shopify-policy__container {
