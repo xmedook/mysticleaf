@@ -463,10 +463,15 @@ body {
         min-width: 150px !important;
     }
 
-  .article-template__title {
-    width: 90%;
-  }
+  
 }
+
+ /*blogs ind */
+  @media (max-width: 768px){
+    .article-template__title {
+      width: 90%;
+    }
+  }
 
 .shopify-policy__container {
     max-width: 1200px !important;
