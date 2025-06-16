@@ -437,6 +437,9 @@ body {
     .gordon-grid-banner .grid-banner .image-content {
         margin-bottom: 60px;    
       }
+    .title-wrapper-with-link {
+        margin-bottom: 40px;
+    }
 
   /*Mobile ilira page */
   @media (max-width: 768px){
