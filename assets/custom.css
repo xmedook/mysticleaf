@@ -472,8 +472,8 @@ body {
         padding-top: 40px !important;
     }
     .section-template--24538967965979__custom_liquid_4ehbea-padding {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
     }
   }
       
