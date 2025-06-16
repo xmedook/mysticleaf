@@ -124,7 +124,7 @@
         "benefit_card_miVTWV"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 30px;}",
+        ".comprehensive-benefits {padding: 20px;}",
         ".benefit-card:nth-child(3) .benefit-card__flip-back {padding-top: 0px;}"
       ],
       "name": "Main Components",
@@ -242,7 +242,7 @@
         "benefit_card_Yx8FHd"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 0px 30px !important;}"
+        ".comprehensive-benefits {padding: 20px !important;}"
       ],
       "name": "Main Components",
       "settings": {
@@ -293,7 +293,7 @@
         "benefit_card_gfwLJi"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 30px;}"
+        ".comprehensive-benefits {padding: 20px;}"
       ],
       "name": "Main Components",
       "settings": {
