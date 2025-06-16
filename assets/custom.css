@@ -413,7 +413,7 @@ body {
     .card.article-card.card--standard.card--media {
         width: 80%;
         max-width: 80vw;
-        padding-bottom: 40px;
+          padding-bottom: 40px;
     }
     .swiper-button-next,
     .swiper-button-prev{
@@ -582,6 +582,14 @@ body {
       }
       #shopify-section-template--24538967507227__featured_blog_3EGPrH .blog__post {
           padding-bottom: 0px !important;
+      }
+    }
+
+    /*Pag. la ciencia detrás*/
+    @media (max-width: 768px){
+      .section-template--24753955275035__custom_liquid_3x3JD9-padding {
+          padding-top: 80px;
+          padding-bottom: 60px;
       }
     }
       
