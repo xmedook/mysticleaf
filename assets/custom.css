@@ -560,6 +560,14 @@ body {
           margin: 0;
       }
     }
+
+    /*Pag. el futuro de la salud*/
+    @media (max-width: 768px){
+      #shopify-section-template--24538967507227__main .row {
+        padding: 1px 20px !important;
+        margin: 60px 0px;
+      }
+    }
       
 
   .image-text__text-box {
