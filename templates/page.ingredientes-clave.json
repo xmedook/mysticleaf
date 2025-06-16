@@ -242,7 +242,7 @@
         "benefit_card_Yx8FHd"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 0px !important;}"
+        ".comprehensive-benefits {padding: 0px 30px !important;}"
       ],
       "name": "Main Components",
       "settings": {
