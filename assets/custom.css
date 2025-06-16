@@ -411,6 +411,7 @@ body {
         align-items: center;
     }
     .card.article-card.card--standard.card--media {
+        width: 80%;
         max-width: 80vw;
     }
     .swiper-button-next,
