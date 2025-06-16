@@ -517,7 +517,8 @@ body {
           padding-top: 80px !important;
       }
       .section-template--24538968654107__featured_blog_Ag9UUP-padding {
-          padding-top: 0px;
+          padding-top: 0px !important;
+          padding-bottom: 60px !important;
       }
     }
       
