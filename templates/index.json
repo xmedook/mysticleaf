@@ -167,7 +167,7 @@
         "image_radius": "",
         "vertical_position": "veritcal_center",
         "padding_top": 120,
-        "padding_bottom": 60,
+        "padding_bottom": 120,
         "swiper_enable": false,
         "desktop_column": 4,
         "laptop_column": 3,
