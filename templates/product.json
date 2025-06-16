@@ -694,7 +694,7 @@
         "benefit_card_hmp7hH"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 0px 20px !important;}"
+        ".comprehensive-benefits {padding: 20px 20px !important;}"
       ],
       "settings": {
         "title": "",
@@ -744,7 +744,7 @@
         "benefit_card_mWCfpB"
       ],
       "custom_css": [
-        ".comprehensive-benefits {padding: 30px 20px !important;}"
+        ".comprehensive-benefits {padding: 20px 20px 40px 20px !important;}"
       ],
       "settings": {
         "title": "",
