@@ -505,11 +505,15 @@ body {
     .section-template--24538967965979__collapsible_content_fTw7Vy-padding {
         padding-top: 20px !important;
     }
-
-
-
     
   }
+
+    /*Pag diferenciadores*/
+    @media (max-width: 768px){
+      .section-header {
+          margin-bottom: 0px !important;
+      }
+    }
       
 
   .image-text__text-box {
