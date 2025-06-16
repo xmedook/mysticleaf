@@ -528,7 +528,7 @@ body {
           padding-bottom: 60px !important;
       }
     }
-
+  
     /*Pag FAQs*/
     @media (max-width: 768px){
       .section-template--24538967736603__7c3376f1-3f11-4849-b29f-d28c9ec28078-padding {
@@ -548,6 +548,13 @@ body {
       .section-template--24538967736603__newsletter_A3mGaf-padding {
           padding-top: 60px !important;
           padding-bottom: 60px !important;
+      }
+    }
+
+    /*Pag Ingredientes clave */
+    @media (max-width: 768px){
+      #shopify-section-template--24732902064411__main_components_1_mcmEWP .comprehensive-benefits {
+          padding: 60px 20px 40px 20px !important;
       }
     }
       
