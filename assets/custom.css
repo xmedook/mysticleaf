@@ -496,6 +496,9 @@ body {
     .comparison-header {
         margin-bottom: 40px !important;
     }
+    .comparison-section {
+        padding: 60px 20px;
+    }
 
 
 
