@@ -588,8 +588,8 @@ body {
     /*Pag. la ciencia detrás*/
     @media (max-width: 768px){
       .section-template--24753955275035__custom_liquid_3x3JD9-padding {
-          padding-top: 80px;
-          padding-bottom: 60px;
+          padding-top: 80px !important;
+          padding-bottom: 60px !important;
       }
     }
       
