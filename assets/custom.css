@@ -458,6 +458,9 @@ body {
     .product__info-as-bottom-tabs{
       display: none;
     }
+    slider-component#GalleryViewer-template--24538967965979__main {
+        margin-top: 0px;
+    }
   }
       
 
