@@ -461,6 +461,10 @@ body {
     slider-component#GalleryViewer-template--24538967965979__main {
         margin-top: 0px;
     }
+    .slider.slider--mobile .slider__slide {
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    }
   }
       
 
