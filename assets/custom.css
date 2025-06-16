@@ -468,6 +468,9 @@ body {
     .product--thumbnail .product__info-wrapper.grid__item, .product--stacked .product__info-wrapper.grid__item {
       padding-top: 60px !important;
     }
+    .section-template--24538967965979__custom_liquid_XFcfd8-padding {
+        padding-top: 40px !important;
+    }
   }
       
 
