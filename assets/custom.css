@@ -499,6 +499,9 @@ body {
     .comparison-section {
         padding: 60px 20px;
     }
+    h2.tabbed-content-section__title {
+        margin-top: 20px;
+    }
 
 
 
