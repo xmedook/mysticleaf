@@ -440,6 +440,11 @@ body {
     .title-wrapper-with-link {
         margin-bottom: 40px !important;
     }
+    .section-template--24538968621339__testimonials_AA4ymR-padding {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+          
 
   /*Mobile ilira page */
   @media (max-width: 768px){
