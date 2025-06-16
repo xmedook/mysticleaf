@@ -386,7 +386,7 @@ body {
     height: auto;
     align-items: center;
     gap: 40px;
-    padding: 50px 0px;
+    padding:  0px;
   }
 
   .position-right {
