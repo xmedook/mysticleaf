@@ -1693,6 +1693,8 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
 }
  .header--middle-left .custom-header-button {
    grid-area: custom-button;
+   font-size: 1.2rem;
+   padding: 5px 10px 5px 10px;
  }
 
 
