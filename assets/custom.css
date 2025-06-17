@@ -21,6 +21,9 @@ s.price-item.price-item--regular {
     color: gray;
 }
 
+.product__info-container .price__regular .price-item--regular, .product__info-container .price__sale .price-item.price-item--sale.price-item--last {
+    color: #144d8c;
+}
 
 @media screen and (min-width: 750px) {
     hr {
