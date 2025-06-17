@@ -14,6 +14,12 @@ p {
     color: #1e1e1e;
 }
 
+.product__info-container fieldset.product-form__input .form__label, .product__info-container .sub-total p.product-label, .product__info-container .inventory-form__label .form__label, .advance-product-style .advanced-title, .product__info-container .product-attributes .product-label {
+    color: #1e1e1e;
+
+}
+
+
 a.custom-header-button {
     background: #144d8c;
     padding: 10px 20px 10px 20px;
