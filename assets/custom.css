@@ -63,7 +63,7 @@ s.price-item.price-item--regular {
 }
 
 /*Custom buttons ML y Amazon*/
-@media (max-width: 425px){
+@media (max-width: 768px){
   .button-block .button{
     display: flex;
     flex-direction: column;
