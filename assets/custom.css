@@ -17,6 +17,9 @@ a.custom-header-button {
     border-radius: 4px;
 }
 
+s.price-item.price-item--regular {
+    color: gray;
+}
 
 
 @media screen and (min-width: 750px) {
