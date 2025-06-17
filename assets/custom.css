@@ -1719,10 +1719,13 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
 
  /* Ensure button is visible on mobile if needed - remove .small-hide class from HTML if always visible */
  @media screen and (max-width: 1279px) { /* Below mobile_screen_width */
+  a.button.custom-header-button.small-hide {
+    /* color: #144D8C; */
+    background: #144D8C;
+}
    .custom-header-button {
      /* Add styles if you want it visible on mobile */
      /* Example: display: inline-flex; margin-left: 10px; */
-      background: #144D8C;
    }
    .header-row header-drawer {
      order: -1; /* Ensure menu drawer icon comes first */
