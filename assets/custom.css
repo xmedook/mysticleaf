@@ -1734,6 +1734,13 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
  /* Ensure button is visible on mobile if needed - remove .small-hide class from HTML if always visible */
  @media screen and (max-width: 1279px) { /* Below mobile_screen_width */
 
+   html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
    h1.header__heading {
     min-width: 175px;
 }
