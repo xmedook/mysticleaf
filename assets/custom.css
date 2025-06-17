@@ -10,6 +10,10 @@
 *  Boton de header desktop
 */
 
+p {
+    color: #1e1e1e;
+}
+
 a.custom-header-button {
     background: #144d8c;
     padding: 10px 20px 10px 20px;
