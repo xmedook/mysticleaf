@@ -393,97 +393,6 @@
         "custom_class_name": "nosotros"
       }
     },
-    "36ff9a73-6b7e-4d74-94a4-586f9da8054e": {
-      "type": "grid-banner",
-      "blocks": {
-        "template--18572285182250__36ff9a73-6b7e-4d74-94a4-586f9da8054e-text-1": {
-          "type": "text",
-          "settings": {
-            "show_content": true,
-            "block_color_scheme": "accent-2",
-            "block_title": "50%",
-            "enable_title_link": false,
-            "block_sub_title": "",
-            "block_description": "Off on All Organic Oil Products",
-            "block_button_text": "Shop Now",
-            "block_button_link": "shopify://collections/suppositories-medicine",
-            "desktop_content_alignment": "left",
-            "desktop_content_position": "middle-right",
-            "reverse_column": false
-          }
-        },
-        "63e43590-4850-4383-a20e-a4661ffc57c1": {
-          "type": "text",
-          "settings": {
-            "show_content": true,
-            "block_color_scheme": "inverse",
-            "block_title": "Quality CBD Store",
-            "enable_title_link": false,
-            "block_sub_title": "100% ORGANIC",
-            "block_description": "",
-            "block_button_text": "Shop Now",
-            "block_button_link": "shopify://collections/pain-management-line",
-            "desktop_content_alignment": "right",
-            "desktop_content_position": "middle-right",
-            "reverse_column": false
-          }
-        },
-        "c26669d2-517e-4b65-bc54-4bb97a108fcb": {
-          "type": "text",
-          "settings": {
-            "show_content": true,
-            "block_color_scheme": "accent-2",
-            "block_title": "New Product Arrival",
-            "enable_title_link": false,
-            "block_sub_title": "100% ORGANIC",
-            "block_description": "",
-            "block_button_text": "Shop Now",
-            "block_button_link": "shopify://collections/topical-medicines",
-            "desktop_content_alignment": "right",
-            "desktop_content_position": "middle-right",
-            "reverse_column": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18572285182250__36ff9a73-6b7e-4d74-94a4-586f9da8054e-text-1",
-        "63e43590-4850-4383-a20e-a4661ffc57c1",
-        "c26669d2-517e-4b65-bc54-4bb97a108fcb"
-      ],
-      "disabled": true,
-      "settings": {
-        "page_full_width": true,
-        "page_full_width_spacing": true,
-        "title": "",
-        "heading_size": "h1",
-        "sub_heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "column_alignment": "center",
-        "banner_style": "overlay",
-        "grid-column": "3",
-        "column_gap": "30",
-        "color_scheme": "background-1",
-        "overlay_height": 350,
-        "overlay_height_laptop": 350,
-        "overlay_height_tab": 350,
-        "overlay_height_mobile": 350,
-        "padding_top": 80,
-        "padding_bottom": 36,
-        "custom_class_name": "",
-        "swiper_enable": false,
-        "desktop_column": 3,
-        "laptop_column": 2,
-        "tablet_column": 2,
-        "mobile_column": 1,
-        "centered_slide": false,
-        "swiper_pagination": true,
-        "swiper_navigation": true,
-        "auto_play": 0
-      }
-    },
     "30012ee8-2760-4583-874e-9da8e8518c44": {
       "type": "featured-blog",
       "custom_css": [
@@ -1018,7 +927,6 @@
     "c3988dc8-ef25-47d6-aa23-fb6ecd7da22a",
     "custom_liquid_4C3RkQ",
     "6c29e21f-a46b-4ba5-be13-add5ab2536be",
-    "36ff9a73-6b7e-4d74-94a4-586f9da8054e",
     "30012ee8-2760-4583-874e-9da8e8518c44",
     "custom_product_display_fWfCyf",
     "custom_liquid_A8amQL",
