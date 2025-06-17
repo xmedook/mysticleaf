@@ -518,26 +518,7 @@ body {
     
   }
 
-    /*Pag diferenciadores*/
-    @media (max-width: 768px){
-      .section-header {
-          margin-bottom: 0px !important;
-      }
-      .section-template--24538968654107__multicolumn_cFVf3T-padding {
-          padding-top: 80px !important;
-      }
-      .section-template--24538968654107__featured_blog_Ag9UUP-padding {
-          padding-top: 0px !important;
-          padding-bottom: 60px !important;
-      }
-      #shopify-section-template--24538968654107__featured_blog_Ag9UUP .card {
-          padding-bottom: 40px !important;
-      }
-      .section-template--24538968654107__newsletter_ygEUck-padding {
-          padding-top: 60px !important;
-          padding-bottom: 60px !important;
-      }
-    }
+
   
     /*Pag FAQs*/
     @media (max-width: 768px){
