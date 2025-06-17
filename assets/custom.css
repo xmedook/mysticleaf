@@ -1714,10 +1714,7 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
     min-width: 175px;
 }
    
-  a.button.custom-header-button.small-hide {
-    /* color: #144D8C; */
-    background: #144D8C!important;
-}
+
    .custom-header-button {
      /* Add styles if you want it visible on mobile */
      /* Example: display: inline-flex; margin-left: 10px; */
@@ -1727,7 +1724,7 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
    }
     .custom-header-button {
       order: 0; /* Place button after drawer */
-      margin-left: 10px; /* Add some space */
+      margin-left: 0px; /* Add some space */
       margin-right: 0px;
     }
    .header__heading {
