@@ -370,7 +370,7 @@
         "h6 {color: #23292d;}",
         ".global-media-settings {border: 0px !important;}",
         ".gordon-grid-banner .bg-image:after {background-size: contain !important;}",
-        "@media (max-width: 768px) {.nosotros {padding: 10px 20px 30px 40px; } .image-group {display: none; }}",
+        "@media (max-width: 768px) {.nosotros {padding: 0px 10px 30px 10px; } .image-group {display: none; }}",
         "svg {display: none;}"
       ],
       "settings": {
