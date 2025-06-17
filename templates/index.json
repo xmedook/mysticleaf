@@ -527,7 +527,7 @@
         "tablet_column": 2,
         "mobile_column": 1,
         "swiper_pagination": false,
-        "swiper_navigation": true,
+        "swiper_navigation": false,
         "auto_play": 0,
         "swipe_on_mobile": false,
         "arrow_on_mobile": false
