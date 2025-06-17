@@ -797,7 +797,7 @@
         "mobile_column": 1,
         "centered_slide": true,
         "swiper_pagination": true,
-        "swiper_navigation": true,
+        "swiper_navigation": false,
         "auto_play": 4
       }
     },
