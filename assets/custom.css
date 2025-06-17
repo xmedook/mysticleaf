@@ -1671,6 +1671,8 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
   display: inline-flex; /* Align items nicely */
   align-items: center;
   height: fit-content; /* Adjust height based on content */
+  font-size: 1.1rem;
+  line-height: 1.1rem;
 }
 
 .custom-header-button:hover {
