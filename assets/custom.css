@@ -645,7 +645,7 @@ body {
 }
 
 a.button.custom-header-button.small-hide {
-    background-color: #144d8c;
+    background-color: #144d8c!important;
 }
 
 .price__sale,
