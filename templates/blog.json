@@ -190,7 +190,7 @@
         "padding_top": 32,
         "padding_bottom": 100,
         "custom_class_name": "dt-blog",
-        "swiper_enable": false,
+        "swiper_enable": true,
         "desktop_column": 3,
         "laptop_column": 2,
         "tablet_column": 2,
