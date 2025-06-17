@@ -633,7 +633,7 @@ body {
       display: none !important;
 }
 
-a.button.custom-header-button.small-hide {
+a.button.custom-header-button {
     background-color: #144d8c!important;
 }
 
