@@ -1662,8 +1662,8 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
 
 /* Custom Header Button */
 .custom-header-button {
-  background-color: #0000FF; /* Blue background */
-  color: #FFFFFF; /* White text */
+  background-color: #144d8c; /* Blue background */
+  color: #f1f1f1; /* White text */
   padding: 8px 15px; /* Adjust padding as needed */
   border-radius: 4px; /* Optional: adds rounded corners */
   text-decoration: none;
