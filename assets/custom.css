@@ -1722,6 +1722,7 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
    .custom-header-button {
      /* Add styles if you want it visible on mobile */
      /* Example: display: inline-flex; margin-left: 10px; */
+      background: #144D8C;
    }
    .header-row header-drawer {
      order: -1; /* Ensure menu drawer icon comes first */
@@ -1736,11 +1737,4 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
    .header__icons {
      margin-left: auto; /* Push icons to the right */
    }
-
  }
-
-
-
-
-
-
