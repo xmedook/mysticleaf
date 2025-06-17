@@ -773,7 +773,7 @@
         "blockquote {min-height: 550px;}",
         ".content-left {display: flex; flex-direction: column; justify-content: space-between; height: 100%; /* o un valor fijo como 300px si es necesario */}",
         ".content-left cite {margin-top: auto; /* empuja el cite al fondo */}",
-        ".swiper {padding: 0px 30px;}",
+        ".swiper {padding: 0px 0px 40px 0px;}",
         ".swiper-button-next,.swiper-button-prev {opacity: 1 !important;}",
         ".testimonials .swiper-pagination {position: static;}"
       ],
