@@ -1671,8 +1671,7 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
   display: inline-flex; /* Align items nicely */
   align-items: center;
   height: fit-content; /* Adjust height based on content */
-  font-size: 1.1rem;
-  line-height: 1.1rem;
+
 }
 
 .custom-header-button:hover {
@@ -1710,6 +1709,11 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
 
  /* Ensure button is visible on mobile if needed - remove .small-hide class from HTML if always visible */
  @media screen and (max-width: 1279px) { /* Below mobile_screen_width */
+
+   h1.header__heading {
+    min-width: 175px;
+}
+   
   a.button.custom-header-button.small-hide {
     /* color: #144D8C; */
     background: #144D8C!important;
@@ -1724,6 +1728,7 @@ label.bg-color-white { border: 1px solid #e3e0e0 !important;}
     .custom-header-button {
       order: 0; /* Place button after drawer */
       margin-left: 10px; /* Add some space */
+      margin-right: 0px;
     }
    .header__heading {
      margin-left: auto; /* Push logo towards center/right */
