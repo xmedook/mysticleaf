@@ -645,9 +645,12 @@ body {
     }
   }
 
-.shopify-policy__container {
-    max-width: 1200px !important;
-}
+
+  @media (min-width: 1200px){
+    .shopify-policy__container {
+      max-width: 1000px !important;
+    }
+  }
 .shopify-policy__title{
     display: none;
 }
