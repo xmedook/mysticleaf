@@ -605,7 +605,7 @@ body {
           padding-bottom: 60px !important;
       }
       .study-reference{
-        word-break: break-all;
+        word-break: break-word;
       }
     }
       
