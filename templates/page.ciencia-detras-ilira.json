@@ -542,7 +542,7 @@
         "a.blog__button.button {display: none;}",
         "h2 {font-weight: 600; color: #144d8c;}",
         ".blog__post {padding-bottom: 20px;}",
-        "@media screen and (min-width: 1200px) {.grid__item, .card-wrapper {width: 380px !important; } .grid {justify-content: space-between; }}",
+        "@media screen and (min-width: 1200px) {.grid__item, .card-wrapper {width: 380px !important; } .grid {justify-content: space-between; } .card.article-card.card--standard.card--media {min-height: 570px;}}",
         "@media (max-width: 768px) {.card.article-card.card--standard.card--media {padding-bottom: 0px; min-height: 385px; }}"
       ],
       "settings": {
