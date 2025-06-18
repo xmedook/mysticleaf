@@ -332,7 +332,7 @@
         "show_image": true,
         "show_date": false,
         "show_author": false,
-        "show_excerpts": false,
+        "show_excerpts": true,
         "enable_comments": false,
         "show_view_all": false,
         "block_banner_style": "grid-style",
