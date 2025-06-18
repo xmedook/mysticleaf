@@ -540,7 +540,10 @@ body {
         padding-top: 20px !important;
     }
     .blog__posts.articles-wrapper {
-         margin-bottom: 0;
+         margin-bottom: 0 !important;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal{
+      top: 0 !important;
     }
     
   }
