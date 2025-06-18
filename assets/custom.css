@@ -539,6 +539,9 @@ body {
     .section-template--24538967965979__collapsible_content_fTw7Vy-padding {
         padding-top: 20px !important;
     }
+    .blog__posts.articles-wrapper {
+         margin-bottom: 0;
+    }
     
   }
 
@@ -633,8 +636,8 @@ body {
     }
 
   
-}
-
+/*}
+*/
  /*blogs ind */
   @media (max-width: 768px){
     .article-template__title {
