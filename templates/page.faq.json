@@ -332,7 +332,7 @@
         "e40cd1ac-e50d-4c7f-8231-a62898e17ab5"
       ],
       "custom_css": [
-        "@media (min-width: 1200px){img {bordeR: 0px solid; border-radius: 16px; max-height: 600px; object-fit: cover; } }"
+        "@media (min-width: 1200px) {img {border: 0px solid; border-radius: 16px; max-height: 600px; object-fit: cover; }}"
       ],
       "settings": {
         "page_full_width": false,
