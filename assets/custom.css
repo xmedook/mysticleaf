@@ -604,6 +604,9 @@ body {
           padding-top: 80px !important;
           padding-bottom: 60px !important;
       }
+      .study-reference{
+        word-break: break-all;
+      }
     }
       
 
