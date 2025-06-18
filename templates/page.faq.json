@@ -331,6 +331,9 @@
         "efe13fc1-badc-4b55-90be-da1d5ba0500b",
         "e40cd1ac-e50d-4c7f-8231-a62898e17ab5"
       ],
+      "custom_css": [
+        "@media (min-width: 1200px){img {bordeR: 0px solid; border-radius: 16px; max-height: 600px; object-fit: cover; } }"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -348,7 +351,7 @@
         "open_first_collapsible_row": true,
         "enable_address_block": true,
         "image": "shopify://shop_images/WhatsApp_Image_2025-05-16_at_4.14.50_PM.jpg",
-        "image_ratio": "adapt",
+        "image_ratio": "large",
         "address_heading": "",
         "collapsible_address": "",
         "collapsible_contact_no": "",
