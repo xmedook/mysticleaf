@@ -145,7 +145,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<section class=\"cta-nmn\">\n  <div class=\"cta-content\">\n    <h2>La Mayor Dosis de NMN</h2>\n    <p>Ilira proporciona <strong>500 mg de NMN por porción</strong>, la cantidad ideal para maximizar tu energía celular y la reparación del ADN según estudios científicos.</p>\n  </div>\n</section>",
+        "custom_liquid": "<section class=\"cta-nmn\">\n  <div class=\"cta-content\">\n    <h2>La Mayor Dosis de NMN</h2>\n    <p>ilira proporciona <strong>500 mg de NMN por porción</strong>, la cantidad ideal para maximizar tu energía celular y la reparación del ADN según estudios científicos.</p>\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -266,7 +266,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n    <p>\n      Ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece: </p>\n    <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Metilsulfonilmetano_MSM.jpg?v=1747772453\" alt=\"Supplement Image\">\n  </div>\n</div>",
+        "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__text-box position-right\">\n    <h2>Potenciadores de NAD⁺ + Senolíticos</h2>\n    <p>\n      ilira va más allá de los productos tradicionales al combinar NMN con fisetina, spermidina y quercetina, lo que favorece: </p>\n    <ul class=\"checklist\">\n        <li>Eliminación de células senescentes \"zombie\"</li>\n        <li>Renovación y regeneración celular</li>\n        <li>Mayor eficiencia energética y funcionalidad inmunológica</li>\n      </ul>\n  </div>\n  <div class=\"image-text__image-box position-left\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Metilsulfonilmetano_MSM.jpg?v=1747772453\" alt=\"Supplement Image\">\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
