@@ -35,7 +35,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "custom_liquid": "<!-- SECCIÓN 1: Hero -->\n<section class=\"hero-ilira\">\n  <div class=\"hero-content\">\n    <h1>El secreto de la juventud<br> comienza a nivel celular.</h1>\n    <p>\n      Ilira combina un precursor de NAD⁺, el β-nicotinamida mononucleótido (NMN), con una selección de compuestos bioactivos respaldados por la ciencia, incluyendo fisetina, quercetina y spermidina. Esta formulación está diseñada para abordar los efectos del envejecimiento en el metabolismo a nivel celular, promoviendo la producción y utilización de energía celular. Los ingredientes de Ilira están formulados para aumentar los niveles de NAD⁺, un metabolito clave que disminuye universalmente con la edad, y activar procesos celulares que respaldan la función y salud mitocondrial.\n    </p>\n  </div>\n</section>",
+        "custom_liquid": "<!-- SECCIÓN 1: Hero -->\n<section class=\"hero-ilira\">\n  <div class=\"hero-content\">\n    <h1>El secreto de la juventud<br> comienza a nivel celular.</h1>\n    <p>\n      ilira combina un precursor de NAD⁺, el β-nicotinamida mononucleótido (NMN), con una selección de compuestos bioactivos respaldados por la ciencia, incluyendo fisetina, quercetina y spermidina. Esta formulación está diseñada para abordar los efectos del envejecimiento en el metabolismo a nivel celular, promoviendo la producción y utilización de energía celular. Los ingredientes de Ilira están formulados para aumentar los niveles de NAD⁺, un metabolito clave que disminuye universalmente con la edad, y activar procesos celulares que respaldan la función y salud mitocondrial.\n    </p>\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -542,7 +542,7 @@
         "a.blog__button.button {display: none;}",
         "h2 {font-weight: 600; color: #144d8c;}",
         ".blog__post {padding-bottom: 20px;}",
-        "@media screen and (min-width: 1200px) {.grid__item, .card-wrapper {width: 380px !important; } .grid {justify-content: space-between; } .card.article-card.card--standard.card--media {min-height: 570px;}}",
+        "@media screen and (min-width: 1200px) {.grid__item, .card-wrapper {width: 380px !important; } .grid {justify-content: space-between; } .card.article-card.card--standard.card--media {min-height: 570px; }}",
         "@media (max-width: 768px) {.card.article-card.card--standard.card--media {padding-bottom: 0px; min-height: 385px; }}"
       ],
       "settings": {
