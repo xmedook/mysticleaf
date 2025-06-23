@@ -500,7 +500,8 @@ body {
       opacity: 0 !important;
     }
     100% {
-      opacity: 1;
+      opacity: 1 !important;
+      display: block;
     }
   }
 }
