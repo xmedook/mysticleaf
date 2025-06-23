@@ -411,30 +411,7 @@
       
   </script>
 
-    <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    console.log("entra flipped");
-    const cards = document.querySelectorAll(".benefit-card");
-    console.log("entra flipped");
 
-    cards.forEach(card => {
-      const flipPrompt = card.querySelector(".benefit-card__flip-prompt");
-      const flipBack = card.querySelector(".benefit-card__flip-back");
-
-      if (flipPrompt) {
-        flipPrompt.addEventListener("click", () => {
-          card.classList.add("flipped");
-        });
-      }
-
-      if (flipBack) {
-        flipBack.addEventListener("click", () => {
-          card.classList.remove("flipped");
-        });
-      }
-    });
-  });
-</script>
 
 
     
