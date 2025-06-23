@@ -487,11 +487,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .slideshow__media .mobile-slider {
-    opacity: 1 !important;
-    
+  .slideshow__media img {
+    opacity: 0 !important;
+    animation: fadeIn 3.90s ease-in-out forwards !important;
   }
-  .slideshow__media .mobile-slider.fade-in {
+  .slideshow__media img.fade-in {
     opacity: 0!important;
   }
 
