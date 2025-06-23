@@ -489,7 +489,7 @@ body {
 @media (max-width: 768px) {
   .slideshow__media img {
     opacity: 1;
-    animation: fadeIn 0.8s ease-in-out forwards;
+    animation: fadeIn 0.10s ease-in-out forwards;
   }
 
   @keyframes fadeIn {
