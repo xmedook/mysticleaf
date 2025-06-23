@@ -488,11 +488,11 @@ body {
 
 @media (max-width: 768px) {
   .slideshow__media img {
-    opacity: 1 !important;
+    opacity: 0s !important;
     animation: fadeIn 3.90s ease-in-out forwards !important;
   }
   .slideshow__media img.fade-in {
-    opacity: 1 !important;
+    opacity: 0!important;
   }
 
   @keyframes fadeIn {
