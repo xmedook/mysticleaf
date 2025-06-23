@@ -408,6 +408,31 @@
           window.location.href = "/pages/ciencia-detras-de-ilira";
         }
 
+
+      console.log("hola 0");
+        document.addEventListener("DOMContentLoaded", function () {
+    console.log("hola");
+    const cards = document.querySelectorAll(".benefit-card");
+    console.log("entra flipped");
+
+    cards.forEach(card => {
+      const flipPrompt = card.querySelector(".benefit-card__front");
+      const flipBack = card.querySelector(".benefit-card__back");
+
+      if (flipPrompt) {
+        flipPrompt.addEventListener("click", () => {
+          card.classList.add("flipped");
+        });
+      }
+
+      if (flipBack) {
+        flipBack.addEventListener("click", () => {
+          card.classList.remove("flipped");
+        });
+      }
+    });
+  });
+
       
   </script>
 
