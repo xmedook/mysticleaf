@@ -489,7 +489,7 @@ body {
 @media (max-width: 768px) {
   .slideshow__media .mobile-slider {
     opacity: 0s !important;
-    animation: fadeIn 3.90s ease-in-out forwards !important;
+    
   }
   .slideshow__media .mobile-slider.fade-in {
     opacity: 0!important;
