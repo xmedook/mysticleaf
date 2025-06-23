@@ -122,7 +122,7 @@ s.price-item.price-item--regular {
 
 /* Optional: Hide the default image placeholders */
 .slideshow__media img {
-  display: none;
+  /*display: none;*/
 }
 
 
