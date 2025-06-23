@@ -488,7 +488,7 @@ body {
 
 @media (max-width: 768px) {
   .slideshow__media .mobile-slider {
-    opacity: 0s !important;
+    opacity: 1 !important;
     
   }
   .slideshow__media .mobile-slider.fade-in {
