@@ -486,25 +486,17 @@ body {
   
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .slideshow__media img {
     opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards !important;
-  }
-  .slideshow__media img.fade-in {
-    opacity: 1 !important;
+    transition: opacity 0.5s ease-in-out;
   }
 
-  @keyframes fadeIn {
-    0% {
-      opacity: 0 !important;
-      }
-    100% {
-      opacity: 1 !important;
-    }
+  /* Por ejemplo: al hacer hover en móvil (si aplica), podrías activar el fade-in */
+  .slideshow__media img.fade-in {
+    opacity: 1;
   }
-}
-          
+}        
 
   /*Mobile ilira page */
   @media (max-width: 768px){
