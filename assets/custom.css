@@ -490,7 +490,7 @@ body {
   .slideshow__media img {
     opacity: 0;
     transform: scale(0.8);
-    animation: fadeZoomAccelerated 5s forwards;
+    animation: fadeZoomAccelerated 8s forwards;
   }
 
   @keyframes fadeZoomAccelerated {
@@ -499,7 +499,7 @@ body {
       transform: scale(0.8);
     }
     60% {
-      opacity: 0.6;
+      opacity: 0;
       transform: scale(0.9);
     }
     100% {
