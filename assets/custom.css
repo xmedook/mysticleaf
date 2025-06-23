@@ -490,6 +490,7 @@ body {
   .slideshow__media img {
     opacity: 0 !important;
     animation: fadeIn 2s ease-in-out forwards !important;
+    display: block;
   }
   .slideshow__media img.fade-in {
     opacity: 1 !important;
@@ -501,7 +502,6 @@ body {
     }
     100% {
       opacity: 1 !important;
-      display: block;
     }
   }
 }
