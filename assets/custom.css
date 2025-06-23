@@ -608,6 +608,38 @@ body {
       }
     }
 
+    .benefit-card {
+      perspective: 1000px;
+    }
+    
+    .benefit-card__inner {
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+    }
+    
+    .benefit-card__front,
+    .benefit-card__back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .benefit-card__front {
+      z-index: 2;
+      transform: rotateY(0deg);
+    }
+    
+    .benefit-card__back {
+      transform: rotateY(180deg);
+    }
+    
+    .benefit-card.flipped .benefit-card__inner {
+      transform: rotateY(180deg);
+    }
+
     /*Pag. el futuro de la salud*/
     @media (max-width: 768px){
       #shopify-section-template--24538967507227__main .row {
