@@ -420,13 +420,13 @@
       const flipBack = card.querySelector(".benefit-card__back");
 
       if (flipPrompt) {
-        flipPrompt.addEventListener("clic", () => {
+          flipPrompt.addEventListener("click", () => {
           card.classList.add("flipped");
         });
       }
 
       if (flipBack) {
-        flipBack.addEventListener("clic", () => {
+        flipBack.addEventListener("click", () => {
           card.classList.remove("flipped");
         });
       }
