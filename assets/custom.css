@@ -488,7 +488,7 @@ body {
 
 @media (max-width: 750px) {
   .slideshow__media img {
-    opacity: 0;
+    opacity: 1s;
     animation: fadeIn 2s ease-in-out forwards !important;
   }
   .slideshow__media img.fade-in {
