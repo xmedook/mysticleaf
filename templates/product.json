@@ -313,6 +313,100 @@
         "custom_class_name": ""
       }
     },
+    "tabbed_content_PhC6fG": {
+      "type": "tabbed-content",
+      "blocks": {
+        "tab1_column_BdDMjV": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Energia.jpg",
+            "title": "Energía y Metabolismo Celular",
+            "column_title_color": "#000000",
+            "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
+          }
+        },
+        "tab1_column_b8CAdB": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Claridad_Mental.jpg",
+            "title": "Claridad Mental y Estado de Ánimo",
+            "column_title_color": "#000000",
+            "description": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>"
+          }
+        },
+        "tab1_column_YMF6nd": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Articulaciones_Saludables.jpg",
+            "title": "Piel, Cabello y Articulaciones Saludables",
+            "column_title_color": "#000000",
+            "description": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>"
+          }
+        },
+        "tab1_column_VnPG8b": {
+          "type": "tab1_column",
+          "settings": {
+            "image": "shopify://shop_images/Sistema_1.jpg",
+            "title": "Sistema Inmunológico",
+            "column_title_color": "#000000",
+            "description": "<p>Zinc, Selenio y Vitamina C apoyan tus defensas y ayudan a combatir el estrés oxidativo.</p>"
+          }
+        },
+        "tab2_column_qNz4qm": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/glass_of_water_2.jpg",
+            "title": "Preparación",
+            "column_title_color": "#000000",
+            "description": "<p>Disuelve el contenido de dos cucharadas en 350 - 450 ml de agua o jugo de tu preferencia y agita hasta disolver.</p>"
+          }
+        },
+        "tab2_column_BkRNwc": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/ph_modo_de_uso_1.jpg",
+            "title": "Sabor",
+            "column_title_color": "#000000",
+            "description": "<p>Disfruta de su refrescante sabor natural a camu-camu.</p>"
+          }
+        },
+        "tab2_column_8LmYPg": {
+          "type": "tab2_column",
+          "settings": {
+            "image": "shopify://shop_images/uso_ph.jpg",
+            "title": "Constancia",
+            "column_title_color": "#000000",
+            "description": "<p>Tómalo diariamente para obtener resultados consistentes a largo plazo.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1_column_BdDMjV",
+        "tab1_column_b8CAdB",
+        "tab1_column_YMF6nd",
+        "tab1_column_VnPG8b",
+        "tab2_column_qNz4qm",
+        "tab2_column_BkRNwc",
+        "tab2_column_8LmYPg"
+      ],
+      "custom_css": [
+        "h2 {font-size: 60px;}",
+        "button {color: #144d8c;}",
+        "button.active {border-bottom: 2px solid #144d8c;}",
+        "h3 {color: #144d8c !important;}",
+        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
+        ".tabbed-content-section__tagline {padding-bottom: 20px; font-weight: 700 !important;}"
+      ],
+      "settings": {
+        "tagline": "Beneficios clave e indicaciones de uso",
+        "tagline_color": "#000000",
+        "title": "Una dósis diaria de longevidad",
+        "title_color": "#144d8c",
+        "background_color": "#eaf1f4",
+        "tab1_title": "Beneficios Clave",
+        "tab2_title": "Indicaciones de Uso"
+      }
+    },
     "custom_liquid_4ehbea": {
       "type": "custom-liquid",
       "custom_css": [
@@ -1110,100 +1204,6 @@
         "padding_bottom": 52
       }
     },
-    "tabbed_content_PhC6fG": {
-      "type": "tabbed-content",
-      "blocks": {
-        "tab1_column_BdDMjV": {
-          "type": "tab1_column",
-          "settings": {
-            "image": "shopify://shop_images/Energia.jpg",
-            "title": "Energía y Metabolismo Celular",
-            "column_title_color": "#000000",
-            "description": "<p>NMN + Magnesio para mitocondrias más eficientes.</p>"
-          }
-        },
-        "tab1_column_b8CAdB": {
-          "type": "tab1_column",
-          "settings": {
-            "image": "shopify://shop_images/Claridad_Mental.jpg",
-            "title": "Claridad Mental y Estado de Ánimo",
-            "column_title_color": "#000000",
-            "description": "<p>Colina, Teanina, B6, B12 y D3 nutren tu cerebro y promueven un mejor enfoque.</p>"
-          }
-        },
-        "tab1_column_YMF6nd": {
-          "type": "tab1_column",
-          "settings": {
-            "image": "shopify://shop_images/Articulaciones_Saludables.jpg",
-            "title": "Piel, Cabello y Articulaciones Saludables",
-            "column_title_color": "#000000",
-            "description": "<p>Glicina, MSM y Ácido Hialurónico estimulan la síntesis de colágeno y la hidratación celular.</p>"
-          }
-        },
-        "tab1_column_VnPG8b": {
-          "type": "tab1_column",
-          "settings": {
-            "image": "shopify://shop_images/Sistema_1.jpg",
-            "title": "Sistema Inmunológico",
-            "column_title_color": "#000000",
-            "description": "<p>Zinc, Selenio y Vitamina C apoyan tus defensas y ayudan a combatir el estrés oxidativo.</p>"
-          }
-        },
-        "tab2_column_qNz4qm": {
-          "type": "tab2_column",
-          "settings": {
-            "image": "shopify://shop_images/glass_of_water_2.jpg",
-            "title": "Preparación",
-            "column_title_color": "#000000",
-            "description": "<p>Disuelve el contenido de dos cucharadas en 350 - 450 ml de agua o jugo de tu preferencia y agita hasta disolver.</p>"
-          }
-        },
-        "tab2_column_BkRNwc": {
-          "type": "tab2_column",
-          "settings": {
-            "image": "shopify://shop_images/ph_modo_de_uso_1.jpg",
-            "title": "Sabor",
-            "column_title_color": "#000000",
-            "description": "<p>Disfruta de su refrescante sabor natural a camu-camu.</p>"
-          }
-        },
-        "tab2_column_8LmYPg": {
-          "type": "tab2_column",
-          "settings": {
-            "image": "shopify://shop_images/uso_ph.jpg",
-            "title": "Constancia",
-            "column_title_color": "#000000",
-            "description": "<p>Tómalo diariamente para obtener resultados consistentes a largo plazo.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "tab1_column_BdDMjV",
-        "tab1_column_b8CAdB",
-        "tab1_column_YMF6nd",
-        "tab1_column_VnPG8b",
-        "tab2_column_qNz4qm",
-        "tab2_column_BkRNwc",
-        "tab2_column_8LmYPg"
-      ],
-      "custom_css": [
-        "h2 {font-size: 60px;}",
-        "button {color: #144d8c;}",
-        "button.active {border-bottom: 2px solid #144d8c;}",
-        "h3 {color: #144d8c !important;}",
-        "@media (max-width: 900px) {h2 {font-size: 36px !important; }}",
-        ".tabbed-content-section__tagline {padding-bottom: 20px; font-weight: 700 !important;}"
-      ],
-      "settings": {
-        "tagline": "Beneficios clave e indicaciones de uso",
-        "tagline_color": "#000000",
-        "title": "Una dósis diaria de longevidad",
-        "title_color": "#144d8c",
-        "background_color": "#eaf1f4",
-        "tab1_title": "Beneficios Clave",
-        "tab2_title": "Indicaciones de Uso"
-      }
-    },
     "collapsible_content_fTw7Vy": {
       "type": "collapsible-content",
       "blocks": {
@@ -1332,6 +1332,7 @@
     "main",
     "custom_liquid_XFcfd8",
     "image_with_text_PRgVpA",
+    "tabbed_content_PhC6fG",
     "custom_liquid_4ehbea",
     "image_with_text_adLd7B",
     "custom_liquid_J78aQn",
@@ -1345,7 +1346,6 @@
     "comprehensive_benefits_BQVqig",
     "section_comparison_table_yqPYPR",
     "custom_liquid_qacQgF",
-    "tabbed_content_PhC6fG",
     "collapsible_content_fTw7Vy",
     "newsletter_gX4Br9"
   ]
