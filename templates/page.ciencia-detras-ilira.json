@@ -67,7 +67,9 @@
     },
     "custom_liquid_nAQGC7": {
       "type": "custom-liquid",
-      "custom_css": [],
+      "custom_css": [
+        "@media (min-width: 769px) {.image-text__text-box {margin-top: 100px; min-height: 400px; }}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
@@ -253,7 +255,8 @@
     "custom_liquid_f3FApY": {
       "type": "custom-liquid",
       "custom_css": [
-        "p {color: black;}"
+        "p {color: black;}",
+        "@media (min-width: 769px) {.image-text__text-box {margin-top: 100px; min-height: 400px; }}"
       ],
       "settings": {
         "page_full_width": false,
@@ -297,6 +300,9 @@
     },
     "custom_liquid_WMtHTC": {
       "type": "custom-liquid",
+      "custom_css": [
+        "@media (min-width: 769px) {.image-text__text-box {min-height: 400px; } .image-text__image-box img {max-height: 400px; }}"
+      ],
       "settings": {
         "page_full_width": false,
         "page_full_width_spacing": false,
