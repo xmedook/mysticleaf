@@ -130,7 +130,7 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container\">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/la_ciencia.png?v=1749076773\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Enfocándonos en el Envejecimiento Metabólico con NAD⁺\n</h2>\n    <p>El NAD⁺ (nicotinamida adenina dinucleótido) es un metabolito esencial cuyos niveles son monitoreados de cerca por la célula para ajustar y equilibrar sus reacciones metabólicas. Regular la vasta cantidad de reacciones metabólicas para mantener el equilibrio entre la producción y el uso de energía es crucial para la salud celular. Durante la restricción calórica, los niveles de NAD⁺ aumentan, desencadenando una red específica de reacciones metabólicas que han demostrado proporcionar numerosos beneficios para la salud.</p>\n    <p>A medida que envejecemos, los niveles de NAD⁺ disminuyen. Ilira proporciona un precursor inmediato de NAD⁺ llamado NMN (β-nicotinamida mononucleótido), que es eficientemente convertido en NAD⁺ por las células. La suplementación directa con NAD⁺ no es práctica, ya que el NAD⁺ no puede entrar en las células. El NMN es uno de los precursores más eficientes, requiriendo el menor número de pasos de reacción. Estudios clínicos han demostrado que el NMN es seguro y eficaz para aumentar los niveles de NAD⁺ en humanos.</p>\n    \n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 52,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
@@ -316,7 +316,7 @@
         "column_alignment": "center",
         "custom_liquid": "<div class=\"image-text__container reverse-mobile\">\n  <div class=\"image-text__image-box position-right\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0940/2155/0363/files/Frame_21.png?v=1750792791\" alt=\"Supplement Image\">\n  </div>\n  <div class=\"image-text__text-box position-left\">\n    <h2>Formato en Polvo = Mejor Absorción</h2>\n    <p>Ilira se presenta en un práctico formato en polvo con sabor natural a camu-camu, no en cápsulas. ¿Por qué? Porque una bebida en polvo permite:\n</p>\n    <ul class=\"checklist\">\n        <li>Dosis más altas</li>\n        <li>Mayor biodisponibilidad</li>\n        <li>Absorción más rápida y efectiva</li>\n      </ul>\n    \n  </div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 52,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
