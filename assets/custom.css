@@ -496,7 +496,7 @@ body {
 @media (max-width: 768px) {
 
   .slideshow{
-    background-color: #D9D9D9;
+    background-color: #BBBBBF;
   }
   .slideshow__media img {
     opacity: 0.7;
