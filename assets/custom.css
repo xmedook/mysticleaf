@@ -495,17 +495,17 @@ body {
 
 @media (max-width: 768px) {
   .slideshow__media img {
-    opacity: 0;
+    opacity: 0.5;
     transform: scale(0.8);
     animation: fadeZoomAccelerated 5s forwards;
   }
 
   @keyframes fadeZoomAccelerated {
     0% {
-      opacity: 0.1;
+      opacity: 0.5;
       transform: scale(0.8);
     }
-    60% {
+    50% {
       opacity: 0.5;
       transform: scale(0.9);
     }
