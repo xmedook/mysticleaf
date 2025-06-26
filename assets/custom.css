@@ -428,6 +428,10 @@ body {
 
   /*Mobile Home*/
   @media (max-width: 768px){
+
+    .slideshow__media video {
+      display: none !important;
+    }
     .support-block-list{
       flex-direction: row;
         flex-wrap: wrap !important;
