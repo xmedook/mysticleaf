@@ -1,7 +1,7 @@
 {% comment %}
   Main Components Section
   A custom section featuring interactive flip cards in a 3-column layout.
-  
+
   Author: Bolt
   Version: 1.0
 {% endcomment %}
@@ -9,11 +9,14 @@
 <div class="comprehensive-benefits" style="background-color: {{ section.settings.background_color }}">
   <div class="comprehensive-benefits__container">
     {% if section.settings.title != blank %}
-      <h2 class="comprehensive-benefits__title" style="color: {{ section.settings.title_color }}; font-size: {{ section.settings.title_size }}px;">
+      <h2
+        class="comprehensive-benefits__title"
+        style="color: {{ section.settings.title_color }}; font-size: {{ section.settings.title_size }}px;"
+      >
         {{ section.settings.title }}
       </h2>
     {% endif %}
-    
+
     {% if section.settings.subtitle != blank %}
       <div class="comprehensive-benefits__subtitle">
         {{ section.settings.subtitle }}
@@ -21,256 +24,269 @@
     {% endif %}
 
     <div class="comprehensive-benefits__grid">
-
-          {% for block in section.blocks %}
-            {% case block.type %}
-              {% when 'benefit_card' %}
-                <div class="benefit-card" {{ block.shopify_attributes }}>
-                  <div class="benefit-card__inner">
-                    <div class="benefit-card__front">
-                      {% if block.settings.image != blank %}
-                        <div class="benefit-card__image-container">
-                          {{ block.settings.image | image_url: width: 300 | image_tag: 
-                             loading: 'lazy',
-                             class: 'benefit-card__image',
-                             alt: block.settings.title | escape
-                          }}
-                        </div>
-                      {% endif %}
-                      <h3 class="benefit-card__title" style="color: {{ block.settings.title_color }};">
-                        {{ block.settings.title }}
-                      </h3>
-                      <div class="benefit-card__subtitle">
-                        {{ block.settings.subtitle }}
-                      </div>
-                      <div class="benefit-card__flip-prompt">
-                        {% render 'icon-flip' %}
-                        <span>Detalles atras</span>
-                      </div>
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'benefit_card' %}
+            <div class="benefit-card" {{ block.shopify_attributes }}>
+              <div class="benefit-card__inner">
+                <div class="benefit-card__front">
+                  {% if block.settings.image != blank %}
+                    <div class="benefit-card__image-container">
+                      {{
+                        block.settings.image
+                        | image_url: width: 300
+                        | image_tag: loading: 'lazy', class: 'benefit-card__image', alt: block.settings.title
+                        | escape
+                      }}
                     </div>
-                    <div class="benefit-card__back">
-                      <div class="benefit-card__back-content">
-                        <h3 class="benefit-card__title" style="color: {{ block.settings.title_color }};">
-                          {{ block.settings.title }}
-                        </h3>
-                        <div class="benefit-card__description">
-                          {{ block.settings.description }}
-                        </div>
-                      </div>
-                      <div class="benefit-card__flip-back">
-                        {% render 'icon-flip' %}
-                        <span>Voltear</span>
-                      </div>
-                    </div>
+                  {% endif %}
+                  <h3 class="benefit-card__title" style="color: {{ block.settings.title_color }};">
+                    {{ block.settings.title }}
+                  </h3>
+                  <div class="benefit-card__subtitle">
+                    {{ block.settings.subtitle }}
+                  </div>
+                  <div class="benefit-card__flip-prompt">
+                    {% render 'icon-flip' %}
+                    <span>Detalles atras</span>
                   </div>
                 </div>
-            {% endcase %}
-          {% endfor %}
+                <div class="benefit-card__back">
+                  <div class="benefit-card__back-content">
+                    <h3 class="benefit-card__title" style="color: {{ block.settings.title_color }};">
+                      {{ block.settings.title }}
+                    </h3>
+                    <div class="benefit-card__description">
+                      {{ block.settings.description }}
+                    </div>
+                  </div>
+                  <div class="benefit-card__flip-back">
+                    {% render 'icon-flip' %}
+                    <span>Voltear</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
     </div>
   </div>
 </div>
 
 {% style %}
-.comprehensive-benefits {
-  padding: 60px 20px;
-}
+  .comprehensive-benefits {
+    padding: 60px 20px;
+  }
 
-.comprehensive-benefits__container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  .comprehensive-benefits__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-.comprehensive-benefits__title {
-  text-align: center;
-  margin-bottom: 16px;
-  font-family: var(--font-heading-family);
-  font-weight: 600;
-  line-height: 1.2;
-}
+  .comprehensive-benefits__title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: var(--font-heading-family);
+    font-weight: 600;
+    line-height: 1.2;
+  }
 
-.comprehensive-benefits__subtitle {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 40px;
-  line-height: 1.5;
-  font-size: 16px;
-}
+  .comprehensive-benefits__subtitle {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
 
-/* Desktop: Grid de 3 columnas */
-.comprehensive-benefits__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-/* Tarjeta con efecto flip */
-.benefit-card {
-  perspective: 1000px;
-  height: 450px;
-}
-
-.benefit-card__inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}
-
-.benefit-card:hover .benefit-card__inner,
-.benefit-card.flipped .benefit-card__inner {
-  transform: rotateY(180deg);
-}
-
-.benefit-card__front,
-.benefit-card__back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  background-color: white;
-}
-
-.benefit-card__front {
-  padding: 20px;
-}
-
-.benefit-card__back {
-  transform: rotateY(180deg);
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.benefit-card__image-container {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 15px;
-  overflow: hidden;
-  border-radius: 6px;
-}
-
-.benefit-card__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.benefit-card:hover .benefit-card__image {
-  transform: scale(1.05);
-}
-
-.benefit-card__title {
-  font-family: var(--font-heading-family);
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  line-height: 1.2;
-}
-
-.benefit-card__subtitle {
-  font-size: 16px;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-.benefit-card__description {
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: left;
-  overflow-y: auto;
-  max-height: 300px;
-  padding-right: 5px;
-}
-
-.benefit-card__description p {
-  margin-bottom: 15px;
-}
-
-.benefit-card__flip-prompt,
-.benefit-card__flip-back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: #666;
-  margin-top: auto;
-  padding-top: 15px;
-}
-
-.benefit-card__flip-prompt svg,
-.benefit-card__flip-back svg {
-  width: 16px;
-  height: 16px;
-  margin-right: 6px;
-}
-
-/* Tablet: 2 columnas */
-@media screen and (max-width: 990px) {
+  /* Desktop: Grid de 3 columnas */
   .comprehensive-benefits__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
-}
 
-/* Móvil: Carrusel horizontal */
-@media screen and (max-width: 749px) {
-  .comprehensive-benefits__grid {
-    display: flex !important;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    gap: 20px;
-    padding-inline: 10px;
-
-    /* elimina propiedades de grid heredadas */
-    grid-template-columns: none !important;
-  }
-
+  /* Tarjeta con efecto flip */
   .benefit-card {
-    flex: 0 0 85%;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+    perspective: 1000px;
+    height: 450px;
   }
 
+  .benefit-card__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
 
-  /* Ocultar scrollbars (opcional) */
-  .comprehensive-benefits__grid::-webkit-scrollbar {
-    display: none;
+  .benefit-card:hover .benefit-card__inner,
+  .benefit-card.flipped .benefit-card__inner {
+    transform: rotateY(180deg);
   }
-  .comprehensive-benefits__grid {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+
+  .benefit-card__front,
+  .benefit-card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
   }
-}
+
+  .benefit-card__front {
+    padding: 20px;
+  }
+
+  .benefit-card__back {
+    transform: rotateY(180deg);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .benefit-card__image-container {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+  .benefit-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .benefit-card:hover .benefit-card__image {
+    transform: scale(1.05);
+  }
+
+  .benefit-card__title {
+    font-family: var(--font-heading-family);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .benefit-card__subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .benefit-card__description {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 300px;
+    padding-right: 5px;
+  }
+
+  .benefit-card__description p {
+    margin-bottom: 15px;
+  }
+
+  .benefit-card__flip-prompt,
+  .benefit-card__flip-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: auto;
+    padding-top: 15px;
+  }
+
+  .benefit-card__flip-prompt svg,
+  .benefit-card__flip-back svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+
+  /* Tablet: 2 columnas */
+  @media screen and (max-width: 990px) {
+    .comprehensive-benefits__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  }
+
+  /* Móvil: Carrusel horizontal */
+  @media screen and (max-width: 749px) {
+    .comprehensive-benefits__grid {
+      display: flex !important;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 20px;
+      padding-inline: 10px;
+
+      /* elimina propiedades de grid heredadas */
+      grid-template-columns: none !important;
+    }
+
+    .benefit-card {
+      flex: 0 0 85%;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+
+    /* Ocultar scrollbars (opcional) */
+    .comprehensive-benefits__grid::-webkit-scrollbar {
+      display: none;
+    }
+    .comprehensive-benefits__grid {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  }
 {% endstyle %}
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     const benefitCards = document.querySelectorAll('.benefit-card');
-    
-    benefitCards.forEach(card => {
+
+    benefitCards.forEach((card) => {
       // Add touch/click event for mobile
-      card.addEventListener('click', function() {
-        this.classList.toggle('flipped');
+      card.addEventListener('click', function () {
+        const isCurrentlyFlipped = this.classList.contains('flipped');
+
+        if (isCurrentlyFlipped) {
+          // If this card is already flipped, unflip it (tap to unflip)
+          this.classList.remove('flipped');
+        } else {
+          // If this card is not flipped, unflip all other cards first
+          benefitCards.forEach((otherCard) => {
+            if (otherCard !== this) {
+              otherCard.classList.remove('flipped');
+            }
+          });
+          // Then flip this card
+          this.classList.add('flipped');
+        }
       });
-      
+
       // Prevent flip on touch devices for elements other than the card itself
       const clickableElements = card.querySelectorAll('a, button');
-      clickableElements.forEach(element => {
-        element.addEventListener('click', function(e) {
+      clickableElements.forEach((element) => {
+        element.addEventListener('click', function (e) {
           e.stopPropagation();
         });
       });
