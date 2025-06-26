@@ -494,6 +494,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .slideshow{
+    background-color: red;
+  }
   .slideshow__media img {
     opacity: 0.5;
     transform: scale(0.8);
