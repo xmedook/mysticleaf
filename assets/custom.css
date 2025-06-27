@@ -20,6 +20,8 @@ p {
 }
 
 
+
+
 a.custom-header-button {
     background: #144d8c;
     padding: 10px 20px 10px 20px;
@@ -428,6 +430,10 @@ body {
 
   /*Mobile Home*/
   @media (max-width: 768px){
+
+    .section-header {
+        margin-bottom: 0px !important;
+    }
 
     .slideshow__media video {
       display: none !important;
